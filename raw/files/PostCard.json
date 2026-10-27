@@ -1,0 +1,650 @@
+{
+  "PCGenRegR": {
+    "Rarity": "R",
+    "LinkTarget": "GenRegR",
+    "Element": "Earth",
+    "PresetTrack": "R-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCShimaRegR": {
+    "Rarity": "R",
+    "LinkTarget": "ShimaRegR",
+    "Element": "Water",
+    "PresetTrack": "R-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCSakiRegR": {
+    "Rarity": "R",
+    "LinkTarget": "SakiRegR",
+    "Element": "Fire",
+    "PresetTrack": "R-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCAyaRegR": {
+    "Rarity": "R",
+    "LinkTarget": "AyaRegR",
+    "Element": "Water",
+    "PresetTrack": "R-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCMizunoRegR": {
+    "Rarity": "R",
+    "LinkTarget": "MizunoRegR",
+    "Element": "Earth",
+    "PresetTrack": "R-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCSeijiRegR": {
+    "Rarity": "R",
+    "LinkTarget": "SeijiRegR",
+    "Element": "Earth",
+    "PresetTrack": "R-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCKenshinKendoR": {
+    "Rarity": "R",
+    "LinkTarget": "KenshinKendoR",
+    "Element": "Water",
+    "PresetTrack": "R-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCCapybaraR": {
+    "Rarity": "R",
+    "LinkTarget": "CapybaraR",
+    "Element": "Earth",
+    "PresetTrack": "R-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCSpiralCatR": {
+    "Rarity": "R",
+    "LinkTarget": "SpiralCatR",
+    "Element": "Fire",
+    "PresetTrack": "R-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCSpikeRabbitR": {
+    "Rarity": "R",
+    "LinkTarget": "SpikeRabbitR",
+    "Element": "Fire",
+    "PresetTrack": "R-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCBearR": {
+    "Rarity": "R",
+    "LinkTarget": "BearR",
+    "Element": "Fire",
+    "PresetTrack": "R-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCSheepR": {
+    "Rarity": "R",
+    "LinkTarget": "SheepR",
+    "Element": "Earth",
+    "PresetTrack": "R-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCPenguinR": {
+    "Rarity": "R",
+    "LinkTarget": "PenguinR",
+    "Element": "Fire",
+    "PresetTrack": "R-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCLionR": {
+    "Rarity": "R",
+    "LinkTarget": "LionR",
+    "Element": "Water",
+    "PresetTrack": "R-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCCupCatR": {
+    "Rarity": "R",
+    "LinkTarget": "CupCatR",
+    "Element": "Earth",
+    "PresetTrack": "R-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCPuppyR": {
+    "Rarity": "R",
+    "LinkTarget": "PuppyR",
+    "Element": "Fire",
+    "PresetTrack": "R-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCYuiUniSR": {
+    "Rarity": "SR",
+    "LinkTarget": "YuiUniSR",
+    "Element": "Water",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCMinamiRegSR": {
+    "Rarity": "SR",
+    "LinkTarget": "MinamiRegSR",
+    "Element": "Water",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCReikaRegSR": {
+    "Rarity": "SR",
+    "LinkTarget": "ReikaRegSR",
+    "Element": "Earth",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCMokumaruReg": {
+    "Rarity": "SR",
+    "LinkTarget": "MokumaruReg",
+    "Element": "Water",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCRenjiUniSR": {
+    "Rarity": "SR",
+    "LinkTarget": "RenjiUniSR",
+    "Element": "Fire",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCJinRegSR": {
+    "Rarity": "SR",
+    "LinkTarget": "JinRegSR",
+    "Element": "Fire",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCTomoyaUniSR": {
+    "Rarity": "SR",
+    "LinkTarget": "TomoyaUniSR",
+    "Element": "Water",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCMeisaRegSR": {
+    "Rarity": "SR",
+    "LinkTarget": "MeisaRegSR",
+    "Element": "Earth",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCZenRegSR": {
+    "Rarity": "SR",
+    "LinkTarget": "ZenRegSR",
+    "Element": "Fire",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCNayuRegSR": {
+    "Rarity": "SR",
+    "LinkTarget": "NayuRegSR",
+    "Element": "Water",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCShokoRegSR": {
+    "Rarity": "SR",
+    "LinkTarget": "ShokoRegSR",
+    "Element": "Fire",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCAnnaRegSR": {
+    "Rarity": "SR",
+    "LinkTarget": "AnnaRegSR",
+    "Element": "Fire",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCDaichiRegSR": {
+    "Rarity": "SR",
+    "LinkTarget": "DaichiRegSR",
+    "Element": "Water",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCRyokoRegSR": {
+    "Rarity": "SR",
+    "LinkTarget": "RyokoRegSR",
+    "Element": "Earth",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCRyuKendoSR": {
+    "Rarity": "SR",
+    "LinkTarget": "RyuKendoSR",
+    "Element": "Earth",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCErikaRegSR": {
+    "Rarity": "SR",
+    "LinkTarget": "ErikaRegSR",
+    "Element": "Earth",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCKnifeRabbitSR": {
+    "Rarity": "SR",
+    "LinkTarget": "KnifeRabbitSR",
+    "Element": "Earth",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCLeopardSR": {
+    "Rarity": "SR",
+    "LinkTarget": "LeopardSR",
+    "Element": "Earth",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCRibbonCatSR": {
+    "Rarity": "SR",
+    "LinkTarget": "RibbonCatSR",
+    "Element": "Earth",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCOctopusSR": {
+    "Rarity": "SR",
+    "LinkTarget": "OctopusSR",
+    "Element": "Fire",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCBullSR": {
+    "Rarity": "SR",
+    "LinkTarget": "BullSR",
+    "Element": "Water",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCYinYangSR": {
+    "Rarity": "SR",
+    "LinkTarget": "YinYangSR",
+    "Element": "Water",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCHeartTailSR": {
+    "Rarity": "SR",
+    "LinkTarget": "HeartTailSR",
+    "Element": "Water",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCPantherSR": {
+    "Rarity": "SR",
+    "LinkTarget": "PantherSR",
+    "Element": "Water",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCSealSR": {
+    "Rarity": "SR",
+    "LinkTarget": "SealSR",
+    "Element": "Fire",
+    "PresetTrack": "SR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCShokoReg": {
+    "Rarity": "SSR",
+    "LinkTarget": "ShokoReg",
+    "Element": "Fire",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCRenjiKendo": {
+    "Rarity": "SSR",
+    "LinkTarget": "RenjiKendo",
+    "Element": "Earth",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCTomoyaUni": {
+    "Rarity": "SSR",
+    "LinkTarget": "TomoyaUni",
+    "Element": "Water",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCRyuKendo": {
+    "Rarity": "SSR",
+    "LinkTarget": "RyuKendo",
+    "Element": "Earth",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCAnnaReg": {
+    "Rarity": "SSR",
+    "LinkTarget": "AnnaReg",
+    "Element": "Fire",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCYuiKendo": {
+    "Rarity": "SSR",
+    "LinkTarget": "YuiKendo",
+    "Element": "Earth",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCMinamiReg": {
+    "Rarity": "SSR",
+    "LinkTarget": "MinamiReg",
+    "Element": "Water",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCRyokoReg": {
+    "Rarity": "SSR",
+    "LinkTarget": "RyokoReg",
+    "Element": "Water",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCTomoyaPara": {
+    "Rarity": "SSR",
+    "LinkTarget": "TomoyaPara",
+    "Element": "Fire",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCShokoSwim": {
+    "Rarity": "SSR",
+    "LinkTarget": "ShokoSwim",
+    "Element": "Water",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCYuiUni": {
+    "Rarity": "SSR",
+    "LinkTarget": "YuiUni",
+    "Element": "Water",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCReikaReg": {
+    "Rarity": "SSR",
+    "LinkTarget": "ReikaReg",
+    "Element": "Earth",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCAnnaSwim": {
+    "Rarity": "SSR",
+    "LinkTarget": "AnnaSwim",
+    "Element": "Earth",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCJinReg": {
+    "Rarity": "SSR",
+    "LinkTarget": "JinReg",
+    "Element": "Fire",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCNayuReg": {
+    "Rarity": "SSR",
+    "LinkTarget": "NayuReg",
+    "Element": "Earth",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCMinamiRoom": {
+    "Rarity": "SSR",
+    "LinkTarget": "MinamiRoom",
+    "Element": "Water",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCMeisaReg": {
+    "Rarity": "SSR",
+    "LinkTarget": "MeisaReg",
+    "Element": "Fire",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCRyokoSwim": {
+    "Rarity": "SSR",
+    "LinkTarget": "RyokoSwim",
+    "Element": "Earth",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCRenjiUni": {
+    "Rarity": "SSR",
+    "LinkTarget": "RenjiUni",
+    "Element": "Water",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCErikaReg": {
+    "Rarity": "SSR",
+    "LinkTarget": "ErikaReg",
+    "Element": "Fire",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCReikaUni": {
+    "Rarity": "SSR",
+    "LinkTarget": "ReikaUni",
+    "Element": "Fire",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCMinamiShip": {
+    "Rarity": "SSR",
+    "LinkTarget": "MinamiShip",
+    "Element": "Earth",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCRenjiOnsen": {
+    "Rarity": "SSR",
+    "LinkTarget": "RenjiOnsen",
+    "Element": "Fire",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCYuiOnsen": {
+    "Rarity": "SSR",
+    "LinkTarget": "YuiOnsen",
+    "Element": "Water",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCTomoyaOnsen": {
+    "Rarity": "SSR",
+    "LinkTarget": "TomoyaOnsen",
+    "Element": "Earth",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCRyuOnsen": {
+    "Rarity": "SSR",
+    "LinkTarget": "RyuOnsen",
+    "Element": "Fire",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCMeisaShip": {
+    "Rarity": "SSR",
+    "LinkTarget": "MeisaShip",
+    "Element": "Water",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCNayuSwim": {
+    "Rarity": "SSR",
+    "LinkTarget": "NayuSwim",
+    "Element": "Water",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCShokoBridal": {
+    "Rarity": "SSR",
+    "LinkTarget": "ShokoBridal",
+    "Element": "Water",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCReikaShip": {
+    "Rarity": "SSR",
+    "LinkTarget": "ReikaShip",
+    "Element": "Earth",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCJinJapan": {
+    "Rarity": "SSR",
+    "LinkTarget": "JinJapan",
+    "Element": "Water",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCYuiSwim": {
+    "Rarity": "SSR",
+    "LinkTarget": "YuiSwim",
+    "Element": "Earth",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCRosaReg": {
+    "Rarity": "SSR",
+    "LinkTarget": "RosaReg",
+    "Element": "Fire",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCDaichiReg": {
+    "Rarity": "SSR",
+    "LinkTarget": "DaichiReg",
+    "Element": "Water",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCYokoReg": {
+    "Rarity": "SSR",
+    "LinkTarget": "YokoReg",
+    "Element": "Fire",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCZenReg": {
+    "Rarity": "SSR",
+    "LinkTarget": "ZenReg",
+    "Element": "Fire",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCMeisaCasual": {
+    "Rarity": "SSR",
+    "LinkTarget": "MeisaCasual",
+    "Element": "Earth",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCMinamiSwim": {
+    "Rarity": "SSR",
+    "LinkTarget": "MinamiSwim",
+    "Element": "Water",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCJiroReg": {
+    "Rarity": "SSR",
+    "LinkTarget": "JiroReg",
+    "Element": "Earth",
+    "PresetTrack": "SSR-PC",
+    "Visible": true,
+    "YOffset": 0
+  },
+  "PCRosaSwim": {
+    "Rarity": "SSR",
+    "LinkTarget": "RosaSwim",
+    "Element": "Fire",
+    "PresetTrack": "SSR-PC",
+    "Visible": false,
+    "YOffset": 0
+  }
+}

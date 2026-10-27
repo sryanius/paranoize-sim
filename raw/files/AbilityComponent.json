@@ -1,0 +1,1273 @@
+{
+  "ApplyBuffAbilityComponent": {
+    "PoisonTarget": {
+      "Buffs": [
+        "Poison"
+      ],
+      "NoAbilityEffect": true
+    },
+    "PoisonTargetFX": {
+      "Buffs": [
+        "PoisonNoFX"
+      ]
+    },
+    "SleepTarget": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "NoAbilityEffect": true
+    },
+    "SleepTargetFX": {
+      "Buffs": [
+        "SleepNoFX"
+      ]
+    },
+    "SleepChance50Target": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToApply": 0.5,
+      "NoAbilityEffect": true
+    },
+    "PurifyTarget": {
+      "Buffs": [
+        "Purify"
+      ],
+      "NoAbilityEffect": true
+    },
+    "PurifyTargetFX": {
+      "Buffs": [
+        "PurifyNoFX"
+      ]
+    },
+    "PurifySelf": {
+      "Buffs": [
+        "Purify"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "PurifySelfNotAlone": {
+      "Buffs": [
+        "Purify"
+      ],
+      "ApplyCondition": "NotAlone",
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "PurifySelfNotAloneFX": {
+      "Buffs": [
+        "PurifyNoFX"
+      ],
+      "ApplyCondition": "NotAlone",
+      "OverrideTargetToSelf": true
+    },
+    "GiveTurnToTarget": {
+      "Buffs": [
+        "GetTurn"
+      ],
+      "NoAbilityEffect": true
+    },
+    "GiveTurnToTargetFX": {
+      "Buffs": [
+        "GetTurnNoFX"
+      ]
+    },
+    "LifeFlipTarget": {
+      "Buffs": [
+        "LifeFlip"
+      ],
+      "NoAbilityEffect": true
+    },
+    "LifeFlipTargetFX": {
+      "Buffs": [
+        "LifeFlipNoFX"
+      ]
+    },
+    "LifeFlipSelf": {
+      "Buffs": [
+        "LifeFlip"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "StunTarget25": {
+      "Buffs": [
+        "Stun25"
+      ],
+      "NoAbilityEffect": true
+    },
+    "StunTarget50": {
+      "Buffs": [
+        "Stun50"
+      ],
+      "NoAbilityEffect": true
+    },
+    "StunTarget100": {
+      "Buffs": [
+        "Stun100"
+      ],
+      "NoAbilityEffect": true
+    },
+    "StunTarget150": {
+      "Buffs": [
+        "Stun150"
+      ],
+      "NoAbilityEffect": true
+    },
+    "StunTarget200": {
+      "Buffs": [
+        "Stun200"
+      ],
+      "NoAbilityEffect": true
+    },
+    "StunTarget250": {
+      "Buffs": [
+        "Stun250"
+      ],
+      "NoAbilityEffect": true
+    },
+    "StunTarget300": {
+      "Buffs": [
+        "Stun300"
+      ],
+      "NoAbilityEffect": true
+    },
+    "StunTarget400": {
+      "Buffs": [
+        "Stun400"
+      ],
+      "NoAbilityEffect": true
+    },
+    "StunTarget500": {
+      "Buffs": [
+        "Stun500"
+      ],
+      "NoAbilityEffect": true
+    },
+    "StunTarget600": {
+      "Buffs": [
+        "Stun600"
+      ],
+      "NoAbilityEffect": true
+    },
+    "StunTarget25FX": {
+      "Buffs": [
+        "Stun25NoFX"
+      ]
+    },
+    "StunTarget50FX": {
+      "Buffs": [
+        "Stun50NoFX"
+      ]
+    },
+    "StunTarget100FX": {
+      "Buffs": [
+        "Stun100NoFX"
+      ]
+    },
+    "StunTarget150FX": {
+      "Buffs": [
+        "Stun150NoFX"
+      ]
+    },
+    "StunTarget200FX": {
+      "Buffs": [
+        "Stun200NoFX"
+      ]
+    },
+    "StunTarget250FX": {
+      "Buffs": [
+        "Stun250NoFX"
+      ]
+    },
+    "StunTarget300FX": {
+      "Buffs": [
+        "Stun300NoFX"
+      ]
+    },
+    "StunTarget400FX": {
+      "Buffs": [
+        "Stun400NoFX"
+      ]
+    },
+    "StunTarget500FX": {
+      "Buffs": [
+        "Stun500NoFX"
+      ]
+    },
+    "StunTarget600FX": {
+      "Buffs": [
+        "Stun600NoFX"
+      ]
+    },
+    "TargetProtectsAllies150": {
+      "Buffs": [
+        "Protect150"
+      ],
+      "NoAbilityEffect": true
+    },
+    "TargetProtectsAllies250": {
+      "Buffs": [
+        "Protect250"
+      ],
+      "NoAbilityEffect": true
+    },
+    "TargetProtectsAllies": {
+      "Buffs": [
+        "Protect"
+      ],
+      "NoAbilityEffect": true
+    },
+    "TargetProtectsUntilNextTurn": {
+      "Buffs": [
+        "ProtectUntilNextTurn"
+      ],
+      "NoAbilityEffect": true
+    },
+    "UserProtectsAllies": {
+      "Buffs": [
+        "Protect"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "UserProtectsAlliesShort": {
+      "Buffs": [
+        "Protect150"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "UserProtectsUntilNextTurn": {
+      "Buffs": [
+        "ProtectUntilNextTurn"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "TargetTUMinus100": {
+      "Buffs": [
+        "TUMinus100"
+      ],
+      "NoAbilityEffect": true
+    },
+    "RemoveSleepFromTarget": {
+      "Buffs": [
+        "CureSleep"
+      ],
+      "NoAbilityEffect": true
+    },
+    "RemovePoisonFromTarget": {
+      "Buffs": [
+        "CurePoison"
+      ],
+      "NoAbilityEffect": true
+    },
+    "HardDispelTarget": {
+      "Buffs": [
+        "HardDispel"
+      ],
+      "NoAbilityEffect": true
+    },
+    "RemoveDebuffsFromSelf": {
+      "Buffs": [
+        "RemoveAllDebuffs"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "BossDispelNext": {
+      "Buffs": [
+        "ForceBossDispel"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "BossAttackNext": {
+      "Buffs": [
+        "ForceBossAttack"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "Quicken20PercentTarget": {
+      "Buffs": [
+        "Quicken20Percent"
+      ],
+      "NoAbilityEffect": true
+    },
+    "BanishTarget": {
+      "Buffs": [
+        "Banish"
+      ],
+      "NoAbilityEffect": true
+    },
+    "BanishTargetFX": {
+      "Buffs": [
+        "Banish"
+      ]
+    },
+    "DamageReduc300TUTarget": {
+      "Buffs": [
+        "DamageReduc300TU"
+      ],
+      "NoAbilityEffect": true
+    },
+    "HealTarget05": {
+      "Buffs": [
+        "Heal05"
+      ],
+      "NoAbilityEffect": true
+    },
+    "HealTarget10": {
+      "Buffs": [
+        "Heal10"
+      ],
+      "NoAbilityEffect": true
+    },
+    "HealTarget20": {
+      "Buffs": [
+        "Heal20"
+      ],
+      "NoAbilityEffect": true
+    },
+    "HealTarget25": {
+      "Buffs": [
+        "Heal25"
+      ],
+      "NoAbilityEffect": true
+    },
+    "HealTarget40": {
+      "Buffs": [
+        "Heal40"
+      ],
+      "NoAbilityEffect": true
+    },
+    "HealTarget50": {
+      "Buffs": [
+        "Heal50"
+      ],
+      "NoAbilityEffect": true
+    },
+    "HealTargetFull": {
+      "Buffs": [
+        "HealFull"
+      ],
+      "NoAbilityEffect": true
+    },
+    "HealSelf05": {
+      "Buffs": [
+        "Heal05"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "HealSelf10": {
+      "Buffs": [
+        "Heal10"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "HealSelf20": {
+      "Buffs": [
+        "Heal20"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "HealSelf25": {
+      "Buffs": [
+        "Heal25"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "HealSelf40": {
+      "Buffs": [
+        "Heal40"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "HealSelf50": {
+      "Buffs": [
+        "Heal50"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "HealSelf75": {
+      "Buffs": [
+        "Heal75"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "HealSelfFull": {
+      "Buffs": [
+        "HealFull"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "HealTarget05FX": {
+      "Buffs": [
+        "Heal05NoFX"
+      ]
+    },
+    "HealTarget10FX": {
+      "Buffs": [
+        "Heal10NoFX"
+      ]
+    },
+    "HealTarget20FX": {
+      "Buffs": [
+        "Heal20NoFX"
+      ]
+    },
+    "HealTarget25FX": {
+      "Buffs": [
+        "Heal25NoFX"
+      ]
+    },
+    "HealTarget40FX": {
+      "Buffs": [
+        "Heal40NoFX"
+      ]
+    },
+    "HealTarget50FX": {
+      "Buffs": [
+        "Heal50NoFX"
+      ]
+    },
+    "HealTargetFullFX": {
+      "Buffs": [
+        "HealFullNoFX"
+      ]
+    },
+    "HealSelf05FX": {
+      "Buffs": [
+        "Heal05NoFX"
+      ],
+      "OverrideTargetToSelf": true
+    },
+    "HealSelf10FX": {
+      "Buffs": [
+        "Heal10NoFX"
+      ],
+      "OverrideTargetToSelf": true
+    },
+    "HealSelf20FX": {
+      "Buffs": [
+        "Heal20NoFX"
+      ],
+      "OverrideTargetToSelf": true
+    },
+    "HealSelf25FX": {
+      "Buffs": [
+        "Heal25NoFX"
+      ],
+      "OverrideTargetToSelf": true
+    },
+    "HealSelf40FX": {
+      "Buffs": [
+        "Heal40NoFX"
+      ],
+      "OverrideTargetToSelf": true
+    },
+    "HealSelf50FX": {
+      "Buffs": [
+        "Heal50NoFX"
+      ],
+      "OverrideTargetToSelf": true
+    },
+    "HealSelf75FX": {
+      "Buffs": [
+        "Heal75NoFX"
+      ],
+      "OverrideTargetToSelf": true
+    },
+    "HealSelfFullFX": {
+      "Buffs": [
+        "HealFullNoFX"
+      ],
+      "OverrideTargetToSelf": true
+    },
+    "HealSelf25NotAloneFX": {
+      "Buffs": [
+        "Heal25"
+      ],
+      "ApplyCondition": "NotAlone",
+      "OverrideTargetToSelf": true
+    },
+    "PushTarget": {
+      "Buffs": [
+        "PushBack"
+      ],
+      "NoAbilityEffect": true
+    },
+    "PushTargetFX": {
+      "Buffs": [
+        "PushBack"
+      ]
+    },
+    "DamageUser50Percent": {
+      "Buffs": [
+        "50PercentHPDamage"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "DamageUser30Percent": {
+      "Buffs": [
+        "30PercentHPDamage"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "RaiseUserAggro": {
+      "Buffs": [
+        "AggroUpStacking"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "LowerUserAggro": {
+      "Buffs": [
+        "AggroDownStacking"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "TUDownStackingTarget": {
+      "Buffs": [
+        "TUDownStacking"
+      ],
+      "NoAbilityEffect": true
+    },
+    "TUDownStackingTargetFX": {
+      "Buffs": [
+        "TUDownStacking"
+      ]
+    },
+    "PoisonUser": {
+      "Buffs": [
+        "Poison"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "SleepUser": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+    },
+    "TargetLoses3Spirit": {
+      "Buffs": [
+        "Lose3Spirit"
+      ],
+      "NoAbilityEffect": true
+    },
+    "TargetDoublesHP": {
+      "Buffs": [
+        "DoubleHP"
+      ],
+      "NoAbilityEffect": true
+    }
+  },
+  "DamageAbilityComponent": {
+    "Dmg25": {
+      "BaseDamageScalar": 0.25
+    },
+    "Dmg25Crit50x4": {
+      "BaseDamageScalar": 0.25,
+      "CritChance": 0.5,
+      "CritMultiplier": 4
+    },
+    "Dmg50": {
+      "BaseDamageScalar": 0.5
+    },
+    "Dmg75": {
+      "BaseDamageScalar": 0.75
+    },
+    "Dmg": {
+      "BaseDamageScalar": 1
+    },
+    "Dmg125": {
+      "BaseDamageScalar": 1.25
+    },
+    "Dmg150": {
+      "BaseDamageScalar": 1.5
+    },
+    "Dmg175": {
+      "BaseDamageScalar": 1.75
+    },
+    "Dmg200": {
+      "BaseDamageScalar": 2
+    },
+    "Dmg225": {
+      "BaseDamageScalar": 2.25
+    },
+    "Dmg250": {
+      "BaseDamageScalar": 2.5
+    },
+    "Dmg275": {
+      "BaseDamageScalar": 2.75
+    },
+    "Dmg300": {
+      "BaseDamageScalar": 3
+    },
+    "Dmg350": {
+      "BaseDamageScalar": 3.5
+    },
+    "Dmg400": {
+      "BaseDamageScalar": 4
+    },
+    "Dmg450": {
+      "BaseDamageScalar": 4.5
+    },
+    "Dmg500": {
+      "BaseDamageScalar": 5
+    },
+    "Dmg600": {
+      "BaseDamageScalar": 6
+    },
+    "Dmg700": {
+      "BaseDamageScalar": 7
+    },
+    "Dmg800": {
+      "BaseDamageScalar": 8
+    },
+    "Dmg900": {
+      "BaseDamageScalar": 9
+    },
+    "Dmg1000": {
+      "BaseDamageScalar": 10
+    },
+    "Dmg1200": {
+      "BaseDamageScalar": 12
+    },
+    "Dmg1400": {
+      "BaseDamageScalar": 14
+    },
+    "Dmg1500": {
+      "BaseDamageScalar": 15
+    },
+    "Dmg1600": {
+      "BaseDamageScalar": 16
+    },
+    "Dmg1800": {
+      "BaseDamageScalar": 18
+    },
+    "Dmg1900": {
+      "BaseDamageScalar": 19
+    },
+    "Dmg2000": {
+      "BaseDamageScalar": 20
+    },
+    "Dmg3000": {
+      "BaseDamageScalar": 30
+    },
+    "Dmg4000": {
+      "BaseDamageScalar": 40
+    },
+    "Dmg75ReflectAll": {
+      "BaseDamageScalar": 0.75,
+      "ReflectDamagePercent": 0.05
+    },
+    "Dmg125ReflectAll": {
+      "BaseDamageScalar": 1.25,
+      "ReflectDamagePercent": 0.05
+    },
+    "Dmg150ReflectAll": {
+      "BaseDamageScalar": 1.5,
+      "ReflectDamagePercent": 0.05
+    },
+    "Dmg250ReflectAll": {
+      "BaseDamageScalar": 2.5,
+      "ReflectDamagePercent": 0.05
+    },
+    "Dmg100ReflectTwo": {
+      "BaseDamageScalar": 1,
+      "ReflectDamagePercent": 0.075
+    },
+    "Dmg140ReflectTwo": {
+      "BaseDamageScalar": 1.4,
+      "ReflectDamagePercent": 0.075
+    },
+    "Dmg150ReflectTwo": {
+      "BaseDamageScalar": 1.5,
+      "ReflectDamagePercent": 0.075
+    },
+    "Dmg175ReflectTwo": {
+      "BaseDamageScalar": 1.75,
+      "ReflectDamagePercent": 0.075
+    },
+    "Dmg200ReflectTwo": {
+      "BaseDamageScalar": 2,
+      "ReflectDamagePercent": 0.075
+    },
+    "Dmg300ReflectTwo": {
+      "BaseDamageScalar": 3,
+      "ReflectDamagePercent": 0.075
+    },
+    "Dmg275ReflectTwo": {
+      "BaseDamageScalar": 2.75,
+      "ReflectDamagePercent": 0.075
+    },
+    "Dmg125ReflectSingle": {
+      "BaseDamageScalar": 1.25,
+      "ReflectDamagePercent": 0.1
+    },
+    "Dmg150ReflectSingle": {
+      "BaseDamageScalar": 1.5,
+      "ReflectDamagePercent": 0.1
+    },
+    "Dmg200ReflectSingle": {
+      "BaseDamageScalar": 2,
+      "ReflectDamagePercent": 0.1
+    },
+    "Dmg250ReflectSingle": {
+      "BaseDamageScalar": 2.5,
+      "ReflectDamagePercent": 0.1
+    },
+    "Dmg275ReflectSingle": {
+      "BaseDamageScalar": 2.75,
+      "ReflectDamagePercent": 0.1
+    },
+    "Dmg300ReflectSingle": {
+      "BaseDamageScalar": 3,
+      "ReflectDamagePercent": 0.1
+    },
+    "Dmg350ReflectSingle": {
+      "BaseDamageScalar": 3.5,
+      "ReflectDamagePercent": 0.1
+    },
+    "500VsProtector": {
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+        4
+      ],
+      "TargetDamageScalarConditions": [
+        "IsProtecting"
+      ]
+    },
+    "250VsKiller1": {
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+        1.5
+      ],
+      "TargetDamageScalarConditions": [
+        "Has1OrMoreKills"
+      ]
+    },
+    "300VsKiller1": {
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+        2
+      ],
+      "TargetDamageScalarConditions": [
+        "Has1OrMoreKills"
+      ]
+    },
+    "500VsKiller1": {
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+        4
+      ],
+      "TargetDamageScalarConditions": [
+        "Has1OrMoreKills"
+      ]
+    },
+    "600VsKiller1": {
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+        5
+      ],
+      "TargetDamageScalarConditions": [
+        "Has1OrMoreKills"
+      ]
+    },
+    "600VsSurvivor": {
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+        5
+      ],
+      "TargetDamageScalarConditions": [
+        "TimeInCombat500"
+      ]
+    },
+    "250VsPoisoned": {
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+        1.5
+      ],
+      "TargetDamageScalarConditions": [
+        "IsPoisoned"
+      ]
+    },
+    "350VsPoisoned": {
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+        2.5
+      ],
+      "TargetDamageScalarConditions": [
+        "IsPoisoned"
+      ]
+    },
+    "400VsPoisoned": {
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+        3
+      ],
+      "TargetDamageScalarConditions": [
+        "IsPoisoned"
+      ]
+    },
+    "500VsPoisoned": {
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+        4
+      ],
+      "TargetDamageScalarConditions": [
+        "IsPoisoned"
+      ]
+    },
+    "600VsPoisoned": {
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+        5
+      ],
+      "TargetDamageScalarConditions": [
+        "IsPoisoned"
+      ]
+    },
+    "1500VsPoisoned": {
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+        14
+      ],
+      "TargetDamageScalarConditions": [
+        "IsPoisoned"
+      ]
+    },
+    "2000VsPoisoned": {
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+        19
+      ],
+      "TargetDamageScalarConditions": [
+        "IsPoisoned"
+      ]
+    },
+    "500VsSleeping": {
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+        4
+      ],
+      "TargetDamageScalarConditions": [
+        "IsSleeping"
+      ]
+    },
+    "600VsSleeping": {
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+        5
+      ],
+      "TargetDamageScalarConditions": [
+        "IsSleeping"
+      ]
+    },
+    "2000VsSleeping": {
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+        19
+      ],
+      "TargetDamageScalarConditions": [
+        "IsSleeping"
+      ]
+    },
+    "3000VsSleeping": {
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+        29
+      ],
+      "TargetDamageScalarConditions": [
+        "IsSleeping"
+      ]
+    },
+    "TimeStrikeSingleBoss": {
+      "BaseDamageScalar": 8,
+      "TimeStrikeTargetTu": 400,
+      "TimeStrikeScalar": 22
+    },
+    "TimeStrikeDoubleBoss": {
+      "BaseDamageScalar": 4,
+      "TimeStrikeTargetTu": 400,
+      "TimeStrikeScalar": 14
+    },
+    "TimeStrikeSingle": {
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+        3,
+        1
+      ],
+      "TargetDamageScalarConditions": [
+        "130TuOrMore",
+        "200TuOrMore"
+      ]
+    },
+    "TimeStrikeDouble": {
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+        2,
+        1
+      ],
+      "TargetDamageScalarConditions": [
+        "130TuOrMore",
+        "200TuOrMore"
+      ]
+    },
+    "TimeStrike200To600": {
+      "BaseDamageScalar": 0.25,
+      "TimeStrikeTargetTu": 400,
+      "TimeStrikeScalar": 4
+    },
+    "TimeStrike100To400": {
+      "BaseDamageScalar": 1,
+      "TimeStrikeTargetTu": 400,
+      "TimeStrikeScalar": 3
+    },
+    "PerfectDamage": {
+      "BaseDamageScalar": 10,
+      "Flags": [
+        "IgnoreArmor"
+      ]
+    },
+    "Atk75_Recoil": {
+      "BaseDamageScalar": 0.75,
+      "ReflectDamagePercent": 0.05
+    },
+    "Atk75_HugeCrit": {
+      "BaseDamageScalar": 0.75,
+      "CritChance": 0.2,
+      "CritMultiplier": 4
+    },
+    "Atk75": {
+      "BaseDamageScalar": 0.75
+    },
+    "Atk75_BigCrit": {
+      "BaseDamageScalar": 0.75,
+      "CritChance": 0.1,
+      "CritMultiplier": 3
+    },
+    "Atk50": {
+      "BaseDamageScalar": 0.5
+    },
+    "Atk50_HugeCrit": {
+      "BaseDamageScalar": 0.5,
+      "CritChance": 0.2,
+      "CritMultiplier": 4
+    },
+    "Atk50_BigCrit": {
+      "BaseDamageScalar": 0.5,
+      "CritChance": 0.1,
+      "CritMultiplier": 3
+    },
+    "Atk375_Recoil": {
+      "BaseDamageScalar": 3.75,
+      "ReflectDamagePercent": 0.05
+    },
+    "Atk325": {
+      "BaseDamageScalar": 3.25
+    },
+    "Atk300_Recoil": {
+      "BaseDamageScalar": 3,
+      "ReflectDamagePercent": 0.05
+    },
+    "Atk275_Recoil": {
+      "BaseDamageScalar": 2.75,
+      "ReflectDamagePercent": 0.05
+    },
+    "Atk250": {
+      "BaseDamageScalar": 2.5
+    },
+    "Atk25": {
+      "BaseDamageScalar": 0.25
+    },
+    "Atk25_HugeCrit": {
+      "BaseDamageScalar": 0.25,
+      "CritChance": 0.2,
+      "CritMultiplier": 4
+    },
+    "Atk25_BigCrit": {
+      "BaseDamageScalar": 0.25,
+      "CritChance": 0.1,
+      "CritMultiplier": 3
+    },
+    "Atk225_Recoil": {
+      "BaseDamageScalar": 2.25,
+      "ReflectDamagePercent": 0.05
+    },
+    "Atk225_BigCrit": {
+      "BaseDamageScalar": 2.25,
+      "CritChance": 0.1,
+      "CritMultiplier": 3
+    },
+    "Atk200_Recoil": {
+      "BaseDamageScalar": 2,
+      "ReflectDamagePercent": 0.05
+    },
+    "Atk200": {
+      "BaseDamageScalar": 2
+    },
+    "Atk175_Recoil": {
+      "BaseDamageScalar": 1.75,
+      "ReflectDamagePercent": 0.05
+    },
+    "Atk175": {
+      "BaseDamageScalar": 1.75
+    },
+    "Atk175_HugeCrit": {
+      "BaseDamageScalar": 1.75,
+      "CritChance": 0.2,
+      "CritMultiplier": 4
+    },
+    "Atk175_BigCrit": {
+      "BaseDamageScalar": 1.75,
+      "CritChance": 0.1,
+      "CritMultiplier": 3
+    },
+    "Atk150_Recoil": {
+      "BaseDamageScalar": 1.5,
+      "ReflectDamagePercent": 0.05
+    },
+    "Atk125_Recoil": {
+      "BaseDamageScalar": 1.25,
+      "ReflectDamagePercent": 0.05
+    },
+    "Atk125": {
+      "BaseDamageScalar": 1.25
+    },
+    "Atk125_HugeCrit": {
+      "BaseDamageScalar": 1.25,
+      "CritChance": 0.2,
+      "CritMultiplier": 4
+    },
+    "Atk125_BigCrit": {
+      "BaseDamageScalar": 1.25,
+      "CritChance": 0.1,
+      "CritMultiplier": 3
+    },
+    "Atk100_Recoil": {
+      "BaseDamageScalar": 1,
+      "ReflectDamagePercent": 0.05
+    },
+    "Atk100": {
+      "BaseDamageScalar": 1
+    },
+    "Atk100_HugeCrit": {
+      "BaseDamageScalar": 1,
+      "CritChance": 0.2,
+      "CritMultiplier": 4
+    },
+    "Atk100_BigCrit": {
+      "BaseDamageScalar": 1,
+      "CritChance": 0.1,
+      "CritMultiplier": 3
+    },
+    "SerialKillerA": {
+      "BaseDamageScalar": 2,
+      "SourceDamageScalars": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "SourceDamageScalarConditions": [
+        "Has2Kills",
+        "Has3Kills",
+        "Has4Kills",
+        "Has5Kills"
+      ]
+    },
+    "SerialKillerB": {
+      "BaseDamageScalar": 1,
+      "SourceDamageScalars": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "SourceDamageScalarConditions": [
+        "Has2Kills",
+        "Has3Kills",
+        "Has4Kills",
+        "Has5Kills"
+      ]
+    },
+    "SerialKillerC": {
+      "BaseDamageScalar": 0.5,
+      "SourceDamageScalars": [
+        0.75,
+        1,
+        1,
+        1
+      ],
+      "SourceDamageScalarConditions": [
+        "Has2Kills",
+        "Has3Kills",
+        "Has4Kills",
+        "Has5Kills"
+      ]
+    },
+    "SerialSurvivorA": {
+      "BaseDamageScalar": 2,
+      "SourceDamageScalars": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "SourceDamageScalarConditions": [
+        "TimeInCombat200",
+        "TimeInCombat400",
+        "TimeInCombat600",
+        "TimeInCombat800"
+      ]
+    },
+    "SerialSurvivorB": {
+      "BaseDamageScalar": 1,
+      "SourceDamageScalars": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "SourceDamageScalarConditions": [
+        "TimeInCombat200",
+        "TimeInCombat400",
+        "TimeInCombat600",
+        "TimeInCombat800"
+      ]
+    },
+    "SerialSurvivorC": {
+      "BaseDamageScalar": 0.5,
+      "SourceDamageScalars": [
+        0.75,
+        1,
+        1,
+        1
+      ],
+      "SourceDamageScalarConditions": [
+        "TimeInCombat200",
+        "TimeInCombat400",
+        "TimeInCombat600",
+        "TimeInCombat800"
+      ]
+    },
+    "Atk250_Recoil": {
+      "BaseDamageScalar": 2.5,
+      "ReflectDamagePercent": 0.05
+    },
+    "Atk150": {
+      "BaseDamageScalar": 1.5
+    },
+    "Atk600_HugeCrit": {
+      "BaseDamageScalar": 1.25,
+      "CritChance": 0.2,
+      "CritMultiplier": 4
+    },
+    "Atk300_HugeCrit": {
+      "BaseDamageScalar": 1.25,
+      "CritChance": 0.2,
+      "CritMultiplier": 4
+    },
+    "Atk150_HugeCrit": {
+      "BaseDamageScalar": 1.25,
+      "CritChance": 0.2,
+      "CritMultiplier": 4
+    },
+    "500VsKiller3": {
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+        4
+      ],
+      "TargetDamageScalarConditions": [
+        "Has3Kills"
+      ]
+    }
+  },
+  "AddSpiritAbilityComponent": {
+    "UserGains1Spirit": {
+      "Spirit": 1
+    },
+    "UserGains2Spirit": {
+      "Spirit": 2
+    },
+    "UserGains3Spirit": {
+      "Spirit": 3
+    },
+    "UserGains4Spirit": {
+      "Spirit": 4
+    },
+    "UserGains5Spirit": {
+      "Spirit": 5
+    }
+  },
+  "ChanceToDieAbilityComponent": {
+    "UserDies50Percent": {
+      "Chance": 0.5
+    },
+    "UserDies": {
+      "Chance": 1
+    }
+  },
+  "HealAbilityComponent": {
+    "HealTarget": {
+      "StatToUse": "PDef",
+      "HealScalar": 2
+    },
+    "HealTargetAtk8": {
+      "StatToUse": "Atk",
+      "HealScalar": 8
+    },
+    "HealTargetAtk5": {
+      "StatToUse": "Atk",
+      "HealScalar": 5
+    }
+  },
+  "SacrificeAbilityComponent": {
+    "UserSacLastReinforcement": {}
+  },
+  "BossSalvoAbilityComponent": {
+    "Salvo250": {
+      "BaseDamageScalar": 2.5,
+      "NumberOfAttacks": 3,
+      "TargetHighestPowerWeight": 0.1,
+      "Flags": [
+        "SalvoDamage"
+      ]
+    },
+    "Salvo1": {
+      "BaseDamageScalar": 0.01,
+      "NumberOfAttacks": 3,
+      "TargetHighestPowerWeight": 0.1,
+      "Flags": [
+        "SalvoDamage"
+      ]
+    },
+    "SwarmSalvo250": {
+      "BaseDamageScalar": 2.5,
+      "NumberOfAttacks": 8,
+      "TargetHighestPowerWeight": 0.1,
+      "Flags": [
+        "SalvoDamage"
+      ]
+    }
+  }
+}

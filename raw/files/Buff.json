@@ -1,0 +1,2618 @@
+{
+  "Sleep": {
+    "Components": [
+      "LoseTurn100TU",
+      "RemoveOnHurt",
+      "SleepingWeight"
+    ],
+    "ApplyEffect": "SleepFX",
+    "PassiveEffect": "SleepPassive",
+    "ApplyText": "SleepApplied",
+    "Duration": 200,
+    "StackName": "Sleep",
+    "BuffIcon": "Icon_Sleep",
+    "IsDebuff": true,
+    "MakeSleep": true
+  },
+  "SleepNoFX": {
+    "Components": [
+      "LoseTurn100TU",
+      "RemoveOnHurt",
+      "SleepingWeight"
+    ],
+    "PassiveEffect": "SleepPassive",
+    "ApplyText": "SleepApplied",
+    "Duration": 200,
+    "StackName": "Sleep",
+    "IsDebuff": true,
+    "MakeSleep": true
+  },
+  "GetTurn": {
+    "Components": [
+      "GetTurn"
+    ],
+    "ApplyEffect": "GetTurn",
+    "ApplyLog": "GotTurnAppliedLog",
+    "ApplyText": "GotTurnApplied",
+    "Duration": 0,
+    "BuffIcon": "Icon_Turn",
+    "IsDebuff": false
+  },
+  "GetTurnNoFX": {
+    "Components": [
+      "GetTurn"
+    ],
+    "ApplyEffect": "ShowTextAndLog",
+    "ApplyLog": "GotTurnAppliedLog",
+    "ApplyText": "GotTurnApplied",
+    "Duration": 0,
+    "BuffIcon": "Icon_Turn",
+    "IsDebuff": false
+  },
+  "GetTurnNoLog": {
+    "Components": [
+      "GetTurn"
+    ],
+    "ApplyEffect": "ShowText",
+    "ApplyText": "GotTurnApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "LifeFlip": {
+    "Components": [
+      "LifeFlip"
+    ],
+    "ApplyEffect": "Heal",
+    "ApplyText": "LifeFlipApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "LifeFlipNoFX": {
+    "Components": [
+      "LifeFlip"
+    ],
+    "ApplyEffect": "ShowText",
+    "ApplyText": "LifeFlipApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "30PercentHPDamage": {
+    "Components": [
+      "30PercentHPDamage"
+    ],
+    "Duration": 0
+  },
+  "50PercentHPDamage": {
+    "Components": [
+      "50PercentHPDamage"
+    ],
+    "Duration": 0
+  },
+  "TUMinus100": {
+    "Components": [
+      "Antistun100"
+    ],
+    "Duration": 0,
+    "StackName": "Rally"
+  },
+  "Protect": {
+    "Components": [
+      "100PercentGuard"
+    ],
+    "ApplyEffect": "ShowTextAndLog",
+    "ApplyLog": "GuardAppliedLog",
+    "ApplyText": "GuardApplied",
+    "StackName": "Protector",
+    "IsDebuff": false,
+    "HUDText": "GuardianHUD",
+    "HUDPriority": 50
+  },
+  "StopProtecting": {
+    "Components": [
+      "RemoveProtector"
+    ],
+    "Duration": 0,
+    "HUDText": "GuardianHUD",
+    "HUDPriority": 50
+  },
+  "Heal05": {
+    "Components": [
+      "Heal5Percent"
+    ],
+    "ApplyEffect": "Heal",
+    "ApplyText": "HealApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Heal10": {
+    "Components": [
+      "Heal10Percent"
+    ],
+    "ApplyEffect": "Heal",
+    "ApplyText": "HealApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Heal20": {
+    "Components": [
+      "Heal20Percent"
+    ],
+    "ApplyEffect": "Heal",
+    "ApplyText": "HealApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Heal30": {
+    "Components": [
+      "Heal30Percent"
+    ],
+    "ApplyEffect": "Heal",
+    "ApplyText": "HealApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Heal40": {
+    "Components": [
+      "Heal40Percent"
+    ],
+    "ApplyEffect": "Heal",
+    "ApplyText": "HealApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Heal50": {
+    "Components": [
+      "Heal50Percent"
+    ],
+    "ApplyEffect": "Heal",
+    "ApplyText": "HealApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Heal75": {
+    "Components": [
+      "Heal75Percent"
+    ],
+    "ApplyEffect": "Heal",
+    "ApplyText": "HealApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Heal25": {
+    "Components": [
+      "Heal25Percent"
+    ],
+    "ApplyEffect": "Heal",
+    "ApplyText": "HealApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "HealFull": {
+    "Components": [
+      "Heal100Percent"
+    ],
+    "ApplyEffect": "Heal",
+    "ApplyText": "HealApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Heal05NoFX": {
+    "Components": [
+      "Heal5Percent"
+    ],
+    "ApplyText": "HealApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Heal10NoFX": {
+    "Components": [
+      "Heal10Percent"
+    ],
+    "ApplyText": "HealApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Heal20NoFX": {
+    "Components": [
+      "Heal20Percent"
+    ],
+    "ApplyText": "HealApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Heal30NoFX": {
+    "Components": [
+      "Heal30Percent"
+    ],
+    "ApplyText": "HealApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Heal40NoFX": {
+    "Components": [
+      "Heal40Percent"
+    ],
+    "ApplyText": "HealApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Heal50NoFX": {
+    "Components": [
+      "Heal50Percent"
+    ],
+    "ApplyText": "HealApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Heal75NoFX": {
+    "Components": [
+      "Heal75Percent"
+    ],
+    "ApplyText": "HealApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Heal25NoFX": {
+    "Components": [
+      "Heal25Percent"
+    ],
+    "ApplyText": "HealApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "HealFullNoFX": {
+    "Components": [
+      "Heal100Percent"
+    ],
+    "ApplyText": "HealApplied",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "24xBossBulk": {
+    "Components": [
+      "24TimesScalarForBossHP"
+    ],
+    "StackName": "BossBulk"
+  },
+  "12xBossBulk": {
+    "Components": [
+      "12TimesScalarForBossHP"
+    ],
+    "StackName": "BossBulk"
+  },
+  "8xBossBulk": {
+    "Components": [
+      "8TimesScalarForBossHP"
+    ],
+    "StackName": "BossBulk"
+  },
+  "6xBossBulk": {
+    "Components": [
+      "6TimesScalarForBossHP"
+    ],
+    "StackName": "BossBulk"
+  },
+  "4xBossBulk": {
+    "Components": [
+      "4TimesScalarForBossHP"
+    ],
+    "StackName": "BossBulk"
+  },
+  "3xBossBulk": {
+    "Components": [
+      "3TimesScalarForBossHP"
+    ],
+    "StackName": "BossBulk"
+  },
+  "2xBossBulk": {
+    "Components": [
+      "2TimesScalarForBossHP"
+    ],
+    "StackName": "BossBulk"
+  },
+  "Remove12TurnStack": {
+    "Components": [
+      "Remove12TurnStack"
+    ],
+    "Duration": 0
+  },
+  "Remove11TurnStack": {
+    "Components": [
+      "Remove11TurnStack"
+    ],
+    "Duration": 0
+  },
+  "Remove10TurnStack": {
+    "Components": [
+      "Remove10TurnStack"
+    ],
+    "Duration": 0
+  },
+  "Remove9TurnStack": {
+    "Components": [
+      "Remove9TurnStack"
+    ],
+    "Duration": 0
+  },
+  "Remove8TurnStack": {
+    "Components": [
+      "Remove8TurnStack"
+    ],
+    "Duration": 0
+  },
+  "Remove7TurnStack": {
+    "Components": [
+      "Remove7TurnStack"
+    ],
+    "Duration": 0
+  },
+  "Remove6TurnStack": {
+    "Components": [
+      "Remove6TurnStack"
+    ],
+    "Duration": 0
+  },
+  "Remove5TurnStack": {
+    "Components": [
+      "Remove5TurnStack"
+    ],
+    "Duration": 0
+  },
+  "Remove4TurnStack": {
+    "Components": [
+      "Remove4TurnStack"
+    ],
+    "Duration": 0
+  },
+  "Remove3TurnStack": {
+    "Components": [
+      "Remove3TurnStack"
+    ],
+    "Duration": 0
+  },
+  "Remove2TurnStack": {
+    "Components": [
+      "Remove2TurnStack"
+    ],
+    "Duration": 0
+  },
+  "Remove1TurnStack": {
+    "Components": [
+      "Remove1TurnStack"
+    ],
+    "Duration": 0
+  },
+  "RemoveLastBossTurnStack": {
+    "Components": [
+      "RemoveLastBossTurnStack"
+    ],
+    "Duration": 0
+  },
+  "IsToken": {
+    "StackName": "IsToken"
+  },
+  "DisableBossBulk": {
+    "Components": [
+      "RemoveBossBulk"
+    ]
+  },
+  "AggroUpStacking": {
+    "Components": [
+      "AggroUpSlight"
+    ],
+    "ApplyEffect": "ShowLog",
+    "ApplyLog": "AggroUpLog",
+    "Tags": [
+      "AggroUp"
+    ]
+  },
+  "AggroDownStacking": {
+    "Components": [
+      "AggroDownSlight"
+    ],
+    "ApplyEffect": "ShowLog",
+    "ApplyLog": "AggroDownLog",
+    "Tags": [
+      "AggroDown"
+    ]
+  },
+  "TUDownStacking": {
+    "Components": [
+      "TUReduc15"
+    ],
+    "ApplyEffect": "ShowLog",
+    "ApplyLog": "TUDownLog",
+    "Tags": [
+      "TUDown"
+    ]
+  },
+  "TurnRevengeBoss": {
+    "Components": [
+      "RevengeGiveTurn"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "HUDText": "TurnRevengeHUD",
+    "HUDPriority": 20
+  },
+  "OnHitStunChanceBoss": {
+    "Components": [
+      "Stun100TargetsOnHitChance25"
+    ],
+    "IsDebuff": false
+  },
+  "OnHitPoisonChanceBoss": {
+    "Components": [
+      "PoisonTargetsOnHitChance25"
+    ],
+    "IsDebuff": false
+  },
+  "OnHitSleepChanceBoss": {
+    "Components": [
+      "SleepTargetsOnHitChance25"
+    ],
+    "IsDebuff": false
+  },
+  "SleepEntryBoss": {
+    "Components": [
+      "SleepRandomOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": true
+  },
+  "StunEntryBoss": {
+    "Components": [
+      "Stun150RandomOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": false
+  },
+  "SleepRevengeBoss": {
+    "Components": [
+      "SleepRevenge"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": true,
+    "HUDText": "SleepRevengeHUD",
+    "HUDPercent": 1,
+    "HUDPriority": 20
+  },
+  "StunRevengeBoss": {
+    "Components": [
+      "Stun150Revenge"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": false,
+    "HUDText": "StunRevengeHUD",
+    "HUDPercent": 1,
+    "HUDPriority": 20
+  },
+  "SleepRevengeDoubleBoss": {
+    "Components": [
+      "SleepRevengeDouble"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": true,
+    "HUDText": "SleepRevengeHUD",
+    "HUDPercent": 1,
+    "HUDPriority": 20
+  },
+  "PoisonGasRevengeBoss": {
+    "Components": [
+      "PoisonAll50PercentEachRevenge"
+    ],
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": true,
+    "HUDText": "PoisonRevengeHUD",
+    "HUDPercent": 0.5,
+    "HUDPriority": 20
+  },
+  "SummonedMonsterDeathTrap": {
+    "Components": [
+      "InstaKillSummonedEnemies"
+    ]
+  },
+  "Gain1Spirit": {
+    "Components": [
+      "SpiritPlus1"
+    ],
+    "ApplyEffect": "ShowTextAndLog",
+    "ApplyLog": "Gained1SpiritTextLog",
+    "ApplyText": "Gained1SpiritText",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Gain2Spirit": {
+    "Components": [
+      "SpiritPlus2"
+    ],
+    "ApplyEffect": "ShowTextAndLog",
+    "ApplyLog": "Gained2SpiritTextLog",
+    "ApplyText": "Gained2SpiritText",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Gain3Spirit": {
+    "Components": [
+      "SpiritPlus3"
+    ],
+    "ApplyEffect": "ShowTextAndLog",
+    "ApplyLog": "Gained3SpiritTextLog",
+    "ApplyText": "Gained3SpiritText",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Gain4Spirit": {
+    "Components": [
+      "SpiritPlus4"
+    ],
+    "ApplyEffect": "ShowTextAndLog",
+    "ApplyLog": "Gained4SpiritTextLog",
+    "ApplyText": "Gained4SpiritText",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Gain5Spirit": {
+    "Components": [
+      "SpiritPlus5"
+    ],
+    "ApplyEffect": "ShowTextAndLog",
+    "ApplyLog": "Gained5SpiritTextLog",
+    "ApplyText": "Gained5SpiritText",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Gain6Spirit": {
+    "Components": [
+      "SpiritPlus6"
+    ],
+    "ApplyEffect": "ShowTextAndLog",
+    "ApplyLog": "Gained6SpiritTextLog",
+    "ApplyText": "Gained6SpiritText",
+    "Duration": 0,
+    "IsDebuff": false
+  },
+  "Lose1Spirit": {
+    "Components": [
+      "SpiritMinus1"
+    ],
+    "ApplyEffect": "ShowTextAndLog",
+    "ApplyLog": "Lose1SpiritTextLog",
+    "ApplyText": "Lose1SpiritText",
+    "Duration": 0,
+    "IsDebuff": true
+  },
+  "Lose2Spirit": {
+    "Components": [
+      "SpiritMinus2"
+    ],
+    "ApplyEffect": "ShowTextAndLog",
+    "ApplyLog": "Lose2SpiritTextLog",
+    "ApplyText": "Lose2SpiritText",
+    "Duration": 0,
+    "IsDebuff": true
+  },
+  "Lose3Spirit": {
+    "Components": [
+      "SpiritMinus3"
+    ],
+    "ApplyEffect": "ShowTextAndLog",
+    "ApplyLog": "Lose3SpiritTextLog",
+    "ApplyText": "Lose3SpiritText",
+    "Duration": 0,
+    "IsDebuff": true
+  },
+  "Lose4Spirit": {
+    "Components": [
+      "SpiritMinus4"
+    ],
+    "ApplyEffect": "ShowTextAndLog",
+    "ApplyLog": "Lose4SpiritTextLog",
+    "ApplyText": "Lose4SpiritText",
+    "Duration": 0,
+    "IsDebuff": true
+  },
+  "Lose5Spirit": {
+    "Components": [
+      "SpiritMinus5"
+    ],
+    "ApplyEffect": "ShowTextAndLog",
+    "ApplyLog": "Lose5SpiritTextLog",
+    "ApplyText": "Lose5SpiritText",
+    "Duration": 0,
+    "IsDebuff": true
+  },
+  "Lose6Spirit": {
+    "Components": [
+      "SpiritMinus6"
+    ],
+    "ApplyEffect": "ShowTextAndLog",
+    "ApplyLog": "Lose6SpiritTextLog",
+    "ApplyText": "Lose6SpiritText",
+    "Duration": 0,
+    "IsDebuff": true
+  },
+  "Stun5": {
+    "Components": [
+      "Stun5"
+    ],
+    "ApplyEffect": "StunFX",
+    "ApplyText": "StunApplied5",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun10": {
+    "Components": [
+      "Stun10"
+    ],
+    "ApplyEffect": "StunFX",
+    "ApplyText": "StunApplied10",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun20": {
+    "Components": [
+      "Stun20"
+    ],
+    "ApplyEffect": "StunFX",
+    "ApplyText": "StunApplied20",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun25": {
+    "Components": [
+      "Stun25"
+    ],
+    "ApplyEffect": "StunFX",
+    "ApplyText": "StunApplied25",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun35": {
+    "Components": [
+      "Stun35"
+    ],
+    "ApplyEffect": "StunFX",
+    "ApplyText": "StunApplied35",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun50": {
+    "Components": [
+      "Stun50"
+    ],
+    "ApplyEffect": "StunFX",
+    "ApplyText": "StunApplied50",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun70": {
+    "Components": [
+      "Stun70"
+    ],
+    "ApplyEffect": "StunFX",
+    "ApplyText": "StunApplied70",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun100": {
+    "Components": [
+      "Stun100"
+    ],
+    "ApplyEffect": "StunFX",
+    "ApplyText": "StunApplied100",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun150": {
+    "Components": [
+      "Stun150"
+    ],
+    "ApplyEffect": "StunFX",
+    "ApplyText": "StunApplied150",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun200": {
+    "Components": [
+      "Stun200"
+    ],
+    "ApplyEffect": "StunFX",
+    "ApplyText": "StunApplied200",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun250": {
+    "Components": [
+      "Stun250"
+    ],
+    "ApplyEffect": "StunFX",
+    "ApplyText": "StunApplied250",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun300": {
+    "Components": [
+      "Stun300"
+    ],
+    "ApplyEffect": "StunFX",
+    "ApplyText": "StunApplied300",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun350": {
+    "Components": [
+      "Stun350"
+    ],
+    "ApplyEffect": "StunFX",
+    "ApplyText": "StunApplied350",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun400": {
+    "Components": [
+      "Stun400"
+    ],
+    "ApplyEffect": "StunFX",
+    "ApplyText": "StunApplied400",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun500": {
+    "Components": [
+      "Stun500"
+    ],
+    "ApplyEffect": "StunFX",
+    "ApplyText": "StunApplied500",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun600": {
+    "Components": [
+      "Stun600"
+    ],
+    "ApplyEffect": "StunFX",
+    "ApplyText": "StunApplied600",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun5NoFX": {
+    "Components": [
+      "Stun5"
+    ],
+    "ApplyEffect": "ShowText",
+    "ApplyText": "StunApplied5",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun10NoFX": {
+    "Components": [
+      "Stun10"
+    ],
+    "ApplyEffect": "ShowText",
+    "ApplyText": "StunApplied10",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun20NoFX": {
+    "Components": [
+      "Stun20"
+    ],
+    "ApplyEffect": "ShowText",
+    "ApplyText": "StunApplied20",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun25NoFX": {
+    "Components": [
+      "Stun25"
+    ],
+    "ApplyEffect": "ShowText",
+    "ApplyText": "StunApplied25",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun35NoFX": {
+    "Components": [
+      "Stun35"
+    ],
+    "ApplyEffect": "ShowText",
+    "ApplyText": "StunApplied35",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun50NoFX": {
+    "Components": [
+      "Stun50"
+    ],
+    "ApplyEffect": "ShowText",
+    "ApplyText": "StunApplied50",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun70NoFX": {
+    "Components": [
+      "Stun70"
+    ],
+    "ApplyEffect": "ShowText",
+    "ApplyText": "StunApplied70",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun100NoFX": {
+    "Components": [
+      "Stun100"
+    ],
+    "ApplyEffect": "ShowText",
+    "ApplyText": "StunApplied100",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun150NoFX": {
+    "Components": [
+      "Stun150"
+    ],
+    "ApplyEffect": "ShowText",
+    "ApplyText": "StunApplied150",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun200NoFX": {
+    "Components": [
+      "Stun200"
+    ],
+    "ApplyEffect": "ShowText",
+    "ApplyText": "StunApplied200",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun250NoFX": {
+    "Components": [
+      "Stun250"
+    ],
+    "ApplyEffect": "ShowText",
+    "ApplyText": "StunApplied250",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun300NoFX": {
+    "Components": [
+      "Stun300"
+    ],
+    "ApplyEffect": "ShowText",
+    "ApplyText": "StunApplied300",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun350NoFX": {
+    "Components": [
+      "Stun350"
+    ],
+    "ApplyEffect": "ShowText",
+    "ApplyText": "StunApplied350",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun400NoFX": {
+    "Components": [
+      "Stun400"
+    ],
+    "ApplyEffect": "ShowText",
+    "ApplyText": "StunApplied400",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun500NoFX": {
+    "Components": [
+      "Stun500"
+    ],
+    "ApplyEffect": "ShowText",
+    "ApplyText": "StunApplied500",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Stun600NoFX": {
+    "Components": [
+      "Stun600"
+    ],
+    "ApplyEffect": "ShowText",
+    "ApplyText": "StunApplied600",
+    "Duration": 0,
+    "StackName": "Stun",
+    "IsDebuff": true
+  },
+  "Purify": {
+    "Components": [
+      "RemovePoison",
+      "RemoveSleep"
+    ],
+    "ApplyEffect": "Purify",
+    "ApplyText": "PurifyApplied",
+    "Duration": 0,
+    "StackName": "Purify",
+    "BuffIcon": "Icon_Dispel",
+    "Tags": [
+      "Purify"
+    ]
+  },
+  "PurifyNoFX": {
+    "Components": [
+      "RemovePoison",
+      "RemoveSleep"
+    ],
+    "ApplyText": "PurifyApplied",
+    "Duration": 0,
+    "StackName": "Purify",
+    "BuffIcon": "Icon_Dispel",
+    "Tags": [
+      "Purify"
+    ]
+  },
+  "PurifyNoLog": {
+    "Components": [
+      "RemovePoisonSilent",
+      "RemoveSleepSilent"
+    ],
+    "ApplyEffect": "Purify",
+    "ApplyText": "PurifyApplied",
+    "Duration": 0,
+    "StackName": "Purify",
+    "BuffIcon": "Icon_Dispel",
+    "Tags": [
+      "Purify"
+    ]
+  },
+  "PoisonRevenge": {
+    "Components": [
+      "RevengeKillerPoison"
+    ],
+    "StackName": "PoisonRevenge",
+    "IsDebuff": false,
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": true,
+    "HUDText": "PoisonRevengeHUD",
+    "HUDPriority": 20
+  },
+  "Poison": {
+    "Components": [
+      "PoisonDamageOnTurn"
+    ],
+    "ApplyEffect": "PoisonFX",
+    "PassiveEffect": "PoisonPassive",
+    "StackName": "Poison",
+    "BuffIcon": "Icon_Poison",
+    "AttackWeightScalar": 1
+  },
+  "PoisonNoFX": {
+    "Components": [
+      "PoisonDamageOnTurn"
+    ],
+    "PassiveEffect": "PoisonPassive",
+    "StackName": "Poison",
+    "AttackWeightScalar": 1
+  },
+  "PoisonDamage": {
+    "Components": [
+      "BuffPoisonDamage"
+    ],
+    "Duration": 0,
+    "StackName": "PoisonDamageBuff"
+  },
+  "HoldGround": {
+    "Components": [
+      "HoldGround"
+    ],
+    "StackName": "HoldGround",
+    "IsDebuff": false,
+    "HUDText": "HoldGroundHUD",
+    "HideHUDCondition": "On1HP",
+    "HUDPriority": 30
+  },
+  "AutoGuardB": {
+    "Components": [
+      "50PercentGuard"
+    ],
+    "StackName": "Protector",
+    "IsDebuff": false,
+    "HUDText": "GuardianHUD",
+    "HUDPercent": 0.5,
+    "HUDPriority": 50
+  },
+  "PushBack": {
+    "Components": [
+      "SendToFront"
+    ],
+    "ApplyEffect": "ShowLog",
+    "ApplyLog": "SendToFrontLog",
+    "Duration": 0
+  },
+  "Banish": {
+    "Components": [
+      "SendToBack"
+    ],
+    "ApplyEffect": "ShowLog",
+    "ApplyLog": "SendToBackLog",
+    "Duration": 0
+  },
+  "HealLowestHP50percentRevenge": {
+    "Components": [
+      "HealHalfRevengeLowestHPAlly"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "HUDText": "HealRevengeHUD",
+    "HUDPriority": 20
+  },
+  "StunSkinBoss": {
+    "Components": [
+      "Stun100AttackerWhenHurt"
+    ],
+    "StackName": "StunSkin",
+    "Tags": [
+      "StunSkin"
+    ],
+    "HUDText": "StunSkinHUD",
+    "HUDPriority": 40
+  },
+  "PoisonSkinBoss": {
+    "Components": [
+      "PoisonAttackerWhenHurt"
+    ],
+    "StackName": "PoisonSkin",
+    "Tags": [
+      "PoisonSkin"
+    ],
+    "HUDText": "PoisonSkinHUD",
+    "HUDPriority": 40
+  },
+  "SleepSkinBoss": {
+    "Components": [
+      "Sleep100AttackerWhenHurt"
+    ],
+    "StackName": "SleepSkin",
+    "Tags": [
+      "SleepSkin"
+    ],
+    "HUDText": "SleepSkinHUD",
+    "HUDPriority": 40
+  },
+  "PoisonEntry": {
+    "Components": [
+      "PoisonOnEnter"
+    ],
+    "IsDebuff": false,
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "Tags": [
+      "PoisonEntry",
+      "Entry"
+    ],
+    "AutoExpand": true
+  },
+  "CurePoison": {
+    "Components": [
+      "RemovePoison"
+    ],
+    "Duration": 0
+  },
+  "CureSleep": {
+    "Components": [
+      "RemoveSleep"
+    ],
+    "Duration": 0
+  },
+  "PurifyRandomRevenge": {
+    "Components": [
+      "PurifyRandomAllyRevenge"
+    ],
+    "BuffDescriptions": [
+      "Purify"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": true,
+    "HUDText": "PurifyRevengeHUD",
+    "HUDPriority": 20
+  },
+  "CounterOnce": {
+    "Components": [
+      "CounterWhenHurtOnce"
+    ],
+    "StackName": "CounterStance",
+    "IsDebuff": false,
+    "BuffDescriptions": [
+      "GetTurn"
+    ],
+    "Tags": [
+      "CounterStance"
+    ],
+    "AutoExpand": false,
+    "HUDText": "CounterHUD",
+    "HUDPercent": 1,
+    "HUDPriority": 46
+  },
+  "Stun": {
+    "Components": [
+      "Stun5"
+    ],
+    "BuffIcon": "Icon_Stun"
+  },
+  "ToReinforcements": {
+    "Components": [
+      "SendToBack"
+    ],
+    "ApplyEffect": "ShowLog",
+    "ApplyLog": "SendToBackLog",
+    "Duration": 0,
+    "BuffIcon": "Icon_InfoCircle"
+  },
+  "PoisonAttackerOnce": {
+    "Components": [
+      "PoisonAttackerWhenHurtOnce"
+    ],
+    "StackName": "PoisonSkin",
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "Tags": [
+      "Skin"
+    ],
+    "AutoExpand": true,
+    "HUDText": "PoisonSkinHUD",
+    "HUDPercent": 1,
+    "HUDPriority": 46
+  },
+  "SleepStrikeOnce": {
+    "Components": [
+      "GetSleepStrikeTemp",
+      "ConsumePassiveOnAttack"
+    ],
+    "StackName": "SleepStrikeOnce",
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "AutoExpand": true
+  },
+  "SleepStrikeTemp": {
+    "Components": [
+      "SleepTargetsOnHit",
+      "RemoveAfter1Turn"
+    ],
+    "Duration": 1
+  },
+  "Empty": {
+    "Duration": 0
+  },
+  "DoubleHP": {
+    "Components": [
+      "2TimesScalarForHP"
+    ],
+    "StackName": "DoubleHP",
+    "IsPersistent": true
+  },
+  "SleepEntryLv1": {
+    "Components": [
+      "SleepRandom10PercentOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": true
+  },
+  "SleepEntryLv2": {
+    "Components": [
+      "SleepRandom20PercentOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": true
+  },
+  "SleepEntryLv3": {
+    "Components": [
+      "SleepRandom40PercentOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": true
+  },
+  "SleepEntryLv4": {
+    "Components": [
+      "SleepRandom70PercentOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": true
+  },
+  "SleepEntryLv5": {
+    "Components": [
+      "SleepRandomOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": true
+  },
+  "StunEntryLv1": {
+    "Components": [
+      "Stun150Random10PercentOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": false
+  },
+  "StunEntryLv2": {
+    "Components": [
+      "Stun150Random20PercentOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": false
+  },
+  "StunEntryLv3": {
+    "Components": [
+      "Stun150Random40PercentOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": false
+  },
+  "StunEntryLv4": {
+    "Components": [
+      "Stun150Random70PercentOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": false
+  },
+  "StunEntryLv5": {
+    "Components": [
+      "Stun150RandomOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": false
+  },
+  "SleepRevengeLv1": {
+    "Components": [
+      "Sleep10PercentRevenge"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": true,
+    "HUDText": "SleepRevengeHUD",
+    "HUDPercent": 0.1,
+    "HUDPriority": 20
+  },
+  "SleepRevengeLv2": {
+    "Components": [
+      "Sleep20PercentRevenge"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": true,
+    "HUDText": "SleepRevengeHUD",
+    "HUDPercent": 0.2,
+    "HUDPriority": 20
+  },
+  "SleepRevengeLv3": {
+    "Components": [
+      "Sleep40PercentRevenge"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": true,
+    "HUDText": "SleepRevengeHUD",
+    "HUDPercent": 0.4,
+    "HUDPriority": 20
+  },
+  "SleepRevengeLv4": {
+    "Components": [
+      "Sleep70PercentRevenge"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": true,
+    "HUDText": "SleepRevengeHUD",
+    "HUDPercent": 0.7,
+    "HUDPriority": 20
+  },
+  "SleepRevengeLv5": {
+    "Components": [
+      "SleepRevenge"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": true,
+    "HUDText": "SleepRevengeHUD",
+    "HUDPercent": 1,
+    "HUDPriority": 20
+  },
+  "StunRevengeLv1": {
+    "Components": [
+      "Stun150_10PercentRevenge"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": false,
+    "HUDText": "StunRevengeHUD",
+    "HUDPercent": 0.1,
+    "HUDPriority": 20
+  },
+  "StunRevengeLv2": {
+    "Components": [
+      "Stun150_20PercentRevenge"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": false,
+    "HUDText": "StunRevengeHUD",
+    "HUDPercent": 0.2,
+    "HUDPriority": 20
+  },
+  "StunRevengeLv3": {
+    "Components": [
+      "Stun150_40PercentRevenge"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": false,
+    "HUDText": "StunRevengeHUD",
+    "HUDPercent": 0.4,
+    "HUDPriority": 20
+  },
+  "StunRevengeLv4": {
+    "Components": [
+      "Stun150_70PercentRevenge"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": false,
+    "HUDText": "StunRevengeHUD",
+    "HUDPercent": 0.7,
+    "HUDPriority": 20
+  },
+  "StunRevengeLv5": {
+    "Components": [
+      "Stun150Revenge"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": false,
+    "HUDText": "StunRevengeHUD",
+    "HUDPercent": 1,
+    "HUDPriority": 20
+  },
+  "StunSkinLv1": {
+    "Components": [
+      "Stun100AttackerWhenHurt3Percent"
+    ],
+    "StackName": "StunSkin",
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Skin"
+    ],
+    "AutoExpand": false,
+    "HUDText": "StunSkinHUD",
+    "HUDPercent": 0.03,
+    "HUDPriority": 40
+  },
+  "StunSkinLv2": {
+    "Components": [
+      "Stun100AttackerWhenHurt6Percent"
+    ],
+    "StackName": "StunSkin",
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Skin"
+    ],
+    "AutoExpand": false,
+    "HUDText": "StunSkinHUD",
+    "HUDPercent": 0.06,
+    "HUDPriority": 40
+  },
+  "StunSkinLv3": {
+    "Components": [
+      "Stun100AttackerWhenHurt12Percent"
+    ],
+    "StackName": "StunSkin",
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Skin"
+    ],
+    "AutoExpand": false,
+    "HUDText": "StunSkinHUD",
+    "HUDPercent": 0.12,
+    "HUDPriority": 40
+  },
+  "StunSkinLv4": {
+    "Components": [
+      "Stun100AttackerWhenHurt21Percent"
+    ],
+    "StackName": "StunSkin",
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Skin"
+    ],
+    "AutoExpand": false,
+    "HUDText": "StunSkinHUD",
+    "HUDPercent": 0.21,
+    "HUDPriority": 40
+  },
+  "StunSkinLv5": {
+    "Components": [
+      "Stun100AttackerWhenHurt30Percent"
+    ],
+    "StackName": "StunSkin",
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Skin"
+    ],
+    "AutoExpand": false,
+    "HUDText": "StunSkinHUD",
+    "HUDPercent": 0.3,
+    "HUDPriority": 40
+  },
+  "PoisonStrikeLv1": {
+    "Components": [
+      "PoisonTargetsOnHit10Percent"
+    ],
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "Tags": [
+      "PoisonAttacks"
+    ],
+    "AutoExpand": true
+  },
+  "PoisonStrikeLv2": {
+    "Components": [
+      "PoisonTargetsOnHit20Percent"
+    ],
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "Tags": [
+      "PoisonAttacks"
+    ],
+    "AutoExpand": true
+  },
+  "PoisonStrikeLv3": {
+    "Components": [
+      "PoisonTargetsOnHit40Percent"
+    ],
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "Tags": [
+      "PoisonAttacks"
+    ],
+    "AutoExpand": true
+  },
+  "PoisonStrikeLv4": {
+    "Components": [
+      "PoisonTargetsOnHit70Percent"
+    ],
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "Tags": [
+      "PoisonAttacks"
+    ],
+    "AutoExpand": true
+  },
+  "PoisonStrikeLv5": {
+    "Components": [
+      "PoisonTargetsOnHit"
+    ],
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "Tags": [
+      "PoisonAttacks"
+    ],
+    "AutoExpand": true
+  },
+  "SleepStrikeLv1": {
+    "Components": [
+      "SleepTargetsOnHit3Percent"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "SleepAttacks"
+    ],
+    "AutoExpand": true
+  },
+  "SleepStrikeLv2": {
+    "Components": [
+      "SleepTargetsOnHit6Percent"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "SleepAttacks"
+    ],
+    "AutoExpand": true
+  },
+  "SleepStrikeLv3": {
+    "Components": [
+      "SleepTargetsOnHit12Percent"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "SleepAttacks"
+    ],
+    "AutoExpand": true
+  },
+  "SleepStrikeLv4": {
+    "Components": [
+      "SleepTargetsOnHit21Percent"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "SleepAttacks"
+    ],
+    "AutoExpand": true
+  },
+  "SleepStrikeLv5": {
+    "Components": [
+      "SleepTargetsOnHit30Percent"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "SleepAttacks"
+    ],
+    "AutoExpand": true
+  },
+  "SleepRevengeDoubleLv1": {
+    "Components": [
+      "SleepRevengeDouble10Percent"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": true,
+    "HUDText": "SleepRevengeHUD",
+    "HUDPercent": 0.1,
+    "HUDPriority": 20
+  },
+  "SleepRevengeDoubleLv2": {
+    "Components": [
+      "SleepRevengeDouble20Percent"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": true,
+    "HUDText": "SleepRevengeHUD",
+    "HUDPercent": 0.2,
+    "HUDPriority": 20
+  },
+  "SleepRevengeDoubleLv3": {
+    "Components": [
+      "SleepRevengeDouble40Percent"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": true,
+    "HUDText": "SleepRevengeHUD",
+    "HUDPercent": 0.4,
+    "HUDPriority": 20
+  },
+  "SleepRevengeDoubleLv4": {
+    "Components": [
+      "SleepRevengeDouble70Percent"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": true,
+    "HUDText": "SleepRevengeHUD",
+    "HUDPercent": 0.7,
+    "HUDPriority": 20
+  },
+  "SleepRevengeDoubleLv5": {
+    "Components": [
+      "SleepRevengeDouble"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": true,
+    "HUDText": "SleepRevengeHUD",
+    "HUDPercent": 1,
+    "HUDPriority": 20
+  },
+  "SleepEntryDoubleLv1": {
+    "Components": [
+      "SleepTwoRandom10PercentEachOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": true
+  },
+  "SleepEntryDoubleLv2": {
+    "Components": [
+      "SleepTwoRandom20PercentEachOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": true
+  },
+  "SleepEntryDoubleLv3": {
+    "Components": [
+      "SleepTwoRandom40PercentEachOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": true
+  },
+  "SleepEntryDoubleLv4": {
+    "Components": [
+      "SleepTwoRandom70PercentEachOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": true
+  },
+  "SleepEntryDoubleLv5": {
+    "Components": [
+      "SleepTwoRandomOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": true
+  },
+  "PoisonSkinLv1": {
+    "Components": [
+      "PoisonAttackerWhenHurt10Percent"
+    ],
+    "StackName": "PoisonSkin",
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "Tags": [
+      "Skin"
+    ],
+    "AutoExpand": true,
+    "HUDText": "PoisonSkinHUD",
+    "HUDPercent": 0.1,
+    "HUDPriority": 40
+  },
+  "PoisonSkinLv2": {
+    "Components": [
+      "PoisonAttackerWhenHurt20Percent"
+    ],
+    "StackName": "PoisonSkin",
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "Tags": [
+      "Skin"
+    ],
+    "AutoExpand": true,
+    "HUDText": "PoisonSkinHUD",
+    "HUDPercent": 0.2,
+    "HUDPriority": 40
+  },
+  "PoisonSkinLv3": {
+    "Components": [
+      "PoisonAttackerWhenHurt40Percent"
+    ],
+    "StackName": "PoisonSkin",
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "Tags": [
+      "Skin"
+    ],
+    "AutoExpand": true,
+    "HUDText": "PoisonSkinHUD",
+    "HUDPercent": 0.4,
+    "HUDPriority": 40
+  },
+  "PoisonSkinLv4": {
+    "Components": [
+      "PoisonAttackerWhenHurt70Percent"
+    ],
+    "StackName": "PoisonSkin",
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "Tags": [
+      "Skin"
+    ],
+    "AutoExpand": true,
+    "HUDText": "PoisonSkinHUD",
+    "HUDPercent": 0.7,
+    "HUDPriority": 40
+  },
+  "PoisonSkinLv5": {
+    "Components": [
+      "PoisonAttackerWhenHurt"
+    ],
+    "StackName": "PoisonSkin",
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "Tags": [
+      "Skin"
+    ],
+    "AutoExpand": true,
+    "HUDText": "PoisonSkinHUD",
+    "HUDPercent": 1,
+    "HUDPriority": 40
+  },
+  "CounterStanceLv1": {
+    "Components": [
+      "CounterWhenHurt2Percent"
+    ],
+    "BuffDescriptions": [
+      "GetTurn"
+    ],
+    "Tags": [
+      "CounterStance"
+    ],
+    "AutoExpand": false,
+    "HUDText": "CounterHUD",
+    "HUDPercent": 0.02,
+    "HUDPriority": 45
+  },
+  "CounterStanceLv2": {
+    "Components": [
+      "CounterWhenHurt4Percent"
+    ],
+    "BuffDescriptions": [
+      "GetTurn"
+    ],
+    "Tags": [
+      "CounterStance"
+    ],
+    "AutoExpand": false,
+    "HUDText": "CounterHUD",
+    "HUDPercent": 0.04,
+    "HUDPriority": 45
+  },
+  "CounterStanceLv3": {
+    "Components": [
+      "CounterWhenHurt8Percent"
+    ],
+    "BuffDescriptions": [
+      "GetTurn"
+    ],
+    "Tags": [
+      "CounterStance"
+    ],
+    "AutoExpand": false,
+    "HUDText": "CounterHUD",
+    "HUDPercent": 0.08,
+    "HUDPriority": 45
+  },
+  "CounterStanceLv4": {
+    "Components": [
+      "CounterWhenHurt14Percent"
+    ],
+    "BuffDescriptions": [
+      "GetTurn"
+    ],
+    "Tags": [
+      "CounterStance"
+    ],
+    "AutoExpand": false,
+    "HUDText": "CounterHUD",
+    "HUDPercent": 0.14,
+    "HUDPriority": 45
+  },
+  "CounterStanceLv5": {
+    "Components": [
+      "CounterWhenHurt20Percent"
+    ],
+    "BuffDescriptions": [
+      "GetTurn"
+    ],
+    "Tags": [
+      "CounterStance"
+    ],
+    "AutoExpand": false,
+    "HUDText": "CounterHUD",
+    "HUDPercent": 0.2,
+    "HUDPriority": 45
+  },
+  "StunStrikeLv1": {
+    "Components": [
+      "Stun70TargetsOnHit3Percent"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "StunAttacks"
+    ],
+    "AutoExpand": false
+  },
+  "StunStrikeLv2": {
+    "Components": [
+      "Stun70TargetsOnHit6Percent"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "StunAttacks"
+    ],
+    "AutoExpand": false
+  },
+  "StunStrikeLv3": {
+    "Components": [
+      "Stun70TargetsOnHit12Percent"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "StunAttacks"
+    ],
+    "AutoExpand": false
+  },
+  "StunStrikeLv4": {
+    "Components": [
+      "Stun70TargetsOnHit21Percent"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "StunAttacks"
+    ],
+    "AutoExpand": false
+  },
+  "StunStrikeLv5": {
+    "Components": [
+      "Stun70TargetsOnHit30Percent"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "StunAttacks"
+    ],
+    "AutoExpand": false
+  },
+  "StunEntryDoubleLv1": {
+    "Components": [
+      "Stun150TwoRandom10PercentEachOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": false
+  },
+  "StunEntryDoubleLv2": {
+    "Components": [
+      "Stun150TwoRandom20PercentEachOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": false
+  },
+  "StunEntryDoubleLv3": {
+    "Components": [
+      "Stun150TwoRandom40PercentEachOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": false
+  },
+  "StunEntryDoubleLv4": {
+    "Components": [
+      "Stun150TwoRandom70PercentEachOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": false
+  },
+  "StunEntryDoubleLv5": {
+    "Components": [
+      "Stun150TwoRandomOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": false
+  },
+  "PoisonGasEntryLv1": {
+    "Components": [
+      "PoisonAll7PercentEachOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": true
+  },
+  "PoisonGasEntryLv2": {
+    "Components": [
+      "PoisonAll14PercentEachOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": true
+  },
+  "PoisonGasEntryLv3": {
+    "Components": [
+      "PoisonAll28PercentEachOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": true
+  },
+  "PoisonGasEntryLv4": {
+    "Components": [
+      "PoisonAll49PercentEachOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": true
+  },
+  "PoisonGasEntryLv5": {
+    "Components": [
+      "PoisonAll70PercentEachOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "AutoExpand": true
+  },
+  "AutoGuardLv1": {
+    "Components": [
+      "60PercentGuard"
+    ],
+    "StackName": "Protector",
+    "IsDebuff": false,
+    "HUDText": "GuardianHUD",
+    "HUDPercent": 0.6,
+    "HUDPriority": 50
+  },
+  "AutoGuardLv2": {
+    "Components": [
+      "70PercentGuard"
+    ],
+    "StackName": "Protector",
+    "IsDebuff": false,
+    "HUDText": "GuardianHUD",
+    "HUDPercent": 0.7,
+    "HUDPriority": 50
+  },
+  "AutoGuardLv3": {
+    "Components": [
+      "80PercentGuard"
+    ],
+    "StackName": "Protector",
+    "IsDebuff": false,
+    "HUDText": "GuardianHUD",
+    "HUDPercent": 0.8,
+    "HUDPriority": 50
+  },
+  "AutoGuardLv4": {
+    "Components": [
+      "90PercentGuard"
+    ],
+    "StackName": "Protector",
+    "IsDebuff": false,
+    "HUDText": "GuardianHUD",
+    "HUDPercent": 0.9,
+    "HUDPriority": 50
+  },
+  "AutoGuardLv5": {
+    "Components": [
+      "100PercentGuard"
+    ],
+    "StackName": "Protector",
+    "IsDebuff": false,
+    "HUDText": "GuardianHUD",
+    "HUDPercent": 1,
+    "HUDPriority": 50
+  },
+  "StunRevengeDoubleLv1": {
+    "Components": [
+      "StunRevenge150Double10Percent"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": false,
+    "HUDText": "StunRevengeHUD",
+    "HUDPercent": 0.1,
+    "HUDPriority": 20
+  },
+  "StunRevengeDoubleLv2": {
+    "Components": [
+      "StunRevenge150Double20Percent"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": false,
+    "HUDText": "StunRevengeHUD",
+    "HUDPercent": 0.2,
+    "HUDPriority": 20
+  },
+  "StunRevengeDoubleLv3": {
+    "Components": [
+      "StunRevenge150Double40Percent"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": false,
+    "HUDText": "StunRevengeHUD",
+    "HUDPercent": 0.4,
+    "HUDPriority": 20
+  },
+  "StunRevengeDoubleLv4": {
+    "Components": [
+      "StunRevenge150Double70Percent"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": false,
+    "HUDText": "StunRevengeHUD",
+    "HUDPercent": 0.7,
+    "HUDPriority": 20
+  },
+  "StunRevengeDoubleLv5": {
+    "Components": [
+      "StunRevenge150Double"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "AutoExpand": false,
+    "HUDText": "StunRevengeHUD",
+    "HUDPercent": 1,
+    "HUDPriority": 20
+  },
+  "HealEntryLv1": {
+    "Components": [
+      "HealLowest10PercentOnEnter"
+    ],
+    "Tags": [
+      "Entry"
+    ]
+  },
+  "HealEntryLv2": {
+    "Components": [
+      "HealLowest20PercentOnEnter"
+    ],
+    "Tags": [
+      "Entry"
+    ]
+  },
+  "HealEntryLv3": {
+    "Components": [
+      "HealLowest30PercentOnEnter"
+    ],
+    "Tags": [
+      "Entry"
+    ]
+  },
+  "HealEntryLv4": {
+    "Components": [
+      "HealLowest40PercentOnEnter"
+    ],
+    "Tags": [
+      "Entry"
+    ]
+  },
+  "HealEntryLv5": {
+    "Components": [
+      "HealLowest100PercentOnEnter"
+    ],
+    "Tags": [
+      "Entry"
+    ]
+  },
+  "TurnRevengeLv1": {
+    "Components": [
+      "RevengeGiveTurn10Percent"
+    ],
+    "BuffDescriptions": [
+      "GetTurn"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "HUDText": "TurnRevengeHUD",
+    "HUDPercent": 0.1,
+    "HUDPriority": 20
+  },
+  "TurnRevengeLv2": {
+    "Components": [
+      "RevengeGiveTurn20Percent"
+    ],
+    "BuffDescriptions": [
+      "GetTurn"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "HUDText": "TurnRevengeHUD",
+    "HUDPercent": 0.2,
+    "HUDPriority": 20
+  },
+  "TurnRevengeLv3": {
+    "Components": [
+      "RevengeGiveTurn40Percent"
+    ],
+    "BuffDescriptions": [
+      "GetTurn"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "HUDText": "TurnRevengeHUD",
+    "HUDPercent": 0.4,
+    "HUDPriority": 20
+  },
+  "TurnRevengeLv4": {
+    "Components": [
+      "RevengeGiveTurn70Percent"
+    ],
+    "BuffDescriptions": [
+      "GetTurn"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "HUDText": "TurnRevengeHUD",
+    "HUDPercent": 0.7,
+    "HUDPriority": 20
+  },
+  "TurnRevengeLv5": {
+    "Components": [
+      "RevengeGiveTurn"
+    ],
+    "BuffDescriptions": [
+      "GetTurn"
+    ],
+    "Tags": [
+      "Revenge"
+    ],
+    "HUDText": "TurnRevengeHUD",
+    "HUDPercent": 1,
+    "HUDPriority": 20
+  },
+  "SleepSkinLv1": {
+    "Components": [
+      "SleepAttackerWhenHurt3Percent"
+    ],
+    "StackName": "SleepSkin",
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Skin"
+    ],
+    "AutoExpand": false,
+    "HUDText": "SleepSkinHUD",
+    "HUDPercent": 0.03,
+    "HUDPriority": 40
+  },
+  "SleepSkinLv2": {
+    "Components": [
+      "SleepAttackerWhenHurt6Percent"
+    ],
+    "StackName": "SleepSkin",
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Skin"
+    ],
+    "AutoExpand": false,
+    "HUDText": "SleepSkinHUD",
+    "HUDPercent": 0.06,
+    "HUDPriority": 40
+  },
+  "SleepSkinLv3": {
+    "Components": [
+      "SleepAttackerWhenHurt12Percent"
+    ],
+    "StackName": "SleepSkin",
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Skin"
+    ],
+    "AutoExpand": false,
+    "HUDText": "SleepSkinHUD",
+    "HUDPercent": 0.12,
+    "HUDPriority": 40
+  },
+  "SleepSkinLv4": {
+    "Components": [
+      "SleepAttackerWhenHurt21Percent"
+    ],
+    "StackName": "SleepSkin",
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Skin"
+    ],
+    "AutoExpand": false,
+    "HUDText": "SleepSkinHUD",
+    "HUDPercent": 0.21,
+    "HUDPriority": 40
+  },
+  "SleepSkinLv5": {
+    "Components": [
+      "SleepAttackerWhenHurt30Percent"
+    ],
+    "StackName": "SleepSkin",
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "Tags": [
+      "Skin"
+    ],
+    "AutoExpand": false,
+    "HUDText": "SleepSkinHUD",
+    "HUDPercent": 0.3,
+    "HUDPriority": 40
+  },
+  "StunAllEntryLv1": {
+    "Components": [
+      "Stun100All6PercentEachOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Entry"
+    ]
+  },
+  "StunAllEntryLv2": {
+    "Components": [
+      "Stun100All12PercentEachOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Entry"
+    ]
+  },
+  "StunAllEntryLv3": {
+    "Components": [
+      "Stun100All24PercentEachOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Entry"
+    ]
+  },
+  "StunAllEntryLv4": {
+    "Components": [
+      "Stun100All42PercentEachOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Entry"
+    ]
+  },
+  "StunAllEntryLv5": {
+    "Components": [
+      "Stun100All60PercentEachOnEnter"
+    ],
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "Tags": [
+      "Entry"
+    ]
+  },
+  "HealPurifyLowestHPRevengeLv1": {
+    "Components": [
+      "HealPurify10PercentRevengeLowestHPAlly"
+    ],
+    "BuffDescriptions": [
+      "Purify"
+    ],
+    "HUDText": "HealPurifyRevengeHUD"
+  },
+  "HealPurifyLowestHPRevengeLv2": {
+    "Components": [
+      "HealPurify20PercentRevengeLowestHPAlly"
+    ],
+    "BuffDescriptions": [
+      "Purify"
+    ],
+    "HUDText": "HealPurifyRevengeHUD"
+  },
+  "HealPurifyLowestHPRevengeLv3": {
+    "Components": [
+      "HealPurify30PercentRevengeLowestHPAlly"
+    ],
+    "BuffDescriptions": [
+      "Purify"
+    ],
+    "HUDText": "HealPurifyRevengeHUD"
+  },
+  "HealPurifyLowestHPRevengeLv4": {
+    "Components": [
+      "HealPurify40PercentRevengeLowestHPAlly"
+    ],
+    "BuffDescriptions": [
+      "Purify"
+    ],
+    "HUDText": "HealPurifyRevengeHUD"
+  },
+  "HealPurifyLowestHPRevengeLv5": {
+    "Components": [
+      "HealPurify100PercentRevengeLowestHPAlly"
+    ],
+    "BuffDescriptions": [
+      "Purify"
+    ],
+    "HUDText": "HealPurifyRevengeHUD"
+  }
+}

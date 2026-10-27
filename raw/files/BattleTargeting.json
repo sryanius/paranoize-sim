@@ -1,0 +1,340 @@
+{
+  "Self": {
+    "Self": true
+  },
+  "1Enemy": {
+    "EnemyTargets": 1
+  },
+  "2Enemy": {
+    "EnemyTargets": 2
+  },
+  "1Ally": {
+    "FriendlyTargets": 1
+  },
+  "1AllyNotMe": {
+    "FriendlyTargets": 1,
+    "ExcludeSelf": true
+  },
+  "2Ally": {
+    "FriendlyTargets": 2
+  },
+  "2AllyNotMe": {
+    "FriendlyTargets": 2,
+    "ExcludeSelf": true
+  },
+  "All": {
+    "TargetAll": true
+  },
+  "AllBurning": {
+    "TargetAll": true,
+    "TargetingCondition": "IsBurning"
+  },
+  "1RandomEnemy": {
+    "EnemyTargets": 1,
+    "EnemyRandom": true
+  },
+  "AllEnemy": {
+    "TargetAllEnemy": true
+  },
+  "PoisonedEnemies": {
+    "TargetAllEnemy": true,
+    "TargetingCondition": "IsPoisoned"
+  },
+  "1RandomPoisonedEnemy": {
+    "EnemyTargets": 1,
+    "EnemyRandom": true,
+    "TargetingCondition": "IsPoisoned"
+  },
+  "AllAlly": {
+    "TargetAllFriendly": true
+  },
+  "AllAllyButMe": {
+    "TargetAllFriendly": true,
+    "ExcludeSelf": true
+  },
+  "ProtectingEnemies": {
+    "TargetAllEnemy": true,
+    "TargetingCondition": "IsProtecting"
+  },
+  "SelfIsWater": {
+    "Self": true,
+    "TargetingCondition": "WaterElement"
+  },
+  "SelfIsFire": {
+    "Self": true,
+    "TargetingCondition": "FireElement"
+  },
+  "SelfIsEarth": {
+    "Self": true,
+    "TargetingCondition": "EarthElement"
+  },
+  "2RandomEnemy": {
+    "EnemyTargets": 2,
+    "EnemyRandom": true
+  },
+  "SelfForBossRage": {
+    "Self": true,
+    "TargetingCondition": "NoAllyAbove25PercentOfMaxHP"
+  },
+  "AllAlly1AllyRaging": {
+    "TargetingCondition": "1AllyRaging"
+  },
+  "NewEnemies": {
+    "EnemyTargets": 4,
+    "EnemyRandom": true,
+    "TargetingCondition": "TimeInCombat0"
+  },
+  "1RandomWaterEnemy": {
+    "EnemyTargets": 1,
+    "EnemyRandom": true,
+    "TargetingCondition": "WaterElement"
+  },
+  "SelfOn1HP": {
+    "Self": true,
+    "TargetingCondition": "TriggeredHoldGround"
+  },
+  "Self1To25PercentHP": {
+    "Self": true,
+    "TargetingCondition": "HP25PercentOrLowerNotHoldGround"
+  },
+  "Self25To50PercentHP": {
+    "Self": true,
+    "TargetingCondition": "HP50PercentOrLowerNot25"
+  },
+  "Self50To75PercentHP": {
+    "Self": true,
+    "TargetingCondition": "HP75PercentOrLowerNot50"
+  },
+  "SummonedEnemies": {
+    "TargetAllEnemy": true,
+    "TargetingCondition": "IsSummoned"
+  },
+  "AllDefBuffedEnemy": {
+    "TargetAllEnemy": true,
+    "TargetingCondition": "IsDefBuffed"
+  },
+  "HighestTUEnemy": {
+    "EnemyTargets": 1,
+    "MonsterRanker": "CurrentTU",
+    "RankDescending": true
+  },
+  "LowestTUEnemy": {
+    "EnemyTargets": 1,
+    "MonsterRanker": "CurrentTU",
+    "RankDescending": false
+  },
+  "HighestHPEnemy": {
+    "EnemyTargets": 1,
+    "MonsterRanker": "CurrentHP",
+    "RankDescending": true
+  },
+  "LowestHPEnemy": {
+    "EnemyTargets": 1,
+    "MonsterRanker": "CurrentHP",
+    "RankDescending": false
+  },
+  "HighestTUAlly": {
+    "FriendlyTargets": 1,
+    "MonsterRanker": "CurrentTU",
+    "RankDescending": true
+  },
+  "HighestTUAllyNotMe": {
+    "FriendlyTargets": 1,
+    "ExcludeSelf": true,
+    "MonsterRanker": "CurrentTU",
+    "RankDescending": true
+  },
+  "LowestTUAlly": {
+    "FriendlyTargets": 1,
+    "MonsterRanker": "CurrentTU",
+    "RankDescending": false
+  },
+  "HighestHPAlly": {
+    "FriendlyTargets": 1,
+    "MonsterRanker": "CurrentHP",
+    "RankDescending": true
+  },
+  "LowestHPAlly": {
+    "FriendlyTargets": 1,
+    "MonsterRanker": "CurrentHP",
+    "RankDescending": false
+  },
+  "RandomAllyNotMe": {
+    "FriendlyTargets": 1,
+    "ExcludeSelf": true,
+    "FriendlyRandom": true
+  },
+  "AllAllyNotMe": {
+    "TargetAllFriendly": true,
+    "ExcludeSelf": true
+  },
+  "1RandomEnemy10Percent": {
+    "EnemyTargets": 1,
+    "EnemyRandom": true,
+    "ChancePerTarget": 0.1
+  },
+  "1RandomEnemy20Percent": {
+    "EnemyTargets": 1,
+    "EnemyRandom": true,
+    "ChancePerTarget": 0.2
+  },
+  "1RandomEnemy40Percent": {
+    "EnemyTargets": 1,
+    "EnemyRandom": true,
+    "ChancePerTarget": 0.4
+  },
+  "1RandomEnemy70Percent": {
+    "EnemyTargets": 1,
+    "EnemyRandom": true,
+    "ChancePerTarget": 0.7
+  },
+  "1RandomEnemyBelow150TU": {
+    "EnemyTargets": 1,
+    "EnemyRandom": true,
+    "TargetingCondition": "LessThan150TU"
+  },
+  "1RandomNonSleepingEnemy": {
+    "EnemyTargets": 1,
+    "EnemyRandom": true,
+    "TargetingCondition": "NotSleeping"
+  },
+  "LowestRelativeHPAlly": {
+    "FriendlyTargets": 1,
+    "MonsterRanker": "RelativeHP",
+    "RankDescending": false
+  },
+  "LowestRelativeHPAllyNotMe": {
+    "FriendlyTargets": 1,
+    "ExcludeSelf": true,
+    "MonsterRanker": "RelativeHP",
+    "RankDescending": false
+  },
+  "2RandomEnemy10PercentEach": {
+    "EnemyTargets": 2,
+    "EnemyRandom": true,
+    "ChancePerTarget": 0.1
+  },
+  "2RandomEnemy20PercentEach": {
+    "EnemyTargets": 2,
+    "EnemyRandom": true,
+    "ChancePerTarget": 0.2
+  },
+  "2RandomEnemy40PercentEach": {
+    "EnemyTargets": 2,
+    "EnemyRandom": true,
+    "ChancePerTarget": 0.4
+  },
+  "2RandomEnemy70PercentEach": {
+    "EnemyTargets": 2,
+    "EnemyRandom": true,
+    "ChancePerTarget": 0.7
+  },
+  "1RandomSleepingOrPoisonedAlly": {
+    "FriendlyTargets": 1,
+    "FriendlyRandom": true,
+    "TargetingCondition": "IsSleepingOrPoisoned"
+  },
+  "1RandomSleepingOrPoisonedAllyNotMe": {
+    "FriendlyTargets": 1,
+    "ExcludeSelf": true,
+    "FriendlyRandom": true,
+    "TargetingCondition": "IsSleepingOrPoisoned"
+  },
+  "AllEnemies5PercentEach": {
+    "TargetAllEnemy": true,
+    "ChancePerTarget": 0.05
+  },
+  "AllEnemies6PercentEach": {
+    "TargetAllEnemy": true,
+    "ChancePerTarget": 0.06
+  },
+  "AllEnemies7PercentEach": {
+    "TargetAllEnemy": true,
+    "ChancePerTarget": 0.07
+  },
+  "AllEnemies10PercentEach": {
+    "TargetAllEnemy": true,
+    "ChancePerTarget": 0.1
+  },
+  "AllEnemies12PercentEach": {
+    "TargetAllEnemy": true,
+    "ChancePerTarget": 0.12
+  },
+  "AllEnemies14PercentEach": {
+    "TargetAllEnemy": true,
+    "ChancePerTarget": 0.14
+  },
+  "AllEnemies20PercentEach": {
+    "TargetAllEnemy": true,
+    "ChancePerTarget": 0.2
+  },
+  "AllEnemies24PercentEach": {
+    "TargetAllEnemy": true,
+    "ChancePerTarget": 0.24
+  },
+  "AllEnemies28PercentEach": {
+    "TargetAllEnemy": true,
+    "ChancePerTarget": 0.28
+  },
+  "AllEnemies35PercentEach": {
+    "TargetAllEnemy": true,
+    "ChancePerTarget": 0.35
+  },
+  "AllEnemies42PercentEach": {
+    "TargetAllEnemy": true,
+    "ChancePerTarget": 0.42
+  },
+  "AllEnemies49PercentEach": {
+    "TargetAllEnemy": true,
+    "ChancePerTarget": 0.49
+  },
+  "AllEnemies50PercentEach": {
+    "TargetAllEnemy": true,
+    "ChancePerTarget": 0.5
+  },
+  "AllEnemies60PercentEach": {
+    "TargetAllEnemy": true,
+    "ChancePerTarget": 0.6
+  },
+  "AllEnemies70PercentEach": {
+    "TargetAllEnemy": true,
+    "ChancePerTarget": 0.7
+  },
+  "SelfNotSleeping": {
+    "Self": true,
+    "TargetingCondition": "NotSleeping"
+  },
+  "AllPoisonedAllyButMe10PercentEach": {
+    "TargetAllFriendly": true,
+    "ExcludeSelf": true,
+    "TargetingCondition": "IsPoisoned",
+    "ChancePerTarget": 0.1
+  },
+  "AllPoisonedAllyButMe20PercentEach": {
+    "TargetAllFriendly": true,
+    "ExcludeSelf": true,
+    "TargetingCondition": "IsPoisoned",
+    "ChancePerTarget": 0.2
+  },
+  "AllPoisonedAllyButMe40PercentEach": {
+    "TargetAllFriendly": true,
+    "ExcludeSelf": true,
+    "TargetingCondition": "IsPoisoned",
+    "ChancePerTarget": 0.4
+  },
+  "AllPoisonedAllyButMe70PercentEach": {
+    "TargetAllFriendly": true,
+    "ExcludeSelf": true,
+    "TargetingCondition": "IsPoisoned",
+    "ChancePerTarget": 0.7
+  },
+  "AllPoisonedAllyButMe": {
+    "TargetAllFriendly": true,
+    "ExcludeSelf": true,
+    "TargetingCondition": "IsPoisoned"
+  },
+  "AllAllyWithHpLessThan30Percent": {
+    "TargetAllFriendly": true,
+    "TargetingCondition": "HpLessThan30Percent"
+  }
+}

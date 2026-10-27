@@ -1,0 +1,2039 @@
+{
+ "Refresh": 1793437200,
+ "ConquestFloor": 142,
+ "DungeonBoss": "Spik",
+ "Incidentals": {
+  "Missions": {
+   "DailiesClaimed": [
+    "DailyLogin",
+    "ActivityPoint1",
+    "GuildLogin",
+    "Investigate",
+    "MainTowerChallenge",
+    "Camp",
+    "MobPotIncrease",
+    "MobLevelIncrease",
+    "PeculiarityIncrease",
+    "ArenaFightOnce",
+    "EnterCampusOnce",
+    "Fish",
+    "ActivityPoint2",
+    "ActivityPoint3",
+    "ActivityPoint4",
+    "RaidBattleOnce",
+    "TotalStones-100",
+    "TotalStones-500",
+    "TotalStones-1000"
+   ],
+   "LifetimesClaimed": [
+    "BeatTowerStage1",
+    "BeatTowerStage2",
+    "PlayerRank5",
+    "LoginDay1",
+    "JoinOrCreateHouse1",
+    "CatPhoto1",
+    "LinkBonusActivate1",
+    "BeatTowerStage3",
+    "BeatTowerStage4",
+    "BeatTowerStage5",
+    "BeatTowerStage6",
+    "BeatTowerStage7",
+    "BeatTowerStage8",
+    "BeatTowerStage9",
+    "BeatTowerStage10",
+    "BeatTowerStage11",
+    "PlayerRank10",
+    "PlayerRank15",
+    "Camp1",
+    "CampusReportMaxLevel-5",
+    "SumOfCampusLevels-300",
+    "SumOfCampusLevels-500",
+    "CharPotIncrease1",
+    "MaxPostCardLevel25",
+    "SetCardsInDeck6",
+    "UsePotDrinkCBA50",
+    "UsePotDrinkCBA100",
+    "EquipXAccessories-3",
+    "EquipXAccessories-6",
+    "BeatTowerStage12",
+    "BeatTowerStage13",
+    "ArenaFight1",
+    "ArenaFight5",
+    "MaxHistoryLevel1",
+    "SumOfCampusLevels-1000",
+    "BeatTowerStage14",
+    "BeatTowerStage15",
+    "BeatTowerStage16",
+    "PlayerRank20",
+    "PlayerRank25",
+    "PlayerRank30",
+    "PlayerRank35",
+    "BeatTowerStage17",
+    "BeatTowerStage18",
+    "BeatTowerStage19",
+    "BeatTowerStage20",
+    "BeatTowerStage21",
+    "BeatTowerStage22",
+    "BeatTowerStage23",
+    "PlayerRank40",
+    "MaxArcaneLevel1",
+    "MaxPostCardLevel40",
+    "Camp5",
+    "SumOfCampusLevels-2000",
+    "SumOfCampusLevels-3000",
+    "OwnGuardianSpirit1",
+    "ReceiveGemLevel2",
+    "ReceiveGemLevel3",
+    "EquipGuardianSpirit1",
+    "LevelUpGaurdianSpiritTimes1",
+    "EquipXGemLevel1-1",
+    "EquippedGuardianSpirits-3",
+    "InvestigateTimes10",
+    "InvestigateTimes20",
+    "GemExchange1",
+    "ReceiveGemLevel4",
+    "ReceiveGemLevel5",
+    "ReceiveGemLevel6",
+    "EquipXGemLevel2-3",
+    "EquipXGemLevel3-3",
+    "BeatTowerStage24",
+    "LoginDay2",
+    "SumOfCampusLevels-4000",
+    "BeatTowerStage25",
+    "BeatTowerStage26",
+    "BeatTowerStage27",
+    "UsePotDrinkBA50",
+    "UsePotDrinkBA100",
+    "UsePotDrinkBA150",
+    "BeatTowerStage28",
+    "PlayerRank45",
+    "MaxPostCardLevel55",
+    "BeatTowerStage29",
+    "BeatTowerStage30",
+    "BeatTowerStage31",
+    "BeatTowerStage32",
+    "BeatTowerStage33",
+    "BeatTowerStage34",
+    "BeatTowerStage35",
+    "BeatTowerStage36",
+    "BeatTowerStage37",
+    "InvestigateTimes50",
+    "SumOfCampusLevels-5000",
+    "PlayerRank50",
+    "LoginDay3",
+    "Camp10",
+    "Camp15",
+    "SumOfCampusLevels-7500",
+    "SumOfCampusLevels-10000",
+    "PlayerRank55",
+    "LoginDay4",
+    "PlayerRank60",
+    "MaxHistoryLevel5",
+    "Camp20",
+    "SumOfCampusLevels-12000",
+    "SumOfCampusLevels-14000",
+    "BeatTowerStage38",
+    "BeatTowerStage39",
+    "BeatTowerStage40",
+    "EquipXGemLevel3-6",
+    "EquipXGemLevel4-3",
+    "BeatTowerStage41",
+    "BeatTowerStage42",
+    "BeatTowerStage43",
+    "SumOfCampusLevels-16000",
+    "PlayerRank65",
+    "BeatTowerStage44",
+    "BeatTowerStage45",
+    "BeatTowerStage46",
+    "BeatTowerStage47",
+    "BeatTowerStage48",
+    "BeatTowerStage49",
+    "LoginDay5",
+    "MaxPostCardLevel70",
+    "SumOfCampusLevels-18000",
+    "BeatTowerStage50",
+    "PlayerRank70",
+    "BeatTowerStage51",
+    "EquipXGemLevel5-3",
+    "BeatTowerStage52",
+    "LoginDay6",
+    "BeatTowerStage53",
+    "BeatTowerStage54",
+    "MaxArcaneLevel5",
+    "BeatTowerStage55",
+    "BeatTowerStage56",
+    "BeatTowerStage57",
+    "BeatTowerStage58",
+    "LoginDay7",
+    "Camp30",
+    "BeatTowerStage59",
+    "BeatTowerStage60",
+    "PlayerRank75",
+    "BeatTowerStage61",
+    "BeatTowerStage62",
+    "EquipXGemLevel4-6",
+    "BeatTowerStage63",
+    "Camp40",
+    "PlayerRank80",
+    "BeatTowerStage64",
+    "Camp50",
+    "MaxHistoryLevel10",
+    "BeatTowerStage65",
+    "BeatTowerStage66",
+    "InvestigateTimes100",
+    "BeatTowerStage67",
+    "BeatTowerStage68",
+    "BeatTowerStage69",
+    "PlayerRank85",
+    "EquipXGemLevel5-6",
+    "ReceiveGemLevel7",
+    "Camp75",
+    "EquipXGemLevel6-3",
+    "ReceiveGemLevel8",
+    "ReceiveGemLevel9",
+    "EquipXGemLevel6-6",
+    "BeatTowerStage70",
+    "BeatTowerStage71",
+    "EquipXGemLevel5-9",
+    "EquipXGemLevel6-9",
+    "PlayerRank90",
+    "Camp100",
+    "BeatTowerStage72",
+    "BeatTowerStage73",
+    "BeatTowerStage74",
+    "BeatTowerStage75",
+    "BeatTowerStage76",
+    "BeatTowerStage77",
+    "BeatTowerStage78",
+    "MaxArcaneLevel10",
+    "BeatTowerStage79",
+    "BeatTowerStage80",
+    "BeatTowerStage81",
+    "BeatTowerStage82",
+    "PlayerRank95",
+    "MaxPostCardLevel85",
+    "BeatTowerStage83",
+    "BeatTowerStage84",
+    "BeatTowerStage85",
+    "Camp150",
+    "MaxHistoryLevel15",
+    "InvestigateTimes150",
+    "BeatTowerStage86",
+    "BeatTowerStage87",
+    "BeatTowerStage88",
+    "BeatTowerStage89",
+    "SetCardsInDeck12",
+    "SetCardsInDeck18",
+    "ReceiveGemLevel10",
+    "BeatTowerStage90",
+    "BeatTowerStage91",
+    "BeatTowerStage92",
+    "PlayerRank100",
+    "BeatTowerStage93",
+    "EquippedGuardianSpirits-5",
+    "BeatTowerStage94",
+    "BeatTowerStage95",
+    "BeatTowerStage96",
+    "BeatTowerStage97",
+    "BeatTowerStage98",
+    "BeatTowerStage99",
+    "BeatTowerStage100",
+    "BeatTowerStage101",
+    "Camp200",
+    "BeatTowerStage102",
+    "BeatTowerStage103",
+    "BeatTowerStage104",
+    "MaxHistoryLevel20",
+    "BeatTowerStage105",
+    "BeatTowerStage106",
+    "BeatTowerStage107",
+    "MaxArcaneLevel15",
+    "BeatTowerStage108",
+    "BeatTowerStage109",
+    "BeatTowerStage110",
+    "BeatTowerStage111",
+    "BeatTowerStage112",
+    "BeatTowerStage113",
+    "InvestigateTimes200",
+    "BeatTowerStage114",
+    "BeatTowerStage115",
+    "BeatTowerStage116",
+    "BeatTowerStage117",
+    "EquippedGuardianSpirits-7",
+    "EquippedGuardianSpirits-9",
+    "EquippedGuardianSpirits-11",
+    "BeatTowerStage118",
+    "BeatTowerStage119",
+    "BeatTowerStage120",
+    "BeatTowerStage121",
+    "BeatTowerStage122",
+    "ReceiveGemLevel11",
+    "InvestigateTimes300",
+    "BeatTowerStage123",
+    "BeatTowerStage124",
+    "BeatTowerStage125",
+    "EquippedGuardianSpirits-13",
+    "EquippedGuardianSpirits-15",
+    "EquippedGuardianSpirits-20",
+    "AdjustIntroMessage1",
+    "BeatTowerStage126",
+    "BeatTowerStage127",
+    "BeatTowerStage128",
+    "BeatTowerStage129",
+    "BeatTowerStage130",
+    "BeatTowerStage131",
+    "BeatTowerStage132",
+    "BeatTowerStage133",
+    "BeatTowerStage134",
+    "BeatTowerStage135",
+    "BeatTowerStage136",
+    "MaxPostCardLevel100",
+    "UseDragonEvoOrbPC1",
+    "BeatTowerStage137",
+    "BeatTowerStage138",
+    "BeatTowerStage139",
+    "BeatTowerStage140",
+    "BeatTowerStage141",
+    "BeatTowerStage142"
+   ],
+   "LimitedClaimed": {
+    "BeginnerConsecutivePurchase": [
+     "BeginnerConsecutivePurchase1",
+     "BeginnerConsecutivePurchase2"
+    ],
+    "SpendMission32": [
+     "SpendStones1",
+     "SpendStones2"
+    ],
+    "RaidMission21": [
+     "RaidReward0",
+     "RaidReward2",
+     "RaidReward4",
+     "RaidReward6",
+     "RaidReward8",
+     "RaidReward10",
+     "RaidReward12",
+     "RaidReward14",
+     "RaidReward16",
+     "RaidReward18",
+     "RaidReward20",
+     "RaidReward22",
+     "RaidReward24",
+     "RaidReward26",
+     "RaidReward30",
+     "RaidReward28",
+     "RaidReward32",
+     "RaidReward34",
+     "RaidReward36",
+     "RaidReward38",
+     "RaidReward40",
+     "RaidReward42",
+     "RaidReward46",
+     "RaidReward48",
+     "RaidReward50",
+     "RaidReward52",
+     "RaidReward54",
+     "RaidReward56",
+     "RaidReward44",
+     "RaidReward58",
+     "RaidReward62",
+     "RaidReward64",
+     "RaidReward66",
+     "RaidReward68",
+     "RaidReward70",
+     "RaidReward72",
+     "RaidReward74",
+     "RaidReward78",
+     "RaidReward80",
+     "RaidReward82",
+     "RaidReward84",
+     "RaidReward86",
+     "RaidReward60",
+     "RaidReward76",
+     "RaidReward88",
+     "RaidReward90",
+     "RaidReward94",
+     "RaidReward96",
+     "RaidReward98",
+     "RaidReward100",
+     "RaidReward104",
+     "RaidReward108",
+     "RaidReward112",
+     "RaidReward92",
+     "RaidReward116",
+     "RaidReward120",
+     "RaidReward124",
+     "RaidReward128",
+     "RaidReward132",
+     "RaidReward136",
+     "RaidReward140",
+     "RaidReward144",
+     "RaidReward152",
+     "RaidReward156",
+     "RaidReward160",
+     "RaidReward164",
+     "RaidReward168",
+     "RaidReward148",
+     "RaidReward172",
+     "RaidReward176",
+     "RaidReward182",
+     "RaidReward184",
+     "RaidReward186",
+     "RaidReward188",
+     "RaidReward190",
+     "RaidReward192",
+     "RaidReward194",
+     "RaidReward196",
+     "RaidReward180",
+     "RaidReward198",
+     "RaidReward200",
+     "RaidReward202",
+     "RaidReward204",
+     "RaidReward206",
+     "RaidReward208",
+     "RaidReward210",
+     "RaidReward212",
+     "RaidReward214",
+     "RaidReward216",
+     "RaidReward218",
+     "RaidReward220",
+     "RaidReward222",
+     "RaidReward224",
+     "RaidReward226",
+     "RaidReward228",
+     "RaidReward230",
+     "RaidReward232",
+     "RaidReward234",
+     "RaidReward236",
+     "RaidReward238",
+     "RaidReward242",
+     "RaidReward244",
+     "RaidReward246",
+     "RaidReward248",
+     "RaidReward250",
+     "RaidReward252",
+     "RaidReward254",
+     "RaidReward256",
+     "RaidReward240",
+     "RaidReward258",
+     "RaidReward260",
+     "RaidReward262",
+     "RaidReward264",
+     "RaidReward266",
+     "RaidReward268",
+     "RaidReward272",
+     "RaidReward274",
+     "RaidReward276",
+     "RaidReward278",
+     "RaidReward280",
+     "RaidReward283",
+     "RaidReward286",
+     "RaidReward270",
+     "RaidReward289",
+     "RaidReward292",
+     "RaidReward295",
+     "RaidReward298",
+     "RaidReward301",
+     "RaidReward304",
+     "RaidReward307",
+     "RaidReward310",
+     "RaidReward313",
+     "RaidReward316",
+     "RaidReward319",
+     "RaidReward322",
+     "RaidReward325",
+     "RaidReward328",
+     "RaidReward331",
+     "RaidReward334",
+     "RaidReward337",
+     "RaidReward342",
+     "RaidReward344",
+     "RaidReward340",
+     "RaidReward346",
+     "RaidReward348",
+     "RaidReward350",
+     "RaidReward352",
+     "RaidReward354",
+     "RaidReward356",
+     "RaidReward358",
+     "RaidReward360",
+     "RaidReward361",
+     "RaidReward362",
+     "RaidReward363",
+     "RaidReward364",
+     "RaidReward365",
+     "RaidReward366",
+     "RaidReward367",
+     "RaidReward368",
+     "RaidReward369",
+     "RaidReward370",
+     "RaidReward371",
+     "RaidReward372",
+     "RaidReward373",
+     "RaidReward374",
+     "RaidReward375",
+     "RaidReward376",
+     "RaidReward377",
+     "RaidReward378",
+     "RaidReward379",
+     "RaidReward380"
+    ],
+    "SpendMission33": [
+     "SpendStones1",
+     "SpendStones2",
+     "SpendStones3",
+     "SpendStones4",
+     "SpendStones5",
+     "SpendStones6",
+     "SpendStones7"
+    ],
+    "ConsecutivePurchase61": [
+     "ConsecutivePurchase1"
+    ],
+    "ConsecutivePurchase62": [
+     "ConsecutivePurchase1"
+    ],
+    "AccSpendStones35": [
+     "AccSpendStones1",
+     "AccSpendStones2"
+    ],
+    "RaidMission22": [
+     "RaidReward0",
+     "RaidReward2",
+     "RaidReward4",
+     "RaidReward6",
+     "RaidReward8",
+     "RaidReward10",
+     "RaidReward12",
+     "RaidReward14",
+     "RaidReward16",
+     "RaidReward18",
+     "RaidReward20",
+     "RaidReward22",
+     "RaidReward24",
+     "RaidReward26",
+     "RaidReward30",
+     "RaidReward28",
+     "RaidReward32",
+     "RaidReward34",
+     "RaidReward36",
+     "RaidReward38",
+     "RaidReward40",
+     "RaidReward42",
+     "RaidReward46",
+     "RaidReward48",
+     "RaidReward50",
+     "RaidReward52",
+     "RaidReward54",
+     "RaidReward56",
+     "RaidReward58",
+     "RaidReward44",
+     "RaidReward60",
+     "RaidReward62",
+     "RaidReward64",
+     "RaidReward66",
+     "RaidReward68",
+     "RaidReward70",
+     "RaidReward72",
+     "RaidReward74",
+     "RaidReward78",
+     "RaidReward80",
+     "RaidReward82",
+     "RaidReward84",
+     "RaidReward86",
+     "RaidReward88",
+     "RaidReward90",
+     "RaidReward76",
+     "RaidReward94",
+     "RaidReward96",
+     "RaidReward98",
+     "RaidReward100",
+     "RaidReward104",
+     "RaidReward108",
+     "RaidReward112",
+     "RaidReward92",
+     "RaidReward116",
+     "RaidReward120",
+     "RaidReward124",
+     "RaidReward128",
+     "RaidReward132",
+     "RaidReward136",
+     "RaidReward140",
+     "RaidReward144",
+     "RaidReward148",
+     "RaidReward152",
+     "RaidReward156",
+     "RaidReward160",
+     "RaidReward164",
+     "RaidReward168",
+     "RaidReward172",
+     "RaidReward176",
+     "RaidReward182",
+     "RaidReward184",
+     "RaidReward186",
+     "RaidReward188",
+     "RaidReward190",
+     "RaidReward192",
+     "RaidReward194",
+     "RaidReward196",
+     "RaidReward198",
+     "RaidReward200",
+     "RaidReward202",
+     "RaidReward204",
+     "RaidReward206",
+     "RaidReward208",
+     "RaidReward180",
+     "RaidReward210",
+     "RaidReward212",
+     "RaidReward214",
+     "RaidReward216",
+     "RaidReward218",
+     "RaidReward220",
+     "RaidReward222",
+     "RaidReward224",
+     "RaidReward226",
+     "RaidReward228",
+     "RaidReward230",
+     "RaidReward232",
+     "RaidReward234",
+     "RaidReward236",
+     "RaidReward238",
+     "RaidReward242",
+     "RaidReward244",
+     "RaidReward246",
+     "RaidReward248",
+     "RaidReward250",
+     "RaidReward252",
+     "RaidReward254",
+     "RaidReward256",
+     "RaidReward258",
+     "RaidReward260",
+     "RaidReward262",
+     "RaidReward264",
+     "RaidReward266",
+     "RaidReward268",
+     "RaidReward240",
+     "RaidReward272",
+     "RaidReward274",
+     "RaidReward276",
+     "RaidReward278",
+     "RaidReward280",
+     "RaidReward283",
+     "RaidReward286",
+     "RaidReward289",
+     "RaidReward292",
+     "RaidReward295",
+     "RaidReward298",
+     "RaidReward270",
+     "RaidReward301",
+     "RaidReward304",
+     "RaidReward307",
+     "RaidReward310",
+     "RaidReward313",
+     "RaidReward316",
+     "RaidReward319",
+     "RaidReward322",
+     "RaidReward325",
+     "RaidReward328",
+     "RaidReward331",
+     "RaidReward334",
+     "RaidReward337",
+     "RaidReward342",
+     "RaidReward344",
+     "RaidReward346",
+     "RaidReward348",
+     "RaidReward350",
+     "RaidReward352",
+     "RaidReward354",
+     "RaidReward340",
+     "RaidReward356",
+     "RaidReward358",
+     "RaidReward360",
+     "RaidReward361",
+     "RaidReward362",
+     "RaidReward363",
+     "RaidReward364",
+     "RaidReward365",
+     "RaidReward366",
+     "RaidReward367",
+     "RaidReward368",
+     "RaidReward369",
+     "RaidReward370",
+     "RaidReward371",
+     "RaidReward372",
+     "RaidReward373",
+     "RaidReward374",
+     "RaidReward375",
+     "RaidReward376",
+     "RaidReward377",
+     "RaidReward378",
+     "RaidReward379",
+     "RaidReward380"
+    ],
+    "SpendMission34": [
+     "SpendStones1",
+     "SpendStones2",
+     "SpendStones3",
+     "SpendStones4"
+    ],
+    "AccSpendStones36": [
+     "AccSpendStones1",
+     "AccSpendStones2"
+    ],
+    "ConsecutivePurchase64": [
+     "ConsecutivePurchase1"
+    ]
+   },
+   "DailiesProgress": {
+    "DailyLogin": 4,
+    "MissionTask": 180,
+    "GuildLogin": 1,
+    "Fish": 1,
+    "CharLevelIncrease": 6,
+    "CharPotIncrease": 473,
+    "PeculiarLevelIncrease": 2,
+    "VisitCampus": 19,
+    "Camp": 2,
+    "CampusFacilityLevelUp": 1773,
+    "CampusReportLevelUp": 20,
+    "ArenaFightOnce": 15,
+    "Investigate": 4,
+    "MainTowerChallenge": 107,
+    "IAPTier1": 0,
+    "IAPTier2": 0,
+    "IAPTier3": 0,
+    "IAPTier4": 0,
+    "IAPTier5": 0,
+    "IAPTier6": 0,
+    "DailyVIPEarned": 1100,
+    "RaidBattleOnce": 3
+   },
+   "LifetimeProgress": {
+    "LoginDays": 72,
+    "LinkBonusActivate": 1,
+    "CharLevelIncrease": 185,
+    "SetCardsInDeck": 46,
+    "BuildCampusFacilities": 37,
+    "SumOfCampusLevels": 287092,
+    "TouchFlyingCampusCat": 1844,
+    "JoinOrCreateGuild": 4,
+    "CatPhoto": 41,
+    "PCPeculiarLevelIncrease": 122,
+    "CampusReportMaxLevel": 386,
+    "Camp": 357,
+    "EquipXAccessories": 78,
+    "UsePotDrinkCBA": 22506,
+    "CharPotIncrease": 22506,
+    "MaxPostCardLevel": 105,
+    "MaxHistoryLevel": 27,
+    "ArenaFight": 638,
+    "MaxLimitBreakOnChar": 7,
+    "MaxArcaneLevel": 17,
+    "OwnGuardianSpirits": 1,
+    "ReceiveGemLevel": 11,
+    "UsePotDrinkBA": 15106,
+    "EquippedGuardianSpirits": 20,
+    "GaurdianSpiritLevelIncrease": 1,
+    "EquipXGemLevel3": 24,
+    "EquipXGemLevel2": 24,
+    "EquipXGemLevel1": 24,
+    "Investigate": 482,
+    "GemExchange": 8,
+    "EquipXGemLevel6": 24,
+    "EquipXGemLevel5": 24,
+    "EquipXGemLevel4": 24,
+    "EquipXAccessoryRarityALevel70": 21,
+    "EquipXAccessoryRarityALevel60": 21,
+    "EquipXAccessoryRarityALevel55": 21,
+    "EquipXAccessoryRarityALevel50": 21,
+    "EquipXAccessoryRarityALevel45": 21,
+    "EquipXAccessoryRarityALevel40": 21,
+    "EquipXAccessoryRarityALevel35": 21,
+    "EquipXAccessoryRarityALevel30": 21,
+    "EquipXAccessoryRarityALevel20": 21,
+    "EquipXAccessoryRarityBLevel15": 34,
+    "EquipXAccessoryRarityCLevel10": 42,
+    "EquipXAccessoryRarityALevel80": 18,
+    "EquipXAccessoryRarityALevel100": 17,
+    "EquipXAccessoryRarityALevel90": 17,
+    "AdjustIntroMessage": 1,
+    "UseDragonEvoOrbPC": 1
+   },
+   "LimitedProgress": {
+    "BeginnerConsecutivePurchase": {
+     "SpendStones": 56950,
+     "AccSummonSpendStones": 0,
+     "BeginnerPurchaseToday": 2,
+     "RaidStars": 479
+    },
+    "SpendMission32": {
+     "SpendStones": 10620,
+     "AccSummonSpendStones": 0,
+     "BeginnerPurchaseToday": 1,
+     "RaidStars": 73
+    },
+    "ConsecutivePurchase59": {
+     "SpendStones": 10620,
+     "AccSummonSpendStones": 0,
+     "BeginnerPurchaseToday": 1,
+     "RaidStars": 23
+    },
+    "ConsecutivePurchase60": {
+     "AccSummonSpendStones": 0,
+     "RaidStars": 332,
+     "SpendStones": 34330,
+     "BeginnerPurchaseToday": 1
+    },
+    "AccSpendStones34": {
+     "RaidStars": 229,
+     "SpendStones": 34330,
+     "AccSummonSpendStones": 0,
+     "BeginnerPurchaseToday": 1
+    },
+    "RaidMission21": {
+     "AccSummonSpendStones": 0,
+     "RaidStars": 402
+    },
+    "SpendMission33": {
+     "AccSummonSpendStones": 0,
+     "RaidStars": 404,
+     "SpendStones": 152130,
+     "PurchaseToday": 1,
+     "BeginnerPurchaseToday": 1
+    },
+    "ConsecutivePurchase61": {
+     "AccSummonSpendStones": 0,
+     "RaidStars": 353,
+     "SpendStones": 152130,
+     "PurchaseToday": 1,
+     "BeginnerPurchaseToday": 1
+    },
+    "ConsecutivePurchase62": {
+     "AccSummonSpendStones": 20860,
+     "SpendStones": 54220,
+     "RaidStars": 351,
+     "BeginnerPurchaseToday": 2,
+     "PurchaseToday": 1
+    },
+    "AccSpendStones35": {
+     "SpendStones": 54190,
+     "AccSummonSpendStones": 20860,
+     "BeginnerPurchaseToday": 1,
+     "PurchaseToday": 1,
+     "RaidStars": 252
+    },
+    "RaidMission22": {
+     "AccSummonSpendStones": 0,
+     "RaidStars": 382,
+     "SpendStones": 35310
+    },
+    "ConsecutivePurchase63": {
+     "AccSummonSpendStones": 0,
+     "RaidStars": 332,
+     "SpendStones": 33330
+    },
+    "SpendMission34": {
+     "AccSummonSpendStones": 0,
+     "RaidStars": 408,
+     "SpendStones": 33330
+    },
+    "ConsecutivePurchase64": {
+     "AccSummonSpendStones": 18180,
+     "RaidStars": 238,
+     "BeginnerPurchaseToday": 2,
+     "SpendStones": 123810,
+     "PurchaseToday": 1
+    },
+    "AccSpendStones36": {
+     "RaidStars": 28,
+     "SpendStones": 123810,
+     "AccSummonSpendStones": 18180,
+     "BeginnerPurchaseToday": 1,
+     "PurchaseToday": 1
+    }
+   },
+   "NextDaily": 1792162800,
+   "NextIAPReset": 1792162800,
+   "HighActivityEnd": 1792421999,
+   "ActiveHighActivity": "HighActivity73",
+   "HighActivityProgress": 12,
+   "TotalPurchaseAmountToday": 1100
+  }
+ },
+ "Replay": {
+  "Winner": "AI2",
+  "Config": {
+   "Seed": 1877811378,
+   "P1": "DY2JRRQZ",
+   "P2": "AI2",
+   "P1GuildName": "PARANOIZE",
+   "P1Favorite": "Hero01",
+   "P1Message": ".",
+   "P1TPower": 16641444,
+   "P1Mobs": [
+    {
+     "MainAccessory": {
+      "ModelType": "MACCNDAGR10"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "TomoyaUniSR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Xp": 3028210,
+     "LimitBreak": 7,
+     "Potential": 233269,
+     "Awakening": 4,
+     "PostCard": {
+      "BattleStatTrackIndex": 8,
+      "Awakening": 4,
+      "Gems": [
+       "AtkGem11",
+       "PAtkGem11",
+       "HPGem11"
+      ],
+      "ModelType": "PCRosaReg",
+      "ArcaneScalar": 0.255,
+      "HistoryScalar": 0.2025,
+      "PeculiarityRank": 121,
+      "HistoryLevel": 27,
+      "ArcaneLevel": 17
+     },
+     "MainAccessory": {
+      "ModelType": "MACCSRGUN4",
+      "BattleStatTrackIndex": 6,
+      "Gems": [
+       "AtkGem10",
+       "WillGem11",
+       "VitGem11"
+      ],
+      "ArcaneScalar": 0.255,
+      "HistoryScalar": 0.17999999,
+      "PeculiarityRank": 121,
+      "HistoryLevel": 24,
+      "ArcaneLevel": 17
+     },
+     "SubAccessories": [
+      {
+       "BattleStatTrackIndex": 6,
+       "ModelType": "SACCSRARMR4",
+       "Gems": [
+        "AtkGem10",
+        "PAtkGem10",
+        "HPGem10"
+       ],
+       "PeculiarityRank": 121,
+       "HistoryLevel": 20,
+       "ArcaneLevel": 10
+      },
+      {
+       "BattleStatTrackIndex": 6,
+       "ModelType": "SACCSRSHLD4",
+       "Gems": [
+        "AtkGem10",
+        "StrGem10",
+        "HPGem10"
+       ],
+       "PeculiarityRank": 121,
+       "ArcaneLevel": 9
+      }
+     ],
+     "Spirit": [
+      {
+       "Xp": 38400,
+       "ModelType": "SPEVEPATK"
+      },
+      {
+       "Xp": 24000,
+       "ModelType": "SPBASEPDEF11"
+      },
+      {
+       "Xp": 12600,
+       "ModelType": "SPBASEATK11"
+      }
+     ],
+     "ModelType": "RosaReg",
+     "HoldsEquipments": true,
+     "HoldsSpirits": true,
+     "HoldsThings": true
+    },
+    {
+     "Xp": 2335430,
+     "LimitBreak": 6,
+     "Potential": 131878,
+     "Awakening": 4,
+     "PostCard": {
+      "BattleStatTrackIndex": 5,
+      "Awakening": 4,
+      "Gems": [
+       "AtkGem9",
+       "PAtkGem8",
+       "WillGem8"
+      ],
+      "ModelType": "PCNayuSwim",
+      "PeculiarityRank": 121
+     },
+     "MainAccessory": {
+      "ModelType": "MACCRDAGR4",
+      "Gems": [
+       "PAtkGem7",
+       "PDefGem10",
+       "MDefGem9"
+      ],
+      "PeculiarityRank": 96
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCRARMR4",
+       "Gems": [
+        "AtkGem9",
+        "StrGem7",
+        "VitGem7"
+       ],
+       "PeculiarityRank": 111
+      },
+      {
+       "ModelType": "SACCRSHLD4",
+       "Gems": [
+        "AtkGem9",
+        "StrGem8",
+        "WillGem7"
+       ],
+       "PeculiarityRank": 63
+      }
+     ],
+     "Spirit": [
+      {
+       "ModelType": "SPBASEHP11"
+      },
+      {
+       "ModelType": "SPBASEPDEF10"
+      },
+      {
+       "Xp": 31200,
+       "ModelType": "SPBASEATK9"
+      }
+     ],
+     "ModelType": "NayuSwim",
+     "HoldsEquipments": true,
+     "HoldsSpirits": true,
+     "HoldsThings": true
+    },
+    {
+     "Xp": 235,
+     "PostCard": {
+      "Awakening": 2,
+      "ModelType": "PCTomoyaUni",
+      "PeculiarityRank": 18
+     },
+     "MainAccessory": {
+      "ModelType": "MACCRDAGR3",
+      "Gems": [
+       null,
+       null,
+       null
+      ]
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCRARMR2",
+       "Gems": [
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "ModelType": "SACCRSHLD2",
+       "Gems": [
+        null,
+        null,
+        null
+       ]
+      }
+     ],
+     "Spirit": [
+      {
+       "ModelType": "SPBASEHP10"
+      },
+      {
+       "ModelType": "SPBASEMDEF9"
+      },
+      {
+       "ModelType": "SPBASEPATK8"
+      }
+     ],
+     "ModelType": "TomoyaUni",
+     "HoldsEquipments": true,
+     "HoldsSpirits": true,
+     "HoldsThings": true
+    },
+    {
+     "PostCard": {
+      "Awakening": 1,
+      "ModelType": "PCShokoReg",
+      "PeculiarityRank": 2
+     },
+     "MainAccessory": {
+      "ModelType": "MACCRGUN4",
+      "Gems": [
+       null,
+       null,
+       null
+      ]
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCNARMR100"
+      },
+      {
+       "ModelType": "SACCNSHLD100"
+      }
+     ],
+     "Spirit": [
+      {
+       "ModelType": "SPBASEHP10"
+      },
+      {
+       "ModelType": "SPBASEATK8"
+      },
+      {
+       "ModelType": "SPBASEPATK5"
+      }
+     ],
+     "ModelType": "ShokoReg",
+     "HoldsEquipments": true,
+     "HoldsSpirits": true,
+     "HoldsThings": true
+    },
+    {
+     "PostCard": {
+      "Awakening": 1,
+      "ModelType": "PCAnnaReg"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNGUN20"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "AnnaReg",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCRyuKendo"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNFIST30"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "RyuKendo",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCLionR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNDAGR70"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "LionR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCPenguinR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNGUN40"
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCNARMR20"
+      },
+      {
+       "ModelType": "SACCNSHLD10"
+      }
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "PenguinR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 2,
+     "PostCard": {
+      "Awakening": 2,
+      "ModelType": "PCMinamiRegSR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNDAGR100"
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCNARMR55"
+      },
+      {
+       "ModelType": "SACCNSHLD40"
+      }
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "MinamiRegSR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 1,
+     "PostCard": {
+      "ModelType": "PCReikaRegSR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNFIST100"
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCNARMR70"
+      },
+      {
+       "ModelType": "SACCNSHLD55"
+      }
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "ReikaRegSR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Xp": 12060,
+     "Awakening": 2,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCYuiUniSR",
+      "PeculiarityRank": 3
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNDAGR100"
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCNARMR100"
+      },
+      {
+       "ModelType": "SACCNSHLD100"
+      }
+     ],
+     "Spirit": [
+      {
+       "ModelType": "SPEVEMATK"
+      },
+      {
+       "ModelType": "SPBASEATK8"
+      },
+      {
+       "ModelType": "SPBASEPATK4"
+      }
+     ],
+     "ModelType": "YuiUniSR",
+     "HoldsEquipments": true,
+     "HoldsSpirits": true,
+     "HoldsThings": true
+    },
+    {
+     "PostCard": {
+      "Awakening": 1,
+      "ModelType": "PCShokoRegSR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNGUN55"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "ShokoRegSR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCAyaRegR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNDAGR85"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "AyaRegR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCAnnaRegSR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNGUN100"
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCNARMR85"
+      },
+      {
+       "ModelType": "SACCNSHLD70"
+      }
+     ],
+     "Spirit": [
+      {
+       "ModelType": "SPBASEMATK11"
+      },
+      null,
+      null
+     ],
+     "ModelType": "AnnaRegSR",
+     "HoldsEquipments": true,
+     "HoldsSpirits": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCLeopardSR",
+      "PeculiarityRank": 2
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNFIST100"
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCNARMR85"
+      },
+      {
+       "ModelType": "SACCNSHLD100"
+      }
+     ],
+     "Spirit": [
+      {
+       "ModelType": "SPBASEMATK7"
+      },
+      {
+       "ModelType": "SPBASEATK4"
+      },
+      {
+       "ModelType": "SPBASEPATK3"
+      }
+     ],
+     "ModelType": "LeopardSR",
+     "HoldsEquipments": true,
+     "HoldsSpirits": true,
+     "HoldsThings": true
+    },
+    {
+     "Xp": 610,
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCMokumaruReg",
+      "PeculiarityRank": 3
+     },
+     "MainAccessory": {
+      "ModelType": "MACCRDAGR2"
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCNARMR85"
+      },
+      {
+       "ModelType": "SACCNSHLD85"
+      }
+     ],
+     "Spirit": [
+      {
+       "ModelType": "SPBASEPATK3"
+      },
+      null,
+      null
+     ],
+     "ModelType": "MokumaruReg",
+     "HoldsEquipments": true,
+     "HoldsSpirits": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCPuppyR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNGUN40"
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCNARMR10"
+      },
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "PuppyR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCSpikeRabbitR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNGUN40"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "SpikeRabbitR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCSpiralCatR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNGUN30"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "SpiralCatR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCSakiRegR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNGUN85"
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCNARMR85"
+      },
+      {
+       "ModelType": "SACCNSHLD70"
+      }
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "SakiRegR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCShimaRegR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNDAGR70"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "ShimaRegR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCGenRegR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNFIST85"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "GenRegR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCCupCatR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNFIST85"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "CupCatR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    }
+   ],
+   "P2Mobs": [
+    {
+     "Xp": 588480,
+     "Awakening": 2,
+     "ModelType": "KnifeRabbitA"
+    },
+    {
+     "Xp": 588480,
+     "Awakening": 2,
+     "ModelType": "SpikeRabbitC"
+    },
+    {
+     "Xp": 588480,
+     "Awakening": 2,
+     "ModelType": "YinYangB"
+    },
+    {
+     "Xp": 588480,
+     "Awakening": 2,
+     "ModelType": "OctopusC"
+    },
+    {
+     "Xp": 588480,
+     "Awakening": 2,
+     "ModelType": "BearA"
+    },
+    {
+     "Xp": 588480,
+     "Awakening": 2,
+     "ModelType": "LionC"
+    },
+    {
+     "Xp": 588480,
+     "Awakening": 2,
+     "ModelType": "PenguinA"
+    },
+    {
+     "Xp": 588480,
+     "Awakening": 2,
+     "ModelType": "PenguinA"
+    },
+    {
+     "Xp": 588480,
+     "Awakening": 2,
+     "ModelType": "SheepB"
+    },
+    {
+     "Xp": 588480,
+     "Awakening": 2,
+     "ModelType": "CapybaraA"
+    }
+   ],
+   "Team1StatBuffs": {
+    "FixedBonuses": {},
+    "PercentBonuses": {
+     "PAtk": 0.03,
+     "MAtk": 0.02
+    },
+    "RankScaleBonuses": {
+     "WillPower": 15
+    }
+   },
+   "Team2PassiveBuffs": [
+    "SummonedMonsterDeathTrap"
+   ],
+   "Team1CampusStatBonus": {
+    "Atk": {
+     "Fire": 0.19399999,
+     "Water": 0.1925,
+     "Earth": 0.1925
+    },
+    "HP": {
+     "Fire": 0.19399999,
+     "Water": 0.1925,
+     "Earth": 0.1925
+    },
+    "Strength": {
+     "Fire": 0.19399999,
+     "Water": 0.1925,
+     "Earth": 0.1925
+    },
+    "Vitality": {
+     "Fire": 0.19399999,
+     "Water": 0.1925,
+     "Earth": 0.1925
+    },
+    "WillPower": {
+     "Fire": 0.193,
+     "Water": 0.193,
+     "Earth": 0.193
+    },
+    "Intelligence": {
+     "Fire": 0.194,
+     "Water": 0.19250001,
+     "Earth": 0.19250001
+    },
+    "PDef": {
+     "Fire": 0.194,
+     "Water": 0.19250001,
+     "Earth": 0.19250001
+    },
+    "MDef": {
+     "Fire": 0.1935,
+     "Water": 0.1935,
+     "Earth": 0.192
+    },
+    "PAtk": {
+     "Fire": 0.1945,
+     "Water": 0.193,
+     "Earth": 0.193
+    },
+    "MAtk": {
+     "Fire": 0.1945,
+     "Water": 0.193,
+     "Earth": 0.193
+    }
+   },
+   "Team1Rank": 122,
+   "Team1FinalBaseStatScalar": 1,
+   "Team2FinalBaseStatScalar": 290.39,
+   "BattleBackground": "Battle_Cave"
+  },
+  "Type": "Event",
+  "FinalPacketData": {
+   "WinnerActiveMonsters": [
+    {
+     "Mi": {
+      "Xp": 588480,
+      "Awakening": 2,
+      "ModelType": "LionC"
+     },
+     "Buffs": [
+      {
+       "Buff": {
+        "Components": [
+         "2TimesScalarForBossHP"
+        ],
+        "Duration": -1,
+        "StackName": "BossBulk",
+        "DescriptionKey": "2xBossBulkDescription",
+        "Name": "2xBossBulk",
+        "NameKey": "2xBossBulkName",
+        "IconName": "2xBossBulk"
+       },
+       "ModelType": "2xBossBulk",
+       "DurationLeft": -1
+      },
+      {
+       "Buff": {
+        "Components": [
+         "PoisonAttackerWhenHurt"
+        ],
+        "Duration": -1,
+        "StackName": "PoisonSkin",
+        "Tags": [
+         "PoisonSkin"
+        ],
+        "HUDText": "PoisonSkinHUD",
+        "HUDPriority": 40,
+        "DescriptionKey": "PoisonSkinBossDescription",
+        "Name": "PoisonSkinBoss",
+        "NameKey": "PoisonSkinBossName",
+        "IconName": "PoisonSkinBoss"
+       },
+       "ModelType": "PoisonSkinBoss",
+       "DurationLeft": -1
+      },
+      {
+       "Buff": {
+        "Components": [
+         "InstaKillSummonedEnemies"
+        ],
+        "Duration": -1,
+        "DescriptionKey": "SummonedMonsterDeathTrapDescription",
+        "Name": "SummonedMonsterDeathTrap",
+        "NameKey": "SummonedMonsterDeathTrapName",
+        "IconName": "SummonedMonsterDeathTrap"
+       },
+       "ModelType": "SummonedMonsterDeathTrap",
+       "DurationLeft": -1
+      }
+     ],
+     "Hp": 1680026,
+     "Spirit": 6,
+     "Id": 29,
+     "CachedBattleStats": {
+      "Vitality": 491236,
+      "WillPower": 491236,
+      "Strength": 491236,
+      "Intelligence": 491236,
+      "HP": 1680026,
+      "Atk": 840013,
+      "PAtk": 840013,
+      "PDef": 840013,
+      "MAtk": 840013,
+      "MDef": 840013
+     }
+    },
+    {
+     "Mi": {
+      "Xp": 588480,
+      "Awakening": 2,
+      "ModelType": "PenguinA"
+     },
+     "Buffs": [
+      {
+       "Buff": {
+        "Components": [
+         "2TimesScalarForBossHP"
+        ],
+        "Duration": -1,
+        "StackName": "BossBulk",
+        "DescriptionKey": "2xBossBulkDescription",
+        "Name": "2xBossBulk",
+        "NameKey": "2xBossBulkName",
+        "IconName": "2xBossBulk"
+       },
+       "ModelType": "2xBossBulk",
+       "DurationLeft": -1
+      },
+      {
+       "Buff": {
+        "Components": [
+         "SleepTargetsOnHitChance25"
+        ],
+        "Duration": -1,
+        "DescriptionKey": "OnHitSleepChanceBossDescription",
+        "Name": "OnHitSleepChanceBoss",
+        "NameKey": "OnHitSleepChanceBossName",
+        "IconName": "OnHitSleepChanceBoss"
+       },
+       "ModelType": "OnHitSleepChanceBoss",
+       "DurationLeft": -1
+      },
+      {
+       "Buff": {
+        "Components": [
+         "InstaKillSummonedEnemies"
+        ],
+        "Duration": -1,
+        "DescriptionKey": "SummonedMonsterDeathTrapDescription",
+        "Name": "SummonedMonsterDeathTrap",
+        "NameKey": "SummonedMonsterDeathTrapName",
+        "IconName": "SummonedMonsterDeathTrap"
+       },
+       "ModelType": "SummonedMonsterDeathTrap",
+       "DurationLeft": -1
+      }
+     ],
+     "Hp": 1680026,
+     "Spirit": 6,
+     "Id": 30,
+     "CachedBattleStats": {
+      "Vitality": 491236,
+      "WillPower": 491236,
+      "Strength": 491236,
+      "Intelligence": 491236,
+      "HP": 1680026,
+      "Atk": 840013,
+      "PAtk": 840013,
+      "PDef": 840013,
+      "MAtk": 840013,
+      "MDef": 840013
+     }
+    },
+    {
+     "Mi": {
+      "Xp": 588480,
+      "Awakening": 2,
+      "ModelType": "BearA"
+     },
+     "Buffs": [
+      {
+       "Buff": {
+        "Components": [
+         "12TimesScalarForBossHP"
+        ],
+        "Duration": -1,
+        "StackName": "BossBulk",
+        "DescriptionKey": "12xBossBulkDescription",
+        "Name": "12xBossBulk",
+        "NameKey": "12xBossBulkName",
+        "IconName": "12xBossBulk"
+       },
+       "ModelType": "12xBossBulk",
+       "DurationLeft": -518,
+       "TimeInBattle": 517,
+       "TurnsInBattle": 2
+      },
+      {
+       "Buff": {
+        "Components": [
+         "InstaKillSummonedEnemies"
+        ],
+        "Duration": -1,
+        "DescriptionKey": "SummonedMonsterDeathTrapDescription",
+        "Name": "SummonedMonsterDeathTrap",
+        "NameKey": "SummonedMonsterDeathTrapName",
+        "IconName": "SummonedMonsterDeathTrap"
+       },
+       "ModelType": "SummonedMonsterDeathTrap",
+       "DurationLeft": -518,
+       "TimeInBattle": 517,
+       "TurnsInBattle": 2
+      }
+     ],
+     "Hp": 6971232,
+     "TimeInBattle": 517,
+     "Kills": 3,
+     "Spirit": 4,
+     "Id": 28,
+     "CachedBattleStats": {
+      "Vitality": 491236,
+      "WillPower": 491236,
+      "Strength": 491236,
+      "Intelligence": 491236,
+      "HP": 10080156,
+      "Atk": 840013,
+      "PAtk": 840013,
+      "PDef": 840013,
+      "MAtk": 840013,
+      "MDef": 840013
+     }
+    },
+    {
+     "Mi": {
+      "Xp": 588480,
+      "Awakening": 2,
+      "ModelType": "OctopusC"
+     },
+     "Buffs": [
+      {
+       "Buff": {
+        "Components": [
+         "8TimesScalarForBossHP"
+        ],
+        "Duration": -1,
+        "StackName": "BossBulk",
+        "DescriptionKey": "8xBossBulkDescription",
+        "Name": "8xBossBulk",
+        "NameKey": "8xBossBulkName",
+        "IconName": "8xBossBulk"
+       },
+       "ModelType": "8xBossBulk",
+       "DurationLeft": -978,
+       "TimeInBattle": 977,
+       "TurnsInBattle": 7
+      },
+      {
+       "Buff": {
+        "Components": [
+         "InstaKillSummonedEnemies"
+        ],
+        "Duration": -1,
+        "DescriptionKey": "SummonedMonsterDeathTrapDescription",
+        "Name": "SummonedMonsterDeathTrap",
+        "NameKey": "SummonedMonsterDeathTrapName",
+        "IconName": "SummonedMonsterDeathTrap"
+       },
+       "ModelType": "SummonedMonsterDeathTrap",
+       "DurationLeft": -978,
+       "TimeInBattle": 977,
+       "TurnsInBattle": 7
+      },
+      {
+       "Buff": {
+        "Components": [
+         "TUReduc15"
+        ],
+        "ApplyEffect": "ShowLog",
+        "Duration": -1,
+        "Tags": [
+         "TUDown"
+        ],
+        "ApplyLog": "TUDownLog",
+        "DescriptionKey": "TUDownStackingDescription",
+        "Name": "TUDownStacking",
+        "NameKey": "TUDownStackingName",
+        "IconName": "TUDownStacking"
+       },
+       "ModelType": "TUDownStacking",
+       "DurationLeft": -908,
+       "TimeInBattle": 907,
+       "TurnsInBattle": 7
+      },
+      {
+       "Buff": {
+        "Components": [
+         "TUReduc15"
+        ],
+        "ApplyEffect": "ShowLog",
+        "Duration": -1,
+        "Tags": [
+         "TUDown"
+        ],
+        "ApplyLog": "TUDownLog",
+        "DescriptionKey": "TUDownStackingDescription",
+        "Name": "TUDownStacking",
+        "NameKey": "TUDownStackingName",
+        "IconName": "TUDownStacking"
+       },
+       "ModelType": "TUDownStacking",
+       "DurationLeft": -498,
+       "TimeInBattle": 497,
+       "TurnsInBattle": 4
+      }
+     ],
+     "Hp": 6720047,
+     "TimeInBattle": 977,
+     "Kills": 9,
+     "Spirit": 6,
+     "Id": 27,
+     "CachedBattleStats": {
+      "Vitality": 491236,
+      "WillPower": 491236,
+      "Strength": 491236,
+      "Intelligence": 491236,
+      "HP": 6720104,
+      "Atk": 840013,
+      "PAtk": 840013,
+      "PDef": 840013,
+      "MAtk": 840013,
+      "MDef": 840013
+     }
+    }
+   ],
+   "WinnerReinforcementCount": 3,
+   "WinnerNextReinforcement": "PenguinA",
+   "Queue": {
+    "50": 29,
+    "60": 30,
+    "144": 27,
+    "183": 28
+   }
+  }
+ },
+ "floor": 143,
+ "meta": {
+  "account": "sub",
+  "rank": 122,
+  "result": "lose",
+  "floor": 143,
+  "recRank": 117,
+  "baseScalar": 290.39
+ },
+ "account": "sub",
+ "fetchedAt": "2026-10-16"
+}

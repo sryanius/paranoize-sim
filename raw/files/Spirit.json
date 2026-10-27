@@ -1,0 +1,422 @@
+{
+  "SPBASEHP3": {
+    "Rarity": "R3",
+    "Stat": "HP",
+    "FamilyName": "SPBASEHP",
+    "Visible": true,
+    "Icon": "N"
+  },
+  "SPBASEATK3": {
+    "Rarity": "R3",
+    "Stat": "Atk",
+    "FamilyName": "SPBASEATK",
+    "Visible": true,
+    "Icon": "N"
+  },
+  "SPBASEPATK3": {
+    "Rarity": "R3",
+    "Stat": "PAtk",
+    "FamilyName": "SPBASEPATK",
+    "Visible": true,
+    "Icon": "N"
+  },
+  "SPBASEPDEF3": {
+    "Rarity": "R3",
+    "Stat": "PDef",
+    "FamilyName": "SPBASEPDEF",
+    "Visible": true,
+    "Icon": "N"
+  },
+  "SPBASEMATK3": {
+    "Rarity": "R3",
+    "Stat": "MAtk",
+    "FamilyName": "SPBASEMATK",
+    "Visible": true,
+    "Icon": "N"
+  },
+  "SPBASEMDEF3": {
+    "Rarity": "R3",
+    "Stat": "MDef",
+    "FamilyName": "SPBASEMDEF",
+    "Visible": true,
+    "Icon": "N"
+  },
+  "SPBASEHP4": {
+    "Rarity": "R4",
+    "Stat": "HP",
+    "FamilyName": "SPBASEHP",
+    "Visible": true,
+    "Icon": "N"
+  },
+  "SPBASEATK4": {
+    "Rarity": "R4",
+    "Stat": "Atk",
+    "FamilyName": "SPBASEATK",
+    "Visible": true,
+    "Icon": "N"
+  },
+  "SPBASEPATK4": {
+    "Rarity": "R4",
+    "Stat": "PAtk",
+    "FamilyName": "SPBASEPATK",
+    "Visible": true,
+    "Icon": "N"
+  },
+  "SPBASEPDEF4": {
+    "Rarity": "R4",
+    "Stat": "PDef",
+    "FamilyName": "SPBASEPDEF",
+    "Visible": true,
+    "Icon": "N"
+  },
+  "SPBASEMATK4": {
+    "Rarity": "R4",
+    "Stat": "MAtk",
+    "FamilyName": "SPBASEMATK",
+    "Visible": true,
+    "Icon": "N"
+  },
+  "SPBASEMDEF4": {
+    "Rarity": "R4",
+    "Stat": "MDef",
+    "FamilyName": "SPBASEMDEF",
+    "Visible": true,
+    "Icon": "N"
+  },
+  "SPBASEHP5": {
+    "Rarity": "R5",
+    "Stat": "HP",
+    "FamilyName": "SPBASEHP",
+    "Visible": true,
+    "Icon": "R"
+  },
+  "SPBASEATK5": {
+    "Rarity": "R5",
+    "Stat": "Atk",
+    "FamilyName": "SPBASEATK",
+    "Visible": true,
+    "Icon": "R"
+  },
+  "SPBASEPATK5": {
+    "Rarity": "R5",
+    "Stat": "PAtk",
+    "FamilyName": "SPBASEPATK",
+    "Visible": true,
+    "Icon": "R"
+  },
+  "SPBASEPDEF5": {
+    "Rarity": "R5",
+    "Stat": "PDef",
+    "FamilyName": "SPBASEPDEF",
+    "Visible": true,
+    "Icon": "R"
+  },
+  "SPBASEMATK5": {
+    "Rarity": "R5",
+    "Stat": "MAtk",
+    "FamilyName": "SPBASEMATK",
+    "Visible": true,
+    "Icon": "R"
+  },
+  "SPBASEMDEF5": {
+    "Rarity": "R5",
+    "Stat": "MDef",
+    "FamilyName": "SPBASEMDEF",
+    "Visible": true,
+    "Icon": "R"
+  },
+  "SPBASEHP6": {
+    "Rarity": "R6",
+    "Stat": "HP",
+    "FamilyName": "SPBASEHP",
+    "Visible": true,
+    "Icon": "R"
+  },
+  "SPBASEATK6": {
+    "Rarity": "R6",
+    "Stat": "Atk",
+    "FamilyName": "SPBASEATK",
+    "Visible": true,
+    "Icon": "R"
+  },
+  "SPBASEPATK6": {
+    "Rarity": "R6",
+    "Stat": "PAtk",
+    "FamilyName": "SPBASEPATK",
+    "Visible": true,
+    "Icon": "R"
+  },
+  "SPBASEPDEF6": {
+    "Rarity": "R6",
+    "Stat": "PDef",
+    "FamilyName": "SPBASEPDEF",
+    "Visible": true,
+    "Icon": "R"
+  },
+  "SPBASEMATK6": {
+    "Rarity": "R6",
+    "Stat": "MAtk",
+    "FamilyName": "SPBASEMATK",
+    "Visible": true,
+    "Icon": "R"
+  },
+  "SPBASEMDEF6": {
+    "Rarity": "R6",
+    "Stat": "MDef",
+    "FamilyName": "SPBASEMDEF",
+    "Visible": true,
+    "Icon": "R"
+  },
+  "SPBASEHP7": {
+    "Rarity": "R7",
+    "Stat": "HP",
+    "FamilyName": "SPBASEHP",
+    "Visible": true,
+    "Icon": "R"
+  },
+  "SPBASEATK7": {
+    "Rarity": "R7",
+    "Stat": "Atk",
+    "FamilyName": "SPBASEATK",
+    "Visible": true,
+    "Icon": "R"
+  },
+  "SPBASEPATK7": {
+    "Rarity": "R7",
+    "Stat": "PAtk",
+    "FamilyName": "SPBASEPATK",
+    "Visible": true,
+    "Icon": "R"
+  },
+  "SPBASEPDEF7": {
+    "Rarity": "R7",
+    "Stat": "PDef",
+    "FamilyName": "SPBASEPDEF",
+    "Visible": true,
+    "Icon": "R"
+  },
+  "SPBASEMATK7": {
+    "Rarity": "R7",
+    "Stat": "MAtk",
+    "FamilyName": "SPBASEMATK",
+    "Visible": true,
+    "Icon": "R"
+  },
+  "SPBASEMDEF7": {
+    "Rarity": "R7",
+    "Stat": "MDef",
+    "FamilyName": "SPBASEMDEF",
+    "Visible": true,
+    "Icon": "R"
+  },
+  "SPBASEHP8": {
+    "Rarity": "R8",
+    "Stat": "HP",
+    "FamilyName": "SPBASEHP",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEATK8": {
+    "Rarity": "R8",
+    "Stat": "Atk",
+    "FamilyName": "SPBASEATK",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEPATK8": {
+    "Rarity": "R8",
+    "Stat": "PAtk",
+    "FamilyName": "SPBASEPATK",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEPDEF8": {
+    "Rarity": "R8",
+    "Stat": "PDef",
+    "FamilyName": "SPBASEPDEF",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEMATK8": {
+    "Rarity": "R8",
+    "Stat": "MAtk",
+    "FamilyName": "SPBASEMATK",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEMDEF8": {
+    "Rarity": "R8",
+    "Stat": "MDef",
+    "FamilyName": "SPBASEMDEF",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEHP9": {
+    "Rarity": "R9",
+    "Stat": "HP",
+    "FamilyName": "SPBASEHP",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEATK9": {
+    "Rarity": "R9",
+    "Stat": "Atk",
+    "FamilyName": "SPBASEATK",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEPATK9": {
+    "Rarity": "R9",
+    "Stat": "PAtk",
+    "FamilyName": "SPBASEPATK",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEPDEF9": {
+    "Rarity": "R9",
+    "Stat": "PDef",
+    "FamilyName": "SPBASEPDEF",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEMATK9": {
+    "Rarity": "R9",
+    "Stat": "MAtk",
+    "FamilyName": "SPBASEMATK",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEMDEF9": {
+    "Rarity": "R9",
+    "Stat": "MDef",
+    "FamilyName": "SPBASEMDEF",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEHP10": {
+    "Rarity": "R10",
+    "Stat": "HP",
+    "FamilyName": "SPBASEHP",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEATK10": {
+    "Rarity": "R10",
+    "Stat": "Atk",
+    "FamilyName": "SPBASEATK",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEPATK10": {
+    "Rarity": "R10",
+    "Stat": "PAtk",
+    "FamilyName": "SPBASEPATK",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEPDEF10": {
+    "Rarity": "R10",
+    "Stat": "PDef",
+    "FamilyName": "SPBASEPDEF",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEMATK10": {
+    "Rarity": "R10",
+    "Stat": "MAtk",
+    "FamilyName": "SPBASEMATK",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEMDEF10": {
+    "Rarity": "R10",
+    "Stat": "MDef",
+    "FamilyName": "SPBASEMDEF",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEHP11": {
+    "Rarity": "R11",
+    "Stat": "HP",
+    "FamilyName": "SPBASEHP",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEATK11": {
+    "Rarity": "R11",
+    "Stat": "Atk",
+    "FamilyName": "SPBASEATK",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEPATK11": {
+    "Rarity": "R11",
+    "Stat": "PAtk",
+    "FamilyName": "SPBASEPATK",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEPDEF11": {
+    "Rarity": "R11",
+    "Stat": "PDef",
+    "FamilyName": "SPBASEPDEF",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEMATK11": {
+    "Rarity": "R11",
+    "Stat": "MAtk",
+    "FamilyName": "SPBASEMATK",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPBASEMDEF11": {
+    "Rarity": "R11",
+    "Stat": "MDef",
+    "FamilyName": "SPBASEMDEF",
+    "Visible": true,
+    "Icon": "SR"
+  },
+  "SPEVEHP": {
+    "Rarity": "R12",
+    "Stat": "HP",
+    "FamilyName": "SPEVEHP",
+    "Visible": false,
+    "Icon": "SSR"
+  },
+  "SPEVEPDEF": {
+    "Rarity": "R12",
+    "Stat": "PDef",
+    "FamilyName": "SPEVEPDEF",
+    "Visible": false,
+    "Icon": "SSR"
+  },
+  "SPEVEMDEF": {
+    "Rarity": "R12",
+    "Stat": "MDef",
+    "FamilyName": "SPEVEMDEF",
+    "Visible": false,
+    "Icon": "SSR"
+  },
+  "SPEVEATK": {
+    "Rarity": "R12",
+    "Stat": "Atk",
+    "FamilyName": "SPEVEATK",
+    "Visible": false,
+    "Icon": "SSR"
+  },
+  "SPEVEPATK": {
+    "Rarity": "R12",
+    "Stat": "PAtk",
+    "FamilyName": "SPEVEPATK",
+    "Visible": false,
+    "Icon": "SSR"
+  },
+  "SPEVEMATK": {
+    "Rarity": "R12",
+    "Stat": "MAtk",
+    "FamilyName": "SPEVEMATK",
+    "Visible": false,
+    "Icon": "SSR"
+  }
+}

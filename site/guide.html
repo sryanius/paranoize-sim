@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>공략 — 패러노이즈 자료실</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+<style>
+.src{font-size:11px;color:var(--faint);margin-left:6px}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 0}
+.toc a{font-size:12px;color:var(--muted);text-decoration:none;border:1px solid var(--line);border-radius:99px;padding:3px 10px;background:var(--surface)}
+.warn{border-left:3px solid var(--ssr);padding:6px 12px;background:var(--raised);font-size:13px;margin:10px 0}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
+</style>
+</head>
+<body>
+<div class="wrap doc">
+<header>
+  <p class="eyebrow">예스님 통합 공략 노트 v20261008 · paralabo.jp · 폰 데이터 대조</p>
+  <h1>공략</h1>
+  <p class="lede">예스님이 정리한 통합 공략 노트를 바탕으로, 폰에서 받은 데이터와 맞는 것은 그대로 두고 데이터로 확인되는 숫자는 출처를 달았습니다.
+  <b>«검증»</b> 은 데이터·코드로 확인한 것, <b>«공략»</b> 은 사람이 정리한 경험칙입니다.</p>
+  <div class="toc"><a href="#event">이벤트</a><a href="#growth">성장</a><a href="#daily">일과</a><a href="#base">거점 콘텐츠</a><a href="#camp">합숙</a><a href="#gacha">뽑기·다이아</a><a href="#role">캐릭터 역할</a><a href="#team">팀 편성</a><a href="#potential">잠재 능력</a><a href="#mats">소모 재료</a><a href="#battle">전투·포이즌</a></div>
+</header>
+
+<h2 id="event">1. 이벤트 <span class="src">공략</span></h2>
+<h3>와니나시 금융 (다이아 복사)</h3>
+<ul>
+<li>매달 2회 — 1일 / 15~17일 중 하루(월 28일→15, 29·30일→16, 31일→17).</li>
+<li>30,000 다이아를 들고 투자한 뒤 여유분만 쓴다. 서버 2~3개월·신규 서버 3일~1주 안에 3만을 맞추면 매월 다이아가 크게 늘어난다.</li>
+</ul>
+<h3>레이드 미션</h3>
+<ul>
+<li>7일 × 2회 × 3전투 = 42전투(12:45·13:45 / 19:45·20:45). 최종 380별 → 평균 9.05별, 하루 55별.</li>
+<li>구성: 9별×39회 + 10별×3회. 상위 3개 중 별 최고 2 + 홀리카우 1(최고가 홀리카우면 홀리카우 2~3).</li>
+<li>SSR 장신구 — 180별 / 평균 4.28별 / 하루 26별.</li>
+</ul>
+<h3>기타</h3>
+<ul>
+<li><b>광산 미션</b> — 야나기바 광산에 쓴 다이아 만큼 추가 보상. 주력 완돌 뒤 SSR 무기 교환 재료 수급처.</li>
+<li><b>데일리 결제</b> — VIP 포인트 600 결제. 최종 보상은 투귀공명 가능한 캐릭터 우선.</li>
+<li><b>다이아 상점 2배</b> — 매월 1일 리셋. <b>증가 룰렛</b> — 충전 40~80% 추가(2배와 중복 안 됨).</li>
+</ul>
+<h3>상시</h3>
+<ul>
+<li><b>야나기바 광산 · 혼다의 극비 조사</b> — 3~4일마다 정오 리셋. 마지막날 오전+첫날 오후 = 하루 무료 2회, 주기마다 최대 5회.</li>
+<li><b>레이카의 야망</b> — 실시간 참가 못 해도 선전포고 당한 거점에 방어를 넣어야 보상. 서버판 14일 주기(13+휴식 1) 매일 9:00~9:45 · 9:30 이후 점령(보호 15분). 전국판 7일 주기(6+1) 10:00~10:45 · 10:30 이후 점령.
+  <span class="src">검증: ClientConfig WarSchedule Length 13 · ClusterWarSchedule Length 6 — 일정 길이는 데이터와 일치</span></li>
+</ul>
+
+<h2 id="growth">2. 성장 <span class="src">공략</span></h2>
+<ul>
+<li>메인 캐릭터를 잡고 올인. 우선순위 <b>풀각(완돌) &gt; 풀메모리 &gt; SSR</b>.</li>
+<li>추천 기본 캐릭터: 안나 / 쇼코 / 유이 / 류 / 미나미.</li>
+<li>완돌이 늘수록 <b>투혼공명</b> 보너스로 지수적으로 강해진다. 길드는 야망 랭킹 16위 안이면 육성 재료 유입이 좋고, 혼자면 300다이아 1인 길드도 가능.</li>
+</ul>
+
+<h2 id="daily">3. 일과 <span class="src">공략</span></h2>
+<ul>
+<li>뽑기·VIP 특전 → 정오 데일리 보상 · 모쿠마루 탭(육성 재료, 가끔 햄) · 본편 보기 · 건설 순위 보상.</li>
+<li>프리미엄샵 <b>100다이아 무지개 사과</b> 매일 구매. 마을 방치 수입은 전부 시설 강화에 → 다이아.</li>
+</ul>
+<table><tr><th>콘텐츠</th><th>횟수</th><th>주요 보상</th></tr>
+<tr><td>조사(땅굴)</td><td class="mono">1일 3회 무료</td><td>무기 · 육성 재료 <span class="src">검증: HTTowerDescription «하루 3회 회복»</span></td></tr>
+<tr><td>야나기바 바이트(광산)</td><td>매일</td><td>육성 · 장비 재료</td></tr>
+<tr><td>혼다 수사</td><td>매일</td><td>육성 재료</td></tr>
+<tr><td>정체불명의 유적</td><td>제한 없음</td><td>다이아 · 육성 재료 (160층 목표) <span class="src">검증: 최대 400층(ClientConfig MaxConquestLevel)</span></td></tr></table>
+
+<h2 id="base">4. 거점 콘텐츠 <span class="src">공략</span></h2>
+<ul>
+<li><b>정체불명의 유적</b> — 1~4부대(24명)로 도전. 최대한 밀기(재도전하다 보면 밀린다). <span class="src">검증: «팀 화면에서 편성한 부대로 도전» · 영문 «first 4 Squads»</span></li>
+<li><b>투기장</b> — 1일 5회, 매일 21:00 랭킹. 이길 수 있는 상대만 고르면 보상이 는다. 초반에도 2,000위권 목표 가능. 상점은 무과금 열쇠 시리즈, 과금은 S급 패러노이즈 코어.</li>
+<li><b>콜로세움</b> — 첫째 날 10:00~12:00 무료 10회. 집계 매일 21:00 — 순위를 노리면 집계 직전에 공격.</li>
+</ul>
+<div class="cols">
+<table><tr><th>콜로세움</th><th>점수</th></tr><tr><td>공격 성공</td><td class="mono">+20 이상</td></tr><tr><td>공격 실패</td><td class="mono">+10</td></tr><tr><td>방어 실패</td><td class="mono">−10</td></tr><tr><td>상위에 공격 성공</td><td>상대 점수 하락</td></tr></table>
+<table><tr><th>투기장 순위</th><th>월간 다이아(목표)</th></tr><tr><td>1위</td><td class="mono">약 24,000</td></tr><tr><td>2~3위</td><td>많음</td></tr><tr><td>4~10위</td><td>중간</td></tr><tr><td>11위 이하</td><td>적음</td></tr></table>
+</div>
+
+<h2 id="camp">5. 합숙 <span class="src">공략 · 게임 캠페인 화면</span></h2>
+<ul>
+<li>티켓(스톱워치)은 <b>통솔 EXP 2.5배</b>(목·일)에 쓴다. 통솔&amp;코인 2배도 나쁘지 않다.</li>
+<li>합숙 전에 유적부터 최대로 밀어 둔다.</li>
+</ul>
+<table><tr><th>보너스</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th><th>토</th><th>일</th></tr>
+<tr><td>코인 2배</td><td></td><td>✓</td><td></td><td></td><td>✓</td><td></td><td></td></tr>
+<tr><td>통솔 EXP 2.5배</td><td></td><td></td><td></td><td>✓</td><td></td><td></td><td>✓</td></tr>
+<tr><td>통솔 EXP 1.5배</td><td>✓</td><td></td><td></td><td></td><td>✓</td><td></td><td></td></tr>
+<tr><td>합숙 EXP·코인 2배</td><td></td><td></td><td>✓</td><td></td><td></td><td>✓</td><td></td></tr>
+<tr><td>정체불명 ROM 2배</td><td>✓</td><td></td><td></td><td>✓</td><td></td><td></td><td>✓</td></tr>
+<tr><td>합숙 아이템 상한 2배</td><td></td><td>✓</td><td></td><td></td><td></td><td>✓</td><td></td></tr></table>
+<p class="note">요일 우선순위(EXP &gt; ROM &gt; 코인): 목·일 &gt; 수·토 &gt; 월 &gt; 금 &gt; 화.</p>
+
+<h2 id="gacha">6. 뽑기 · 다이아 · 과금 <span class="src">공략</span></h2>
+<ul>
+<li>노리는 대표 캐릭터 뽑기에 집중. <b>500번 천장</b>. 기간 한정은 풀각 노릴 게 아니면 스킵.</li>
+<li>에리카처럼 레벨만 올려도 100% 발동 스킬이 있는 캐릭터는 완돌이 아니어도 보조로 쓸 만하다(4부대 = 24명이 필요하다).</li>
+<li>다이아 사용 순서: ① 대표 풀각/풀메모리 → ② 광산 미션 때 야나기바 광산 → ③ 혼다 극비 조사 → ④ 프리미엄 상점 패러노이즈 코어 ×10.</li>
+<li>결제 순서: 월간 슈퍼 → 스텝 구독 → 고급 로그인 보너스 → 데일리 상점. 소과금: 7Days 빅+미니, 초심자샵, 먼슬리팩, 주간 구독(VIP3 에서 경험치팩). 폐과금: 광산 피켈 매일, SSR 무기·갑옷·방패 3점, 육성 캐릭 완돌 최우선.</li>
+</ul>
+
+<h2 id="role">7. 캐릭터 역할 <span class="src">공략 · 스킬 수치는 데이터</span></h2>
+<ul>
+<li><b>주딜러</b> — 5·6배 등 큰 배율(2기·전체면 더 좋다). 예: 포이즌 이터(독 걸린 적 ×4) · 드림헌터 · 서바이버 · 고군분투.</li>
+<li><b>보조딜러</b> — 전체·2기·독·신속·강화 등 적당한 배율. 예: 포이즌 스킨, 빅봄, 전체 스킬.</li>
+<li><b>보조</b> — 가드·스턴·슬립·힐·턴 부여(오토·복수·자폭·입장 발동). 예: 입장 슬립, 자폭 스턴, 복수 슬립, 스턴 스킨, 오토 가드.</li>
+<li><b>더미</b> — 근성(HoldGround)이 있으면 두 대를 맞아 준다.</li>
+</ul>
+<h3>능력치</h3>
+<ul>
+<li>물리 공격수는 물리 공격력으로 때리고 물리 방어력으로 깎인다. 특수 공격수는 특수 공격력 ↔ 특수 방어력. 반대쪽 스탯은 쓰이지 않는다.</li>
+<li>기본 스탯: 근력 = 공격력/물리 공격력 · 체력 = HP/물리 방어력 · 기력 = 공격력/특수 공격력 · 지력 = HP/특수 방어력. <span class="src">데이터: Strength/Vitality/WillPower/Intelligence · 게임 표기 «기력»=WillPower</span></li>
+<li>전투 스탯: 공격력은 물리·특수 모두에 더해진다.</li>
+</ul>
+<h3>장비</h3>
+<ul>
+<li>캐릭터가 집중하는 스탯에 맞는 장비를 강화(리셋 가능). 야나기바 광산에서 채굴. SSR/SR/R 은 조사 재료로 100 이상 5단위 레벨업.</li>
+<li>메모리 → 공격력/HP · 무기 → HP/공격력 · 방패 → 특수 공격/특수 방어 · 갑옷 → 물리 공격/물리 방어 · 장신구 → 전투 능력치(주딜러: 공격력·타입 공격력 + HP/물방/특방) · 비석은 장신구 세팅에 맞춰.</li>
+</ul>
+
+<h2 id="team">8. 팀 편성 <span class="src">공략</span></h2>
+<ul>
+<li>주딜러 1순위. 보조는 주딜러 조건을 맞출수록 / 조건이 쉬울수록(스킨 &gt; 입장 &gt; 복수 &gt; 자폭) / 발동 확률 높을수록 / 전체·2기 대상 많을수록 / TU 짧을수록.</li>
+<li>보조딜러는 대상이 많을수록, 더미는 근성.</li>
+</ul>
+<table><tr><th>메인 부대 칸</th><th>역할</th></tr>
+<tr><td class="mono">1</td><td>오토</td></tr><tr><td class="mono">2</td><td>주딜러</td></tr><tr><td class="mono">3</td><td>반격 · 자폭 · 복수 · 스킨 · 더미</td></tr><tr><td class="mono">4</td><td>자폭 · 복수 · 스킨 · 더미</td></tr><tr><td class="mono">5</td><td>입장</td></tr><tr><td class="mono">6</td><td>입장 · 보조딜러 · 보조 · 더미</td></tr></table>
+<p class="note">2~4부대: 주딜러가 또 있으면 메인처럼, 아니면 입장/스킨/복수/자폭/보조딜러/더미를 우선순위대로 분배.</p>
+
+<h2 id="potential">9. 잠재 능력 플랜 <span class="src">공략 · 자매작 도쿄 디방커 검증값 — 같은 엔진</span></h2>
+<div class="warn">파라노이즈 코드에 <code>CalculatePotentialClassA/B/C/S</code> 함수가 있어 구조는 같다. 수치는 아직 코드로 대조하지 않았다.</div>
+<table><tr><th>플랜</th><th>재료</th><th>기본 효과</th><th>감쇠 시작</th><th>범위</th></tr>
+<tr><td>C</td><td>능력약 C</td><td class="mono">+30</td><td class="mono">15%</td><td>35% 까지</td></tr>
+<tr><td>B</td><td>능력약 B</td><td class="mono">+48</td><td class="mono">25%</td><td>100% 까지</td></tr>
+<tr><td>A</td><td>능력약 A</td><td class="mono">+80</td><td class="mono">60%</td><td>100% 까지</td></tr>
+<tr><td>S</td><td>다이아 200</td><td class="mono">+140</td><td>없음</td><td>0~100%</td></tr></table>
+<ul>
+<li>★ C = 15% 유지 · ★ B = 25% 유지 · ★ A = 60% 유지. 15~20% C → 20~25% B(C 가 많이 남으면 C) → 25~57.5% B &gt; A → 57.5~60% A → 60~69.8% A &gt; B → 69.8% 이후 전부 고정값.</li>
+<li>잠재 능력에 다이아(S)는 지양 — 다이아는 완돌에.</li>
+</ul>
+<details><summary>플랜 C 감쇠표 (15%→27%: 30→1, 27~35% 1 고정, 35% 이후 사용 불가)</summary>
+<p class="mono" style="font-size:12px">~15% 30 · 15.00 29 · 15.21 28 · 15.42 27 · 15.64 26 · 15.85 25 · 16.07 24 · 16.28 23 · 16.50 22 · 16.71 21 · 16.92 20 · 17.14 19 · 17.35 18 · 17.57 17 · 17.78 16 · 18.00 15 · 18.40 14 · 18.80 13 · 19.20 12 · 19.60 11 · 20.00 10 · 20.77 9 · 21.55 8 · 22.33 7 · 23.10 6 · 23.88 5 · 24.66 4 · 25.44 3 · 26.21 2 · 26.99 1</p></details>
+<details><summary>플랜 B 감쇠표 (25%→57.5%: 48→10, 57.5~100% 10 고정)</summary>
+<p class="mono" style="font-size:12px">~25% 48 · 25.00 47 · 26.25 46 · 27.50 45 · 28.75 44 · 30.00 43 · 31.25 42 · 32.50 41 · 33.75 40 · 35.00 39 · 35.33 38 · 35.66 37 · 36.00 36 · 36.33 35 · 36.66 34 · 37.00 33 · 37.33 32 · 37.66 31 · 38.00 30 · 38.33 29 · 38.66 28 · 39.00 27 · 39.33 26 · 39.66 25 · 40.00 24 · 40.33 23 · 40.66 22 · 41.00 21 · 41.33 20 · 41.66 19 · 42.00 18 · 42.33 17 · 42.66 16 · 45.00 15 · 47.50 14 · 50.00 13 · 52.50 12 · 55.00 11 · 57.50 10</p></details>
+<details><summary>플랜 A 감쇠표 (60%→69.8%: 80→30, 이후 30 고정)</summary>
+<p class="mono" style="font-size:12px">~60% 80, 60.0% 부터 0.2%p 마다 1 씩 감소(60.0 79 · 60.2 78 · … · 69.6 31) · 69.8~100% 30</p></details>
+
+<h2 id="mats">10. 소모 재료 필요량 <span class="src">공략 · 사과 수치는 도쿄 디방커</span></h2>
+<div class="cols">
+<table><tr><th>돌파 Lv</th><th>R</th><th>SR</th><th>SSR</th></tr>
+<tr><td class="mono">25</td><td class="mono">30</td><td class="mono">50</td><td class="mono">60</td></tr>
+<tr><td class="mono">50</td><td class="mono">60</td><td class="mono">100</td><td class="mono">120</td></tr>
+<tr><td class="mono">75</td><td class="mono">90</td><td class="mono">200</td><td class="mono">240</td></tr>
+<tr><td class="mono">100</td><td class="mono">120</td><td class="mono">300</td><td class="mono">360</td></tr>
+<tr><td class="mono">125</td><td class="mono">150</td><td class="mono">400</td><td class="mono">480</td></tr>
+<tr><td class="mono">150</td><td>R 만렙</td><td class="mono">600</td><td class="mono">720</td></tr>
+<tr><td class="mono">175</td><td>—</td><td>SR 만렙</td><td class="mono">900</td></tr>
+<tr><td class="mono">200</td><td>—</td><td>—</td><td>SSR 만렙</td></tr>
+<tr><td>합계(무지개 사과)</td><td class="mono">450</td><td class="mono">1,650</td><td class="mono">2,880</td></tr></table>
+<table><tr><th>레벨 구간</th><th>구간 적사과</th><th>누적</th></tr>
+<tr><td class="mono">1→25</td><td class="mono">12,060</td><td class="mono">12,060</td></tr>
+<tr><td class="mono">25→50</td><td class="mono">47,000</td><td class="mono">59,060</td></tr>
+<tr><td class="mono">50→75</td><td class="mono">173,500</td><td class="mono">232,560</td></tr>
+<tr><td class="mono">75→100</td><td class="mono">324,750</td><td class="mono">557,310</td></tr>
+<tr><td class="mono">100→125</td><td class="mono">496,000</td><td class="mono">1,053,310</td></tr>
+<tr><td class="mono">125→150</td><td class="mono">646,000</td><td class="mono">1,699,310</td></tr>
+<tr><td class="mono">150→175</td><td class="mono">883,500</td><td class="mono">2,582,810</td></tr>
+<tr><td class="mono">175→200</td><td class="mono">1,173,500</td><td class="mono">3,756,310</td></tr></table>
+</div>
+<div class="warn">폰 데이터 <code>ClientConfig.CharPostCardXp</code>(1~200 누적표)와 대조해 봤는데 비율이 일정하지 않아 <b>다른 표</b>다(캐릭터 레벨 적사과가 아님). 적사과 수치는 아직 데이터로 확인하지 못했다.</div>
+<h3>메모리 · 장비 · 비석</h3>
+<ul>
+<li>링크 보너스 — 강화 레벨에 따라 스택 수치 상승(Lv150 진화 시 약 +27%, 미확정). 링크 보너스 발동 SSR 메모리만 강화.</li>
+<li>극비 필름 — 메모리 Lv40+ 필수(광산 알바 가챠 8회=2 / 20회=3 / 40회=5 확정, 혼다 1일 1회). 패러노이즈 코어 — Lv100+ 필수(프리미엄샵 3,000 다이아).</li>
+<li>장비 — 야나기바 광산(1일 1회, 화·금 2회 무료). 비석 — 데일리·보물상자·비석샵. 비석 강화 재료는 레이드(12:45 / 19:45). 낮은 Lv 보다 높은 Lv 직접 구매가 절약.</li>
+</ul>
+<table><tr><th>대상</th><th>시점</th><th>필요 재료</th></tr>
+<tr><td>메모리</td><td class="mono">Lv40 돌파</td><td>극비 필름(파랑)</td></tr>
+<tr><td>메모리</td><td class="mono">Lv100 돌파</td><td>패러노이즈 코어 ×10</td></tr>
+<tr><td>메모리</td><td class="mono">Lv150 돌파</td><td>S급 패러노이즈 코어 ×20</td></tr>
+<tr><td>장비(SSR) 제작</td><td>1개</td><td>제작 재료(금) ×140</td></tr>
+<tr><td>장신구(SSR)</td><td class="mono">Lv150 돌파</td><td>S급 코어 ×10</td></tr></table>
+<h3>심연화 (SS→SSS)</h3>
+<ul>
+<li>SSR 장비 Lv150 까지 강화 → S급 코어 흡수 → «심연» 진화. 무기·갑옷·방패는 SSR 광석+코인, 메모리는 코인+필름.</li>
+<li>S급 코어: 메모리 20 · 무기 10 · 갑옷 10 · 방패 10 = 캐릭터당 50. 교환: 투기장 메달 1,500 = 1개 · 트로피 1,000 = 1개. 매일 5승(메달 50)+트로피 30+주간 500 → 풀강화 약 1년.</li>
+<li>강화 순서 — 물리형: 무기 → 갑옷 → 메모리 → 방패 / 특수형: 무기 → 방패 → 메모리 → 갑옷.</li>
+</ul>
+<table><tr><th>도달 Lv</th><th>R</th><th>SR</th><th>SSR</th></tr>
+<tr><td class="mono">105~115</td><td class="mono">2</td><td class="mono">5</td><td class="mono">10</td></tr>
+<tr><td class="mono">120~125</td><td class="mono">2</td><td class="mono">10</td><td class="mono">20</td></tr>
+<tr><td class="mono">130~135</td><td class="mono">3</td><td class="mono">10</td><td class="mono">20</td></tr>
+<tr><td class="mono">140~150</td><td class="mono">3</td><td class="mono">15</td><td class="mono">30</td></tr>
+<tr><td class="mono">155</td><td>MAX</td><td class="mono">15</td><td class="mono">30</td></tr>
+<tr><td class="mono">160</td><td>MAX</td><td class="mono">15</td><td>?</td></tr></table>
+<p class="note">장비 Lv업 광석 수는 사용자 확인분. ? 는 미확인.</p>
+
+<h2 id="battle">11. 전투 · 포이즌 <span class="src">paralabo 전투 메커니즘(사용자 검증) · 데이터</span></h2>
+<ul>
+<li><b>피해 = (공격력 + 물공/특공 − 상대 물방/특방) × 0.2 × 스킬 배율 × 속성 배율</b>. 공격력과 물공/특공은 곱이 아니라 합. 난수 없음 — 같은 조건이면 같은 피해. <span class="src">paralabo</span></li>
+<li>속성 유리 ×1.25 · 불리 ×0.8 — 코드로 확정. 상성은 <b>암(보라) &gt; 지(초록) &gt; 광(노랑) &gt; 암</b>(내부 이름 Fire=암 · Earth=지 · Water=광). 치명타 2배 · 약 8%(다단 히트는 타마다 따로)는 공략 쪽 수치. <span class="src">검증(속성) · 공략(치명타)</span></li>
+<li>학원(통솔) 레벨이 피해에 크게 영향(높을수록 받는 피해↓ 주는 피해↑). TU 가 낮을수록 먼저 행동, 참전 TU ≈ (1000 − 민첩)/10. <span class="src">공략</span></li>
+<li><b>독</b> — 독을 건 캐릭터의 공격력에 의존, 방어 무시. 속성별 지 9.375% · 암 7.5% · 광 6%. 적 폭주 발동 시 독이 지워진다. 독·반동 자멸은 «2킬» 조건에 안 센다. <span class="src">paralabo · 공략 — 데이터: 독 틱 BaseDamageScalar 0.375(BuffPoisonDamage)</span></li>
+<li>데이터에서 읽은 TU: 기본 어택 150(1기) · 160(2기) · 포이즌 이터 130 · 역경 드레인 160(MP 3) · 적 보스 «헤비 어택» 350 · «강화 어택(전체)» 300. <span class="src">검증</span></li>
+</ul>
+<footer>원본 노트 출처: github.com/jung88/hobby #1 · paralabo.jp · Tokyo Debunker Wiki · パラナビ. 이 페이지는 2026-10-15 정리.</footer>
+</div>
+<script src="nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>패러노이즈 자료실</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="eyebrow">Paranoize · 1.2.0 (versionCode 410) · 데이터 2026-10-15</p>
+  <h1>패러노이즈 자료실</h1>
+  <p class="lede">게임이 폰에 내려받은 마스터 데이터와 한국어 문자열을 그대로 읽어 만든 사전과 시뮬레이터입니다.
+  숫자는 전부 데이터 파일에서 왔고, 출처가 사람 검증(공략)인 것은 따로 표시합니다.</p>
+</header>
+<div class="cards" id="cards">
+  <a class="card" href="chars.html"><h2>캐릭터</h2><p>SSR·SR·R 전원의 기본 스탯, 액티브·패시브·고유 스킬(배율·TU·조건)을 한국어로.</p><div class="figs" id="f-chars"></div></a>
+  <a class="card" href="enemies.html"><h2>유적의 적</h2><p>정체불명의 유적에 나오는 패러노이즈 18종 × A/B/C 변형의 스킬과 속성.</p><div class="figs" id="f-enemies"></div></a>
+  <a class="card" href="guide.html"><h2>공략</h2><p>이벤트 주기·성장 순서·편성 틀·잠재 능력 플랜·재료 필요량. 예스님의 통합 공략 노트를 데이터와 대조해 정리.</p></a>
+  <a class="card" href="ruins.html"><h2>유적 시뮬</h2><p>실제 도전 기록의 적·내 24명으로 승률과 처치 수 분포를 굴리고, 출동 순서 개선안을 비교합니다.</p></a>
+  <a class="card" href="arena.html"><h2>투기장 덱</h2><p>투기장 기록의 상대 덱과 내 24명으로 상대별 승률을 굴리고, 야망용 반을 묶은 채 추천 순서를 비교합니다.</p></a>
+  <a class="card" href="pvp.html"><h2>PvP 편성</h2><p>투기장 · 레이카의 야망 · 크로스 월드의 부대 수 제한에 맞춘 편성과 영입 추천. (준비 중)</p></a>
+</div>
+<footer>데이터: 폰 <code>files/*.json</code> · UnityCache 로컬라이즈 표. 공략 출처: 예스님 통합 공략 노트 v20261008 · paralabo.jp.</footer>
+</div>
+<script src="src.js"></script>
+<script src="nav.js"></script>
+<script>
+fetch(PARA_DATA+'characters.json').then(r=>r.json()).then(d=>{
+  const v=Object.values(d); const n=r=>v.filter(c=>c.rarity===r).length;
+  document.getElementById('f-chars').innerHTML=[['SSR',n('SSR')],['SR',n('SR')],['R',n('R')]].map(([k,x])=>`<div class="fig"><b>${x}</b><span>${k}</span></div>`).join('');
+});
+fetch(PARA_DATA+'enemies.json').then(r=>r.json()).then(d=>{
+  const v=Object.values(d);
+  document.getElementById('f-enemies').innerHTML=`<div class="fig"><b>${new Set(v.map(e=>e.species)).size}</b><span>종족</span></div><div class="fig"><b>${v.length}</b><span>변형</span></div>`;
+});
+</script>
+</body>
+</html>

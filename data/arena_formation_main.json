@@ -1,0 +1,122 @@
+{
+ "deckPath": "arena_deck_main.json",
+ "fixed": {
+  "platoon": 2,
+  "members": [
+   "ReikaReg",
+   "JinJapan",
+   "YuiKendo",
+   "AnnaReg",
+   "ShokoReg",
+   "NayuReg"
+  ]
+ },
+ "fixedSet": null,
+ "start": "arena_formation_main_warstart.json",
+ "current": [
+  "LionR",
+  "MinamiReg",
+  "TomoyaUni",
+  "AnnaRegSR",
+  "ErikaReg",
+  "TomoyaPara",
+  "YuiKendo",
+  "ReikaReg",
+  "AnnaReg",
+  "JinJapan",
+  "ShokoReg",
+  "NayuReg",
+  "BullSR",
+  "SpiralCatAltR1",
+  "ShokoRegSR",
+  "PenguinR",
+  "RyuKendo",
+  "RenjiKendo",
+  "NayuRegSR",
+  "MokumaruReg",
+  "RibbonCatSR",
+  "JinRegSR",
+  "ReikaRegSR",
+  "SheepR"
+ ],
+ "proposed": [
+  "ErikaReg",
+  "ReikaRegSR",
+  "JinRegSR",
+  "RyuKendo",
+  "SheepR",
+  "RibbonCatSR",
+  "ReikaReg",
+  "JinJapan",
+  "YuiKendo",
+  "AnnaReg",
+  "ShokoReg",
+  "NayuReg",
+  "SpiralCatAltR1",
+  "BullSR",
+  "LionR",
+  "MinamiReg",
+  "TomoyaPara",
+  "PenguinR",
+  "RenjiKendo",
+  "AnnaRegSR",
+  "ShokoRegSR",
+  "NayuRegSR",
+  "TomoyaUni",
+  "MokumaruReg"
+ ],
+ "verify": {
+  "seeds": 4000,
+  "matches": [
+   {
+    "key": "더그가 공격해 옴",
+    "file": "arena_main_24",
+    "weight": 1,
+    "current": 0.67075,
+    "proposed": 0.7685
+   },
+   {
+    "key": "내가 더그 공격(가정)",
+    "path": "arena_synth_main_vs_dough.json",
+    "weight": 1,
+    "current": 0.65575,
+    "proposed": 0.73075
+   },
+   {
+    "key": "리세가 공격해 옴",
+    "file": "arena_main_20",
+    "weight": 0.3,
+    "current": 0.971,
+    "proposed": 0.97625
+   },
+   {
+    "key": "FullFerry 가 공격해 옴",
+    "file": "arena_main_19",
+    "weight": 0.3,
+    "current": 0.97725,
+    "proposed": 0.99425
+   },
+   {
+    "key": "짜냥해야 공격",
+    "file": "arena_main_29",
+    "weight": 0.1,
+    "current": 0.05025,
+    "proposed": 0.066
+   },
+   {
+    "key": "짜냥해야가 공격해 옴",
+    "file": "arena_main_25",
+    "weight": 0.1,
+    "current": 0.0505,
+    "proposed": 0.07375
+   },
+   {
+    "key": "마리 공격",
+    "file": "arena_main_28",
+    "weight": 0,
+    "current": 0.007,
+    "proposed": 0.0125
+   }
+  ]
+ }
+}

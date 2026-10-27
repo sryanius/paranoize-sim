@@ -1,0 +1,817 @@
+{
+  "AlwaysTrue": {},
+  "AllyReinforcements1OrGreater": {
+    "AllyReinforcementCountBattleCondition": {
+      "Count": 1
+    }
+  },
+  "AllyReinforcements2OrGreater": {
+    "AllyReinforcementCountBattleCondition": {
+      "Count": 2
+    }
+  },
+  "EnemyReinforcements1OrGreater": {
+    "EnemyReinforcementCountBattleCondition": {
+      "Count": 1
+    }
+  },
+  "EnemyReinforcements2OrGreater": {
+    "EnemyReinforcementCountBattleCondition": {
+      "Count": 2
+    }
+  },
+  "AllyAndEnemyReinforements1OrGreater": {
+    "AndConditions": [
+      "AllyReinforcements1OrGreater",
+      "EnemyReinforcements1OrGreater"
+    ]
+  },
+  "AllyAndEnemyReinforements2OrGreater": {
+    "AndConditions": [
+      "AllyReinforcements2OrGreater",
+      "EnemyReinforcements2OrGreater"
+    ]
+  },
+  "TimeInCombat100": {
+    "TimeInBattleBattleCondition": {
+      "RequiredTime": 100
+    }
+  },
+  "TimeInCombat200": {
+    "TimeInBattleBattleCondition": {
+      "RequiredTime": 200
+    }
+  },
+  "TimeInCombat300": {
+    "TimeInBattleBattleCondition": {
+      "RequiredTime": 300
+    }
+  },
+  "TimeInCombat400": {
+    "TimeInBattleBattleCondition": {
+      "RequiredTime": 400
+    }
+  },
+  "TimeInCombat500": {
+    "TimeInBattleBattleCondition": {
+      "RequiredTime": 500
+    }
+  },
+  "TimeInCombat600": {
+    "TimeInBattleBattleCondition": {
+      "RequiredTime": 600
+    }
+  },
+  "NotTimeInCombat200": {
+    "NotConditions": [
+      "TimeInCombat200"
+    ]
+  },
+  "NotTimeInCombat300": {
+    "NotConditions": [
+      "TimeInCombat300"
+    ]
+  },
+  "On1HP": {
+    "HpValueLessThanBattleCondition": {
+      "HpValue": 2
+    }
+  },
+  "NotOn1HP": {
+    "NotConditions": [
+      "On1HP"
+    ]
+  },
+  "HP25PercentOrLower": {
+    "HpPercentLessThanBattleCondition": {
+      "HpPercent": 0.25
+    }
+  },
+  "HP50PercentOrLower": {
+    "HpPercentLessThanBattleCondition": {
+      "HpPercent": 0.5
+    }
+  },
+  "HP75PercentOrLower": {
+    "HpPercentLessThanBattleCondition": {
+      "HpPercent": 0.75
+    }
+  },
+  "HP75PercentOrHigher": {
+    "HpPercentGreaterThanBattleCondition": {
+      "HpPercent": 0.7499999
+    }
+  },
+  "HP90PercentOrHigher": {
+    "HpPercentGreaterThanBattleCondition": {
+      "HpPercent": 0.8999999
+    }
+  },
+  "IsSleeping": {
+    "BuffStackNameBattleCondition": {
+      "StackName": "Sleep"
+    }
+  },
+  "NotSleeping": {
+    "NotConditions": [
+      "IsSleeping"
+    ]
+  },
+  "IsGuardian": {
+    "BuffStackNameBattleCondition": {
+      "StackName": "Guard"
+    }
+  },
+  "Has1OrMoreKills": {
+    "KillsMadeBattleCondition": {
+      "RequiredKills": 1
+    }
+  },
+  "IsProtectingNoKills": {
+    "AndConditions": [
+      "IsProtecting",
+      "HasNoKills"
+    ]
+  },
+  "HasNoKills": {
+    "NotConditions": [
+      "Has1OrMoreKills"
+    ]
+  },
+  "AllyNoKillsProtector": {
+    "TeamMonsterBattleCondition": {
+      "Condition": "IsProtectingNoKills",
+      "MatchesNeeded": 1
+    }
+  },
+  "HasKillNotProtectingHasAllyNoKillsProtector": {
+    "AndConditions": [
+      "Has1OrMoreKills",
+      "IsNotProtecting",
+      "AllyNoKillsProtector"
+    ]
+  },
+  "130TuOrMore": {
+    "CurrentTuGreaterThanBattleCondition": {
+      "Tu": 129
+    }
+  },
+  "200TuOrMore": {
+    "CurrentTuGreaterThanBattleCondition": {
+      "Tu": 199
+    }
+  },
+  "500TuOrMore": {
+    "CurrentTuGreaterThanBattleCondition": {
+      "Tu": 499
+    }
+  },
+  "LessThan150TU": {
+    "CurrentTuLessThanBattleCondition": {
+      "Tu": 150
+    }
+  },
+  "LessThan250TU": {
+    "CurrentTuLessThanBattleCondition": {
+      "Tu": 250
+    }
+  },
+  "LessThan300TU": {
+    "CurrentTuLessThanBattleCondition": {
+      "Tu": 300
+    }
+  },
+  "Not130TuOrMore": {
+    "NotConditions": [
+      "130TuOrMore"
+    ]
+  },
+  "IsPoisonedNotOn1HP": {
+    "AndConditions": [
+      "IsPoisoned",
+      "NotOn1HP"
+    ]
+  },
+  "IsPoisoned": {
+    "BuffStackNameBattleCondition": {
+      "StackName": "Poison"
+    }
+  },
+  "NotPoisoned": {
+    "NotConditions": [
+      "IsPoisoned"
+    ]
+  },
+  "IsAlone": {
+    "NotConditions": [
+      "AllyTeamSize2"
+    ]
+  },
+  "AllyTeamSize2": {
+    "TeamMonsterBattleCondition": {
+      "Condition": "AlwaysTrue",
+      "MatchesNeeded": 2
+    }
+  },
+  "IsProtecting": {
+    "BuffStackNameBattleCondition": {
+      "StackName": "Protector"
+    }
+  },
+  "IsProtected": {
+    "NotConditions": [
+      "IsProtecting"
+    ],
+    "TeamMonsterBattleCondition": {
+      "Condition": "IsProtecting",
+      "MatchesNeeded": 1
+    }
+  },
+  "IsNotProtecting": {
+    "NotConditions": [
+      "IsProtecting"
+    ]
+  },
+  "EnemyProtecting": {
+    "EnemyTeamMonsterBattleCondition": {
+      "Condition": "IsProtecting",
+      "MatchesNeeded": 1
+    }
+  },
+  "IsProtectingNotSleeping": {
+    "AndConditions": [
+      "IsProtecting",
+      "NotSleeping"
+    ]
+  },
+  "IsProtectingNotPoisoned": {
+    "AndConditions": [
+      "IsProtecting",
+      "NotPoisoned"
+    ]
+  },
+  "2AllyNotPoisonedProtectors": {
+    "TeamMonsterBattleCondition": {
+      "Condition": "IsProtectingNotPoisoned",
+      "MatchesNeeded": 2
+    }
+  },
+  "IsSleepingNotProtectingHasAllyNotSleepingProtector": {
+    "AndConditions": [
+      "IsSleeping",
+      "IsNotProtecting",
+      "AllyNotSleepingProtector"
+    ]
+  },
+  "IsPoisonedNotProtectingHasAllyNotPoisonedProtector": {
+    "AndConditions": [
+      "IsPoisoned",
+      "IsNotProtecting",
+      "AllyNotPoisonedProtector"
+    ]
+  },
+  "AllyNotSleepingProtector": {
+    "TeamMonsterBattleCondition": {
+      "Condition": "IsProtectingNotSleeping",
+      "MatchesNeeded": 1
+    }
+  },
+  "AllyNotPoisonedProtector": {
+    "TeamMonsterBattleCondition": {
+      "Condition": "IsProtectingNotPoisoned",
+      "MatchesNeeded": 1
+    }
+  },
+  "Has2Kills": {
+    "KillsMadeBattleCondition": {
+      "RequiredKills": 2
+    }
+  },
+  "HasCharge": {
+    "BuffStackNameBattleCondition": {
+      "StackName": "Charge"
+    }
+  },
+  "HasNoCharge": {
+    "NotConditions": [
+      "HasCharge"
+    ]
+  },
+  "TriggeredHoldGround": {
+    "HpValueLessThanBattleCondition": {
+      "HpValue": 2
+    }
+  },
+  "FireElement": {
+    "MonsterElementBattleCondition": {
+      "Elements": [
+        "Fire"
+      ]
+    }
+  },
+  "WaterElement": {
+    "MonsterElementBattleCondition": {
+      "Elements": [
+        "Water"
+      ]
+    }
+  },
+  "EarthElement": {
+    "MonsterElementBattleCondition": {
+      "Elements": [
+        "Earth"
+      ]
+    }
+  },
+  "BossAttackForced": {
+    "BuffTagBattleCondition": {
+      "Tag": "ForceBossAttack"
+    }
+  },
+  "BossNotRaging": {
+    "NotConditions": [
+      "BossAttackForced"
+    ]
+  },
+  "BossNotRagingKills1": {
+    "AndConditions": [
+      "Has1OrMoreKills"
+    ],
+    "NotConditions": [
+      "BossAttackForced"
+    ]
+  },
+  "BossNotRagingHP25PercentOrLower": {
+    "AndConditions": [
+      "HP25PercentOrLower"
+    ],
+    "NotConditions": [
+      "BossAttackForced"
+    ]
+  },
+  "BossNotRagingHP50PercentOrLower": {
+    "AndConditions": [
+      "HP50PercentOrLower"
+    ],
+    "NotConditions": [
+      "BossAttackForced"
+    ]
+  },
+  "BossNotRagingTimeInCombat300": {
+    "AndConditions": [
+      "TimeInCombat300"
+    ],
+    "NotConditions": [
+      "BossAttackForced"
+    ]
+  },
+  "1AllyRaging": {
+    "TeamMonsterBattleCondition": {
+      "Condition": "BossRaging",
+      "MatchesNeeded": 1
+    }
+  },
+  "HpMoreThan25Percent": {
+    "HpPercentGreaterThanBattleCondition": {
+      "HpPercent": 0.25
+    }
+  },
+  "1AllyHPMoreThan25Percent": {
+    "TeamMonsterBattleCondition": {
+      "Condition": "HpMoreThan25Percent",
+      "MatchesNeeded": 1
+    }
+  },
+  "NoAllyAbove25PercentOfMaxHP": {
+    "NotConditions": [
+      "1AllyHPMoreThan25Percent"
+    ]
+  },
+  "1EnemyPoisoned": {
+    "EnemyTeamMonsterBattleCondition": {
+      "Condition": "IsPoisoned",
+      "MatchesNeeded": 1
+    }
+  },
+  "PoisonedAlly": {
+    "TeamMonsterBattleCondition": {
+      "Condition": "IsPoisoned",
+      "MatchesNeeded": 1
+    }
+  },
+  "AllAlliesPoisoned": {
+    "NotConditions": [
+      "NotPoisonedAlly"
+    ]
+  },
+  "NoAlliesPoisoned": {
+    "NotConditions": [
+      "PoisonedAlly"
+    ]
+  },
+  "EnemyHas1OrMoreKills": {
+    "EnemyTeamMonsterBattleCondition": {
+      "Condition": "Has1OrMoreKills",
+      "MatchesNeeded": 1
+    }
+  },
+  "EnemyHas2OrMoreKills": {
+    "EnemyTeamMonsterBattleCondition": {
+      "Condition": "Has2Kills",
+      "MatchesNeeded": 1
+    }
+  },
+  "TimeInCombat1": {
+    "TimeInBattleBattleCondition": {
+      "RequiredTime": 1
+    }
+  },
+  "TimeInCombat0": {
+    "NotConditions": [
+      "TimeInCombat1"
+    ]
+  },
+  "IsTimeStriker": {
+    "AbilityFlagBattleCondition": {
+      "Flag": "TimeStriker"
+    }
+  },
+  "HP75PercentOrHigherNot100": {
+    "AndConditions": [
+      "HP75PercentOrHigher",
+      "HpLessThan100Percent"
+    ]
+  },
+  "HP75PercentOrLowerNot50": {
+    "AndConditions": [
+      "HP75PercentOrLower"
+    ],
+    "NotConditions": [
+      "HP50PercentOrLower"
+    ]
+  },
+  "HP50PercentOrLowerNot25": {
+    "AndConditions": [
+      "HP50PercentOrLower"
+    ],
+    "NotConditions": [
+      "HP25PercentOrLower"
+    ]
+  },
+  "HP25PercentOrLowerNotHoldGround": {
+    "AndConditions": [
+      "HP25PercentOrLower"
+    ],
+    "NotConditions": [
+      "TriggeredHoldGround"
+    ]
+  },
+  "HpLessThan100Percent": {
+    "HpPercentLessThanBattleCondition": {
+      "HpPercent": 1
+    }
+  },
+  "HpLessThan30Percent": {
+    "HpPercentLessThanBattleCondition": {
+      "HpPercent": 0.3
+    }
+  },
+  "HP30PercentOrMore": {
+    "NotConditions": [
+      "HpLessThan30Percent"
+    ]
+  },
+  "HP1PercentOrLower": {
+    "HpPercentLessThanBattleCondition": {
+      "HpPercent": 0.01
+    }
+  },
+  "NotHP1PercentOrLower": {
+    "NotConditions": [
+      "HP1PercentOrLower"
+    ]
+  },
+  "IsSummoned": {
+    "MonsterSummonedBattleCondition": {}
+  },
+  "MPLessThan1": {
+    "SpiritLessThanBattleCondition": {
+      "Spirit": 1
+    }
+  },
+  "MPLessThan2": {
+    "SpiritLessThanBattleCondition": {
+      "Spirit": 2
+    }
+  },
+  "MPLessThan3": {
+    "SpiritLessThanBattleCondition": {
+      "Spirit": 3
+    }
+  },
+  "MPLessThan4": {
+    "SpiritLessThanBattleCondition": {
+      "Spirit": 4
+    }
+  },
+  "MPLessThan5": {
+    "SpiritLessThanBattleCondition": {
+      "Spirit": 5
+    }
+  },
+  "MPLessThan6": {
+    "SpiritLessThanBattleCondition": {
+      "Spirit": 6
+    }
+  },
+  "MPMoreThan0": {
+    "SpiritGreaterThanBattleCondition": {
+      "Spirit": 0
+    }
+  },
+  "MPMoreThan1": {
+    "SpiritGreaterThanBattleCondition": {
+      "Spirit": 1
+    }
+  },
+  "MPMoreThan2": {
+    "SpiritGreaterThanBattleCondition": {
+      "Spirit": 2
+    }
+  },
+  "MPMoreThan3": {
+    "SpiritGreaterThanBattleCondition": {
+      "Spirit": 3
+    }
+  },
+  "MPMoreThan4": {
+    "SpiritGreaterThanBattleCondition": {
+      "Spirit": 4
+    }
+  },
+  "MPMoreThan5": {
+    "SpiritGreaterThanBattleCondition": {
+      "Spirit": 5
+    }
+  },
+  "MPExactly1": {
+    "SpiritEqualToBattleCondition": {
+      "Spirit": 1
+    }
+  },
+  "MPExactly2": {
+    "SpiritEqualToBattleCondition": {
+      "Spirit": 2
+    }
+  },
+  "MPExactly3": {
+    "SpiritEqualToBattleCondition": {
+      "Spirit": 3
+    }
+  },
+  "MPExactly4": {
+    "SpiritEqualToBattleCondition": {
+      "Spirit": 4
+    }
+  },
+  "MPExactly5": {
+    "SpiritEqualToBattleCondition": {
+      "Spirit": 5
+    }
+  },
+  "MPExactly6": {
+    "SpiritEqualToBattleCondition": {
+      "Spirit": 6
+    }
+  },
+  "IsPhysAttacker": {
+    "AbilityFlagBattleCondition": {
+      "Flag": "Phys"
+    }
+  },
+  "NotPhysAttacker": {
+    "NotConditions": [
+      "IsPhysAttacker"
+    ]
+  },
+  "IsMagAttacker": {
+    "AbilityFlagBattleCondition": {
+      "Flag": "Mag"
+    }
+  },
+  "NotMagAttacker": {
+    "NotConditions": [
+      "IsMagAttacker"
+    ]
+  },
+  "EnemyHasPhysAttacker": {
+    "EnemyTeamMonsterBattleCondition": {
+      "Condition": "IsPhysAttacker",
+      "MatchesNeeded": 1
+    }
+  },
+  "NoEnemyPhysAttacker": {
+    "NotConditions": [
+      "EnemyHasPhysAttacker"
+    ]
+  },
+  "EnemyHasMagAttacker": {
+    "EnemyTeamMonsterBattleCondition": {
+      "Condition": "IsMagAttacker",
+      "MatchesNeeded": 1
+    }
+  },
+  "NoEnemyMagAttacker": {
+    "NotConditions": [
+      "EnemyHasMagAttacker"
+    ]
+  },
+  "TuLessThan150": {
+    "CurrentTuLessThanBattleCondition": {
+      "Tu": 150
+    }
+  },
+  "TuLessThan250": {
+    "CurrentTuLessThanBattleCondition": {
+      "Tu": 250
+    }
+  },
+  "1EnemyLessThan150TU": {
+    "EnemyTeamMonsterBattleCondition": {
+      "Condition": "TuLessThan150",
+      "MatchesNeeded": 1
+    }
+  },
+  "1EnemyLessThan250TU": {
+    "EnemyTeamMonsterBattleCondition": {
+      "Condition": "TuLessThan250",
+      "MatchesNeeded": 1
+    }
+  },
+  "NoEnemyLessThan150TU": {
+    "NotConditions": [
+      "1EnemyLessThan150TU"
+    ]
+  },
+  "NoEnemyLessThan250TU": {
+    "NotConditions": [
+      "1EnemyLessThan250TU"
+    ]
+  },
+  "CurrentTU300OrMore": {
+    "CurrentTuGreaterThanBattleCondition": {
+      "Tu": 299
+    }
+  },
+  "EnemyCurrentTU300OrMore": {
+    "EnemyTeamMonsterBattleCondition": {
+      "Condition": "CurrentTU300OrMore",
+      "MatchesNeeded": 1
+    }
+  },
+  "AllyTeamSize4": {
+    "TeamMonsterBattleCondition": {
+      "Condition": "AlwaysTrue",
+      "MatchesNeeded": 4
+    }
+  },
+  "AllyTeamSizeNot4": {
+    "NotConditions": [
+      "AllyTeamSize4"
+    ]
+  },
+  "1EnemySleeping": {
+    "EnemyTeamMonsterBattleCondition": {
+      "Condition": "IsSleeping",
+      "MatchesNeeded": 1
+    }
+  },
+  "IsDefBuffed": {
+    "BuffTagBattleCondition": {
+      "Tag": "DefBuff"
+    }
+  },
+  "NeverTrue": {
+    "NotConditions": [
+      "AlwaysTrue"
+    ]
+  },
+  "BossDoesRampage": {
+    "BuffTagBattleCondition": {
+      "Tag": "DoesRampage"
+    }
+  },
+  "EnemyBossDoesRampage": {
+    "EnemyTeamMonsterBattleCondition": {
+      "Condition": "BossDoesRampage",
+      "MatchesNeeded": 1
+    }
+  },
+  "Has3Kills": {
+    "KillsMadeBattleCondition": {
+      "RequiredKills": 3
+    }
+  },
+  "Has4Kills": {
+    "KillsMadeBattleCondition": {
+      "RequiredKills": 4
+    }
+  },
+  "Has5Kills": {
+    "KillsMadeBattleCondition": {
+      "RequiredKills": 5
+    }
+  },
+  "Has6Kills": {
+    "KillsMadeBattleCondition": {
+      "RequiredKills": 6
+    }
+  },
+  "Has7Kills": {
+    "KillsMadeBattleCondition": {
+      "RequiredKills": 7
+    }
+  },
+  "Has8Kills": {
+    "KillsMadeBattleCondition": {
+      "RequiredKills": 8
+    }
+  },
+  "Has9Kills": {
+    "KillsMadeBattleCondition": {
+      "RequiredKills": 9
+    }
+  },
+  "Has10Kills": {
+    "KillsMadeBattleCondition": {
+      "RequiredKills": 10
+    }
+  },
+  "SleepingAlly": {
+    "TeamMonsterBattleCondition": {
+      "Condition": "IsSleeping",
+      "MatchesNeeded": 1
+    }
+  },
+  "AllyAbove300TU": {
+    "TeamMonsterBattleCondition": {
+      "Condition": "CurrentTU300OrMore",
+      "MatchesNeeded": 1
+    }
+  },
+  "HasEntry": {
+    "BuffTagBattleCondition": {
+      "Tag": "Entry"
+    }
+  },
+  "HasNoEntry": {
+    "NotConditions": [
+      "HasEntry"
+    ]
+  },
+  "Not3Kills": {
+    "NotConditions": [
+      "Has3Kills"
+    ]
+  },
+  "NotSleepingAndNotPoisoned": {
+    "AndConditions": [
+      "NotSleeping",
+      "NotPoisoned"
+    ]
+  },
+  "IsSleepingOrPoisoned": {
+    "OrConditions": [
+      "IsSleeping",
+      "IsPoisoned"
+    ]
+  },
+  "NotGoodForSendBackAlly": {
+    "BuffTagBattleCondition": {
+      "Tag": "DoNotSendBackAlly"
+    }
+  },
+  "IsHealthy": {
+    "AndConditions": [
+      "HP90PercentOrHigher",
+      "NotSleepingAndNotPoisoned"
+    ]
+  },
+  "NotAlone": {
+    "NotConditions": [
+      "IsAlone"
+    ]
+  },
+  "IsActingNotAlone": {
+    "AndConditions": [
+      "IsActing",
+      "NotAlone"
+    ]
+  },
+  "IsActing": {
+    "CurrentTuLessThanBattleCondition": {
+      "Tu": 1
+    }
+  },
+  "": {}
+}

@@ -1,0 +1,150 @@
+{
+  "DreamHunt_AI": {
+    "GoodTargetConditions": [
+      "IsSleeping"
+    ],
+    "BadTargetConditions": [
+      "NotSleeping"
+    ]
+  },
+  "Poison_AI": {
+    "GoodTargetConditions": [
+      "NotPoisoned"
+    ]
+  },
+  "PoisonEat_AI": {
+    "GoodTargetConditions": [
+      "IsPoisoned"
+    ],
+    "BadTargetConditions": [
+      "NotPoisoned",
+      "On1HP"
+    ]
+  },
+  "TimeStrike_AI": {
+    "GoodTargetConditions": [
+      "200TuOrMore",
+      "130TuOrMore"
+    ],
+    "BadTargetConditions": [
+      "Not130TuOrMore"
+    ]
+  },
+  "PoisonOnly_AI": {
+    "GoodTargetConditions": [
+      "NotPoisoned"
+    ],
+    "BadTargetConditions": [
+      "IsPoisoned"
+    ]
+  },
+  "Sleep_AI": {
+    "GoodTargetConditions": [
+      "NotSleeping"
+    ]
+  },
+  "SleepOnly_AI": {
+    "GoodTargetConditions": [
+      "NotSleeping"
+    ],
+    "BadTargetConditions": [
+      "IsSleeping"
+    ]
+  },
+  "LifeFlip_AI": {
+    "GoodTargetConditions": [
+      "HpLessThan30Percent"
+    ],
+    "BadTargetConditions": [
+      "HP30PercentOrMore"
+    ]
+  },
+  "Heal_AI": {
+    "GoodTargetConditions": [
+      "HpLessThan30Percent"
+    ],
+    "BadTargetConditions": [
+      "HP75PercentOrHigher"
+    ]
+  },
+  "CurePoison_AI": {
+    "GoodTargetConditions": [
+      "IsPoisoned"
+    ],
+    "BadTargetConditions": [
+      "NotPoisoned"
+    ]
+  },
+  "CureSleep_AI": {
+    "GoodTargetConditions": [
+      "IsSleeping"
+    ],
+    "BadTargetConditions": [
+      "NotSleeping"
+    ]
+  },
+  "GiveTurnHigh_AI": {
+    "GoodTargetConditions": [
+      "CurrentTU300OrMore"
+    ],
+    "BadTargetConditions": [
+      "LessThan300TU"
+    ]
+  },
+  "PullBackEntry_AI": {
+    "GoodTargetConditions": [
+      "HasEntry"
+    ],
+    "BadTargetConditions": [
+      "HasNoEntry",
+      "NotGoodForSendBackAlly"
+    ]
+  },
+  "FireEat_AI": {
+    "GoodTargetConditions": [
+      "FireElement"
+    ],
+    "BadTargetConditions": [
+      "WaterElement",
+      "EarthElement"
+    ]
+  },
+  "EarthEat_AI": {
+    "GoodTargetConditions": [
+      "EarthElement"
+    ],
+    "BadTargetConditions": [
+      "FireElement",
+      "WaterElement"
+    ]
+  },
+  "WaterEat_AI": {
+    "GoodTargetConditions": [
+      "WaterElement"
+    ],
+    "BadTargetConditions": [
+      "EarthElement",
+      "FireElement"
+    ]
+  },
+  "Purify_AI": {
+    "GoodTargetConditions": [
+      "IsSleeping",
+      "IsPoisoned"
+    ],
+    "BadTargetConditions": [
+      "NotSleepingAndNotPoisoned"
+    ]
+  },
+  "HealPurify_AI": {
+    "GoodTargetConditions": [
+      "HpLessThan30Percent",
+      "IsSleeping",
+      "IsPoisoned"
+    ],
+    "BadTargetConditions": [
+      "HP75PercentOrHigher",
+      "IsActingNotAlone"
+    ]
+  }
+}

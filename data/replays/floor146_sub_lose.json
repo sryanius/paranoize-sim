@@ -1,0 +1,1253 @@
+{
+ "Replay": {
+  "Winner": "AI2",
+  "Config": {
+   "Seed": 1561747887,
+   "P1": "DY2JRRQZ",
+   "P2": "AI2",
+   "P1GuildName": "PARANOIZE",
+   "P1Favorite": "Hero01",
+   "P1Message": ".",
+   "P1TPower": 17515455,
+   "P1Mobs": [
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCLionR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNDAGR70"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "LionR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Xp": 3215330,
+     "LimitBreak": 7,
+     "Potential": 233279,
+     "Awakening": 4,
+     "PostCard": {
+      "BattleStatTrackIndex": 9,
+      "Awakening": 4,
+      "Gems": [
+       "AtkGem11",
+       "PAtkGem11",
+       "HPGem11"
+      ],
+      "ModelType": "PCRosaReg",
+      "ArcaneScalar": 0.255,
+      "HistoryScalar": 0.21,
+      "PeculiarityRank": 122,
+      "HistoryLevel": 28,
+      "ArcaneLevel": 17
+     },
+     "MainAccessory": {
+      "ModelType": "MACCSRGUN4",
+      "ID": "HbKHÄr",
+      "BattleStatTrackIndex": 6,
+      "Gems": [
+       "AtkGem10",
+       "WillGem11",
+       "VitGem11"
+      ],
+      "ArcaneScalar": 0.255,
+      "HistoryScalar": 0.1875,
+      "PeculiarityRank": 122,
+      "HistoryLevel": 25,
+      "ArcaneLevel": 17
+     },
+     "SubAccessories": [
+      {
+       "BattleStatTrackIndex": 6,
+       "ID": "â0ÅtE3",
+       "ModelType": "SACCSRARMR4",
+       "Gems": [
+        "AtkGem10",
+        "PAtkGem10",
+        "HPGem10"
+       ],
+       "PeculiarityRank": 122,
+       "HistoryLevel": 21,
+       "ArcaneLevel": 12
+      },
+      {
+       "BattleStatTrackIndex": 6,
+       "ID": "äv5ÄjT",
+       "ModelType": "SACCSRSHLD4",
+       "Gems": [
+        "AtkGem10",
+        "StrGem10",
+        "HPGem10"
+       ],
+       "PeculiarityRank": 122,
+       "ArcaneLevel": 9
+      }
+     ],
+     "Spirit": [
+      {
+       "Xp": 38400,
+       "ModelType": "SPEVEPATK",
+       "ID": "WaIi8o"
+      },
+      {
+       "Xp": 24000,
+       "ModelType": "SPBASEPDEF11",
+       "ID": "ïëiGVR"
+      },
+      {
+       "Xp": 12600,
+       "ModelType": "SPBASEATK11",
+       "ID": "KaVtLM"
+      }
+     ],
+     "ModelType": "RosaReg",
+     "HoldsEquipments": true,
+     "HoldsSpirits": true,
+     "HoldsThings": true
+    },
+    {
+     "PostCard": {
+      "Awakening": 1,
+      "ModelType": "PCAnnaReg",
+      "PeculiarityRank": 1
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNGUN20"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "AnnaReg",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCLeopardSR",
+      "PeculiarityRank": 2
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNFIST100"
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCNARMR85"
+      },
+      {
+       "ModelType": "SACCNSHLD100"
+      }
+     ],
+     "Spirit": [
+      {
+       "ModelType": "SPBASEMATK7",
+       "ID": "guGvc8"
+      },
+      {
+       "ModelType": "SPBASEATK4",
+       "ID": "hjdNEå"
+      },
+      {
+       "ModelType": "SPBASEPATK3",
+       "ID": "bI)PsA"
+      }
+     ],
+     "ModelType": "LeopardSR",
+     "HoldsEquipments": true,
+     "HoldsSpirits": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCPenguinR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNGUN40"
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCNARMR20"
+      },
+      {
+       "ModelType": "SACCNSHLD10"
+      }
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "PenguinR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "MainAccessory": {
+      "ModelType": "MACCNDAGR10"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "TomoyaUniSR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCPuppyR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNGUN40"
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCNARMR10"
+      },
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "PuppyR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "PostCard": {
+      "Awakening": 1,
+      "ModelType": "PCShokoReg",
+      "PeculiarityRank": 2
+     },
+     "MainAccessory": {
+      "ModelType": "MACCRGUN4",
+      "ID": "QCrR1Q",
+      "Gems": [
+       null,
+       null,
+       null
+      ]
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCNARMR100"
+      },
+      {
+       "ModelType": "SACCNSHLD100"
+      }
+     ],
+     "Spirit": [
+      {
+       "ModelType": "SPBASEHP10",
+       "ID": "ceçT7Q"
+      },
+      {
+       "ModelType": "SPBASEATK8",
+       "ID": "c4.gjk"
+      },
+      {
+       "ModelType": "SPBASEPATK5",
+       "ID": "z5ayïI"
+      }
+     ],
+     "ModelType": "ShokoReg",
+     "HoldsEquipments": true,
+     "HoldsSpirits": true,
+     "HoldsThings": true
+    },
+    {
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCRyuKendo"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNFIST30"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "RyuKendo",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Xp": 610,
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCMokumaruReg",
+      "PeculiarityRank": 3
+     },
+     "MainAccessory": {
+      "ModelType": "MACCRDAGR2",
+      "ID": "t2NïpK"
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCNARMR85"
+      },
+      {
+       "ModelType": "SACCNSHLD85"
+      }
+     ],
+     "Spirit": [
+      {
+       "ModelType": "SPBASEPATK3",
+       "ID": "gÅLtdS"
+      },
+      null,
+      null
+     ],
+     "ModelType": "MokumaruReg",
+     "HoldsEquipments": true,
+     "HoldsSpirits": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 1,
+     "PostCard": {
+      "ModelType": "PCReikaRegSR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNFIST100"
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCNARMR70"
+      },
+      {
+       "ModelType": "SACCNSHLD55"
+      }
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "ReikaRegSR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCSpikeRabbitR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNGUN40"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "SpikeRabbitR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCAnnaRegSR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNGUN100"
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCNARMR85"
+      },
+      {
+       "ModelType": "SACCNSHLD70"
+      }
+     ],
+     "Spirit": [
+      {
+       "ModelType": "SPBASEMATK11",
+       "ID": "fInrfO"
+      },
+      null,
+      null
+     ],
+     "ModelType": "AnnaRegSR",
+     "HoldsEquipments": true,
+     "HoldsSpirits": true,
+     "HoldsThings": true
+    },
+    {
+     "Xp": 235,
+     "PostCard": {
+      "Awakening": 2,
+      "ModelType": "PCTomoyaUni",
+      "PeculiarityRank": 18
+     },
+     "MainAccessory": {
+      "ModelType": "MACCRDAGR3",
+      "ID": "upfcPW",
+      "Gems": [
+       null,
+       null,
+       null
+      ]
+     },
+     "SubAccessories": [
+      {
+       "ID": "uFvjÅm",
+       "ModelType": "SACCRARMR2",
+       "Gems": [
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "ID": "J(L7FN",
+       "ModelType": "SACCRSHLD2",
+       "Gems": [
+        null,
+        null,
+        null
+       ]
+      }
+     ],
+     "Spirit": [
+      {
+       "ModelType": "SPBASEHP10",
+       "ID": "ïuBvlä"
+      },
+      {
+       "ModelType": "SPBASEMDEF9",
+       "ID": "âvRX))"
+      },
+      {
+       "ModelType": "SPBASEPATK8",
+       "ID": "Yv8âaå"
+      }
+     ],
+     "ModelType": "TomoyaUni",
+     "HoldsEquipments": true,
+     "HoldsSpirits": true,
+     "HoldsThings": true
+    },
+    {
+     "Xp": 12060,
+     "Awakening": 2,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCYuiUniSR",
+      "PeculiarityRank": 3
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNDAGR100"
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCNARMR100"
+      },
+      {
+       "ModelType": "SACCNSHLD100"
+      }
+     ],
+     "Spirit": [
+      {
+       "ModelType": "SPEVEMATK",
+       "ID": "2Rb8ë-"
+      },
+      {
+       "ModelType": "SPBASEATK8",
+       "ID": "gVXäTâ"
+      },
+      {
+       "ModelType": "SPBASEPATK4",
+       "ID": "kTy0YK"
+      }
+     ],
+     "ModelType": "YuiUniSR",
+     "HoldsEquipments": true,
+     "HoldsSpirits": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 2,
+     "PostCard": {
+      "Awakening": 2,
+      "ModelType": "PCMinamiRegSR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNDAGR100"
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCNARMR55"
+      },
+      {
+       "ModelType": "SACCNSHLD40"
+      }
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "MinamiRegSR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Xp": 2335430,
+     "LimitBreak": 6,
+     "Potential": 147027,
+     "Awakening": 4,
+     "PostCard": {
+      "BattleStatTrackIndex": 5,
+      "Awakening": 4,
+      "Gems": [
+       "AtkGem9",
+       "PAtkGem8",
+       "WillGem8"
+      ],
+      "ModelType": "PCNayuSwim",
+      "PeculiarityRank": 122
+     },
+     "MainAccessory": {
+      "ModelType": "MACCRDAGR4",
+      "ID": "ì7aI4è",
+      "BattleStatTrackIndex": 6,
+      "Gems": [
+       "PAtkGem7",
+       "PDefGem10",
+       "MDefGem9"
+      ],
+      "PeculiarityRank": 122
+     },
+     "SubAccessories": [
+      {
+       "BattleStatTrackIndex": 6,
+       "ID": "FIìhBQ",
+       "ModelType": "SACCRARMR4",
+       "Gems": [
+        "AtkGem9",
+        "StrGem7",
+        "VitGem7"
+       ],
+       "PeculiarityRank": 111
+      },
+      {
+       "BattleStatTrackIndex": 6,
+       "ID": "64QCGk",
+       "ModelType": "SACCRSHLD4",
+       "Gems": [
+        "AtkGem9",
+        "StrGem8",
+        "WillGem7"
+       ],
+       "PeculiarityRank": 63
+      }
+     ],
+     "Spirit": [
+      {
+       "ModelType": "SPBASEHP11",
+       "ID": "CJC4uT"
+      },
+      {
+       "ModelType": "SPBASEPDEF10",
+       "ID": "Pn2TVA"
+      },
+      {
+       "Xp": 31200,
+       "ModelType": "SPBASEATK9",
+       "ID": "ex8hà."
+      }
+     ],
+     "ModelType": "NayuSwim",
+     "HoldsEquipments": true,
+     "HoldsSpirits": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCAyaRegR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNDAGR85"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "AyaRegR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "PostCard": {
+      "Awakening": 1,
+      "ModelType": "PCShokoRegSR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNGUN55"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "ShokoRegSR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCSpiralCatR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNGUN30"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "SpiralCatR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCSakiRegR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNGUN85"
+     },
+     "SubAccessories": [
+      {
+       "ModelType": "SACCNARMR85"
+      },
+      {
+       "ModelType": "SACCNSHLD70"
+      }
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "SakiRegR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCShimaRegR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNDAGR70"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "ShimaRegR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCGenRegR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNFIST85"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "GenRegR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    },
+    {
+     "Awakening": 4,
+     "PostCard": {
+      "Awakening": 4,
+      "ModelType": "PCCupCatR"
+     },
+     "MainAccessory": {
+      "ModelType": "MACCNFIST85"
+     },
+     "SubAccessories": [
+      null,
+      null
+     ],
+     "Spirit": [
+      null,
+      null,
+      null
+     ],
+     "ModelType": "CupCatR",
+     "HoldsEquipments": true,
+     "HoldsThings": true
+    }
+   ],
+   "P2Mobs": [
+    {
+     "Xp": 638010,
+     "Awakening": 2,
+     "ModelType": "HeartTailB"
+    },
+    {
+     "Xp": 638010,
+     "Awakening": 2,
+     "ModelType": "HeartTailC"
+    },
+    {
+     "Xp": 638010,
+     "Awakening": 2,
+     "ModelType": "SpikeRabbitA"
+    },
+    {
+     "Xp": 638010,
+     "Awakening": 2,
+     "ModelType": "SpiralCatB"
+    },
+    {
+     "Xp": 638010,
+     "Awakening": 2,
+     "ModelType": "SheepA"
+    },
+    {
+     "Xp": 638010,
+     "Awakening": 2,
+     "ModelType": "SpikeRabbitA"
+    },
+    {
+     "Xp": 638010,
+     "Awakening": 2,
+     "ModelType": "YinYangA"
+    },
+    {
+     "Xp": 638010,
+     "Awakening": 2,
+     "ModelType": "PuppyA"
+    },
+    {
+     "Xp": 638010,
+     "Awakening": 2,
+     "ModelType": "PenguinC"
+    },
+    {
+     "Xp": 638010,
+     "Awakening": 2,
+     "ModelType": "KnifeRabbitC"
+    }
+   ],
+   "Team1StatBuffs": {
+    "FixedBonuses": {},
+    "PercentBonuses": {
+     "PAtk": 0.03,
+     "MAtk": 0.02
+    },
+    "RankScaleBonuses": {
+     "WillPower": 15
+    }
+   },
+   "Team2PassiveBuffs": [
+    "SummonedMonsterDeathTrap"
+   ],
+   "Team1CampusStatBonus": {
+    "Atk": {
+     "Fire": 0.19999999,
+     "Water": 0.19999999,
+     "Earth": 0.19849999
+    },
+    "HP": {
+     "Fire": 0.19999999,
+     "Water": 0.19999999,
+     "Earth": 0.19999999
+    },
+    "Strength": {
+     "Fire": 0.19999999,
+     "Water": 0.19999999,
+     "Earth": 0.19999999
+    },
+    "Vitality": {
+     "Fire": 0.19999999,
+     "Water": 0.19999999,
+     "Earth": 0.19999999
+    },
+    "WillPower": {
+     "Fire": 0.2005,
+     "Water": 0.2005,
+     "Earth": 0.199
+    },
+    "Intelligence": {
+     "Fire": 0.2,
+     "Water": 0.2,
+     "Earth": 0.2
+    },
+    "PDef": {
+     "Fire": 0.2,
+     "Water": 0.2,
+     "Earth": 0.2
+    },
+    "MDef": {
+     "Fire": 0.201,
+     "Water": 0.19950001,
+     "Earth": 0.19950001
+    },
+    "PAtk": {
+     "Fire": 0.2005,
+     "Water": 0.2005,
+     "Earth": 0.199
+    },
+    "MAtk": {
+     "Fire": 0.2005,
+     "Water": 0.2005,
+     "Earth": 0.199
+    }
+   },
+   "Team1Rank": 124,
+   "Team1FinalBaseStatScalar": 1,
+   "Team2FinalBaseStatScalar": 305.25,
+   "BattleBackground": "Battle_Cave"
+  },
+  "Type": "Event",
+  "FinalPacketData": {
+   "WinnerActiveMonsters": [
+    {
+     "Mi": {
+      "Xp": 638010,
+      "Awakening": 2,
+      "ModelType": "HeartTailB"
+     },
+     "Buffs": [
+      {
+       "Buff": {
+        "Components": [
+         "8TimesScalarForBossHP"
+        ],
+        "Duration": -1,
+        "StackName": "BossBulk",
+        "DescriptionKey": "8xBossBulkDescription",
+        "Name": "8xBossBulk",
+        "NameKey": "8xBossBulkName",
+        "IconName": "8xBossBulk"
+       },
+       "ModelType": "8xBossBulk",
+       "DurationLeft": -911,
+       "TimeInBattle": 910,
+       "TurnsInBattle": 7
+      },
+      {
+       "Buff": {
+        "Components": [
+         "InstaKillSummonedEnemies"
+        ],
+        "Duration": -1,
+        "DescriptionKey": "SummonedMonsterDeathTrapDescription",
+        "Name": "SummonedMonsterDeathTrap",
+        "NameKey": "SummonedMonsterDeathTrapName",
+        "IconName": "SummonedMonsterDeathTrap"
+       },
+       "ModelType": "SummonedMonsterDeathTrap",
+       "DurationLeft": -911,
+       "TimeInBattle": 910,
+       "TurnsInBattle": 7
+      },
+      {
+       "Buff": {
+        "Components": [
+         "PoisonDamageOnTurn"
+        ],
+        "ApplyEffect": "PoisonFX",
+        "PassiveEffect": "PoisonPassive",
+        "Duration": -1,
+        "StackName": "Poison",
+        "AttackWeightScalar": 1,
+        "BuffIcon": "Icon_Poison",
+        "DescriptionKey": "PoisonDescription",
+        "Name": "Poison",
+        "NameKey": "PoisonName",
+        "IconName": "Poison"
+       },
+       "ModelType": "Poison",
+       "DurationLeft": -551,
+       "TimeInBattle": 550,
+       "TurnsInBattle": 4
+      }
+     ],
+     "Hp": 7293535,
+     "TimeInBattle": 910,
+     "Kills": 5,
+     "Spirit": 2,
+     "Id": 24,
+     "CachedBattleStats": {
+      "Vitality": 528571,
+      "WillPower": 528571,
+      "Strength": 528571,
+      "Intelligence": 528571,
+      "HP": 7294280,
+      "Atk": 911785,
+      "PAtk": 911785,
+      "PDef": 911785,
+      "MAtk": 911785,
+      "MDef": 911785
+     }
+    },
+    {
+     "Mi": {
+      "Xp": 638010,
+      "Awakening": 2,
+      "ModelType": "HeartTailC"
+     },
+     "Buffs": [
+      {
+       "Buff": {
+        "Components": [
+         "8TimesScalarForBossHP"
+        ],
+        "Duration": -1,
+        "StackName": "BossBulk",
+        "DescriptionKey": "8xBossBulkDescription",
+        "Name": "8xBossBulk",
+        "NameKey": "8xBossBulkName",
+        "IconName": "8xBossBulk"
+       },
+       "ModelType": "8xBossBulk",
+       "DurationLeft": -911,
+       "TimeInBattle": 910,
+       "TurnsInBattle": 5
+      },
+      {
+       "Buff": {
+        "Components": [
+         "InstaKillSummonedEnemies"
+        ],
+        "Duration": -1,
+        "DescriptionKey": "SummonedMonsterDeathTrapDescription",
+        "Name": "SummonedMonsterDeathTrap",
+        "NameKey": "SummonedMonsterDeathTrapName",
+        "IconName": "SummonedMonsterDeathTrap"
+       },
+       "ModelType": "SummonedMonsterDeathTrap",
+       "DurationLeft": -911,
+       "TimeInBattle": 910,
+       "TurnsInBattle": 5
+      },
+      {
+       "Buff": {
+        "Components": [
+         "PoisonDamageOnTurn"
+        ],
+        "ApplyEffect": "PoisonFX",
+        "PassiveEffect": "PoisonPassive",
+        "Duration": -1,
+        "StackName": "Poison",
+        "AttackWeightScalar": 1,
+        "BuffIcon": "Icon_Poison",
+        "DescriptionKey": "PoisonDescription",
+        "Name": "Poison",
+        "NameKey": "PoisonName",
+        "IconName": "Poison"
+       },
+       "ModelType": "Poison",
+       "DurationLeft": -281,
+       "TimeInBattle": 280,
+       "TurnsInBattle": 2
+      }
+     ],
+     "Hp": 7293971,
+     "TimeInBattle": 910,
+     "Kills": 6,
+     "Id": 25,
+     "CachedBattleStats": {
+      "Vitality": 528571,
+      "WillPower": 528571,
+      "Strength": 528571,
+      "Intelligence": 528571,
+      "HP": 7294280,
+      "Atk": 911785,
+      "PAtk": 911785,
+      "PDef": 911785,
+      "MAtk": 911785,
+      "MDef": 911785
+     }
+    },
+    {
+     "Mi": {
+      "Xp": 638010,
+      "Awakening": 2,
+      "ModelType": "SpikeRabbitA"
+     },
+     "Buffs": [
+      {
+       "Buff": {
+        "Components": [
+         "6TimesScalarForBossHP"
+        ],
+        "Duration": -1,
+        "StackName": "BossBulk",
+        "DescriptionKey": "6xBossBulkDescription",
+        "Name": "6xBossBulk",
+        "NameKey": "6xBossBulkName",
+        "IconName": "6xBossBulk"
+       },
+       "ModelType": "6xBossBulk",
+       "DurationLeft": -911,
+       "TimeInBattle": 910,
+       "TurnsInBattle": 5
+      },
+      {
+       "Buff": {
+        "Components": [
+         "PoisonTargetsOnHitChance25"
+        ],
+        "Duration": -1,
+        "DescriptionKey": "OnHitPoisonChanceBossDescription",
+        "Name": "OnHitPoisonChanceBoss",
+        "NameKey": "OnHitPoisonChanceBossName",
+        "IconName": "OnHitPoisonChanceBoss"
+       },
+       "ModelType": "OnHitPoisonChanceBoss",
+       "DurationLeft": -911,
+       "TimeInBattle": 910,
+       "TurnsInBattle": 5
+      },
+      {
+       "Buff": {
+        "Components": [
+         "InstaKillSummonedEnemies"
+        ],
+        "Duration": -1,
+        "DescriptionKey": "SummonedMonsterDeathTrapDescription",
+        "Name": "SummonedMonsterDeathTrap",
+        "NameKey": "SummonedMonsterDeathTrapName",
+        "IconName": "SummonedMonsterDeathTrap"
+       },
+       "ModelType": "SummonedMonsterDeathTrap",
+       "DurationLeft": -911,
+       "TimeInBattle": 910,
+       "TurnsInBattle": 5
+      }
+     ],
+     "Hp": 2923941,
+     "TimeInBattle": 910,
+     "Kills": 5,
+     "Id": 26,
+     "CachedBattleStats": {
+      "Vitality": 528571,
+      "WillPower": 528571,
+      "Strength": 528571,
+      "Intelligence": 528571,
+      "HP": 5470710,
+      "Atk": 911785,
+      "PAtk": 911785,
+      "PDef": 911785,
+      "MAtk": 911785,
+      "MDef": 911785
+     }
+    },
+    {
+     "Mi": {
+      "Xp": 638010,
+      "Awakening": 2,
+      "ModelType": "SpiralCatB"
+     },
+     "Buffs": [
+      {
+       "Buff": {
+        "Components": [
+         "4TimesScalarForBossHP"
+        ],
+        "Duration": -1,
+        "StackName": "BossBulk",
+        "DescriptionKey": "4xBossBulkDescription",
+        "Name": "4xBossBulk",
+        "NameKey": "4xBossBulkName",
+        "IconName": "4xBossBulk"
+       },
+       "ModelType": "4xBossBulk",
+       "DurationLeft": -911,
+       "TimeInBattle": 910,
+       "TurnsInBattle": 3
+      },
+      {
+       "Buff": {
+        "Components": [
+         "SleepRevenge"
+        ],
+        "Duration": -1,
+        "BuffDescriptions": [
+         "Sleep"
+        ],
+        "Tags": [
+         "Revenge"
+        ],
+        "AutoExpand": true,
+        "HUDText": "SleepRevengeHUD",
+        "HUDPercent": 1,
+        "HUDPriority": 20,
+        "DescriptionKey": "SleepRevengeBossDescription",
+        "Name": "SleepRevengeBoss",
+        "NameKey": "SleepRevengeBossName",
+        "IconName": "SleepRevengeBoss"
+       },
+       "ModelType": "SleepRevengeBoss",
+       "DurationLeft": -911,
+       "TimeInBattle": 910,
+       "TurnsInBattle": 3
+      },
+      {
+       "Buff": {
+        "Components": [
+         "InstaKillSummonedEnemies"
+        ],
+        "Duration": -1,
+        "DescriptionKey": "SummonedMonsterDeathTrapDescription",
+        "Name": "SummonedMonsterDeathTrap",
+        "NameKey": "SummonedMonsterDeathTrapName",
+        "IconName": "SummonedMonsterDeathTrap"
+       },
+       "ModelType": "SummonedMonsterDeathTrap",
+       "DurationLeft": -911,
+       "TimeInBattle": 910,
+       "TurnsInBattle": 3
+      },
+      {
+       "Buff": {
+        "Components": [
+         "PoisonDamageOnTurn"
+        ],
+        "ApplyEffect": "PoisonFX",
+        "PassiveEffect": "PoisonPassive",
+        "Duration": -1,
+        "StackName": "Poison",
+        "AttackWeightScalar": 1,
+        "BuffIcon": "Icon_Poison",
+        "DescriptionKey": "PoisonDescription",
+        "Name": "Poison",
+        "NameKey": "PoisonName",
+        "IconName": "Poison"
+       },
+       "ModelType": "Poison",
+       "DurationLeft": -490,
+       "TimeInBattle": 489,
+       "TurnsInBattle": 2
+      }
+     ],
+     "Hp": 3646328,
+     "TimeInBattle": 910,
+     "Kills": 7,
+     "Spirit": 6,
+     "Id": 27,
+     "CachedBattleStats": {
+      "Vitality": 528571,
+      "WillPower": 528571,
+      "Strength": 528571,
+      "Intelligence": 528571,
+      "HP": 3647140,
+      "Atk": 911785,
+      "PAtk": 911785,
+      "PDef": 911785,
+      "MAtk": 911785,
+      "MDef": 911785
+     }
+    }
+   ],
+   "WinnerReinforcementCount": 6,
+   "WinnerNextReinforcement": "SheepA",
+   "Queue": {
+    "40": 26,
+    "96": 25,
+    "150": 24,
+    "261": 27
+   }
+  }
+ },
+ "fetchedAt": "2026-10-20",
+ "account": "sub",
+ "kind": "conquest",
+ "floor": 146,
+ "meta": {
+  "account": "sub",
+  "rank": 124,
+  "result": "lose",
+  "floor": 146,
+  "recRank": 119,
+  "baseScalar": 305.25
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "name": "floor146_sub_lose",
+ "objective": "win",
+ "winWorse": false,
+ "current": [
+  "LionR",
+  "RosaReg",
+  "AnnaReg",
+  "LeopardSR",
+  "PenguinR",
+  "TomoyaUniSR",
+  "PuppyR",
+  "ShokoReg",
+  "RyuKendo",
+  "MokumaruReg",
+  "ReikaRegSR",
+  "SpikeRabbitR",
+  "AnnaRegSR",
+  "TomoyaUni",
+  "YuiUniSR",
+  "MinamiRegSR",
+  "NayuSwim",
+  "AyaRegR",
+  "ShokoRegSR",
+  "SpiralCatR",
+  "SakiRegR",
+  "ShimaRegR",
+  "GenRegR",
+  "CupCatR"
+ ],
+ "proposed": [
+  "RosaReg",
+  "LionR",
+  "LeopardSR",
+  "TomoyaUniSR",
+  "AnnaReg",
+  "MokumaruReg",
+  "ReikaRegSR",
+  "PenguinR",
+  "PuppyR",
+  "RyuKendo",
+  "ShokoReg",
+  "SpikeRabbitR",
+  "AnnaRegSR",
+  "TomoyaUni",
+  "YuiUniSR",
+  "MinamiRegSR",
+  "NayuSwim",
+  "AyaRegR",
+  "ShokoRegSR",
+  "SpiralCatR",
+  "SakiRegR",
+  "ShimaRegR",
+  "GenRegR",
+  "CupCatR"
+ ],
+ "search": {
+  "seeds": 1500,
+  "prog": 3.3265914000803063
+ },
+ "verify": {
+  "seeds": 3000,
+  "current": {
+   "prog": 3.234502083717957,
+   "kills": 2.1633333333333336,
+   "win": 0.011666666666666667,
+   "hist": {
+    "0": 1009,
+    "1": 318,
+    "2": 437,
+    "3": 557,
+    "4": 272,
+    "5": 168,
+    "6": 113,
+    "7": 65,
+    "8": 18,
+    "9": 8,
+    "10": 35
+   }
+  },
+  "proposed": {
+   "prog": 3.2754829349085086,
+   "kills": 2.222,
+   "win": 0.013666666666666667,
+   "hist": {
+    "0": 1024,
+    "1": 229,
+    "2": 457,
+    "3": 576,
+    "4": 291,
+    "5": 186,
+    "6": 121,
+    "7": 45,
+    "8": 20,
+    "9": 10,
+    "10": 41
+   }
+  }
+ }
+}

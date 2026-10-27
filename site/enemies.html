@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>유적의 적 — 패러노이즈 자료실</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="eyebrow">Monster.json · Visible=false · 18종 × A/B/C</p>
+  <h1>유적의 적</h1>
+  <p class="lede">정체불명의 유적에 나오는 패러노이즈. 종족마다 속성이 다른 세 변형(A·B·C)이 있고 스킬 묶음도 다릅니다.
+  기본 스탯은 전부 333 으로 같아서 층별 세기는 레벨 배율로 정해집니다(배율은 서버 쪽 · 조사 중).</p>
+</header>
+<div class="bar">
+  <input id="q" placeholder="이름 · 스킬 검색" style="min-width:200px">
+  <span id="ele"></span>
+  <span class="tag" id="cnt"></span>
+</div>
+<div class="grid" id="grid"></div>
+<footer>스킬 설명이 비어 있는 것은 게임이 적 스킬에 설명 문자열을 두지 않은 것입니다. 배율(×)은 데이터 값 그대로입니다.</footer>
+</div>
+<script src="src.js"></script>
+<script src="nav.js"></script>
+<script src="modal.js"></script>
+<script>
+const EL={Fire:'암',Water:'광',Earth:'지'}; // 게임 표기: Fire=암(보라) Water=광(노랑) Earth=지(초록) · 상성 암>지>광>암
+const TG={'1Enemy':'적 1','2Enemy':'적 2','AllEnemy':'적 전체','Self':'자신','1Ally':'아군 1','1AllyNotMe':'다른 아군 1','All':'전체','AllAlly':'아군 전체','PoisonedEnemies':'독 걸린 적','1RandomEnemy':'무작위 적 1'};
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const st={q:'',ele:new Set()}; let D={}; let PT={};
+function compText(x){
+  if(x.type==='DamageAbilityComponent') return (x.BaseDamageScalar!=null?`×${x.BaseDamageScalar}`:'')+(x.CritChance?` 치명 ${Math.round(x.CritChance*100)}%`:'');
+  if(x.type==='HealAbilityComponent') return `회복 ${x.HealPercent!=null?Math.round(x.HealPercent*100)+'%':x.key}`;
+  if(x.type==='ApplyBuffAbilityComponent') return (x.Buffs||[]).join('·');
+  return x.key;
+}
+function line(a){
+  const cond=a.condition?` · 조건 ${a.condition}`:''; const lim=a.useLimit?` · ${a.useLimit}회`:'';
+  return `<li><b>${esc(a.name||a.key)}</b> <span class="m">TU ${a.tu}${lim} · ${TG[a.targeting]||a.targeting}${cond}${a.ai?` · AI ${a.ai}`:''}</span><span class="d">${esc(a.desc||a.short||'')}</span><span class="m">${esc(a.components.map(compText).join(' · '))}</span></li>`;
+}
+function detail(e){
+  return `<div><span class="chip ${e.element}">${EL[e.element]||e.element}</span><span class="chip">${e.variant} 형</span></div>
+  <div class="nm">${esc(e.name)} <span class="tag">${esc(e.key)}</span></div>
+  <div class="kv"><span>근력 <b>${e.str}</b></span><span>체력 <b>${e.vit}</b></span><span>기력 <b>${e.wil}</b></span><span>지력 <b>${e.int}</b></span></div>
+  <ul class="sk">${e.actives.map(line).join('')}${e.passives.map(p=>`<li><b>${esc(p.name||p.key)}</b> <span class="m">패시브</span><span class="d">${esc(p.desc||'')}</span></li>`).join('')}</ul>`;
+}
+function card(e){
+  const rows=[...e.actives.map(a=>['A',`${esc(a.name||a.key)} <span class="m">TU ${a.tu}</span>`]),...e.passives.map(p=>['P',esc(p.name||p.key)])];
+  return `<div class="ch" data-k="${e.key}"><img class="pt" src="${PARA_IMG}${PT[e.key]||''}.jpg" alt="" loading="lazy" onerror="this.style.display='none'"><div class="bd"><div><span class="chip ${e.element}">${EL[e.element]||e.element}</span><span class="chip">${e.variant} 형</span></div>
+  <div class="nm">${esc(e.name)}</div>
+  <ul class="sum">${rows.map(([k,t])=>`<li><span class="pa ${k}">${k}</span><span class="t">${t}</span></li>`).join('')}</ul>
+  <button class="more" type="button">+ 더보기</button></div></div>`;
+}
+function render(){
+  const q=st.q.trim().toLowerCase();
+  const list=Object.values(D).filter(e=>(!st.ele.size||st.ele.has(e.element))&&(!q||[e.name,e.key,...e.actives.map(a=>a.name+' '+a.key)].join(' ').toLowerCase().includes(q)));
+  list.sort((a,b)=>a.name.localeCompare(b.name,'ko')||a.variant.localeCompare(b.variant));
+  document.getElementById('grid').innerHTML=list.map(card).join('');
+  document.getElementById('cnt').textContent=`${list.length} / ${Object.keys(D).length}`;
+}
+fetch(PARA_DATA+'enemy_portrait.json').then(r=>r.json()).then(p=>{PT=p;}).then(()=>fetch(PARA_DATA+'enemies.json')).then(r=>r.json()).then(d=>{D=d;
+  const el=document.getElementById('ele');
+  el.innerHTML=['Fire','Water','Earth'].map(v=>`<button class="tog" data-v="${v}">${EL[v]}</button>`).join('');
+  el.onclick=e=>{const b=e.target.closest('.tog');if(!b)return;const v=b.dataset.v;st.ele.has(v)?st.ele.delete(v):st.ele.add(v);b.classList.toggle('on');render();};
+  document.getElementById('q').oninput=e=>{st.q=e.target.value;render();}; render();});
+</script>
+</body>
+</html>

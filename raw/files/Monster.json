@@ -1,0 +1,5182 @@
+{
+  "Hero01": {
+    "ActiveSkills": [
+      "BasicAttackSinglePhys"
+    ],
+    "ActiveSkillAnimations": {
+      "GainAttackSingleAPhys": "CharAbilityBase1"
+    },
+    "Rarity": "R",
+    "Strength": 1,
+    "Vitality": 1,
+    "WillPower": 1,
+    "Intelligence": 1,
+    "Element": "Fire",
+    "Visible": false,
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "GenRegR": {
+    "CharacterName": "Gen",
+    "UniqueSkillKey": "GenRegRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "Visible": true,
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "FlipBattlePortrait": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "ShimaRegR": {
+    "CharacterName": "Shim",
+    "UniqueSkillKey": "ShimaRegRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackAllMag"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "Visible": true,
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "FlipBattlePortrait": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "SakiRegR": {
+    "CharacterName": "Saki",
+    "UniqueSkillKey": "SakiRegRUniqueSkill",
+    "ActiveSkills": [
+      "FastAttackAllPhys"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "Visible": true,
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "CardXOffset": -30,
+    "CardYOffset": 0
+  },
+  "AyaRegR": {
+    "CharacterName": "Aya",
+    "UniqueSkillKey": "AyaRegRUniqueSkill",
+    "ActiveSkills": [
+      "SlowAttackDoublePhys"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "Visible": true,
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "MizunoRegR": {
+    "CharacterName": "Mizu",
+    "UniqueSkillKey": "MizunoRegRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackAllMag"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "Visible": true,
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "SeijiRegR": {
+    "CharacterName": "Seij",
+    "UniqueSkillKey": "SeijiRegRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "Visible": true,
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "CardXOffset": -5,
+    "CardYOffset": 0
+  },
+  "KenshinKendoR": {
+    "CharacterName": "Kens",
+    "UniqueSkillKey": "KenshinKendoRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSingleMag"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "Visible": true,
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "CardXOffset": -40,
+    "CardYOffset": 0
+  },
+  "CapybaraR": {
+    "CharacterName": "Capy",
+    "UniqueSkillKey": "CapybaraRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "CapybaraA",
+    "WarChibi": "Capy",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "CardXOffset": 0,
+    "CardYOffset": 739
+  },
+  "SpiralCatR": {
+    "CharacterName": "Spir",
+    "UniqueSkillKey": "SpiralCatRUniqueSkill",
+    "ActiveSkills": [
+      "PoisonAttackSinglePhys"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "SpiralCatA",
+    "WarChibi": "Spir",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "CardXOffset": 0,
+    "CardYOffset": 720
+  },
+  "SpikeRabbitR": {
+    "CharacterName": "Spik",
+    "UniqueSkillKey": "SpikeRabbitRUniqueSkill",
+    "ActiveSkills": [
+      "PoisonAttackSinglePhys"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "SpikeRabbitA",
+    "WarChibi": "Spik",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "CardXOffset": 0,
+    "CardYOffset": 643
+  },
+  "BearR": {
+    "CharacterName": "Bear",
+    "UniqueSkillKey": "BearRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackAllPhys"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "BearA",
+    "WarChibi": "Bear",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "CardXOffset": 0,
+    "CardYOffset": 636
+  },
+  "SheepR": {
+    "CharacterName": "Shee",
+    "UniqueSkillKey": "SheepRUniqueSkill",
+    "ActiveSkills": [
+      "SleepBombSingle",
+      "BasicAttackSinglePhys"
+    ],
+    "ActiveSkillAnimations": {
+      "SleepBombSingle": "SheeSleepAbility"
+    },
+    "AbilityEffects": {
+      "SleepBombSingle": "SheeSleepAbility"
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "SheepA",
+    "WarChibi": "Shee",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "CardXOffset": 0,
+    "CardYOffset": 807
+  },
+  "PenguinR": {
+    "CharacterName": "Peng",
+    "UniqueSkillKey": "PenguinRUniqueSkill",
+    "ActiveSkills": [
+      "HealBombSingle",
+      "BasicAttackSingleMag"
+    ],
+    "ActiveSkillAnimations": {
+      "HealBombSingle": "PengHealAbility"
+    },
+    "AbilityEffects": {
+      "HealBombSingle": "PengHealAbility"
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "PenguinA",
+    "WarChibi": "Peng",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "CardXOffset": 0,
+    "CardYOffset": 876
+  },
+  "LionR": {
+    "CharacterName": "Lion",
+    "UniqueSkillKey": "LionRUniqueSkill",
+    "ActiveSkills": [
+      "StunBombSingle",
+      "BasicAttackSingleMag"
+    ],
+    "ActiveSkillAnimations": {
+      "StunBombSingle": "LionStunAbility"
+    },
+    "AbilityEffects": {
+      "StunBombSingle": "LionStunAbility"
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "LionA",
+    "WarChibi": "Lion",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "CardXOffset": 0,
+    "CardYOffset": 841
+  },
+  "CupCatR": {
+    "CharacterName": "CupC",
+    "UniqueSkillKey": "CupCatRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "CupCatA",
+    "WarChibi": "CupC",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "CardXOffset": 0,
+    "CardYOffset": 670
+  },
+  "PuppyR": {
+    "CharacterName": "Pupp",
+    "UniqueSkillKey": "PuppyRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "PuppyA",
+    "WarChibi": "Pupp",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "CardXOffset": -40,
+    "CardYOffset": 759
+  },
+  "YuiUniSR": {
+    "CharacterName": "Yui",
+    "UniqueSkillKey": "YuiUniSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag",
+      "CostAttackSingleMag",
+      "SurvivorSingleMag"
+    ],
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "Rarity": "SR",
+    "Strength": 519,
+    "Vitality": 519,
+    "WillPower": 519,
+    "Intelligence": 519,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "YuiUni",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "AnimationFxOverride": "YuiW",
+    "CardXOffset": -40,
+    "CardYOffset": 0
+  },
+  "MinamiRegSR": {
+    "CharacterName": "Mina",
+    "UniqueSkillKey": "MinamiRegSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys",
+      "CostAttackSinglePhys",
+      "BloodfurySinglePhys"
+    ],
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "Rarity": "SR",
+    "Strength": 519,
+    "Vitality": 519,
+    "WillPower": 519,
+    "Intelligence": 519,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "MinamiReg",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "FlipBattlePortrait": true,
+    "CardXOffset": 138,
+    "CardYOffset": 0
+  },
+  "ReikaRegSR": {
+    "CharacterName": "Reik",
+    "UniqueSkillKey": "ReikaRegSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSingleMag",
+      "CostAttackDoubleMag",
+      "BloodfurySingleMag"
+    ],
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "Rarity": "SR",
+    "Strength": 519,
+    "Vitality": 519,
+    "WillPower": 519,
+    "Intelligence": 519,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "ReikaReg",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "MokumaruReg": {
+    "CharacterName": "Moku",
+    "UniqueSkillKey": "MokumaruRegUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSingleMag",
+      "CostAttackDoubleMag"
+    ],
+    "UniqueSkills": [
+      "StunRevengeLv1",
+      "StunRevengeLv2",
+      "StunRevengeLv3",
+      "StunRevengeLv4",
+      "StunRevengeLv5"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Water",
+    "Visible": true,
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "SkeletonYOffset": -50,
+    "CardXOffset": -40,
+    "CardYOffset": 657,
+    "ForceRanking": true
+  },
+  "RenjiUniSR": {
+    "CharacterName": "Renj",
+    "UniqueSkillKey": "RenjiUniSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys",
+      "TimeStrikeSingleAPhys",
+      "LastStandSinglePhys"
+    ],
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "Rarity": "SR",
+    "Strength": 519,
+    "Vitality": 519,
+    "WillPower": 519,
+    "Intelligence": 519,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "RenjiUni",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "AnimationFxOverride": "RenW",
+    "CardXOffset": -4,
+    "CardYOffset": 0
+  },
+  "JinRegSR": {
+    "CharacterName": "Jin",
+    "UniqueSkillKey": "JinRegSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSingleMag",
+      "CostAttackAllMag",
+      "SurvivorSingleMag"
+    ],
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "Rarity": "SR",
+    "Strength": 519,
+    "Vitality": 519,
+    "WillPower": 519,
+    "Intelligence": 519,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "JinReg",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "CardXOffset": -40,
+    "CardYOffset": 0
+  },
+  "TomoyaUniSR": {
+    "CharacterName": "Tom",
+    "UniqueSkillKey": "TomoyaUniSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys",
+      "CostAttackDoublePhys"
+    ],
+    "PassiveSkills": [
+      "AutoGuardB"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "TomoyaUni",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "AnimationFxOverride": "TomW",
+    "CardXOffset": -25,
+    "CardYOffset": 0
+  },
+  "MeisaRegSR": {
+    "CharacterName": "Meis",
+    "UniqueSkillKey": "MeisaRegSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag",
+      "CostAttackDoubleMag"
+    ],
+    "UniqueSkills": [
+      "SleepEntryLv1",
+      "SleepEntryLv2",
+      "SleepEntryLv3",
+      "SleepEntryLv4",
+      "SleepEntryLv5"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "MeisaReg",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "CardXOffset": -30,
+    "CardYOffset": 0
+  },
+  "ZenRegSR": {
+    "CharacterName": "Zen",
+    "UniqueSkillKey": "ZenRegSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys",
+      "CostAttackSinglePhys",
+      "LastStandSinglePhys"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "ZenReg",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "CardXOffset": -30,
+    "CardYOffset": 0
+  },
+  "NayuRegSR": {
+    "CharacterName": "Nayu",
+    "UniqueSkillKey": "NayuRegSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag",
+      "CostAttackDoubleMag"
+    ],
+    "UniqueSkills": [
+      "StunEntryLv1",
+      "StunEntryLv2",
+      "StunEntryLv3",
+      "StunEntryLv4",
+      "StunEntryLv5"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "NayuReg",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "ShokoRegSR": {
+    "CharacterName": "Shok",
+    "UniqueSkillKey": "ShokoRegSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoublePhys",
+      "PoisonAttackSinglePhys",
+      "PoisonEaterSingleAPhys"
+    ],
+    "PassiveSkills": [
+      "PoisonRevenge"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "ShokoReg",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "AnnaRegSR": {
+    "CharacterName": "Anna",
+    "UniqueSkillKey": "AnnaRegSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag",
+      "PoisonAttackSingleMag",
+      "PoisonEaterSingleAMag"
+    ],
+    "PassiveSkills": [
+      "PoisonRevenge"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Fire",
+    "Visible": true,
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "AnimationFxOverride": "AnnaSR",
+    "CardXOffset": -40,
+    "CardYOffset": 0
+  },
+  "DaichiRegSR": {
+    "CharacterName": "Daic",
+    "UniqueSkillKey": "DaichiRegSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys",
+      "StunCostAttackDaichiSRPhys",
+      "TimeStrikeSingleAPhys"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "DaichiReg",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "CardXOffset": 66,
+    "CardYOffset": 0
+  },
+  "RyokoRegSR": {
+    "CharacterName": "Ryok",
+    "UniqueSkillKey": "RyokoRegSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSingleMag",
+      "CostAttackSingleMag"
+    ],
+    "UniqueSkills": [
+      "SleepRevengeLv1",
+      "SleepRevengeLv2",
+      "SleepRevengeLv3",
+      "SleepRevengeLv4",
+      "SleepRevengeLv5"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "RyokoReg",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "RyuKendoSR": {
+    "CharacterName": "Ryu",
+    "UniqueSkillKey": "RyuKendoSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys",
+      "CostAttackSinglePhys"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "RyuKendo",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "ErikaRegSR": {
+    "CharacterName": "Erik",
+    "UniqueSkillKey": "ErikaRegSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSingleMag",
+      "SurvivorSingleMag",
+      "GiveTurnRandomOnce"
+    ],
+    "ActiveSkillAnimations": {
+      "GiveTurnRandomOnce": "ErikGiveTurnAbility"
+    },
+    "AbilityEffects": {
+      "GiveTurnRandomOnce": "ErikGiveTurnAbility"
+    },
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "ErikaReg",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "FlipBattlePortrait": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "KnifeRabbitSR": {
+    "CharacterName": "Knif",
+    "UniqueSkillKey": "KnifeRabbitSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys",
+      "CostAttackSinglePhys",
+      "BloodfurySinglePhys"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "KnifeRabbitA",
+    "WarChibi": "Knif",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "CardXOffset": -40,
+    "CardYOffset": 622
+  },
+  "LeopardSR": {
+    "CharacterName": "Leop",
+    "UniqueSkillKey": "LeopardSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoublePhys",
+      "CostAttackDoublePhys"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "LeopardA",
+    "WarChibi": "Leop",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "FlipBattlePortrait": true,
+    "CardXOffset": 82,
+    "CardYOffset": 684
+  },
+  "RibbonCatSR": {
+    "CharacterName": "Ribb",
+    "UniqueSkillKey": "RibbonCatSRUniqueSkill",
+    "ActiveSkills": [
+      "SleepBombSingle",
+      "BasicAttackSinglePhys"
+    ],
+    "ActiveSkillAnimations": {
+      "SleepBombSingle": "RibbSleepAbility"
+    },
+    "AbilityEffects": {
+      "SleepBombSingle": "RibbSleepAbility"
+    },
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "RibbonCatA",
+    "WarChibi": "Ribb",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "SkeletonXOffset": 50,
+    "CardXOffset": 0,
+    "CardYOffset": 691
+  },
+  "OctopusSR": {
+    "CharacterName": "Octo",
+    "UniqueSkillKey": "OctopusSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag",
+      "PoisonCostAttackSingleMag",
+      "PoisonEaterSingleAMag"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "OctopusA",
+    "WarChibi": "Octo",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "SkeletonXOffset": 60,
+    "SkeletonYOffset": -10,
+    "CardXOffset": 0,
+    "CardYOffset": 561
+  },
+  "BullSR": {
+    "CharacterName": "Bull",
+    "UniqueSkillKey": "BullSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag",
+      "PurifyAlly"
+    ],
+    "ActiveSkillAnimations": {
+      "PurifyAlly": "BullPurifyAbility"
+    },
+    "AbilityEffects": {
+      "PurifyAlly": "BullPurifyAbility"
+    },
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "BullA",
+    "WarChibi": "Bull",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "CardXOffset": 0,
+    "CardYOffset": 622
+  },
+  "YinYangSR": {
+    "CharacterName": "YinY",
+    "UniqueSkillKey": "YinYangSRUniqueSkill",
+    "ActiveSkills": [
+      "StunBombSingle",
+      "BasicAttackSinglePhys"
+    ],
+    "ActiveSkillAnimations": {
+      "StunBombSingle": "YinYStunAbility"
+    },
+    "AbilityEffects": {
+      "StunBombSingle": "YinYStunAbility"
+    },
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "YinYangA",
+    "WarChibi": "YinY",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "CardXOffset": 0,
+    "CardYOffset": 759
+  },
+  "HeartTailSR": {
+    "CharacterName": "Hear",
+    "UniqueSkillKey": "HeartTailSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag",
+      "CostAttackDoubleMag"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "HeartTailA",
+    "WarChibi": "Hear",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "CardXOffset": 0,
+    "CardYOffset": 739
+  },
+  "PantherSR": {
+    "CharacterName": "Pant",
+    "UniqueSkillKey": "PantherSRUniqueSkill",
+    "ActiveSkills": [
+      "FastAttackSingleMag",
+      "TimeStrikeSingleAMag",
+      "SendBackToNextOnce"
+    ],
+    "ActiveSkillAnimations": {
+      "SendBackToNextOnce": "PantSendBackAbility"
+    },
+    "AbilityEffects": {
+      "SendBackToNextOnce": "PantSendBackAbility"
+    },
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "PantherA",
+    "WarChibi": "Pant",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "CardXOffset": 0,
+    "CardYOffset": 616
+  },
+  "SealSR": {
+    "CharacterName": "Seal",
+    "UniqueSkillKey": "SealSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackAllMag",
+      "CostAttackAllMag"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "SealA",
+    "WarChibi": "Seal",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "SkeletonXOffset": 100,
+    "SkeletonYOffset": -10,
+    "CardXOffset": 0,
+    "CardYOffset": 575
+  },
+  "ShokoReg": {
+    "CharacterName": "Shok",
+    "UniqueSkillKey": "ShokoRegUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoublePhys",
+      "PoisonEaterSingleAPhys",
+      "DesperateBiteAPhys"
+    ],
+    "ActiveSkillLevels": {
+      "DesperateBiteAPhys": 76
+    },
+    "PassiveSkills": [
+      "PoisonRevenge"
+    ],
+    "PassiveSkillLevels": {
+      "PoisonRevenge": 101
+    },
+    "UniqueSkills": [
+      "PoisonStrikeLv1",
+      "PoisonStrikeLv2",
+      "PoisonStrikeLv3",
+      "PoisonStrikeLv4",
+      "PoisonStrikeLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Fire",
+    "Visible": true,
+    "TextColor": "#00FF92",
+    "ShadowColor": "#0D001C",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "RenjiKendo": {
+    "CharacterName": "Renj",
+    "UniqueSkillKey": "RenjiKendoUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSingleMag",
+      "LastStandSingleMag",
+      "DreamHuntSingleAMag",
+      "StepToBackOnce"
+    ],
+    "ActiveSkillLevels": {
+      "DreamHuntSingleAMag": 76,
+      "StepToBackOnce": 101
+    },
+    "ActiveSkillAnimations": {
+      "StepToBackOnce": "RenjSendBackAbility"
+    },
+    "AbilityEffects": {
+      "StepToBackOnce": "SendBackAbility"
+    },
+    "UniqueSkills": [
+      "SleepEntryDoubleLv1",
+      "SleepEntryDoubleLv2",
+      "SleepEntryDoubleLv3",
+      "SleepEntryDoubleLv4",
+      "SleepEntryDoubleLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Earth",
+    "Visible": true,
+    "TextColor": "#00223E",
+    "ShadowColor": "#ACFFF6",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "TomoyaUni": {
+    "CharacterName": "Tom",
+    "UniqueSkillKey": "TomoyaUniUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys",
+      "SurvivorSinglePhys",
+      "LifeFlipSelf",
+      "StunAttackDoubleOncePhys"
+    ],
+    "ActiveSkillLevels": {
+      "LifeFlipSelf": 76,
+      "StunAttackDoubleOncePhys": 101
+    },
+    "ActiveSkillAnimations": {
+      "LifeFlipSelf": "TomHealAbility"
+    },
+    "AbilityEffects": {
+      "LifeFlipSelf": "TomHealAbility"
+    },
+    "UniqueSkills": [
+      "StunSkinLv1",
+      "StunSkinLv2",
+      "StunSkinLv3",
+      "StunSkinLv4",
+      "StunSkinLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Water",
+    "Visible": true,
+    "TextColor": "#002F4B",
+    "ShadowColor": "#ACFFF6",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "RyuKendo": {
+    "CharacterName": "Ryu",
+    "UniqueSkillKey": "RyuKendoUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag",
+      "DreamHuntSingleAMag",
+      "FastCostAttackAllMag",
+      "SecondWind"
+    ],
+    "ActiveSkillLevels": {
+      "FastCostAttackAllMag": 76,
+      "SecondWind": 101
+    },
+    "ActiveSkillAnimations": {
+      "SecondWind": "RyuHealAbility"
+    },
+    "AbilityEffects": {
+      "SecondWind": "RyuHealAbility"
+    },
+    "UniqueSkills": [
+      "SleepStrikeLv1",
+      "SleepStrikeLv2",
+      "SleepStrikeLv3",
+      "SleepStrikeLv4",
+      "SleepStrikeLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Earth",
+    "Visible": true,
+    "TextColor": "#FFC33D",
+    "ShadowColor": "#000C2D",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "AnnaReg": {
+    "CharacterName": "Anna",
+    "UniqueSkillKey": "AnnaRegUniqueSkill",
+    "ActiveSkills": [
+      "PoisonAttackSinglePhys",
+      "PoisonEaterSingleAPhys",
+      "PoisonPokeSinglePhys",
+      "SecondWind"
+    ],
+    "ActiveSkillLevels": {
+      "PoisonPokeSinglePhys": 76,
+      "SecondWind": 101
+    },
+    "ActiveSkillAnimations": {
+      "SecondWind": "AnnaHealAbility"
+    },
+    "AbilityEffects": {
+      "SecondWind": "AnnaHealAbility"
+    },
+    "UniqueSkills": [
+      "PoisonSkinLv1",
+      "PoisonSkinLv2",
+      "PoisonSkinLv3",
+      "PoisonSkinLv4",
+      "PoisonSkinLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Fire",
+    "Visible": true,
+    "TextColor": "#FFFFB3",
+    "ShadowColor": "#8F0070",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "YuiKendo": {
+    "CharacterName": "Yui",
+    "UniqueSkillKey": "YuiKendoUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSingleMag",
+      "SurvivorSingleMag",
+      "LifeFlipSelf",
+      "SleepDoubleOnce"
+    ],
+    "ActiveSkillLevels": {
+      "LifeFlipSelf": 76,
+      "SleepDoubleOnce": 101
+    },
+    "ActiveSkillAnimations": {
+      "LifeFlipSelf": "YuiHealAbility",
+      "SleepDoubleOnce": "YuiSleepAbility"
+    },
+    "AbilityEffects": {
+      "LifeFlipSelf": "YuiHealAbility",
+      "SleepDoubleOnce": "YuiSleepAbility"
+    },
+    "UniqueSkills": [
+      "SleepRevengeDoubleLv1",
+      "SleepRevengeDoubleLv2",
+      "SleepRevengeDoubleLv3",
+      "SleepRevengeDoubleLv4",
+      "SleepRevengeDoubleLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Earth",
+    "Visible": true,
+    "TextColor": "#FFFFFF",
+    "ShadowColor": "#1B002F",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "MinamiReg": {
+    "CharacterName": "Mina",
+    "UniqueSkillKey": "MinamiRegUniqueSkill",
+    "ActiveSkills": [
+      "FastAttackAllPhys",
+      "SurvivorSinglePhys",
+      "PurifyHealAllyAndSelf"
+    ],
+    "ActiveSkillLevels": {
+      "PurifyHealAllyAndSelf": 76
+    },
+    "ActiveSkillAnimations": {
+      "PurifyHealAllyAndSelf": "MinaPurifyHealAbility"
+    },
+    "AbilityEffects": {
+      "PurifyHealAllyAndSelf": "MinaPurifyHealAbility"
+    },
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "PassiveSkillLevels": {
+      "HoldGround": 101
+    },
+    "UniqueSkills": [
+      "StunStrikeLv1",
+      "StunStrikeLv2",
+      "StunStrikeLv3",
+      "StunStrikeLv4",
+      "StunStrikeLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 600,
+    "Vitality": 800,
+    "WillPower": 800,
+    "Intelligence": 600,
+    "Element": "Water",
+    "Visible": true,
+    "TextColor": "#014E90",
+    "ShadowColor": "#A9DEE6",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "RyokoReg": {
+    "CharacterName": "Ryok",
+    "UniqueSkillKey": "RyokoRegUniqueSkill",
+    "ActiveSkills": [
+      "FastAttackSingleMag",
+      "TimeStrikeSingleAMag",
+      "DesperateBiteDoubleAMag",
+      "StepToBackOnce"
+    ],
+    "ActiveSkillLevels": {
+      "DesperateBiteDoubleAMag": 76,
+      "StepToBackOnce": 101
+    },
+    "ActiveSkillAnimations": {
+      "StepToBackOnce": "RyokSendBackAbility"
+    },
+    "AbilityEffects": {
+      "StepToBackOnce": "RyokSendBackAbility"
+    },
+    "UniqueSkills": [
+      "StunEntryDoubleLv1",
+      "StunEntryDoubleLv2",
+      "StunEntryDoubleLv3",
+      "StunEntryDoubleLv4",
+      "StunEntryDoubleLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Water",
+    "Visible": true,
+    "TextColor": "#93FFFF",
+    "ShadowColor": "#001F07",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "FlipBattlePortrait": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "TomoyaPara": {
+    "CharacterName": "TomP",
+    "UniqueSkillKey": "TomoyaParaUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoublePhys",
+      "PoisonEaterSingleAPhys",
+      "BloodfurySinglePhys",
+      "DesperateBiteDoubleAPhys"
+    ],
+    "ActiveSkillLevels": {
+      "BloodfurySinglePhys": 76,
+      "DesperateBiteDoubleAPhys": 101
+    },
+    "UniqueSkills": [
+      "PoisonGasEntryLv1",
+      "PoisonGasEntryLv2",
+      "PoisonGasEntryLv3",
+      "PoisonGasEntryLv4",
+      "PoisonGasEntryLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Fire",
+    "Visible": true,
+    "TextColor": "#FFD987",
+    "ShadowColor": "#770000",
+    "WarChibi": "Tom",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "HasVideo": true,
+    "FlipBattlePortrait": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "PuppyA": {
+    "CharacterName": "Pupp",
+    "ActiveSkills": [
+      "BossAttackSingleAPhys",
+      "TimeStrikeBossPhys"
+    ],
+    "PassiveSkills": [
+      "2xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Pupp",
+    "CardXOffset": -40,
+    "CardYOffset": 759
+  },
+  "PuppyB": {
+    "CharacterName": "PupB",
+    "ActiveSkills": [
+      "BossAttackDoubleAPhys",
+      "DreamHuntBossPhys"
+    ],
+    "ActiveSkillLevels": {
+      "DreamHuntBossPhys": 40
+    },
+    "PassiveSkills": [
+      "2xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Pupp",
+    "CardXOffset": -40,
+    "CardYOffset": 759
+  },
+  "PuppyC": {
+    "CharacterName": "PupC",
+    "ActiveSkills": [
+      "BossAttackAllAPhys",
+      "PoisonEatBossPhys"
+    ],
+    "ActiveSkillLevels": {
+      "PoisonEatBossPhys": 40
+    },
+    "PassiveSkills": [
+      "2xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Pupp",
+    "CardXOffset": -40,
+    "CardYOffset": 759
+  },
+  "SpikeRabbitA": {
+    "CharacterName": "Spik",
+    "ActiveSkills": [
+      "BossAttackSingleAPhys",
+      "BigAttackDoubleBossPhys"
+    ],
+    "ActiveSkillLevels": {
+      "BigAttackDoubleBossPhys": 90
+    },
+    "PassiveSkills": [
+      "6xBossBulk",
+      "OnHitPoisonChanceBoss"
+    ],
+    "PassiveSkillLevels": {
+      "OnHitPoisonChanceBoss": 60
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Spik",
+    "CardXOffset": 0,
+    "CardYOffset": 643
+  },
+  "SpikeRabbitB": {
+    "CharacterName": "SpkB",
+    "ActiveSkills": [
+      "BossAttackDoubleAPhys",
+      "BigAttackDoubleBossPhys"
+    ],
+    "ActiveSkillLevels": {
+      "BigAttackDoubleBossPhys": 90
+    },
+    "PassiveSkills": [
+      "6xBossBulk",
+      "OnHitSleepChanceBoss"
+    ],
+    "PassiveSkillLevels": {
+      "OnHitSleepChanceBoss": 60
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Spik",
+    "CardXOffset": 0,
+    "CardYOffset": 643
+  },
+  "SpikeRabbitC": {
+    "CharacterName": "SpkC",
+    "ActiveSkills": [
+      "BossAttackAllAPhys",
+      "BigAttackDoubleBossPhys"
+    ],
+    "ActiveSkillLevels": {
+      "BigAttackDoubleBossPhys": 90
+    },
+    "PassiveSkills": [
+      "6xBossBulk",
+      "OnHitStunChanceBoss"
+    ],
+    "PassiveSkillLevels": {
+      "OnHitStunChanceBoss": 60
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Spik",
+    "CardXOffset": 0,
+    "CardYOffset": 643
+  },
+  "SpiralCatA": {
+    "CharacterName": "Spir",
+    "ActiveSkills": [
+      "BossAttackDoubleAPhys",
+      "PoisonAttackBossPhys"
+    ],
+    "ActiveSkillLevels": {
+      "PoisonAttackBossPhys": 40
+    },
+    "PassiveSkills": [
+      "4xBossBulk",
+      "PoisonRevenge"
+    ],
+    "PassiveSkillLevels": {
+      "PoisonRevenge": 85
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Spir",
+    "CardXOffset": 0,
+    "CardYOffset": 720
+  },
+  "SpiralCatB": {
+    "CharacterName": "SprB",
+    "ActiveSkills": [
+      "BossAttackAllAPhys",
+      "SleepAttackBossPhys"
+    ],
+    "ActiveSkillLevels": {
+      "SleepAttackBossPhys": 40
+    },
+    "PassiveSkills": [
+      "4xBossBulk",
+      "SleepRevengeBoss"
+    ],
+    "PassiveSkillLevels": {
+      "SleepRevengeBoss": 85
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Spir",
+    "CardXOffset": 0,
+    "CardYOffset": 720
+  },
+  "SpiralCatC": {
+    "CharacterName": "SprC",
+    "ActiveSkills": [
+      "BossAttackSingleAPhys",
+      "StunAttackBossPhys"
+    ],
+    "ActiveSkillLevels": {
+      "StunAttackBossPhys": 40
+    },
+    "PassiveSkills": [
+      "4xBossBulk",
+      "StunRevengeBoss"
+    ],
+    "PassiveSkillLevels": {
+      "StunRevengeBoss": 85
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Spir",
+    "CardXOffset": 0,
+    "CardYOffset": 720
+  },
+  "BearA": {
+    "CharacterName": "Bear",
+    "ActiveSkills": [
+      "SlowAttackDoubleBossPhys",
+      "SleepRecover200TUBoss",
+      "BigAttackAllBossPhys"
+    ],
+    "ActiveSkillLevels": {
+      "SleepRecover200TUBoss": 90,
+      "BigAttackAllBossPhys": 40
+    },
+    "ActiveSkillAnimations": {
+      "SleepRecover200TUBoss": "BearHealAbility"
+    },
+    "AbilityEffects": {
+      "SleepRecover200TUBoss": "BearHealAbility"
+    },
+    "PassiveSkills": [
+      "12xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Bear",
+    "CardXOffset": 0,
+    "CardYOffset": 636
+  },
+  "BearB": {
+    "CharacterName": "BeaB",
+    "ActiveSkills": [
+      "SlowAttackDoubleBossPhys",
+      "SleepRecover200TUBoss",
+      "BigAttackAllBossPhys"
+    ],
+    "ActiveSkillLevels": {
+      "SleepRecover200TUBoss": 90,
+      "BigAttackAllBossPhys": 40
+    },
+    "ActiveSkillAnimations": {
+      "SleepRecover200TUBoss": "BearHealAbility"
+    },
+    "AbilityEffects": {
+      "SleepRecover200TUBoss": "BearHealAbility"
+    },
+    "PassiveSkills": [
+      "12xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Bear",
+    "CardXOffset": 0,
+    "CardYOffset": 636
+  },
+  "BearC": {
+    "CharacterName": "BeaC",
+    "ActiveSkills": [
+      "SlowAttackDoubleBossPhys",
+      "SleepRecover200TUBoss",
+      "BigAttackAllBossPhys"
+    ],
+    "ActiveSkillLevels": {
+      "SleepRecover200TUBoss": 90,
+      "BigAttackAllBossPhys": 40
+    },
+    "ActiveSkillAnimations": {
+      "SleepRecover200TUBoss": "BearHealAbility"
+    },
+    "AbilityEffects": {
+      "SleepRecover200TUBoss": "BearHealAbility"
+    },
+    "PassiveSkills": [
+      "12xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Bear",
+    "CardXOffset": 0,
+    "CardYOffset": 636
+  },
+  "LeopardA": {
+    "CharacterName": "Leop",
+    "ActiveSkills": [
+      "FastAttackBossPhys",
+      "PoisonSiphonBoss",
+      "BigAttackAllBossPhys"
+    ],
+    "ActiveSkillLevels": {
+      "PoisonSiphonBoss": 90,
+      "BigAttackAllBossPhys": 40
+    },
+    "ActiveSkillAnimations": {
+      "PoisonSiphonBoss": "LeopPurifyAbility"
+    },
+    "AbilityEffects": {
+      "PoisonSiphonBoss": "LeopPurifyAbility"
+    },
+    "PassiveSkills": [
+      "12xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Leop",
+    "CardXOffset": 82,
+    "CardYOffset": 684
+  },
+  "LeopardB": {
+    "CharacterName": "LeoB",
+    "ActiveSkills": [
+      "FastAttackBossPhys",
+      "SleepSiphonBoss",
+      "BigAttackAllBossPhys"
+    ],
+    "ActiveSkillLevels": {
+      "SleepSiphonBoss": 90,
+      "BigAttackAllBossPhys": 40
+    },
+    "ActiveSkillAnimations": {
+      "SleepSiphonBoss": "LeopPurifyAbility"
+    },
+    "AbilityEffects": {
+      "SleepSiphonBoss": "LeopPurifyAbility"
+    },
+    "PassiveSkills": [
+      "12xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Leop",
+    "CardXOffset": 82,
+    "CardYOffset": 684
+  },
+  "LeopardC": {
+    "CharacterName": "LeoC",
+    "ActiveSkills": [
+      "FastAttackBossPhys",
+      "TimeSiphonBoss",
+      "BigAttackAllBossPhys"
+    ],
+    "ActiveSkillLevels": {
+      "TimeSiphonBoss": 90,
+      "BigAttackAllBossPhys": 40
+    },
+    "ActiveSkillAnimations": {
+      "TimeSiphonBoss": "LeopGiveTurnAbility"
+    },
+    "AbilityEffects": {
+      "TimeSiphonBoss": "LeopGiveTurnAbility"
+    },
+    "PassiveSkills": [
+      "12xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Leop",
+    "CardXOffset": 82,
+    "CardYOffset": 684
+  },
+  "PenguinA": {
+    "CharacterName": "Peng",
+    "ActiveSkills": [
+      "CritAttackAllBossMag",
+      "BigAttackSingleBossMag"
+    ],
+    "ActiveSkillLevels": {
+      "BigAttackSingleBossMag": 40
+    },
+    "PassiveSkills": [
+      "2xBossBulk",
+      "OnHitSleepChanceBoss"
+    ],
+    "PassiveSkillLevels": {
+      "OnHitSleepChanceBoss": 85
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Peng",
+    "CardXOffset": 0,
+    "CardYOffset": 876
+  },
+  "PenguinB": {
+    "CharacterName": "PenB",
+    "ActiveSkills": [
+      "CritAttackAllBossMag",
+      "BigAttackSingleBossMag"
+    ],
+    "ActiveSkillLevels": {
+      "BigAttackSingleBossMag": 40
+    },
+    "PassiveSkills": [
+      "2xBossBulk",
+      "OnHitStunChanceBoss"
+    ],
+    "PassiveSkillLevels": {
+      "OnHitStunChanceBoss": 85
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Peng",
+    "CardXOffset": 0,
+    "CardYOffset": 876
+  },
+  "PenguinC": {
+    "CharacterName": "PenC",
+    "ActiveSkills": [
+      "CritAttackAllBossMag",
+      "BigAttackSingleBossMag"
+    ],
+    "ActiveSkillLevels": {
+      "BigAttackSingleBossMag": 40
+    },
+    "PassiveSkills": [
+      "2xBossBulk",
+      "OnHitPoisonChanceBoss"
+    ],
+    "PassiveSkillLevels": {
+      "OnHitPoisonChanceBoss": 85
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Peng",
+    "CardXOffset": 0,
+    "CardYOffset": 876
+  },
+  "KnifeRabbitA": {
+    "CharacterName": "Knif",
+    "ActiveSkills": [
+      "CritAttackSingleBossPhys",
+      "TUDownStackingBoss"
+    ],
+    "ActiveSkillLevels": {
+      "TUDownStackingBoss": 40
+    },
+    "ActiveSkillAnimations": {
+      "TUDownStackingBoss": "KnifAccelAbility"
+    },
+    "AbilityEffects": {
+      "TUDownStackingBoss": "KnifAccelAbility"
+    },
+    "PassiveSkills": [
+      "6xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Knif",
+    "CardXOffset": -40,
+    "CardYOffset": 622
+  },
+  "KnifeRabbitB": {
+    "CharacterName": "KniB",
+    "ActiveSkills": [
+      "CritAttackSingleBossPhys",
+      "TUDownStackingBoss"
+    ],
+    "ActiveSkillLevels": {
+      "TUDownStackingBoss": 40
+    },
+    "ActiveSkillAnimations": {
+      "TUDownStackingBoss": "KnifAccelAbility"
+    },
+    "AbilityEffects": {
+      "TUDownStackingBoss": "KnifAccelAbility"
+    },
+    "PassiveSkills": [
+      "6xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Knif",
+    "CardXOffset": -40,
+    "CardYOffset": 622
+  },
+  "KnifeRabbitC": {
+    "CharacterName": "KniC",
+    "ActiveSkills": [
+      "CritAttackSingleBossPhys",
+      "TUDownStackingBoss"
+    ],
+    "ActiveSkillLevels": {
+      "TUDownStackingBoss": 40
+    },
+    "ActiveSkillAnimations": {
+      "TUDownStackingBoss": "KnifAccelAbility"
+    },
+    "AbilityEffects": {
+      "TUDownStackingBoss": "KnifAccelAbility"
+    },
+    "PassiveSkills": [
+      "6xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Knif",
+    "CardXOffset": -40,
+    "CardYOffset": 622
+  },
+  "RibbonCatA": {
+    "CharacterName": "Ribb",
+    "ActiveSkills": [
+      "EvasiveAttackDoubleBossPhys",
+      "TimeStrikeDoubleBossPhys"
+    ],
+    "ActiveSkillLevels": {
+      "TimeStrikeDoubleBossPhys": 40
+    },
+    "PassiveSkills": [
+      "8xBossBulk",
+      "OnHitStunChanceBoss"
+    ],
+    "PassiveSkillLevels": {
+      "OnHitStunChanceBoss": 85
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Ribb",
+    "SkeletonXOffset": 50,
+    "CardXOffset": 0,
+    "CardYOffset": 691
+  },
+  "RibbonCatB": {
+    "CharacterName": "RibB",
+    "ActiveSkills": [
+      "EvasiveAttackDoubleBossPhys",
+      "DreamHuntDoubleBossPhys"
+    ],
+    "ActiveSkillLevels": {
+      "DreamHuntDoubleBossPhys": 40
+    },
+    "PassiveSkills": [
+      "8xBossBulk",
+      "OnHitSleepChanceBoss"
+    ],
+    "PassiveSkillLevels": {
+      "OnHitSleepChanceBoss": 85
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Ribb",
+    "SkeletonXOffset": 50,
+    "CardXOffset": 0,
+    "CardYOffset": 691
+  },
+  "RibbonCatC": {
+    "CharacterName": "RibC",
+    "ActiveSkills": [
+      "EvasiveAttackDoubleBossPhys",
+      "PoisonEatDoubleBossPhys"
+    ],
+    "ActiveSkillLevels": {
+      "PoisonEatDoubleBossPhys": 40
+    },
+    "PassiveSkills": [
+      "8xBossBulk",
+      "OnHitPoisonChanceBoss"
+    ],
+    "PassiveSkillLevels": {
+      "OnHitPoisonChanceBoss": 85
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Ribb",
+    "SkeletonXOffset": 50,
+    "CardXOffset": 0,
+    "CardYOffset": 691
+  },
+  "SheepA": {
+    "CharacterName": "Shee",
+    "ActiveSkills": [
+      "CritAttackSingleBossPhys"
+    ],
+    "PassiveSkills": [
+      "2xBossBulk",
+      "SleepEntryBoss"
+    ],
+    "PassiveSkillLevels": {
+      "SleepEntryBoss": 60
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Shee",
+    "CardXOffset": 0,
+    "CardYOffset": 807
+  },
+  "SheepB": {
+    "CharacterName": "SheB",
+    "ActiveSkills": [
+      "CritAttackSingleBossPhys"
+    ],
+    "PassiveSkills": [
+      "2xBossBulk",
+      "StunEntryBoss"
+    ],
+    "PassiveSkillLevels": {
+      "StunEntryBoss": 60
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Shee",
+    "CardXOffset": 0,
+    "CardYOffset": 807
+  },
+  "SheepC": {
+    "CharacterName": "SheC",
+    "ActiveSkills": [
+      "CritAttackSingleBossPhys"
+    ],
+    "PassiveSkills": [
+      "2xBossBulk",
+      "PoisonEntry"
+    ],
+    "PassiveSkillLevels": {
+      "PoisonEntry": 60
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Shee",
+    "CardXOffset": 0,
+    "CardYOffset": 807
+  },
+  "YinYangA": {
+    "CharacterName": "YinY",
+    "ActiveSkills": [
+      "FastAttackDoubleBossPhys",
+      "LifeFlipSelfBoss",
+      "BigAttackSingleBossPhys"
+    ],
+    "ActiveSkillLevels": {
+      "LifeFlipSelfBoss": 90,
+      "BigAttackSingleBossPhys": 40
+    },
+    "ActiveSkillAnimations": {
+      "LifeFlipSelfBoss": "YinYHealAbility"
+    },
+    "AbilityEffects": {
+      "LifeFlipSelfBoss": "YinYHealAbility"
+    },
+    "PassiveSkills": [
+      "4xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "CardXOffset": 0,
+    "CardYOffset": 759
+  },
+  "YinYangB": {
+    "CharacterName": "YinB",
+    "ActiveSkills": [
+      "FastAttackDoubleBossPhys",
+      "LifeFlipAllyBoss",
+      "BigAttackSingleBossPhys"
+    ],
+    "ActiveSkillLevels": {
+      "LifeFlipAllyBoss": 90,
+      "BigAttackSingleBossPhys": 40
+    },
+    "ActiveSkillAnimations": {
+      "LifeFlipAllyBoss": "YinYHealAbility"
+    },
+    "AbilityEffects": {
+      "LifeFlipAllyBoss": "YinYHealAbility"
+    },
+    "PassiveSkills": [
+      "4xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "CardXOffset": 0,
+    "CardYOffset": 759
+  },
+  "YinYangC": {
+    "CharacterName": "YinC",
+    "ActiveSkills": [
+      "FastAttackDoubleBossPhys",
+      "LifeFlipDoubleBoss",
+      "BigAttackSingleBossPhys"
+    ],
+    "ActiveSkillLevels": {
+      "LifeFlipDoubleBoss": 90,
+      "BigAttackSingleBossPhys": 40
+    },
+    "ActiveSkillAnimations": {
+      "LifeFlipDoubleBoss": "YinYHealAbility"
+    },
+    "AbilityEffects": {
+      "LifeFlipDoubleBoss": "YinYHealAbility"
+    },
+    "PassiveSkills": [
+      "4xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "CardXOffset": 0,
+    "CardYOffset": 759
+  },
+  "BullA": {
+    "CharacterName": "Bull",
+    "ActiveSkills": [
+      "BossAttackAllAMag",
+      "SlowHealBoss"
+    ],
+    "ActiveSkillLevels": {
+      "SlowHealBoss": 40
+    },
+    "ActiveSkillAnimations": {
+      "SlowHealBoss": "BullHealAbility"
+    },
+    "AbilityEffects": {
+      "SlowHealBoss": "BullHealAbility"
+    },
+    "PassiveSkills": [
+      "12xBossBulk",
+      "TurnRevengeBoss"
+    ],
+    "PassiveSkillLevels": {
+      "TurnRevengeBoss": 85
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Bull",
+    "CardXOffset": 0,
+    "CardYOffset": 622
+  },
+  "BullB": {
+    "CharacterName": "BulB",
+    "ActiveSkills": [
+      "BossAttackDoubleAMag",
+      "PoisonHealBoss"
+    ],
+    "ActiveSkillLevels": {
+      "PoisonHealBoss": 40
+    },
+    "ActiveSkillAnimations": {
+      "PoisonHealBoss": "BullHealAbility"
+    },
+    "AbilityEffects": {
+      "PoisonHealBoss": "BullHealAbility"
+    },
+    "PassiveSkills": [
+      "12xBossBulk",
+      "TurnRevengeBoss"
+    ],
+    "PassiveSkillLevels": {
+      "TurnRevengeBoss": 85
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Bull",
+    "CardXOffset": 0,
+    "CardYOffset": 622
+  },
+  "BullC": {
+    "CharacterName": "BulC",
+    "ActiveSkills": [
+      "BossAttackSingleAMag",
+      "SleepHealBoss"
+    ],
+    "ActiveSkillLevels": {
+      "SleepHealBoss": 40
+    },
+    "ActiveSkillAnimations": {
+      "SleepHealBoss": "BullHealAbility"
+    },
+    "AbilityEffects": {
+      "SleepHealBoss": "BullHealAbility"
+    },
+    "PassiveSkills": [
+      "12xBossBulk",
+      "TurnRevengeBoss"
+    ],
+    "PassiveSkillLevels": {
+      "TurnRevengeBoss": 85
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Bull",
+    "CardXOffset": 0,
+    "CardYOffset": 622
+  },
+  "CupCatA": {
+    "CharacterName": "CupC",
+    "ActiveSkills": [
+      "BossAttackSingleAMag",
+      "TeamTurnBoss"
+    ],
+    "ActiveSkillLevels": {
+      "TeamTurnBoss": 90
+    },
+    "ActiveSkillAnimations": {
+      "TeamTurnBoss": "CupCGiveTurnAbility"
+    },
+    "AbilityEffects": {
+      "TeamTurnBoss": "CupCGiveTurnAbility"
+    },
+    "PassiveSkills": [
+      "4xBossBulk",
+      "SleepRevengeDoubleBoss"
+    ],
+    "PassiveSkillLevels": {
+      "SleepRevengeDoubleBoss": 35
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "CupC",
+    "CardXOffset": 0,
+    "CardYOffset": 670
+  },
+  "CupCatB": {
+    "CharacterName": "CupB",
+    "ActiveSkills": [
+      "BossAttackDoubleAMag",
+      "TeamTurnBoss"
+    ],
+    "ActiveSkillLevels": {
+      "TeamTurnBoss": 90
+    },
+    "ActiveSkillAnimations": {
+      "TeamTurnBoss": "CupCGiveTurnAbility"
+    },
+    "AbilityEffects": {
+      "TeamTurnBoss": "CupCGiveTurnAbility"
+    },
+    "PassiveSkills": [
+      "4xBossBulk",
+      "StunRevengeBoss"
+    ],
+    "PassiveSkillLevels": {
+      "StunRevengeBoss": 35
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "CupC",
+    "CardXOffset": 0,
+    "CardYOffset": 670
+  },
+  "CupCatC": {
+    "CharacterName": "CupD",
+    "ActiveSkills": [
+      "BossAttackAllAMag",
+      "TeamTurnBoss"
+    ],
+    "ActiveSkillLevels": {
+      "TeamTurnBoss": 90
+    },
+    "ActiveSkillAnimations": {
+      "TeamTurnBoss": "CupCGiveTurnAbility"
+    },
+    "AbilityEffects": {
+      "TeamTurnBoss": "CupCGiveTurnAbility"
+    },
+    "PassiveSkills": [
+      "4xBossBulk",
+      "PoisonGasRevengeBoss"
+    ],
+    "PassiveSkillLevels": {
+      "PoisonGasRevengeBoss": 35
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "CupC",
+    "CardXOffset": 0,
+    "CardYOffset": 670
+  },
+  "HeartTailA": {
+    "CharacterName": "Hear",
+    "ActiveSkills": [
+      "BossAttackAllAMag",
+      "AttackWaterSingleBossMag"
+    ],
+    "ActiveSkillLevels": {
+      "AttackWaterSingleBossMag": 90
+    },
+    "PassiveSkills": [
+      "8xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Hear",
+    "CardXOffset": 0,
+    "CardYOffset": 739
+  },
+  "HeartTailB": {
+    "CharacterName": "HeaB",
+    "ActiveSkills": [
+      "BossAttackSingleAMag",
+      "AttackFireSingleBossMag"
+    ],
+    "ActiveSkillLevels": {
+      "AttackFireSingleBossMag": 90
+    },
+    "PassiveSkills": [
+      "8xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Hear",
+    "CardXOffset": 0,
+    "CardYOffset": 739
+  },
+  "HeartTailC": {
+    "CharacterName": "HeaC",
+    "ActiveSkills": [
+      "BossAttackDoubleAMag",
+      "AttackEarthSingleBossMag"
+    ],
+    "ActiveSkillLevels": {
+      "AttackEarthSingleBossMag": 90
+    },
+    "PassiveSkills": [
+      "8xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Hear",
+    "CardXOffset": 0,
+    "CardYOffset": 739
+  },
+  "PantherA": {
+    "CharacterName": "Pant",
+    "ActiveSkills": [
+      "EvasiveAttackBossMag",
+      "FinalStandBossMag",
+      "BigAttackAllBossMag"
+    ],
+    "ActiveSkillLevels": {
+      "FinalStandBossMag": 90,
+      "BigAttackAllBossMag": 40
+    },
+    "PassiveSkills": [
+      "12xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Pant",
+    "CardXOffset": 0,
+    "CardYOffset": 616
+  },
+  "PantherB": {
+    "CharacterName": "PanB",
+    "ActiveSkills": [
+      "EvasiveAttackBossMag",
+      "FinalStandBossMag",
+      "BigAttackAllBossMag"
+    ],
+    "ActiveSkillLevels": {
+      "FinalStandBossMag": 90,
+      "BigAttackAllBossMag": 40
+    },
+    "PassiveSkills": [
+      "12xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Pant",
+    "CardXOffset": 0,
+    "CardYOffset": 616
+  },
+  "PantherC": {
+    "CharacterName": "PanC",
+    "ActiveSkills": [
+      "EvasiveAttackBossMag",
+      "FinalStandBossMag",
+      "BigAttackAllBossMag"
+    ],
+    "ActiveSkillLevels": {
+      "FinalStandBossMag": 90,
+      "BigAttackAllBossMag": 40
+    },
+    "PassiveSkills": [
+      "12xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Pant",
+    "CardXOffset": 0,
+    "CardYOffset": 616
+  },
+  "LionA": {
+    "CharacterName": "Lion",
+    "ActiveSkills": [
+      "AggroAttackDoubleBossMag",
+      "BigAttackDoubleBossMag"
+    ],
+    "ActiveSkillLevels": {
+      "BigAttackDoubleBossMag": 40
+    },
+    "PassiveSkills": [
+      "2xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Lion",
+    "CardXOffset": 0,
+    "CardYOffset": 841
+  },
+  "LionB": {
+    "CharacterName": "LioB",
+    "ActiveSkills": [
+      "AggroAttackDoubleBossMag",
+      "BigAttackDoubleBossMag"
+    ],
+    "ActiveSkillLevels": {
+      "BigAttackDoubleBossMag": 40
+    },
+    "PassiveSkills": [
+      "2xBossBulk",
+      "StunSkinBoss"
+    ],
+    "PassiveSkillLevels": {
+      "StunSkinBoss": 85
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Lion",
+    "CardXOffset": 0,
+    "CardYOffset": 841
+  },
+  "LionC": {
+    "CharacterName": "LioC",
+    "ActiveSkills": [
+      "AggroAttackDoubleBossMag",
+      "BigAttackDoubleBossMag"
+    ],
+    "ActiveSkillLevels": {
+      "BigAttackDoubleBossMag": 40
+    },
+    "PassiveSkills": [
+      "2xBossBulk",
+      "PoisonSkinBoss"
+    ],
+    "PassiveSkillLevels": {
+      "PoisonSkinBoss": 85
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Lion",
+    "CardXOffset": 0,
+    "CardYOffset": 841
+  },
+  "CapybaraA": {
+    "CharacterName": "Capy",
+    "ActiveSkills": [
+      "BossAttackSingleAMag",
+      "BigAttackSingleBossMag"
+    ],
+    "ActiveSkillLevels": {
+      "BigAttackSingleBossMag": 90
+    },
+    "PassiveSkills": [
+      "4xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Capy",
+    "CardXOffset": 0,
+    "CardYOffset": 739
+  },
+  "CapybaraB": {
+    "CharacterName": "CapB",
+    "ActiveSkills": [
+      "BossAttackDoubleAMag",
+      "BigAttackSingleBossMag"
+    ],
+    "ActiveSkillLevels": {
+      "BigAttackSingleBossMag": 90
+    },
+    "PassiveSkills": [
+      "4xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Capy",
+    "CardXOffset": 0,
+    "CardYOffset": 739
+  },
+  "CapybaraC": {
+    "CharacterName": "CapC",
+    "ActiveSkills": [
+      "BossAttackAllAMag",
+      "BigAttackSingleBossMag"
+    ],
+    "ActiveSkillLevels": {
+      "BigAttackSingleBossMag": 90
+    },
+    "PassiveSkills": [
+      "4xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Capy",
+    "CardXOffset": 0,
+    "CardYOffset": 739
+  },
+  "SealA": {
+    "CharacterName": "Seal",
+    "ActiveSkills": [
+      "SlowAttackDoubleBossMag",
+      "BigAttackAllBossMag"
+    ],
+    "ActiveSkillLevels": {
+      "BigAttackAllBossMag": 40
+    },
+    "PassiveSkills": [
+      "12xBossBulk",
+      "PoisonSkinBoss"
+    ],
+    "PassiveSkillLevels": {
+      "PoisonSkinBoss": 85
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Seal",
+    "SkeletonXOffset": 100,
+    "SkeletonYOffset": -10,
+    "CardXOffset": 0,
+    "CardYOffset": 575
+  },
+  "SealB": {
+    "CharacterName": "SeaB",
+    "ActiveSkills": [
+      "SlowAttackDoubleBossMag",
+      "BigAttackAllBossMag"
+    ],
+    "ActiveSkillLevels": {
+      "BigAttackAllBossMag": 40
+    },
+    "PassiveSkills": [
+      "12xBossBulk",
+      "StunSkinBoss"
+    ],
+    "PassiveSkillLevels": {
+      "StunSkinBoss": 85
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Seal",
+    "SkeletonXOffset": 100,
+    "SkeletonYOffset": -10,
+    "CardXOffset": 0,
+    "CardYOffset": 575
+  },
+  "SealC": {
+    "CharacterName": "SeaC",
+    "ActiveSkills": [
+      "SlowAttackDoubleBossMag",
+      "BigAttackAllBossMag"
+    ],
+    "ActiveSkillLevels": {
+      "BigAttackAllBossMag": 40
+    },
+    "PassiveSkills": [
+      "12xBossBulk",
+      "SleepSkinBoss"
+    ],
+    "PassiveSkillLevels": {
+      "SleepSkinBoss": 85
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Seal",
+    "SkeletonXOffset": 100,
+    "SkeletonYOffset": -10,
+    "CardXOffset": 0,
+    "CardYOffset": 575
+  },
+  "OctopusA": {
+    "CharacterName": "Octo",
+    "ActiveSkills": [
+      "FastAttackBossMag",
+      "TUDownStackingBoss"
+    ],
+    "ActiveSkillLevels": {
+      "TUDownStackingBoss": 40
+    },
+    "ActiveSkillAnimations": {
+      "TUDownStackingBoss": "OctoAccelAbility"
+    },
+    "AbilityEffects": {
+      "TUDownStackingBoss": "OctoAccelAbility"
+    },
+    "PassiveSkills": [
+      "8xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Octo",
+    "SkeletonXOffset": 60,
+    "SkeletonYOffset": -10,
+    "CardXOffset": 0,
+    "CardYOffset": 561
+  },
+  "OctopusB": {
+    "CharacterName": "OctB",
+    "ActiveSkills": [
+      "FastAttackDoubleBossMag",
+      "TUDownStackingBoss"
+    ],
+    "ActiveSkillLevels": {
+      "TUDownStackingBoss": 40
+    },
+    "ActiveSkillAnimations": {
+      "TUDownStackingBoss": "OctoAccelAbility"
+    },
+    "AbilityEffects": {
+      "TUDownStackingBoss": "OctoAccelAbility"
+    },
+    "PassiveSkills": [
+      "8xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Octo",
+    "SkeletonXOffset": 60,
+    "SkeletonYOffset": -10,
+    "CardXOffset": 0,
+    "CardYOffset": 561
+  },
+  "OctopusC": {
+    "CharacterName": "OctC",
+    "ActiveSkills": [
+      "FastAttackAllBossMag",
+      "TUDownStackingBoss"
+    ],
+    "ActiveSkillLevels": {
+      "TUDownStackingBoss": 40
+    },
+    "ActiveSkillAnimations": {
+      "TUDownStackingBoss": "OctoAccelAbility"
+    },
+    "AbilityEffects": {
+      "TUDownStackingBoss": "OctoAccelAbility"
+    },
+    "PassiveSkills": [
+      "8xBossBulk"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Octo",
+    "SkeletonXOffset": 60,
+    "SkeletonYOffset": -10,
+    "CardXOffset": 0,
+    "CardYOffset": 561
+  },
+  "CapybaraAltSR": {
+    "CharacterName": "CapB",
+    "UniqueSkillKey": "CapybaraAltSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys"
+    ],
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "CapybaraB",
+    "WarChibi": "Capy",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Capy",
+    "CardXOffset": 0,
+    "CardYOffset": 739
+  },
+  "BearAltSR": {
+    "CharacterName": "BeaB",
+    "UniqueSkillKey": "BearAltSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoublePhys",
+      "LifeFlipSelfOnce"
+    ],
+    "ActiveSkillAnimations": {
+      "LifeFlipSelfOnce": "BearHealAbility"
+    },
+    "AbilityEffects": {
+      "LifeFlipSelfOnce": "BearHealAbility"
+    },
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "BearB",
+    "WarChibi": "Bear",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Bear",
+    "CardXOffset": 0,
+    "CardYOffset": 636
+  },
+  "SpikeRabbitAltSR": {
+    "CharacterName": "SpkB",
+    "UniqueSkillKey": "SpikeRabbitAltSRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys",
+      "PoisonBombDouble"
+    ],
+    "ActiveSkillAnimations": {
+      "PoisonBombDouble": "SpikPoisonAbility"
+    },
+    "AbilityEffects": {
+      "PoisonBombDouble": "SpikPoisonAbility"
+    },
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "SpikeRabbitB",
+    "WarChibi": "Spik",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Spik",
+    "CardXOffset": 0,
+    "CardYOffset": 643
+  },
+  "BullAltSR2": {
+    "CharacterName": "BulC",
+    "UniqueSkillKey": "BullAltSR2UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSingleMag",
+      "HealBombSingle"
+    ],
+    "ActiveSkillAnimations": {
+      "HealBombSingle": "BullHealAbility"
+    },
+    "AbilityEffects": {
+      "HealBombSingle": "BullHealAbility"
+    },
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "BullC",
+    "WarChibi": "Bull",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Bull",
+    "CardXOffset": 0,
+    "CardYOffset": 622
+  },
+  "YinYangAltSR2": {
+    "CharacterName": "YinC",
+    "UniqueSkillKey": "YinYangAltSR2UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackAllPhys",
+      "GiveTurnHighOnce"
+    ],
+    "ActiveSkillAnimations": {
+      "GiveTurnHighOnce": "YinYGiveTurnAbility"
+    },
+    "AbilityEffects": {
+      "GiveTurnHighOnce": "YinYGiveTurnAbility"
+    },
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "YinYangC",
+    "WarChibi": "YinY",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "YinC",
+    "CardXOffset": 0,
+    "CardYOffset": 759,
+    "ForceRanking": true
+  },
+  "OctopusAltSR1": {
+    "CharacterName": "OctB",
+    "UniqueSkillKey": "OctopusAltSR1UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "OctopusB",
+    "WarChibi": "Octo",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Octo",
+    "SkeletonXOffset": 60,
+    "SkeletonYOffset": -40,
+    "CardXOffset": 0,
+    "CardYOffset": 561
+  },
+  "HeartTailAltSR1": {
+    "CharacterName": "HeaB",
+    "UniqueSkillKey": "HeartTailAltSR1UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "HeartTailB",
+    "WarChibi": "Hear",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Hear",
+    "CardXOffset": 0,
+    "CardYOffset": 739
+  },
+  "RibbonCatAltSR1": {
+    "CharacterName": "RibB",
+    "UniqueSkillKey": "RibbonCatAltSR1UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackAllPhys"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "RibbonCatB",
+    "WarChibi": "Ribb",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Ribb",
+    "SkeletonXOffset": 50,
+    "CardXOffset": 0,
+    "CardYOffset": 691
+  },
+  "BullAltSR1": {
+    "CharacterName": "BulB",
+    "UniqueSkillKey": "BullAltSR1UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSingleMag"
+    ],
+    "PassiveSkills": [
+      "PurifyRandomRevenge"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "BullB",
+    "WarChibi": "Bull",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Bull",
+    "CardXOffset": 0,
+    "CardYOffset": 622
+  },
+  "KnifeRabbitAltSR1": {
+    "CharacterName": "KniB",
+    "UniqueSkillKey": "KnifeRabbitAltSR1UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "KnifeRabbitB",
+    "WarChibi": "Knif",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Knif",
+    "CardXOffset": -40,
+    "CardYOffset": 622
+  },
+  "LeopardAltSR1": {
+    "CharacterName": "LeoB",
+    "UniqueSkillKey": "LeopardAltSR1UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackAllPhys"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "LeopardB",
+    "WarChibi": "Leop",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Leop",
+    "FlipBattlePortrait": true,
+    "CardXOffset": 82,
+    "CardYOffset": 684
+  },
+  "PantherAltSR1": {
+    "CharacterName": "PanB",
+    "UniqueSkillKey": "PantherAltSR1UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackAllMag"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "PantherB",
+    "WarChibi": "Pant",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Pant",
+    "CardXOffset": 0,
+    "CardYOffset": 616
+  },
+  "SealAltSR1": {
+    "CharacterName": "SeaB",
+    "UniqueSkillKey": "SealAltSR1UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "SealB",
+    "WarChibi": "Seal",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Seal",
+    "SkeletonXOffset": 100,
+    "SkeletonYOffset": -40,
+    "CardXOffset": 0,
+    "CardYOffset": 575
+  },
+  "YinYangAltSR1": {
+    "CharacterName": "YinB",
+    "UniqueSkillKey": "YinYangAltSR1UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoublePhys"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "YinYangB",
+    "WarChibi": "YinY",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "YinB",
+    "CardXOffset": 0,
+    "CardYOffset": 759
+  },
+  "OctopusAltSR2": {
+    "CharacterName": "OctC",
+    "UniqueSkillKey": "OctopusAltSR2UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackAllMag"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "OctopusC",
+    "WarChibi": "Octo",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Octo",
+    "SkeletonXOffset": 60,
+    "SkeletonYOffset": -40,
+    "CardXOffset": 0,
+    "CardYOffset": 561
+  },
+  "HeartTailAltSR2": {
+    "CharacterName": "HeaC",
+    "UniqueSkillKey": "HeartTailAltSR2UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "HeartTailC",
+    "WarChibi": "Hear",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Hear",
+    "CardXOffset": 0,
+    "CardYOffset": 739
+  },
+  "RibbonCatAltSR2": {
+    "CharacterName": "RibC",
+    "UniqueSkillKey": "RibbonCatAltSR2UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "RibbonCatC",
+    "WarChibi": "Ribb",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Ribb",
+    "SkeletonXOffset": 50,
+    "CardXOffset": 0,
+    "CardYOffset": 691
+  },
+  "KnifeRabbitAltSR2": {
+    "CharacterName": "KniC",
+    "UniqueSkillKey": "KnifeRabbitAltSR2UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoublePhys"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "KnifeRabbitC",
+    "WarChibi": "Knif",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Knif",
+    "CardXOffset": -40,
+    "CardYOffset": 622
+  },
+  "LeopardAltSR2": {
+    "CharacterName": "LeoC",
+    "UniqueSkillKey": "LeopardAltSR2UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoublePhys"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "LeopardC",
+    "WarChibi": "Leop",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Leop",
+    "FlipBattlePortrait": true,
+    "CardXOffset": 82,
+    "CardYOffset": 684
+  },
+  "PantherAltSR2": {
+    "CharacterName": "PanC",
+    "UniqueSkillKey": "PantherAltSR2UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "PantherC",
+    "WarChibi": "Pant",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Pant",
+    "CardXOffset": 0,
+    "CardYOffset": 616
+  },
+  "SealAltSR2": {
+    "CharacterName": "SeaC",
+    "UniqueSkillKey": "SealAltSR2UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSingleMag"
+    ],
+    "Rarity": "SR",
+    "Strength": 518,
+    "Vitality": 518,
+    "WillPower": 518,
+    "Intelligence": 518,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "SealC",
+    "WarChibi": "Seal",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Seal",
+    "SkeletonXOffset": 100,
+    "SkeletonYOffset": -40,
+    "CardXOffset": 0,
+    "CardYOffset": 575
+  },
+  "BearAltR": {
+    "CharacterName": "BeaC",
+    "UniqueSkillKey": "BearAltRUniqueSkill",
+    "ActiveSkills": [
+      "DamageBombAllPhys"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "BearC",
+    "WarChibi": "Bear",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Bear",
+    "CardXOffset": 0,
+    "CardYOffset": 636,
+    "ForceRanking": true
+  },
+  "SpiralCatAltR1": {
+    "CharacterName": "SprB",
+    "UniqueSkillKey": "SpiralCatAltR1UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoublePhys",
+      "GiveTurnBomb"
+    ],
+    "ActiveSkillAnimations": {
+      "GiveTurnBomb": "SpirGiveTurnAbility"
+    },
+    "AbilityEffects": {
+      "GiveTurnBomb": "SpirGiveTurnAbility"
+    },
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "SpiralCatB",
+    "WarChibi": "Spir",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Spir",
+    "CardXOffset": 0,
+    "CardYOffset": 720,
+    "ForceRanking": true
+  },
+  "LionAltR1": {
+    "CharacterName": "LioB",
+    "UniqueSkillKey": "LionAltR1UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "LionB",
+    "WarChibi": "Lion",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Lion",
+    "CardXOffset": 0,
+    "CardYOffset": 841
+  },
+  "PuppyAltR1": {
+    "CharacterName": "PupB",
+    "UniqueSkillKey": "PuppyAltR1UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "PuppyB",
+    "WarChibi": "Pupp",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Pupp",
+    "CardXOffset": -40,
+    "CardYOffset": 759
+  },
+  "SheepAltR1": {
+    "CharacterName": "SheB",
+    "UniqueSkillKey": "SheepAltR1UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "SheepB",
+    "WarChibi": "Shee",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Shee",
+    "CardXOffset": 0,
+    "CardYOffset": 807
+  },
+  "SpikeRabbitAltR": {
+    "CharacterName": "SpkC",
+    "UniqueSkillKey": "SpikeRabbitAltRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "SpikeRabbitC",
+    "WarChibi": "Spik",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Spik",
+    "CardXOffset": 0,
+    "CardYOffset": 643
+  },
+  "PenguinAltR1": {
+    "CharacterName": "PenB",
+    "UniqueSkillKey": "PenguinAltR1UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "PenguinB",
+    "WarChibi": "Peng",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Peng",
+    "CardXOffset": 0,
+    "CardYOffset": 876
+  },
+  "CupCatAltR1": {
+    "CharacterName": "CupB",
+    "UniqueSkillKey": "CupCatAltR1UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Fire",
+    "Visible": true,
+    "OverrideMenuSkeleton": "CupCatB",
+    "WarChibi": "CupC",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "CupC",
+    "CardXOffset": 0,
+    "CardYOffset": 670
+  },
+  "SpiralCatAltR2": {
+    "CharacterName": "SprC",
+    "UniqueSkillKey": "SpiralCatAltR2UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "SpiralCatC",
+    "WarChibi": "Spir",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Spir",
+    "CardXOffset": 0,
+    "CardYOffset": 720
+  },
+  "LionAltR2": {
+    "CharacterName": "LioC",
+    "UniqueSkillKey": "LionAltR2UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "LionC",
+    "WarChibi": "Lion",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Lion",
+    "CardXOffset": 0,
+    "CardYOffset": 841
+  },
+  "PuppyAltR2": {
+    "CharacterName": "PupC",
+    "UniqueSkillKey": "PuppyAltR2UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "PuppyC",
+    "WarChibi": "Pupp",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Pupp",
+    "CardXOffset": -40,
+    "CardYOffset": 759
+  },
+  "SheepAltR2": {
+    "CharacterName": "SheC",
+    "UniqueSkillKey": "SheepAltR2UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSinglePhys"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "SheepC",
+    "WarChibi": "Shee",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Shee",
+    "CardXOffset": 0,
+    "CardYOffset": 807
+  },
+  "PenguinAltR2": {
+    "CharacterName": "PenC",
+    "UniqueSkillKey": "PenguinAltR2UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "PenguinC",
+    "WarChibi": "Peng",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Peng",
+    "CardXOffset": 0,
+    "CardYOffset": 876
+  },
+  "CupCatAltR2": {
+    "CharacterName": "CupD",
+    "UniqueSkillKey": "CupCatAltR2UniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSingleMag"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Water",
+    "Visible": true,
+    "OverrideMenuSkeleton": "CupCatC",
+    "WarChibi": "CupC",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "CupC",
+    "CardXOffset": 0,
+    "CardYOffset": 670
+  },
+  "CapybaraAltR": {
+    "CharacterName": "CapC",
+    "UniqueSkillKey": "CapybaraAltRUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag"
+    ],
+    "Rarity": "R",
+    "Strength": 333,
+    "Vitality": 333,
+    "WillPower": 333,
+    "Intelligence": 333,
+    "Element": "Earth",
+    "Visible": true,
+    "OverrideMenuSkeleton": "CapybaraC",
+    "WarChibi": "Capy",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "NoChibi": true,
+    "NoVoice": true,
+    "AnimationFxOverride": "Capy",
+    "CardXOffset": 0,
+    "CardYOffset": 739
+  },
+  "ShokoSwim": {
+    "CharacterName": "Shok",
+    "UniqueSkillKey": "ShokoSwimUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag",
+      "TimeStrikeSingleAMag",
+      "BloodfurySingleMag",
+      "LifeFlipSelf"
+    ],
+    "ActiveSkillLevels": {
+      "BloodfurySingleMag": 76,
+      "LifeFlipSelf": 101
+    },
+    "ActiveSkillAnimations": {
+      "LifeFlipSelf": "ShokHealAbility"
+    },
+    "AbilityEffects": {
+      "LifeFlipSelf": "ShokHealAbility"
+    },
+    "UniqueSkills": [
+      "StunEntryDoubleLv1",
+      "StunEntryDoubleLv2",
+      "StunEntryDoubleLv3",
+      "StunEntryDoubleLv4",
+      "StunEntryDoubleLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Water",
+    "Visible": true,
+    "TextColor": "#004134",
+    "ShadowColor": "#BDFFFF",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "YuiUni": {
+    "CharacterName": "Yui",
+    "UniqueSkillKey": "YuiUniUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackAllPhys",
+      "TimeStrikeSingleAPhys",
+      "LifeFlipSelf"
+    ],
+    "ActiveSkillLevels": {
+      "LifeFlipSelf": 76
+    },
+    "ActiveSkillAnimations": {
+      "LifeFlipSelf": "YuiHealAbility"
+    },
+    "AbilityEffects": {
+      "LifeFlipSelf": "YuiHealAbility"
+    },
+    "PassiveSkills": [
+      "HealLowestHP50percentRevenge"
+    ],
+    "PassiveSkillLevels": {
+      "HealLowestHP50percentRevenge": 101
+    },
+    "UniqueSkills": [
+      "CounterStanceLv1",
+      "CounterStanceLv2",
+      "CounterStanceLv3",
+      "CounterStanceLv4",
+      "CounterStanceLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Water",
+    "Visible": true,
+    "TextColor": "#00366B",
+    "ShadowColor": "#91FBFF",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "ReikaReg": {
+    "CharacterName": "Reik",
+    "UniqueSkillKey": "ReikaRegUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoubleMag",
+      "BigSurvivorSingleMag",
+      "DesperateBiteAMag"
+    ],
+    "ActiveSkillLevels": {
+      "DesperateBiteAMag": 101
+    },
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "PassiveSkillLevels": {
+      "HoldGround": 76
+    },
+    "UniqueSkills": [
+      "CounterStanceLv1",
+      "CounterStanceLv2",
+      "CounterStanceLv3",
+      "CounterStanceLv4",
+      "CounterStanceLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Earth",
+    "Visible": true,
+    "TextColor": "#001866",
+    "ShadowColor": "#E2FFD0",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "FlipBattlePortrait": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "AnnaSwim": {
+    "CharacterName": "Anna",
+    "UniqueSkillKey": "AnnaSwimUniqueSkill",
+    "ActiveSkills": [
+      "FastAttackSingleMag",
+      "DesperateStrikeDoubleOnceMag",
+      "DreamHuntSingleAMag",
+      "SleepPokeSingleMag"
+    ],
+    "ActiveSkillLevels": {
+      "DreamHuntSingleAMag": 76,
+      "SleepPokeSingleMag": 101
+    },
+    "UniqueSkills": [
+      "SleepRevengeDoubleLv1",
+      "SleepRevengeDoubleLv2",
+      "SleepRevengeDoubleLv3",
+      "SleepRevengeDoubleLv4",
+      "SleepRevengeDoubleLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Earth",
+    "Visible": true,
+    "TextColor": "#5E0039",
+    "ShadowColor": "#FFE5D0",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "FlipBattlePortrait": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "JinReg": {
+    "CharacterName": "Jin",
+    "UniqueSkillKey": "JinRegUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoublePhys",
+      "BloodfuryDoublePhys",
+      "CostAttackAllPhys"
+    ],
+    "ActiveSkillLevels": {
+      "CostAttackAllPhys": 76
+    },
+    "PassiveSkills": [
+      "CounterOnce"
+    ],
+    "PassiveSkillLevels": {
+      "CounterOnce": 101
+    },
+    "UniqueSkills": [
+      "PoisonSkinLv1",
+      "PoisonSkinLv2",
+      "PoisonSkinLv3",
+      "PoisonSkinLv4",
+      "PoisonSkinLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Fire",
+    "Visible": true,
+    "TextColor": "#FFE2A7",
+    "ShadowColor": "#00081A",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "NayuReg": {
+    "CharacterName": "Nayu",
+    "UniqueSkillKey": "NayuRegUniqueSkill",
+    "ActiveSkills": [
+      "FastAttackSingleMag",
+      "SurvivorSingleMag",
+      "HealAlly50Percent"
+    ],
+    "ActiveSkillLevels": {
+      "HealAlly50Percent": 76
+    },
+    "ActiveSkillAnimations": {
+      "HealAlly50Percent": "NayuHealAbility"
+    },
+    "AbilityEffects": {
+      "HealAlly50Percent": "NayuHealAbility"
+    },
+    "PassiveSkills": [
+      "HealLowestHP50percentRevenge"
+    ],
+    "PassiveSkillLevels": {
+      "HealLowestHP50percentRevenge": 101
+    },
+    "UniqueSkills": [
+      "SleepEntryDoubleLv1",
+      "SleepEntryDoubleLv2",
+      "SleepEntryDoubleLv3",
+      "SleepEntryDoubleLv4",
+      "SleepEntryDoubleLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 600,
+    "Vitality": 800,
+    "WillPower": 800,
+    "Intelligence": 600,
+    "Element": "Earth",
+    "Visible": true,
+    "TextColor": "#FF9858",
+    "ShadowColor": "#002639",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "MinamiRoom": {
+    "CharacterName": "Mina",
+    "UniqueSkillKey": "MinamiRoomUniqueSkill",
+    "ActiveSkills": [
+      "FastAttackDoubleMag",
+      "CostAttackDoubleMag",
+      "BloodfuryDoubleMag",
+      "LifeFlipSelfOnce"
+    ],
+    "ActiveSkillLevels": {
+      "BloodfuryDoubleMag": 76,
+      "LifeFlipSelfOnce": 101
+    },
+    "ActiveSkillAnimations": {
+      "LifeFlipSelfOnce": "MinaHealAbility"
+    },
+    "AbilityEffects": {
+      "LifeFlipSelfOnce": "MinaHealAbility"
+    },
+    "UniqueSkills": [
+      "StunRevengeDoubleLv1",
+      "StunRevengeDoubleLv2",
+      "StunRevengeDoubleLv3",
+      "StunRevengeDoubleLv4",
+      "StunRevengeDoubleLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Water",
+    "Visible": true,
+    "TextColor": "#001866",
+    "ShadowColor": "#E2FFD0",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "MeisaReg": {
+    "CharacterName": "Meis",
+    "UniqueSkillKey": "MeisaRegUniqueSkill",
+    "ActiveSkills": [
+      "FastAttackSinglePhys",
+      "TimeStrikeSingleAPhys",
+      "DesperateBiteAPhys"
+    ],
+    "ActiveSkillLevels": {
+      "DesperateBiteAPhys": 76
+    },
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "PassiveSkillLevels": {
+      "HoldGround": 101
+    },
+    "UniqueSkills": [
+      "AutoGuardLv1",
+      "AutoGuardLv2",
+      "AutoGuardLv3",
+      "AutoGuardLv4",
+      "AutoGuardLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 475,
+    "Vitality": 925,
+    "WillPower": 925,
+    "Intelligence": 475,
+    "Element": "Fire",
+    "Visible": true,
+    "TextColor": "#FF6CDD",
+    "ShadowColor": "#200036",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "RyokoSwim": {
+    "CharacterName": "Ryok",
+    "UniqueSkillKey": "RyokoSwimUniqueSkill",
+    "ActiveSkills": [
+      "SlowAttackSinglePhys",
+      "DreamHuntDoublePhys",
+      "StepBackToNextOnce"
+    ],
+    "ActiveSkillLevels": {
+      "DreamHuntDoublePhys": 76,
+      "StepBackToNextOnce": 101
+    },
+    "ActiveSkillAnimations": {
+      "StepBackToNextOnce": "RyokSendBackAbility"
+    },
+    "AbilityEffects": {
+      "StepBackToNextOnce": "RyokSendBackAbility"
+    },
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "UniqueSkills": [
+      "SleepEntryDoubleLv1",
+      "SleepEntryDoubleLv2",
+      "SleepEntryDoubleLv3",
+      "SleepEntryDoubleLv4",
+      "SleepEntryDoubleLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Earth",
+    "Visible": true,
+    "TextColor": "#FFE2A7",
+    "ShadowColor": "#00081A",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "RenjiUni": {
+    "CharacterName": "Renj",
+    "UniqueSkillKey": "RenjiUniUniqueSkill",
+    "ActiveSkills": [
+      "FastAttackSingleMag",
+      "FastCostAttackSingleMag",
+      "BloodfurySingleMag"
+    ],
+    "ActiveSkillLevels": {
+      "BloodfurySingleMag": 76
+    },
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "PassiveSkillLevels": {
+      "HoldGround": 101
+    },
+    "UniqueSkills": [
+      "HealEntryLv1",
+      "HealEntryLv2",
+      "HealEntryLv3",
+      "HealEntryLv4",
+      "HealEntryLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Water",
+    "Visible": true,
+    "TextColor": "#004134",
+    "ShadowColor": "#BDFFFF",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "ErikaReg": {
+    "CharacterName": "Erik",
+    "UniqueSkillKey": "ErikaRegUniqueSkill",
+    "ActiveSkills": [
+      "FastAttackDoubleMag",
+      "PoisonEaterSingleAMag",
+      "TimeDrainSingleMag"
+    ],
+    "ActiveSkillLevels": {
+      "TimeDrainSingleMag": 101
+    },
+    "PassiveSkills": [
+      "PoisonAttackerOnce"
+    ],
+    "PassiveSkillLevels": {
+      "PoisonAttackerOnce": 76
+    },
+    "UniqueSkills": [
+      "CounterStanceLv1",
+      "CounterStanceLv2",
+      "CounterStanceLv3",
+      "CounterStanceLv4",
+      "CounterStanceLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Fire",
+    "Visible": true,
+    "TextColor": "#FFD987",
+    "ShadowColor": "#770000",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "FlipBattlePortrait": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "ReikaUni": {
+    "CharacterName": "Reik",
+    "UniqueSkillKey": "ReikaUniUniqueSkill",
+    "ActiveSkills": [
+      "PoisonAttackDoublePhys",
+      "PoisonEaterDoublePhys",
+      "PoisonAttackAllOncePhys"
+    ],
+    "ActiveSkillLevels": {
+      "PoisonAttackAllOncePhys": 76
+    },
+    "PassiveSkills": [
+      "CounterOnce"
+    ],
+    "PassiveSkillLevels": {
+      "CounterOnce": 101
+    },
+    "UniqueSkills": [
+      "TurnRevengeLv1",
+      "TurnRevengeLv2",
+      "TurnRevengeLv3",
+      "TurnRevengeLv4",
+      "TurnRevengeLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Fire",
+    "Visible": true,
+    "TextColor": "#FFB8CE",
+    "ShadowColor": "#001830",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "FlipBattlePortrait": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "MinamiShip": {
+    "CharacterName": "Mina",
+    "UniqueSkillKey": "MinamiShipUniqueSkill",
+    "ActiveSkills": [
+      "FastAttackDoubleMag",
+      "BloodfuryDoubleMag",
+      "DreamHuntDoubleMag",
+      "SleepAllChanceOnce"
+    ],
+    "ActiveSkillLevels": {
+      "DreamHuntDoubleMag": 76,
+      "SleepAllChanceOnce": 101
+    },
+    "ActiveSkillAnimations": {
+      "SleepAllChanceOnce": "MinaSleepAbility"
+    },
+    "AbilityEffects": {
+      "SleepAllChanceOnce": "MinaSleepAbility"
+    },
+    "UniqueSkills": [
+      "SleepRevengeDoubleLv1",
+      "SleepRevengeDoubleLv2",
+      "SleepRevengeDoubleLv3",
+      "SleepRevengeDoubleLv4",
+      "SleepRevengeDoubleLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Earth",
+    "Visible": true,
+    "TextColor": "#FFE98B",
+    "ShadowColor": "#682100",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "RenjiOnsen": {
+    "CharacterName": "Renj",
+    "UniqueSkillKey": "RenjiOnsenUniqueSkill",
+    "ActiveSkills": [
+      "SurvivorSinglePhys",
+      "FastAttackAllPhys",
+      "LifeFlipSelf"
+    ],
+    "ActiveSkillLevels": {
+      "LifeFlipSelf": 76
+    },
+    "ActiveSkillAnimations": {
+      "LifeFlipSelf": "RenjHealAbility"
+    },
+    "AbilityEffects": {
+      "LifeFlipSelf": "RenjHealAbility"
+    },
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "PassiveSkillLevels": {
+      "HoldGround": 101
+    },
+    "UniqueSkills": [
+      "PoisonSkinLv1",
+      "PoisonSkinLv2",
+      "PoisonSkinLv3",
+      "PoisonSkinLv4",
+      "PoisonSkinLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Fire",
+    "Visible": true,
+    "TextColor": "#B3F57C",
+    "ShadowColor": "#004134",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "YuiOnsen": {
+    "CharacterName": "Yui",
+    "UniqueSkillKey": "YuiOnsenUniqueSkill",
+    "ActiveSkills": [
+      "FastAttackSingleMag",
+      "BloodfurySingleMag",
+      "TimeDrainSingleMag"
+    ],
+    "ActiveSkillLevels": {
+      "TimeDrainSingleMag": 76
+    },
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "PassiveSkillLevels": {
+      "HoldGround": 101
+    },
+    "UniqueSkills": [
+      "StunSkinLv1",
+      "StunSkinLv2",
+      "StunSkinLv3",
+      "StunSkinLv4",
+      "StunSkinLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Water",
+    "Visible": true,
+    "TextColor": "#FFB8CE",
+    "ShadowColor": "#5E0039",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "FlipBattlePortrait": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "TomoyaOnsen": {
+    "CharacterName": "Tom",
+    "UniqueSkillKey": "TomoyaOnsenUniqueSkill",
+    "ActiveSkills": [
+      "SlowAttackDoublePhys",
+      "BloodfurySinglePhys",
+      "DreamDrainSinglePhys"
+    ],
+    "ActiveSkillLevels": {
+      "DreamDrainSinglePhys": 101
+    },
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "PassiveSkillLevels": {
+      "HoldGround": 76
+    },
+    "UniqueSkills": [
+      "SleepSkinLv1",
+      "SleepSkinLv2",
+      "SleepSkinLv3",
+      "SleepSkinLv4",
+      "SleepSkinLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Earth",
+    "Visible": true,
+    "TextColor": "#B3F57C",
+    "ShadowColor": "#11082B",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "RyuOnsen": {
+    "CharacterName": "Ryu",
+    "UniqueSkillKey": "RyuOnsenUniqueSkill",
+    "ActiveSkills": [
+      "PoisonAttackSinglePhys",
+      "PoisonEaterSingleAPhys",
+      "DesperateBiteAPhys"
+    ],
+    "ActiveSkillLevels": {
+      "DesperateBiteAPhys": 76
+    },
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "PassiveSkillLevels": {
+      "HoldGround": 101
+    },
+    "UniqueSkills": [
+      "CounterStanceLv1",
+      "CounterStanceLv2",
+      "CounterStanceLv3",
+      "CounterStanceLv4",
+      "CounterStanceLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Fire",
+    "Visible": true,
+    "TextColor": "#FF9E10",
+    "ShadowColor": "#613434",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "FlipBattlePortrait": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "MeisaShip": {
+    "CharacterName": "Meis",
+    "UniqueSkillKey": "MeisaShipUniqueSkill",
+    "ActiveSkills": [
+      "FastAttackSingleMag",
+      "SmallSurvivorSingleMag",
+      "TimeStrikeDoubleAMag",
+      "DesperateBiteOnceAMag"
+    ],
+    "ActiveSkillLevels": {
+      "TimeStrikeDoubleAMag": 76,
+      "DesperateBiteOnceAMag": 101
+    },
+    "UniqueSkills": [
+      "StunEntryDoubleLv1",
+      "StunEntryDoubleLv2",
+      "StunEntryDoubleLv3",
+      "StunEntryDoubleLv4",
+      "StunEntryDoubleLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Water",
+    "Visible": true,
+    "TextColor": "#FF4775",
+    "ShadowColor": "#200036",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "FlipBattlePortrait": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "NayuSwim": {
+    "CharacterName": "Nayu",
+    "UniqueSkillKey": "NayuSwimUniqueSkill",
+    "ActiveSkills": [
+      "FastAttackDoublePhys",
+      "StunSurvivorAllOncePhys",
+      "PurifyHealAllyAndSelf"
+    ],
+    "ActiveSkillLevels": {
+      "StunSurvivorAllOncePhys": 76,
+      "PurifyHealAllyAndSelf": 101
+    },
+    "ActiveSkillAnimations": {
+      "PurifyHealAllyAndSelf": "NayuPurifyHealAbility"
+    },
+    "AbilityEffects": {
+      "PurifyHealAllyAndSelf": "NayuPurifyHealAbility"
+    },
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "UniqueSkills": [
+      "StunStrikeLv1",
+      "StunStrikeLv2",
+      "StunStrikeLv3",
+      "StunStrikeLv4",
+      "StunStrikeLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 600,
+    "Vitality": 800,
+    "WillPower": 800,
+    "Intelligence": 600,
+    "Element": "Water",
+    "Visible": true,
+    "TextColor": "#FF3E89",
+    "ShadowColor": "#5E0039",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "ShokoBridal": {
+    "CharacterName": "Shok",
+    "UniqueSkillKey": "ShokoBridalUniqueSkill",
+    "ActiveSkills": [
+      "FastAttackSinglePhys",
+      "DesperateBiteOnceAPhys",
+      "StunCostAttackSinglePhys"
+    ],
+    "ActiveSkillLevels": {
+      "StunCostAttackSinglePhys": 76
+    },
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "PassiveSkillLevels": {
+      "HoldGround": 101
+    },
+    "UniqueSkills": [
+      "AutoGuardLv1",
+      "AutoGuardLv2",
+      "AutoGuardLv3",
+      "AutoGuardLv4",
+      "AutoGuardLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 475,
+    "Vitality": 925,
+    "WillPower": 925,
+    "Intelligence": 475,
+    "Element": "Water",
+    "Visible": true,
+    "TextColor": "#41F0E4",
+    "ShadowColor": "#0D0031",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "ReikaShip": {
+    "CharacterName": "Reik",
+    "UniqueSkillKey": "ReikaShipUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackDoublePhys",
+      "SmallSurvivorSinglePhys",
+      "DreamHuntDoublePhys"
+    ],
+    "ActiveSkillLevels": {
+      "DreamHuntDoublePhys": 101
+    },
+    "PassiveSkills": [
+      "SleepStrikeOnce"
+    ],
+    "PassiveSkillLevels": {
+      "SleepStrikeOnce": 76
+    },
+    "UniqueSkills": [
+      "TurnRevengeLv1",
+      "TurnRevengeLv2",
+      "TurnRevengeLv3",
+      "TurnRevengeLv4",
+      "TurnRevengeLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Earth",
+    "Visible": true,
+    "TextColor": "#FFFFB3",
+    "ShadowColor": "#B00C2F",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "FlipBattlePortrait": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "JinJapan": {
+    "CharacterName": "Jin",
+    "UniqueSkillKey": "JinJapanUniqueSkill",
+    "ActiveSkills": [
+      "FastAttackSingleMag",
+      "TimeStrikeSingleAMag",
+      "FastDesperateBiteAllAMag"
+    ],
+    "ActiveSkillLevels": {
+      "FastDesperateBiteAllAMag": 76
+    },
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "PassiveSkillLevels": {
+      "HoldGround": 101
+    },
+    "UniqueSkills": [
+      "StunStrikeLv1",
+      "StunStrikeLv2",
+      "StunStrikeLv3",
+      "StunStrikeLv4",
+      "StunStrikeLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Water",
+    "Visible": true,
+    "TextColor": "#FFE2A7",
+    "ShadowColor": "#00081A",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "FlipBattlePortrait": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "YuiSwim": {
+    "CharacterName": "Yui",
+    "UniqueSkillKey": "YuiSwimUniqueSkill",
+    "ActiveSkills": [
+      "SlowAttackSingleMag",
+      "SleepPokeSingleMag",
+      "SecondWind"
+    ],
+    "ActiveSkillLevels": {
+      "SecondWind": 76
+    },
+    "ActiveSkillAnimations": {
+      "SecondWind": "YuiHealAbility"
+    },
+    "AbilityEffects": {
+      "SecondWind": "YuiHealAbility"
+    },
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "PassiveSkillLevels": {
+      "HoldGround": 101
+    },
+    "UniqueSkills": [
+      "AutoGuardLv1",
+      "AutoGuardLv2",
+      "AutoGuardLv3",
+      "AutoGuardLv4",
+      "AutoGuardLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 475,
+    "Vitality": 925,
+    "WillPower": 925,
+    "Intelligence": 475,
+    "Element": "Earth",
+    "Visible": true,
+    "TextColor": "#FF4775",
+    "ShadowColor": "#001866",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "RosaReg": {
+    "CharacterName": "Rosa",
+    "UniqueSkillKey": "RosaRegUniqueSkill",
+    "ActiveSkills": [
+      "SlowAttackSinglePhys",
+      "SurvivorDoublePhys",
+      "LifeFlipSelf"
+    ],
+    "ActiveSkillLevels": {
+      "LifeFlipSelf": 76
+    },
+    "ActiveSkillAnimations": {
+      "LifeFlipSelf": "RosaHealAbility"
+    },
+    "AbilityEffects": {
+      "LifeFlipSelf": "RosaHealAbility"
+    },
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "PassiveSkillLevels": {
+      "HoldGround": 101
+    },
+    "UniqueSkills": [
+      "CounterStanceLv1",
+      "CounterStanceLv2",
+      "CounterStanceLv3",
+      "CounterStanceLv4",
+      "CounterStanceLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Fire",
+    "Visible": true,
+    "TextColor": "#FF668C",
+    "ShadowColor": "#0D0031",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "FlipBattlePortrait": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "DaichiReg": {
+    "CharacterName": "Daic",
+    "UniqueSkillKey": "DaichiRegUniqueSkill",
+    "ActiveSkills": [
+      "StunAttackPhys",
+      "TimeDrainSinglePhys",
+      "StunAttackOncePhys"
+    ],
+    "ActiveSkillLevels": {
+      "StunAttackOncePhys": 76
+    },
+    "PassiveSkills": [
+      "HealLowestHP50percentRevenge"
+    ],
+    "PassiveSkillLevels": {
+      "HealLowestHP50percentRevenge": 101
+    },
+    "UniqueSkills": [
+      "StunRevengeDoubleLv1",
+      "StunRevengeDoubleLv2",
+      "StunRevengeDoubleLv3",
+      "StunRevengeDoubleLv4",
+      "StunRevengeDoubleLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Water",
+    "Visible": true,
+    "TextColor": "#AFFFF3",
+    "ShadowColor": "#171717",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "FlipBattlePortrait": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "YokoReg": {
+    "CharacterName": "Yoko",
+    "UniqueSkillKey": "YokoRegUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackSingleMag",
+      "PoisonEaterSingleAMag",
+      "LifeFlipSelfOnce",
+      "LifeFlipOtherAlly"
+    ],
+    "ActiveSkillLevels": {
+      "LifeFlipSelfOnce": 76,
+      "LifeFlipOtherAlly": 101
+    },
+    "ActiveSkillAnimations": {
+      "LifeFlipSelfOnce": "YokoHealAbility",
+      "LifeFlipOtherAlly": "YokoHealAbility"
+    },
+    "AbilityEffects": {
+      "LifeFlipSelfOnce": "YokoHealAbility",
+      "LifeFlipOtherAlly": "YokoHealAbility"
+    },
+    "UniqueSkills": [
+      "PoisonStrikeLv1",
+      "PoisonStrikeLv2",
+      "PoisonStrikeLv3",
+      "PoisonStrikeLv4",
+      "PoisonStrikeLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 600,
+    "Vitality": 800,
+    "WillPower": 800,
+    "Intelligence": 600,
+    "Element": "Fire",
+    "Visible": true,
+    "TextColor": "#FF4775",
+    "ShadowColor": "#001866",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "FlipBattlePortrait": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "ZenReg": {
+    "CharacterName": "Zen",
+    "UniqueSkillKey": "ZenRegUniqueSkill",
+    "ActiveSkills": [
+      "TankAttackSinglePhys",
+      "LastStandSinglePhys",
+      "TankSurvivorSinglePhys",
+      "DoubleHPOnce"
+    ],
+    "ActiveSkillLevels": {
+      "TankSurvivorSinglePhys": 76,
+      "DoubleHPOnce": 101
+    },
+    "ActiveSkillAnimations": {
+      "DoubleHPOnce": "ZenHealAbility"
+    },
+    "AbilityEffects": {
+      "DoubleHPOnce": "ZenHealAbility"
+    },
+    "UniqueSkills": [
+      "PoisonSkinLv1",
+      "PoisonSkinLv2",
+      "PoisonSkinLv3",
+      "PoisonSkinLv4",
+      "PoisonSkinLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 600,
+    "Vitality": 800,
+    "WillPower": 800,
+    "Intelligence": 600,
+    "Element": "Fire",
+    "Visible": true,
+    "TextColor": "#B3F57C",
+    "ShadowColor": "#001F07",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "FlipBattlePortrait": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "MeisaCasual": {
+    "CharacterName": "Meis",
+    "UniqueSkillKey": "MeisaCasualUniqueSkill",
+    "ActiveSkills": [
+      "SlowAttackDoubleMag",
+      "DesperateBiteDoubleAMag",
+      "BloodfurySingleMag"
+    ],
+    "ActiveSkillLevels": {
+      "BloodfurySingleMag": 76
+    },
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "PassiveSkillLevels": {
+      "HoldGround": 101
+    },
+    "UniqueSkills": [
+      "CounterStanceLv1",
+      "CounterStanceLv2",
+      "CounterStanceLv3",
+      "CounterStanceLv4",
+      "CounterStanceLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Earth",
+    "Visible": true,
+    "TextColor": "#FF9ACA",
+    "ShadowColor": "#7D1227",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "MinamiSwim": {
+    "CharacterName": "Mina",
+    "UniqueSkillKey": "MinamiSwimUniqueSkill",
+    "ActiveSkills": [
+      "FastAttackSingleMag",
+      "SurvivorDoubleMag",
+      "StunCostAttackSinglePriorityMag"
+    ],
+    "ActiveSkillLevels": {
+      "StunCostAttackSinglePriorityMag": 101
+    },
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "PassiveSkillLevels": {
+      "HoldGround": 76
+    },
+    "UniqueSkills": [
+      "StunAllEntryLv1",
+      "StunAllEntryLv2",
+      "StunAllEntryLv3",
+      "StunAllEntryLv4",
+      "StunAllEntryLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Water",
+    "Visible": true,
+    "TextColor": "#FF3E89",
+    "ShadowColor": "#001830",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "JiroReg": {
+    "CharacterName": "Jiro",
+    "UniqueSkillKey": "JiroRegUniqueSkill",
+    "ActiveSkills": [
+      "FastAttackDoublePhys",
+      "FastBloodfuryDoublePhys",
+      "DreamHuntSingleAPhys",
+      "DreamDrainSinglePhys"
+    ],
+    "ActiveSkillLevels": {
+      "DreamHuntSingleAPhys": 76,
+      "DreamDrainSinglePhys": 101
+    },
+    "UniqueSkills": [
+      "SleepStrikeLv1",
+      "SleepStrikeLv2",
+      "SleepStrikeLv3",
+      "SleepStrikeLv4",
+      "SleepStrikeLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Earth",
+    "Visible": true,
+    "TextColor": "#FFE98B",
+    "ShadowColor": "#001830",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "RosaSwim": {
+    "CharacterName": "Rosa",
+    "UniqueSkillKey": "RosaSwimUniqueSkill",
+    "ActiveSkills": [
+      "SlowAttackDoublePhys",
+      "PoisonEaterSingleAPhys",
+      "PoisonPokeSinglePhys",
+      "GiveTurnHighOnceSSR"
+    ],
+    "ActiveSkillLevels": {
+      "PoisonPokeSinglePhys": 76,
+      "GiveTurnHighOnceSSR": 101
+    },
+    "ActiveSkillAnimations": {
+      "GiveTurnHighOnceSSR": "RosaGiveTurnAbility"
+    },
+    "AbilityEffects": {
+      "GiveTurnHighOnceSSR": "RosaGiveTurnAbility"
+    },
+    "UniqueSkills": [
+      "HealPurifyLowestHPRevengeLv1",
+      "HealPurifyLowestHPRevengeLv2",
+      "HealPurifyLowestHPRevengeLv3",
+      "HealPurifyLowestHPRevengeLv4",
+      "HealPurifyLowestHPRevengeLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Fire",
+    "Visible": false,
+    "TextColor": "#FFE98B",
+    "ShadowColor": "#1C0019",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "FlipBattlePortrait": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "": {}
+}

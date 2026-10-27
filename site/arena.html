@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>투기장 덱 — 패러노이즈 자료실</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+<style>
+
+.rs-bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:18px 0 6px}
+.rs-bar select,.rs-bar button{font:inherit;font-size:13px;padding:6px 11px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);cursor:pointer}
+.rs-bar button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.rs-bar button:disabled{opacity:.5;cursor:default}
+.plt{margin:10px 0 0;display:grid;gap:8px}
+.plt-row{display:grid;grid-template-columns:44px repeat(6,minmax(0,1fr));gap:6px;align-items:stretch}
+.plt-row>b{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--faint);align-self:center}
+.u{background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:6px;display:flex;gap:6px;align-items:center;cursor:pointer;min-width:0;text-align:left;font:inherit;color:inherit}
+.u img{width:34px;height:34px;object-fit:cover;object-position:50% 12%;border-radius:6px;flex:none;background:var(--raised)}
+.u .t{min-width:0;line-height:1.25}
+.u .n{font-size:12px;font-weight:600;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+.u .s{font-size:10.5px;color:var(--faint);font-family:"IBM Plex Mono",monospace;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+/* 편성표 카드 — 게임 편성 화면과 같은 세로 카드(등급 띠·속성·별·레벨) */
+.card{position:relative;display:block;padding:0;border:2px solid var(--line);border-radius:8px;overflow:hidden;background:var(--raised);cursor:pointer;font:inherit;color:inherit;text-align:left;aspect-ratio:3/4.2;min-width:0}
+.card img{display:block;position:absolute;width:150%;height:auto;left:-25%;top:-3%;background:var(--raised)}
+.card .rar{position:absolute;left:0;top:0;padding:1px 6px 1px 4px;font:700 10px "IBM Plex Mono",monospace;letter-spacing:.3px;color:#fff;background:#6b7280;border-radius:0 0 7px 0}
+.card.SSR{border-color:#d4a83a}.card.SSR .rar{background:linear-gradient(90deg,#c48f1c,#f0c65a);color:#2a1d00}
+.card.SR{border-color:#9b6be0}.card.SR .rar{background:linear-gradient(90deg,#7b47c9,#b48cf2)}
+.card.R{border-color:#4f8ad6}.card.R .rar{background:linear-gradient(90deg,#3a6fc0,#78a8ee)}
+.card .el{position:absolute;right:3px;top:3px;width:12px;height:12px;border-radius:50%;border:1.5px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.35)}
+.card.Fire .el{background:var(--fire)}.card.Water .el{background:var(--water)}.card.Earth .el{background:var(--earth)}
+.card .st{position:absolute;left:0;right:0;bottom:19px;text-align:center;font-size:9px;line-height:1;color:#ffd75e;text-shadow:0 0 2px #000,0 1px 1px #000;letter-spacing:-.5px}
+.card .lv{position:absolute;left:0;right:0;bottom:0;padding:2px 3px;background:rgba(0,0,0,.72);color:#fff;font:600 10.5px "IBM Plex Mono",monospace;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card .n{position:absolute;left:0;right:0;top:16px;padding:1px 3px;font-size:10px;font-weight:600;color:#fff;text-shadow:0 0 3px #000,0 1px 2px #000;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.95}
+.card.sel{outline:3px solid var(--accent);outline-offset:1px}
+.card.moved .lv{background:var(--accent)}
+.u.sel{outline:2px solid var(--accent);outline-offset:1px}
+.u.moved{border-color:var(--accent)}
+.u.Fire{box-shadow:inset 3px 0 0 var(--fire)} .u.Water{box-shadow:inset 3px 0 0 var(--water)} .u.Earth{box-shadow:inset 3px 0 0 var(--earth)}
+.res{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin-top:12px}
+.rc{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;box-shadow:var(--shadow)}
+.rc h3{margin:0 0 8px;font-size:14px}
+.rc .figs{margin-bottom:10px}
+.hist{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:3px;align-items:end;height:70px;border-bottom:1px solid var(--line)}
+.hist i{display:block;background:var(--accent);border-radius:3px 3px 0 0;min-height:1px;opacity:.85}
+.hist i.win{background:var(--ssr)}
+.hlab{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:3px;font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--faint);text-align:center;margin-top:2px}
+.prog{height:4px;background:var(--line-soft);border-radius:99px;overflow:hidden;margin:6px 0 0}
+.prog i{display:block;height:100%;background:var(--accent);width:0}
+.en{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px;margin-top:10px}
+.en .u{cursor:default}
+.warn{border-left:3px solid var(--fire);padding:8px 12px;background:var(--surface);border-radius:0 8px 8px 0;font-size:13px;margin-top:14px}
+@media (max-width:640px){.plt-row{grid-template-columns:repeat(3,minmax(0,1fr))}.plt-row>b{grid-column:1/-1}}
+
+.mt{width:100%;border-collapse:collapse;margin-top:10px;font-size:13px}
+.mt th,.mt td{padding:6px 8px;border-bottom:1px solid var(--line-soft);text-align:left}
+.mt td.num{font-family:"IBM Plex Mono",monospace;text-align:right;white-space:nowrap}
+.mt tr.on td{background:var(--raised)}
+.mt tr{cursor:pointer}
+.up{color:#2f9e5b;font-weight:600}.down{color:var(--fire);font-weight:600}
+.opp-head{display:flex;gap:14px;flex-wrap:wrap;align-items:baseline;margin:6px 0 0;font-size:13px;color:var(--faint)}
+.opp-head b{color:var(--ink);font-size:15px}
+</style>
+</head>
+<body>
+<div class="wrap doc">
+<header>
+  <p class="eyebrow">투기장 · Arena · 본계정</p>
+  <h1>투기장 덱</h1>
+  <p class="lede">투기장 기록(서버 리플레이)에 남은 상대 덱을 그대로 두고, 내 24명의 순서만 바꿔 같은 엔진으로 굴립니다. 내 덱은 공격과 방어가 같은 순서라, 한 순서로 상대 전부를 함께 봅니다. 위에서부터 증원 순서(1반 → 4반)입니다.</p>
+</header>
+
+<h2>상대별 승률</h2>
+<p class="note">탐색에 쓰지 않은 시드 묶음으로 잰 값입니다. 줄을 누르면 그 상대의 덱이 아래에 나옵니다. «(가정)» 줄은 실제 기록이 없어 상대가 공격해 온 덱을 방어 덱으로 보고 맞춘 것입니다.</p>
+<p class="note" id="fixnote"></p>
+<table class="mt" id="mt"></table>
+
+<div class="rs-bar">
+  <select id="match" aria-label="상대"></select>
+  <select id="nsim" aria-label="판 수"><option>300</option><option selected>1000</option><option>3000</option></select>
+  <button id="b-cur" class="on">현재 덱</button>
+  <button id="b-pro">추천 덱</button>
+  <button id="b-run">굴리기</button>
+  <span id="status" class="mono" style="font-size:12px;color:var(--faint)">자료 읽는 중…</span>
+</div>
+<div class="prog"><i id="pbar"></i></div>
+<p class="note" style="margin-top:6px">내 덱의 캐릭터를 하나 누르고 다른 하나를 누르면 두 자리가 바뀝니다. 바꾼 뒤 «굴리기» 로 고른 상대에게 바로 비교합니다.</p>
+
+<h2 id="my-h">내 덱</h2>
+<div id="plt" class="plt"></div>
+
+<h2>결과</h2>
+<div id="res" class="res"></div>
+
+<h2>상대 덱</h2>
+<div id="opp-head" class="opp-head"></div>
+<div id="opp" class="plt"></div>
+
+<p class="note" style="margin-top:18px">상대 덱은 그 기록이 남은 때의 것입니다. 상대가 덱을 바꿨으면 결과도 달라집니다. 내 덱 수치는 가장 최근 유적 도전 기록(본계정)의 것으로 바꿔 넣었습니다.</p>
+</div>
+<script src="src.js"></script>
+<script src="nav.js"></script>
+<script type="module" src="arena-page.js"></script>
+</body>
+</html>

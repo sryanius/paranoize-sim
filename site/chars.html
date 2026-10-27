@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>캐릭터 — 패러노이즈 자료실</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="eyebrow">Monster.json · Ability → Config → Component · Buff</p>
+  <h1>캐릭터</h1>
+  <p class="lede">스킬 배율은 데이터의 <code>BaseDamageScalar</code>, TU 는 <code>TUCost</code>, 조건은 <code>UseCondition</code> 을 그대로 옮긴 것입니다. 기본 스탯(근력·체력·기력·지력)은 레어도별 고정값입니다.</p>
+</header>
+<div class="bar">
+  <input id="q" placeholder="이름 · 스킬 · 태그 검색" style="min-width:200px">
+  <span id="rar"></span><span id="ele"></span><span id="role"></span>
+  <span class="tag" id="cnt"></span>
+</div>
+<div class="grid" id="grid"></div>
+<footer>카드의 「더보기」(또는 그림·이름)를 누르면 전신 그림과 상세 설명이 열립니다. 고유 스킬은 Lv1~5 중 최대(Lv5) 설명을 보이고, 각 단계 수치는 펼쳐서 봅니다. 출처: 폰 데이터 2026-10-15.</footer>
+</div>
+<script src="src.js"></script>
+<script src="nav.js"></script>
+<script src="modal.js"></script>
+<script src="chars.js"></script>
+</body>
+</html>

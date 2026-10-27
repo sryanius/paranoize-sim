@@ -1,0 +1,5 @@
+raw/*
+!raw/files/
+__pycache__/
+*.log
+data/trace_*.json

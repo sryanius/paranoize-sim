@@ -1,0 +1,3791 @@
+{
+  "AbsorbStackNameBuffComponent": {
+    "TestAbsorb": {
+      "StackToAbsorb": "Poison",
+      "ActivateLog": "TestAbsorbLog",
+      "ActivateEffect": "AbsorbFX"
+    },
+    "TestAbsorbOnce": {
+      "StackToAbsorb": "Poison",
+      "TriggersAllowed": 1,
+      "ActivateLog": "TestAbsorbOnceLog",
+      "ActivateEffect": "AbsorbFX"
+    }
+  },
+  "AddSpiritBuffComponent": {
+    "SpiritPlus1": {
+      "Spirit": 1
+    },
+    "SpiritPlus2": {
+      "Spirit": 2
+    },
+    "SpiritPlus3": {
+      "Spirit": 3
+    },
+    "SpiritPlus4": {
+      "Spirit": 4
+    },
+    "SpiritPlus5": {
+      "Spirit": 5
+    },
+    "SpiritPlus6": {
+      "Spirit": 6
+    },
+    "SpiritMinus1": {
+      "Spirit": -1
+    },
+    "SpiritMinus2": {
+      "Spirit": -2
+    },
+    "SpiritMinus3": {
+      "Spirit": -3
+    },
+    "SpiritMinus4": {
+      "Spirit": -4
+    },
+    "SpiritMinus5": {
+      "Spirit": -5
+    },
+    "SpiritMinus6": {
+      "Spirit": -6
+    }
+  },
+  "AdjustTargetingWeightBuffComponent": {
+    "DoubleAggro": {
+      "Weight": 2
+    },
+    "HalveAggro": {
+      "Weight": 0.5
+    },
+    "MassiveAggro": {
+      "Weight": 100
+    },
+    "AlmostNoAggro": {
+      "Weight": 0.01
+    },
+    "SleepingWeight": {
+      "Weight": 0.1
+    },
+    "AggroUpSlight": {
+      "Weight": 1.1
+    },
+    "AggroDownSlight": {
+      "Weight": 0.909
+    }
+  },
+  "BattleStatScalarBuffComponent": {
+    "24TimesScalarForBossHP": {
+      "Stat": "HP",
+      "Scalar": 23
+    },
+    "20TimesScalarForBossHP": {
+      "Stat": "HP",
+      "Scalar": 19
+    },
+    "12TimesScalarForBossHP": {
+      "Stat": "HP",
+      "Scalar": 11
+    },
+    "8TimesScalarForBossHP": {
+      "Stat": "HP",
+      "Scalar": 7
+    },
+    "6TimesScalarForBossHP": {
+      "Stat": "HP",
+      "Scalar": 5
+    },
+    "4TimesScalarForBossHP": {
+      "Stat": "HP",
+      "Scalar": 3
+    },
+    "3TimesScalarForBossHP": {
+      "Stat": "HP",
+      "Scalar": 2
+    },
+    "2TimesScalarForBossHP": {
+      "Stat": "HP",
+      "Scalar": 1
+    },
+    "2TimesScalarForHP": {
+      "Stat": "HP",
+      "Scalar": 1
+    }
+  },
+  "BuffAfterTimeBuffComponent": {
+    "TestAfter30Tu": {
+      "Time": 30,
+      "Buffs": [
+        "Poison"
+      ]
+    }
+  },
+  "BuffOnAllyDeathBuffComponent": {
+    "PoisonOnAllyDeath": {
+      "Buffs": [
+        "Poison"
+      ],
+      "Targeting": "1RandomEnemy"
+    },
+    "TestAllyDeath1Trigger": {
+      "Buffs": [
+        "Poison"
+      ],
+      "Targeting": "1RandomEnemy",
+      "TriggersAllowed": 1
+    }
+  },
+  "BuffOnBattleStartBuffComponent": {
+    "PoisonOnBattleStart": {
+      "Buffs": [
+        "Poison"
+      ],
+      "Targeting": "Self"
+    },
+    "SetupSuperBossRageTrigger": {
+      "Buffs": [
+        "SuperBossRageTriggerA"
+      ],
+      "Targeting": "Self"
+    },
+    "MAtkUpSelfOnStart": {
+      "Buffs": [
+        "MAtkUp10Percent"
+      ],
+      "Targeting": "Self"
+    },
+    "PAtkUpSelfOnStart": {
+      "Buffs": [
+        "PAtkUp10Percent"
+      ],
+      "Targeting": "Self"
+    },
+    "MDefUpSelfOnStart": {
+      "Buffs": [
+        "MDefUp10Percent"
+      ],
+      "Targeting": "Self"
+    },
+    "PDefUpSelfOnStart": {
+      "Buffs": [
+        "PDefUp10Percent"
+      ],
+      "Targeting": "Self"
+    },
+    "PAtkUpAllOnStart": {
+      "Buffs": [
+        "PAtkUp10Percent"
+      ],
+      "Targeting": "AllAlly"
+    },
+    "BossHoldGroundOnStart": {
+      "Buffs": [
+        "BossHoldGround"
+      ],
+      "Targeting": "Self"
+    },
+    "SetupSwarmBossRageTriggerOnStart": {
+      "Buffs": [
+        "SuperBossRageTriggerD"
+      ],
+      "Targeting": "Self"
+    },
+    "CounterStart": {
+      "Buffs": [
+        "CounterStance"
+      ],
+      "Targeting": "Self"
+    }
+  },
+  "BuffOnDeathBuffComponent": {
+    "PoisonOnDeath": {
+      "Buffs": [
+        "Poison"
+      ],
+      "Targeting": "1RandomEnemy"
+    },
+    "TestAnyDeath1Trigger": {
+      "Buffs": [
+        "Poison"
+      ],
+      "Targeting": "1RandomEnemy",
+      "TriggersAllowed": 1
+    }
+  },
+  "BuffOnEnemyDeathBuffComponent": {
+    "PoisonOnEnemyDeath": {
+      "Buffs": [
+        "Poison"
+      ],
+      "Targeting": "1RandomEnemy"
+    },
+    "TestEnemyDeath1Trigger": {
+      "Buffs": [
+        "Poison"
+      ],
+      "Targeting": "1RandomEnemy",
+      "TriggersAllowed": 1
+    }
+  },
+  "BuffOnHitBuffComponent": {
+    "Stun150TargetsOnHit": {
+      "Buffs": [
+        "Stun150"
+      ],
+      "TargetIsTarget": true,
+      "ActivateLog": "StunStrikeLog",
+      "ActivateEffect": "StunFX",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "SleepTargetsOnHit": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "TargetIsTarget": true,
+      "ActivateLog": "SleepStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun50TargetsOnHit": {
+      "Buffs": [
+        "Stun50"
+      ],
+      "TargetIsTarget": true,
+      "ActivateLog": "StunStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun25TargetsOnHit": {
+      "Buffs": [
+        "Stun25"
+      ],
+      "TargetIsTarget": true,
+      "ActivateLog": "StunStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun100TargetsOnHitChance50": {
+      "Buffs": [
+        "Stun100"
+      ],
+      "ChanceToTrigger": 0.5,
+      "TargetIsTarget": true,
+      "ActivateLog": "StunStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "PoisonTargetsOnHitChance50": {
+      "Buffs": [
+        "Poison"
+      ],
+      "ChanceToTrigger": 0.5,
+      "TargetIsTarget": true,
+      "ActivateLog": "PoisonStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "SleepTargetsOnHitChance50": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToTrigger": 0.5,
+      "TargetIsTarget": true,
+      "ActivateLog": "SleepStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun100TargetsOnHitChance25": {
+      "Buffs": [
+        "Stun100"
+      ],
+      "ChanceToTrigger": 0.25,
+      "TargetIsTarget": true,
+      "ActivateLog": "StunStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "PoisonTargetsOnHitChance25": {
+      "Buffs": [
+        "Poison"
+      ],
+      "ChanceToTrigger": 0.25,
+      "TargetIsTarget": true,
+      "ActivateLog": "PoisonStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "SleepTargetsOnHitChance25": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToTrigger": 0.25,
+      "TargetIsTarget": true,
+      "ActivateLog": "SleepStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun70TargetsOnHit3Percent": {
+      "Buffs": [
+        "Stun70"
+      ],
+      "ChanceToTrigger": 0.03,
+      "TargetIsTarget": true,
+      "ActivateLog": "StunStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun70TargetsOnHit5Percent": {
+      "Buffs": [
+        "Stun70"
+      ],
+      "ChanceToTrigger": 0.05,
+      "TargetIsTarget": true,
+      "ActivateLog": "StunStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun70TargetsOnHit6Percent": {
+      "Buffs": [
+        "Stun70"
+      ],
+      "ChanceToTrigger": 0.06,
+      "TargetIsTarget": true,
+      "ActivateLog": "StunStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun70TargetsOnHit10Percent": {
+      "Buffs": [
+        "Stun70"
+      ],
+      "ChanceToTrigger": 0.1,
+      "TargetIsTarget": true,
+      "ActivateLog": "StunStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun70TargetsOnHit12Percent": {
+      "Buffs": [
+        "Stun70"
+      ],
+      "ChanceToTrigger": 0.12,
+      "TargetIsTarget": true,
+      "ActivateLog": "StunStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun70TargetsOnHit20Percent": {
+      "Buffs": [
+        "Stun70"
+      ],
+      "ChanceToTrigger": 0.2,
+      "TargetIsTarget": true,
+      "ActivateLog": "StunStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun70TargetsOnHit21Percent": {
+      "Buffs": [
+        "Stun70"
+      ],
+      "ChanceToTrigger": 0.21,
+      "TargetIsTarget": true,
+      "ActivateLog": "StunStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun70TargetsOnHit30Percent": {
+      "Buffs": [
+        "Stun70"
+      ],
+      "ChanceToTrigger": 0.3,
+      "TargetIsTarget": true,
+      "ActivateLog": "StunStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun70TargetsOnHit35Percent": {
+      "Buffs": [
+        "Stun70"
+      ],
+      "ChanceToTrigger": 0.35,
+      "TargetIsTarget": true,
+      "ActivateLog": "StunStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun70TargetsOnHit50Percent": {
+      "Buffs": [
+        "Stun70"
+      ],
+      "ChanceToTrigger": 0.5,
+      "TargetIsTarget": true,
+      "ActivateLog": "StunStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "PoisonTargetsOnHit10Percent": {
+      "Buffs": [
+        "Poison"
+      ],
+      "ChanceToTrigger": 0.1,
+      "TargetIsTarget": true,
+      "ActivateLog": "PoisonStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "PoisonTargetsOnHit20Percent": {
+      "Buffs": [
+        "Poison"
+      ],
+      "ChanceToTrigger": 0.2,
+      "TargetIsTarget": true,
+      "ActivateLog": "PoisonStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "PoisonTargetsOnHit40Percent": {
+      "Buffs": [
+        "Poison"
+      ],
+      "ChanceToTrigger": 0.4,
+      "TargetIsTarget": true,
+      "ActivateLog": "PoisonStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "PoisonTargetsOnHit70Percent": {
+      "Buffs": [
+        "Poison"
+      ],
+      "ChanceToTrigger": 0.7,
+      "TargetIsTarget": true,
+      "ActivateLog": "PoisonStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "PoisonTargetsOnHit": {
+      "Buffs": [
+        "Poison"
+      ],
+      "TargetIsTarget": true,
+      "ActivateLog": "PoisonStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "SleepTargetsOnHit3Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToTrigger": 0.03,
+      "TargetIsTarget": true,
+      "ActivateLog": "SleepStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "SleepTargetsOnHit6Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToTrigger": 0.06,
+      "TargetIsTarget": true,
+      "ActivateLog": "SleepStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "SleepTargetsOnHit12Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToTrigger": 0.12,
+      "TargetIsTarget": true,
+      "ActivateLog": "SleepStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "SleepTargetsOnHit21Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToTrigger": 0.21,
+      "TargetIsTarget": true,
+      "ActivateLog": "SleepStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "SleepTargetsOnHit30Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToTrigger": 0.3,
+      "TargetIsTarget": true,
+      "ActivateLog": "SleepStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "SleepTargetsOnHit24Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToTrigger": 0.24,
+      "TargetIsTarget": true,
+      "ActivateLog": "SleepStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "SleepTargetsOnHit42Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToTrigger": 0.42,
+      "TargetIsTarget": true,
+      "ActivateLog": "SleepStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "SleepTargetsOnHit60Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToTrigger": 0.6,
+      "TargetIsTarget": true,
+      "ActivateLog": "SleepStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun100TargetsOnHit": {
+      "Buffs": [
+        "Stun100"
+      ],
+      "TargetIsTarget": true,
+      "ActivateLog": "StunStrikeLog",
+      "ActivateEffect": "StunFX",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "ConsumePassiveOnAttack": {
+      "Buffs": [
+        "Empty"
+      ],
+      "Targeting": "Self",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "TriggersAllowed": 1,
+      "IncrementTriggersOnFail": false
+    }
+  },
+  "BuffOnHurtBuffComponent": {
+    "Stun100AttackerWhenHurt": {
+      "Buffs": [
+        "Stun100"
+      ],
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "StunSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "Stun150AttackerWhenHurt": {
+      "Buffs": [
+        "Stun150"
+      ],
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "StunSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "Stun100RandomWhenHurt": {
+      "Buffs": [
+        "Stun100"
+      ],
+      "Targeting": "1RandomEnemy",
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "StunSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "PoisonRandomWhenHurt": {
+      "Buffs": [
+        "Poison"
+      ],
+      "Targeting": "1RandomEnemy",
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "PoisonSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "Sleep100AttackerWhenHurt": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "Targeting": "1RandomEnemy",
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "SleepSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "Sleep100RandomWhenHurt": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "Targeting": "1RandomEnemy",
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "SleepSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "CounterWhenHurt": {
+      "Buffs": [
+        "GetTurnNoLog"
+      ],
+      "Targeting": "Self",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "CounterWhenHurtOnce": {
+      "Buffs": [
+        "GetTurnNoLog"
+      ],
+      "Targeting": "Self",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "CounterTriggerLog",
+      "ActivateEffect": "BlankNoDamage",
+      "TriggersAllowed": 1
+    },
+    "TriggerBossRage": {
+      "Buffs": [
+        "BossRage",
+        "ForceBossDispel"
+      ],
+      "Targeting": "SelfForBossRage",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "StopAlliesFromRagingWhenRages": {
+      "Buffs": [
+        "RemoveBossRageTrigger"
+      ],
+      "Targeting": "AllAlly1AllyRaging",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "TriggerQuadBossRageA": {
+      "Buffs": [
+        "CurePoison",
+        "CureSleep",
+        "SuperBossRageState",
+        "Get3MoreTurns",
+        "BossRageATriggered"
+      ],
+      "Targeting": "SelfOn1HP",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "TriggerTripleBossRageA": {
+      "Buffs": [
+        "CurePoison",
+        "CureSleep",
+        "SuperBossRageState",
+        "Get2MoreTurns",
+        "SuperBossRageTriggerD",
+        "BossRageATriggered"
+      ],
+      "Targeting": "Self1To25PercentHP",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "TriggerDoubleBossRageA": {
+      "Buffs": [
+        "CurePoison",
+        "CureSleep",
+        "SuperBossRageState",
+        "Get1MoreTurn",
+        "SuperBossRageTriggerC",
+        "BossRageATriggered"
+      ],
+      "Targeting": "Self25To50PercentHP",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "TriggerSingleBossRageA": {
+      "Buffs": [
+        "CurePoison",
+        "CureSleep",
+        "SuperBossRageState",
+        "OnLastBossTurn",
+        "SuperBossRageTriggerB",
+        "BossRageATriggered"
+      ],
+      "Targeting": "Self50To75PercentHP",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "TriggerTripleBossRageB": {
+      "Buffs": [
+        "CurePoison",
+        "CureSleep",
+        "SuperBossRageState",
+        "Get2MoreTurns",
+        "BossRageBTriggered"
+      ],
+      "Targeting": "SelfOn1HP",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "TriggerDoubleBossRageB": {
+      "Buffs": [
+        "CurePoison",
+        "CureSleep",
+        "SuperBossRageState",
+        "Get1MoreTurn",
+        "SuperBossRageTriggerD",
+        "BossRageBTriggered"
+      ],
+      "Targeting": "Self1To25PercentHP",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "TriggerSingleBossRageB": {
+      "Buffs": [
+        "CurePoison",
+        "CureSleep",
+        "SuperBossRageState",
+        "OnLastBossTurn",
+        "SuperBossRageTriggerC",
+        "BossRageBTriggered"
+      ],
+      "Targeting": "Self25To50PercentHP",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "TriggerDoubleBossRageC": {
+      "Buffs": [
+        "CurePoison",
+        "CureSleep",
+        "SuperBossRageState",
+        "Get1MoreTurn",
+        "BossRageCTriggered"
+      ],
+      "Targeting": "SelfOn1HP",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "TriggerSingleBossRageC": {
+      "Buffs": [
+        "CurePoison",
+        "CureSleep",
+        "SuperBossRageState",
+        "OnLastBossTurn",
+        "SuperBossRageTriggerD",
+        "BossRageCTriggered"
+      ],
+      "Targeting": "Self1To25PercentHP",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "TriggerSingleBossRageD": {
+      "Buffs": [
+        "CurePoison",
+        "CureSleep",
+        "SuperBossRageState",
+        "OnLastBossTurn",
+        "BossRageDTriggered"
+      ],
+      "Targeting": "SelfOn1HP",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun50AttackerWhenHurt": {
+      "Buffs": [
+        "Stun50"
+      ],
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun100AttackerWhenHurtChance33": {
+      "Buffs": [
+        "Stun100"
+      ],
+      "ChanceToTrigger": 0.33,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "StunSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "SleepAttackerWhenHurtChance33": {
+      "Buffs": [
+        "OwnTurnSleep"
+      ],
+      "ChanceToTrigger": 0.33,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "SleepSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "PoisonAttackerWhenHurtChance33": {
+      "Buffs": [
+        "Poison"
+      ],
+      "ChanceToTrigger": 0.33,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "PoisonSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "CounterWhenHurt2Percent": {
+      "Buffs": [
+        "GetTurnNoLog"
+      ],
+      "Targeting": "Self",
+      "ChanceToTrigger": 0.02,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "CounterTriggerLog",
+      "ActivateEffect": "BlankNoDamage"
+    },
+    "CounterWhenHurt4Percent": {
+      "Buffs": [
+        "GetTurnNoLog"
+      ],
+      "Targeting": "Self",
+      "ChanceToTrigger": 0.04,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "CounterTriggerLog",
+      "ActivateEffect": "BlankNoDamage"
+    },
+    "CounterWhenHurt8Percent": {
+      "Buffs": [
+        "GetTurnNoLog"
+      ],
+      "Targeting": "Self",
+      "ChanceToTrigger": 0.08,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "CounterTriggerLog",
+      "ActivateEffect": "BlankNoDamage"
+    },
+    "CounterWhenHurt14Percent": {
+      "Buffs": [
+        "GetTurnNoLog"
+      ],
+      "Targeting": "Self",
+      "ChanceToTrigger": 0.14,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "CounterTriggerLog",
+      "ActivateEffect": "BlankNoDamage"
+    },
+    "CounterWhenHurt20Percent": {
+      "Buffs": [
+        "GetTurnNoLog"
+      ],
+      "Targeting": "Self",
+      "ChanceToTrigger": 0.2,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "CounterTriggerLog",
+      "ActivateEffect": "BlankNoDamage"
+    },
+    "Stun100AttackerWhenHurt2Percent": {
+      "Buffs": [
+        "Stun100"
+      ],
+      "ChanceToTrigger": 0.02,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "StunSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "Stun100AttackerWhenHurt3Percent": {
+      "Buffs": [
+        "Stun100"
+      ],
+      "ChanceToTrigger": 0.03,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "StunSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "Stun100AttackerWhenHurt4Percent": {
+      "Buffs": [
+        "Stun100"
+      ],
+      "ChanceToTrigger": 0.04,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "StunSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "Stun100AttackerWhenHurt6Percent": {
+      "Buffs": [
+        "Stun100"
+      ],
+      "ChanceToTrigger": 0.06,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "StunSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "Stun100AttackerWhenHurt8Percent": {
+      "Buffs": [
+        "Stun100"
+      ],
+      "ChanceToTrigger": 0.08,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "StunSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "Stun100AttackerWhenHurt12Percent": {
+      "Buffs": [
+        "Stun100"
+      ],
+      "ChanceToTrigger": 0.12,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "StunSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "Stun100AttackerWhenHurt14Percent": {
+      "Buffs": [
+        "Stun100"
+      ],
+      "ChanceToTrigger": 0.14,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "StunSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "Stun100AttackerWhenHurt20Percent": {
+      "Buffs": [
+        "Stun100"
+      ],
+      "ChanceToTrigger": 0.2,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "StunSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "Stun100AttackerWhenHurt21Percent": {
+      "Buffs": [
+        "Stun100"
+      ],
+      "ChanceToTrigger": 0.21,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "StunSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "Stun100AttackerWhenHurt30Percent": {
+      "Buffs": [
+        "Stun100"
+      ],
+      "ChanceToTrigger": 0.3,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "StunSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "SleepAttackerWhenHurt2Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToTrigger": 0.02,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "SleepSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "SleepAttackerWhenHurt3Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToTrigger": 0.03,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "SleepSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "SleepAttackerWhenHurt4Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToTrigger": 0.04,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "SleepSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "SleepAttackerWhenHurt6Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToTrigger": 0.06,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "SleepSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "SleepAttackerWhenHurt8Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToTrigger": 0.08,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "SleepSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "SleepAttackerWhenHurt12Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToTrigger": 0.12,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "SleepSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "SleepAttackerWhenHurt14Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToTrigger": 0.14,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "SleepSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "SleepAttackerWhenHurt20Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToTrigger": 0.2,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "SleepSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "SleepAttackerWhenHurt21Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToTrigger": 0.21,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "SleepSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "SleepAttackerWhenHurt30Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "ChanceToTrigger": 0.3,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "SleepSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "PoisonAttackerWhenHurt10Percent": {
+      "Buffs": [
+        "Poison"
+      ],
+      "ChanceToTrigger": 0.1,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "PoisonSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "PoisonAttackerWhenHurt20Percent": {
+      "Buffs": [
+        "Poison"
+      ],
+      "ChanceToTrigger": 0.2,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "PoisonSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "PoisonAttackerWhenHurt40Percent": {
+      "Buffs": [
+        "Poison"
+      ],
+      "ChanceToTrigger": 0.4,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "PoisonSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "PoisonAttackerWhenHurt70Percent": {
+      "Buffs": [
+        "Poison"
+      ],
+      "ChanceToTrigger": 0.7,
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "PoisonSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "PoisonAttackerWhenHurt": {
+      "Buffs": [
+        "Poison"
+      ],
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "PoisonSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "PoisonAttakckerAndRandomWhenHurtOnce": {
+      "Buffs": [
+        "Poison"
+      ],
+      "Targeting": "1RandomEnemy",
+      "SourceIsTarget": true,
+      "SourceIsTargetAndTargeting": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "PoisonSkinOnceLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "TriggersAllowed": 1
+    },
+    "PoisonAttackerWhenHurtOnce": {
+      "Buffs": [
+        "Poison"
+      ],
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ],
+      "ActivateLog": "PoisonSkinLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "TriggersAllowed": 1
+    }
+  },
+  "BuffOnTurnBuffComponent": {
+    "PoisonOnTurn": {
+      "Buffs": [
+        "Poison"
+      ]
+    },
+    "HardDispelOnTurn": {
+      "Buffs": [
+        "HardDispel"
+      ],
+      "Targeting": "AllEnemy"
+    },
+    "DefBuffDispelEnemiesOnTurn": {
+      "Buffs": [
+        "RemoveDefBuffs"
+      ],
+      "Targeting": "AllDefBuffedEnemy"
+    },
+    "AtkDebuffDispelSelfOnTurn": {
+      "Buffs": [
+        "RemoveAtkDebuffs"
+      ],
+      "Targeting": "Self"
+    },
+    "PoisonOnTurn1Trigger": {
+      "Buffs": [
+        "Poison"
+      ],
+      "Targeting": "Self",
+      "TriggersAllowed": 1
+    }
+  },
+  "BuffOnTurnEndBuffComponent": {
+    "PoisonOnTurnEnd": {
+      "Buffs": [
+        "Poison"
+      ]
+    },
+    "12ExtraTurns": {
+      "Buffs": [
+        "Get11MoreTurns"
+      ],
+      "Targeting": "Self"
+    },
+    "11ExtraTurns": {
+      "Buffs": [
+        "Get10MoreTurns"
+      ],
+      "Targeting": "Self"
+    },
+    "10ExtraTurns": {
+      "Buffs": [
+        "Get9MoreTurns"
+      ],
+      "Targeting": "Self"
+    },
+    "9ExtraTurns": {
+      "Buffs": [
+        "Get8MoreTurns"
+      ],
+      "Targeting": "Self"
+    },
+    "8ExtraTurns": {
+      "Buffs": [
+        "Get7MoreTurns"
+      ],
+      "Targeting": "Self"
+    },
+    "7ExtraTurns": {
+      "Buffs": [
+        "Get6MoreTurns"
+      ],
+      "Targeting": "Self"
+    },
+    "6ExtraTurns": {
+      "Buffs": [
+        "Get5MoreTurns"
+      ],
+      "Targeting": "Self"
+    },
+    "5ExtraTurns": {
+      "Buffs": [
+        "Get4MoreTurns"
+      ],
+      "Targeting": "Self"
+    },
+    "4ExtraTurns": {
+      "Buffs": [
+        "Get3MoreTurns"
+      ],
+      "Targeting": "Self"
+    },
+    "3ExtraTurns": {
+      "Buffs": [
+        "Get2MoreTurns"
+      ],
+      "Targeting": "Self"
+    },
+    "2ExtraTurns": {
+      "Buffs": [
+        "Get1MoreTurn"
+      ],
+      "Targeting": "Self"
+    },
+    "1ExtraTurn": {
+      "Buffs": [
+        "OnLastBossTurn"
+      ],
+      "Targeting": "Self"
+    },
+    "LastBossTurn": {
+      "Buffs": [
+        "RemoveSuperBossRageState"
+      ],
+      "Targeting": "Self"
+    },
+    "ExtraTurn": {
+      "Buffs": [
+        "GetTurn"
+      ],
+      "Targeting": "Self"
+    },
+    "PoisonOnTurnEnd1Trigger": {
+      "Buffs": [
+        "Poison"
+      ],
+      "Targeting": "Self",
+      "TriggersAllowed": 1
+    }
+  },
+  "BuffOnTurnStartBuffComponent": {
+    "PoisonOnTurnStart": {
+      "Buffs": [
+        "Poison"
+      ]
+    },
+    "Heal10PercentOnTurnStart": {
+      "Buffs": [
+        "SmallHeal"
+      ],
+      "Targeting": "Self"
+    },
+    "Heal100PercentOnTurnStart": {
+      "Buffs": [
+        "HealFull"
+      ],
+      "Targeting": "Self"
+    },
+    "StopProtectingOnMyTurnStart": {
+      "Buffs": [
+        "StopProtecting"
+      ],
+      "Targeting": "Self"
+    },
+    "PoisonDamageOnTurn": {
+      "Buffs": [
+        "PoisonDamage"
+      ],
+      "Targeting": "Self",
+      "ForwardSource": true
+    },
+    "PoisonOnTurnStart1Trigger": {
+      "Buffs": [
+        "Poison"
+      ],
+      "Targeting": "Self",
+      "TriggersAllowed": 1
+    },
+    "GetSleepStrikeTemp": {
+      "Buffs": [
+        "SleepStrikeTemp"
+      ],
+      "Targeting": "Self"
+    }
+  },
+  "DamageBuffComponent": {
+    "BuffPoisonDamage": {
+      "AbilityEffect": "PoisonDamageFX",
+      "BaseDamageScalar": 0.375,
+      "DamageType": "NoType",
+      "Flags": [
+        "PoisonDamage"
+      ]
+    }
+  },
+  "DamageOverTimeBuffComponent": {
+    "TestDamageOverTime": {
+      "PercentOfAttack": 0.05,
+      "Effect": "PoisonDamageFX",
+      "DamageFlags": [
+        "DOT"
+      ]
+    }
+  },
+  "DamageScalorBuffComponent": {
+    "TestUpModifier": {
+      "DamageScalar": 2
+    },
+    "TestDownModifier": {
+      "DamageScalar": 0.5
+    }
+  },
+  "EnterBattleBuffComponent": {
+    "PoisonOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "PoisonOneRandomOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "Stun300HighOnEnter": {
+      "Buffs": [
+        "Stun300NoFX"
+      ],
+      "Targeting": "HighestTUEnemy",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "SleepLowOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "LowestTUEnemy"
+    },
+    "SleepHighOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "HighestTUEnemy"
+    },
+    "PoisonLowOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "LowestTUEnemy",
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "Stun300LowOnEnter": {
+      "Buffs": [
+        "Stun300NoFX"
+      ],
+      "Targeting": "LowestTUEnemy",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "SleepOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "1RandomEnemy"
+    },
+    "PoisonHighOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "HighestTUEnemy",
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "Sleep100OnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "Sleep200OnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "Sleep300OnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "Sleep350OnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "Sleep400OnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "Sleep450OnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "Sleep500OnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "Stun100OnEnter": {
+      "Buffs": [
+        "Stun100NoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun200OnEnter": {
+      "Buffs": [
+        "Stun200NoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun300OnEnter": {
+      "Buffs": [
+        "Stun300NoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun350OnEnter": {
+      "Buffs": [
+        "Stun350NoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun400OnEnter": {
+      "Buffs": [
+        "Stun400NoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun450OnEnter": {
+      "Buffs": [
+        "Stun450NoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun500OnEnter": {
+      "Buffs": [
+        "Stun500NoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Sleep300HighOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "HighestTUEnemy",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "Sleep350HighOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "HighestTUEnemy",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "Sleep400HighOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "HighestTUEnemy",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "Sleep450HighOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "HighestTUEnemy",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "Sleep500HighOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "HighestTUEnemy",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "Stun350HighOnEnter": {
+      "Buffs": [
+        "Stun350NoFX"
+      ],
+      "Targeting": "HighestTUEnemy",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun400HighOnEnter": {
+      "Buffs": [
+        "Stun400NoFX"
+      ],
+      "Targeting": "HighestTUEnemy",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun450HighOnEnter": {
+      "Buffs": [
+        "Stun450NoFX"
+      ],
+      "Targeting": "HighestTUEnemy",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun500HighOnEnter": {
+      "Buffs": [
+        "Stun500NoFX"
+      ],
+      "Targeting": "HighestTUEnemy",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Sleep300LowOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "LowestTUEnemy",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "Sleep350LowOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "LowestTUEnemy",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "Sleep400LowOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "LowestTUEnemy",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "Sleep450LowOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "LowestTUEnemy",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "Sleep500LowOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "LowestTUEnemy",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "Stun350LowOnEnter": {
+      "Buffs": [
+        "Stun350NoFX"
+      ],
+      "Targeting": "LowestTUEnemy",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun400LowOnEnter": {
+      "Buffs": [
+        "Stun400NoFX"
+      ],
+      "Targeting": "LowestTUEnemy",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun450LowOnEnter": {
+      "Buffs": [
+        "Stun450NoFX"
+      ],
+      "Targeting": "LowestTUEnemy",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun500LowOnEnter": {
+      "Buffs": [
+        "Stun500NoFX"
+      ],
+      "Targeting": "LowestTUEnemy",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "BossHoldGroundOnEnter": {
+      "Buffs": [
+        "BossHoldGround"
+      ],
+      "Targeting": "Self"
+    },
+    "SetupSwarmBossRageTriggerOnEnter": {
+      "Buffs": [
+        "SuperBossRageTriggerD"
+      ],
+      "Targeting": "Self"
+    },
+    "Poison60PercentOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ChanceToTrigger": 0.6,
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "Poison70PercentOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ChanceToTrigger": 0.7,
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "Poison80PercentOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ChanceToTrigger": 0.8,
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "Poison90PercentOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ChanceToTrigger": 0.9,
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "Poison60PercentHighOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "HighestTUEnemy",
+      "ChanceToTrigger": 0.6,
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "Poison70PercentHighOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "HighestTUEnemy",
+      "ChanceToTrigger": 0.7,
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "Poison80PercentHighOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "HighestTUEnemy",
+      "ChanceToTrigger": 0.8,
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "Poison90PercentHighOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "HighestTUEnemy",
+      "ChanceToTrigger": 0.9,
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "Poison60PercentLowOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "LowestTUEnemy",
+      "ChanceToTrigger": 0.6,
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "Poison70PercentLowOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "LowestTUEnemy",
+      "ChanceToTrigger": 0.7,
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "Poison80PercentLowOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "LowestTUEnemy",
+      "ChanceToTrigger": 0.8,
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "Poison90PercentLowOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "LowestTUEnemy",
+      "ChanceToTrigger": 0.9,
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "SleepRandom10PercentOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ChanceToTrigger": 0.1,
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "SleepRandom20PercentOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ChanceToTrigger": 0.2,
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "SleepRandom40PercentOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ChanceToTrigger": 0.4,
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "SleepRandom70PercentOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ChanceToTrigger": 0.7,
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "SleepRandomOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "Stun150Random10PercentOnEnter": {
+      "Buffs": [
+        "Stun150NoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ChanceToTrigger": 0.1,
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun150Random20PercentOnEnter": {
+      "Buffs": [
+        "Stun150NoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ChanceToTrigger": 0.2,
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun150Random40PercentOnEnter": {
+      "Buffs": [
+        "Stun150NoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ChanceToTrigger": 0.4,
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun150Random70PercentOnEnter": {
+      "Buffs": [
+        "Stun150NoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ChanceToTrigger": 0.7,
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun150RandomOnEnter": {
+      "Buffs": [
+        "Stun150NoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "SleepTwoRandom10PercentEachOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "2RandomEnemy10PercentEach",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "SleepTwoRandom20PercentEachOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "2RandomEnemy20PercentEach",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "SleepTwoRandom40PercentEachOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "2RandomEnemy40PercentEach",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "SleepTwoRandom70PercentEachOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "2RandomEnemy70PercentEach",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "SleepTwoRandomOnEnter": {
+      "Buffs": [
+        "SleepNoFX"
+      ],
+      "Targeting": "2RandomEnemy",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+    },
+    "Stun150TwoRandom10PercentEachOnEnter": {
+      "Buffs": [
+        "Stun150NoFX"
+      ],
+      "Targeting": "2RandomEnemy10PercentEach",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun150TwoRandom20PercentEachOnEnter": {
+      "Buffs": [
+        "Stun150NoFX"
+      ],
+      "Targeting": "2RandomEnemy20PercentEach",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun150TwoRandom40PercentEachOnEnter": {
+      "Buffs": [
+        "Stun150NoFX"
+      ],
+      "Targeting": "2RandomEnemy40PercentEach",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun150TwoRandom70PercentEachOnEnter": {
+      "Buffs": [
+        "Stun150NoFX"
+      ],
+      "Targeting": "2RandomEnemy70PercentEach",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun150TwoRandomOnEnter": {
+      "Buffs": [
+        "Stun150NoFX"
+      ],
+      "Targeting": "2RandomEnemy",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "PoisonAll5PercentEachOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "AllEnemies5PercentEach",
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "PoisonAll10PercentEachOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "AllEnemies10PercentEach",
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "PoisonAll20PercentEachOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "AllEnemies20PercentEach",
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "PoisonAll35PercentEachOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "AllEnemies35PercentEach",
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "PoisonAll50PercentEachOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "AllEnemies50PercentEach",
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "CounterEntry": {
+      "Buffs": [
+        "CounterStance"
+      ],
+      "Targeting": "Self"
+    },
+    "PoisonAll7PercentEachOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "AllEnemies7PercentEach",
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "PoisonAll14PercentEachOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "AllEnemies14PercentEach",
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "PoisonAll28PercentEachOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "AllEnemies28PercentEach",
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "PoisonAll49PercentEachOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "AllEnemies49PercentEach",
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "PoisonAll70PercentEachOnEnter": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "AllEnemies70PercentEach",
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+    },
+    "HealLowest10PercentOnEnter": {
+      "Buffs": [
+        "Heal10NoFX"
+      ],
+      "Targeting": "LowestRelativeHPAllyNotMe",
+      "ActivateLog": "HealEntryLog",
+      "ActivateEffect": "Heal"
+    },
+    "HealLowest20PercentOnEnter": {
+      "Buffs": [
+        "Heal20NoFX"
+      ],
+      "Targeting": "LowestRelativeHPAllyNotMe",
+      "ActivateLog": "HealEntryLog",
+      "ActivateEffect": "Heal"
+    },
+    "HealLowest30PercentOnEnter": {
+      "Buffs": [
+        "Heal30NoFX"
+      ],
+      "Targeting": "LowestRelativeHPAllyNotMe",
+      "ActivateLog": "HealEntryLog",
+      "ActivateEffect": "Heal"
+    },
+    "HealLowest40PercentOnEnter": {
+      "Buffs": [
+        "Heal40NoFX"
+      ],
+      "Targeting": "LowestRelativeHPAllyNotMe",
+      "ActivateLog": "HealEntryLog",
+      "ActivateEffect": "Heal"
+    },
+    "HealLowest100PercentOnEnter": {
+      "Buffs": [
+        "HealFullNoFX"
+      ],
+      "Targeting": "LowestRelativeHPAllyNotMe",
+      "ActivateLog": "HealEntryLog",
+      "ActivateEffect": "Heal"
+    },
+    "PoisonOnEnter1Trigger": {
+      "Buffs": [
+        "PoisonNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX",
+      "TriggersAllowed": 1
+    },
+    "Stun100All6PercentEachOnEnter": {
+      "Buffs": [
+        "Stun100NoFX"
+      ],
+      "Targeting": "AllEnemies6PercentEach",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun100All12PercentEachOnEnter": {
+      "Buffs": [
+        "Stun100NoFX"
+      ],
+      "Targeting": "AllEnemies12PercentEach",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun100All24PercentEachOnEnter": {
+      "Buffs": [
+        "Stun100NoFX"
+      ],
+      "Targeting": "AllEnemies24PercentEach",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun100All42PercentEachOnEnter": {
+      "Buffs": [
+        "Stun100NoFX"
+      ],
+      "Targeting": "AllEnemies42PercentEach",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "Stun100All60PercentEachOnEnter": {
+      "Buffs": [
+        "Stun100NoFX"
+      ],
+      "Targeting": "AllEnemies60PercentEach",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+    },
+    "AntidoeAll10PercentEachOnEnter": {
+      "Buffs": [
+        "CurePoisonSilent"
+      ],
+      "Targeting": "AllPoisonedAllyButMe10PercentEach",
+      "ActivateLog": "AntidoteEntryLog",
+      "ActivateEffect": "Purify"
+    },
+    "AntidoeAll20PercentEachOnEnter": {
+      "Buffs": [
+        "CurePoisonSilent"
+      ],
+      "Targeting": "AllPoisonedAllyButMe20PercentEach",
+      "ActivateLog": "AntidoteEntryLog",
+      "ActivateEffect": "Purify"
+    },
+    "AntidoeAll40PercentEachOnEnter": {
+      "Buffs": [
+        "CurePoisonSilent"
+      ],
+      "Targeting": "AllPoisonedAllyButMe40PercentEach",
+      "ActivateLog": "AntidoteEntryLog",
+      "ActivateEffect": "Purify"
+    },
+    "AntidoeAll70PercentEachOnEnter": {
+      "Buffs": [
+        "CurePoisonSilent"
+      ],
+      "Targeting": "AllPoisonedAllyButMe70PercentEach",
+      "ActivateLog": "AntidoteEntryLog",
+      "ActivateEffect": "Purify"
+    },
+    "AntidoeAll100PercentEachOnEnter": {
+      "Buffs": [
+        "CurePoisonSilent"
+      ],
+      "Targeting": "AllPoisonedAllyButMe",
+      "ActivateLog": "AntidoteEntryLog",
+      "ActivateEffect": "Purify"
+    }
+  },
+  "FixedPercentAdjustHpBuffComponent": {
+    "10PercentAdjust": {
+      "Percent": 0.1,
+      "AbilityEffect": "BlankNoReaction"
+    },
+    "50PercentAdjust": {
+      "Percent": 0.5,
+      "AbilityEffect": "BlankNoReaction"
+    }
+  },
+  "FlatAdjustHpBuffComponent": {
+    "100FlatDamage": {
+      "Amount": 100,
+      "DamageFlags": [
+        "BuffDamage"
+      ],
+      "AbilityEffect": "Blank"
+    }
+  },
+  "GetTurnBuffComponent": {
+    "GetTurn": {}
+  },
+  "GuardBuffComponent": {
+    "40PercentGuard": {
+      "Chance": 0.4,
+      "ActivateEffect": "ShowLog",
+      "ActivateLog": "GuardLog",
+      "ActivateText": "GuardTrigger"
+    },
+    "50PercentGuard": {
+      "Chance": 0.5,
+      "ActivateEffect": "ShowLog",
+      "ActivateLog": "GuardLog",
+      "ActivateText": "GuardTrigger"
+    },
+    "60PercentGuard": {
+      "Chance": 0.6,
+      "ActivateEffect": "ShowLog",
+      "ActivateLog": "GuardLog",
+      "ActivateText": "GuardTrigger"
+    },
+    "70PercentGuard": {
+      "Chance": 0.7,
+      "ActivateEffect": "ShowLog",
+      "ActivateLog": "GuardLog",
+      "ActivateText": "GuardTrigger"
+    },
+    "80PercentGuard": {
+      "Chance": 0.8,
+      "ActivateEffect": "ShowLog",
+      "ActivateLog": "GuardLog",
+      "ActivateText": "GuardTrigger"
+    },
+    "90PercentGuard": {
+      "Chance": 0.9,
+      "ActivateEffect": "ShowLog",
+      "ActivateLog": "GuardLog",
+      "ActivateText": "GuardTrigger"
+    },
+    "100PercentGuard": {
+      "Chance": 1,
+      "ActivateEffect": "ShowLog",
+      "ActivateLog": "GuardLog",
+      "ActivateText": "GuardTrigger"
+    }
+  },
+  "HealOverTimeBuffComponent": {
+    "HealOverTime": {
+      "PercentOfAttack": 0.5,
+      "Effect": "Blank"
+    },
+    "3PercentHealPerTurn": {
+      "PercentOfHp": 3,
+      "Effect": "Blank"
+    },
+    "1PercentHealPerTurn": {
+      "PercentOfHp": 1,
+      "Effect": "Blank"
+    }
+  },
+  "HoldGroundBuffComponent": {
+    "HoldGround": {
+      "ActivateEffect": "ShowTextAndLog",
+      "ActivateLog": "HoldGroundTriggerLog",
+      "IgnoredText": "HoldGroundBroken",
+      "TriggerAtOneHp": false
+    },
+    "HoldGround1Trigger": {
+      "TriggersAllowed": 1,
+      "ActivateEffect": "ShowTextAndLog",
+      "ActivateText": "HoldGroundOnceTriggered",
+      "ActivateIcon": "Icon_buffHoldGround",
+      "ActivateLog": "HoldGroundTriggerLog",
+      "IgnoredText": "HoldGroundBroken"
+    },
+    "BlockDeath1Trigger": {
+      "TriggersAllowed": 1,
+      "ActivateEffect": "ShowTextAndLog",
+      "ActivateText": "HoldGroundOnceTriggered",
+      "ActivateIcon": "Icon_buffHoldGround",
+      "ActivateLog": "HoldGroundTriggerLog",
+      "TriggerAtOneHp": true
+    },
+    "HoldGroundForever": {
+      "TriggersAllowed": 9999999,
+      "ActivateEffect": "ShowTextAndLog",
+      "ActivateLog": "HoldGroundTriggerLog",
+      "TriggerAtOneHp": true
+    },
+    "HoldGround1TriggerG": {
+      "TriggersAllowed": 1,
+      "ActivateEffect": "ShowTextAndLog",
+      "ActivateText": "HoldGroundOnceTriggered",
+      "ActivateIcon": "Icon_buffHoldGround",
+      "ActivateLog": "HoldGroundTriggerLog",
+      "IgnoredText": "HoldGroundBroken",
+      "ChanceToTrigger": 0.4
+    },
+    "HoldGround1TriggerF": {
+      "TriggersAllowed": 1,
+      "ActivateEffect": "ShowTextAndLog",
+      "ActivateText": "HoldGroundOnceTriggered",
+      "ActivateIcon": "Icon_buffHoldGround",
+      "ActivateLog": "HoldGroundTriggerLog",
+      "IgnoredText": "HoldGroundBroken",
+      "ChanceToTrigger": 0.5
+    },
+    "HoldGround1TriggerE": {
+      "TriggersAllowed": 1,
+      "ActivateEffect": "ShowTextAndLog",
+      "ActivateText": "HoldGroundOnceTriggered",
+      "ActivateIcon": "Icon_buffHoldGround",
+      "ActivateLog": "HoldGroundTriggerLog",
+      "IgnoredText": "HoldGroundBroken",
+      "ChanceToTrigger": 0.6
+    },
+    "HoldGround1TriggerD": {
+      "TriggersAllowed": 1,
+      "ActivateEffect": "ShowTextAndLog",
+      "ActivateText": "HoldGroundOnceTriggered",
+      "ActivateIcon": "Icon_buffHoldGround",
+      "ActivateLog": "HoldGroundTriggerLog",
+      "IgnoredText": "HoldGroundBroken",
+      "ChanceToTrigger": 0.7
+    },
+    "HoldGround1TriggerC": {
+      "TriggersAllowed": 1,
+      "ActivateEffect": "ShowTextAndLog",
+      "ActivateText": "HoldGroundOnceTriggered",
+      "ActivateIcon": "Icon_buffHoldGround",
+      "ActivateLog": "HoldGroundTriggerLog",
+      "IgnoredText": "HoldGroundBroken",
+      "ChanceToTrigger": 0.8
+    },
+    "HoldGround1TriggerB": {
+      "TriggersAllowed": 1,
+      "ActivateEffect": "ShowTextAndLog",
+      "ActivateText": "HoldGroundOnceTriggered",
+      "ActivateIcon": "Icon_buffHoldGround",
+      "ActivateLog": "HoldGroundTriggerLog",
+      "IgnoredText": "HoldGroundBroken",
+      "ChanceToTrigger": 0.9
+    },
+    "HoldGround1TriggerA": {
+      "TriggersAllowed": 1,
+      "ActivateEffect": "ShowTextAndLog",
+      "ActivateText": "HoldGroundOnceTriggered",
+      "ActivateIcon": "Icon_buffHoldGround",
+      "ActivateLog": "HoldGroundTriggerLog",
+      "IgnoredText": "HoldGroundBroken",
+      "ChanceToTrigger": 1
+    },
+    "HoldGround1TriggerBoss": {
+      "TriggersAllowed": 1,
+      "ActivateEffect": "ShowTextAndLog",
+      "ActivateText": "HoldGroundOnceTriggered",
+      "ActivateIcon": "Icon_buffHoldGround",
+      "ActivateLog": "HoldGroundTriggerLog",
+      "IgnoredText": "HoldGroundBroken",
+      "ChanceToTrigger": 1
+    }
+  },
+  "ModifyDamageBuffComponent": {
+    "DamageDown50Percent": {
+      "DamageModifier": 0.5,
+      "CancelFromDamageFlags": [
+        "IgnoreArmor"
+      ],
+      "ActivateEffect": "ShowLog",
+      "ActivateLog": "HurtLessLog"
+    },
+    "ModifyDamageTriggerTest": {
+      "DamageModifier": 0.95,
+      "SourceCondition": "EarthElement",
+      "TriggersAllowed": 1,
+      "IncrementTriggersOnFail": true
+    }
+  },
+  "ModifyTuBuffComponent": {
+    "TUReduc05": {
+      "Scalar": 0.95
+    },
+    "TUReduc10": {
+      "Scalar": 0.9
+    },
+    "TUReduc15": {
+      "Scalar": 0.85
+    },
+    "TUReduc20": {
+      "Scalar": 0.8
+    },
+    "TUReduc25": {
+      "Scalar": 0.75
+    },
+    "TUReduc30": {
+      "Scalar": 0.7
+    },
+    "TUReduc35": {
+      "Scalar": 0.65
+    },
+    "TUReduc40": {
+      "Scalar": 0.6
+    },
+    "TUReduc45": {
+      "Scalar": 0.55
+    },
+    "TUReduc50": {
+      "Scalar": 0.5
+    },
+    "TUIncrease05": {
+      "Scalar": 1.05
+    },
+    "TUIncrease10": {
+      "Scalar": 1.1
+    },
+    "TUIncrease15": {
+      "Scalar": 1.15
+    },
+    "TUIncrease20": {
+      "Scalar": 1.2
+    },
+    "TUIncrease25": {
+      "Scalar": 1.25
+    },
+    "TUIncrease30": {
+      "Scalar": 1.3
+    },
+    "TUIncrease35": {
+      "Scalar": 1.35
+    },
+    "TUIncrease40": {
+      "Scalar": 1.4
+    },
+    "TUIncrease45": {
+      "Scalar": 1.45
+    },
+    "TUIncrease50": {
+      "Scalar": 1.5
+    }
+  },
+  "IncomingCritAdjustBuffComponent": {
+    "SupressCritsTest": {
+      "ChanceAdjust": 0.00001
+    },
+    "TakeHugeCritsTest": {
+      "MultiplierAdjust": 100
+    },
+    "HighChanceToBeCritTest": {
+      "ChanceAdjust": 20
+    },
+    "NeutralizeCritsTest": {
+      "MultiplierAdjust": -5
+    }
+  },
+  "ImmunityBuffComponent": {
+    "ImmuneToPoison": {
+      "StackNames": [
+        "Poison"
+      ],
+      "ActivateEffect": "ShowLog",
+      "ActivateLog": "ImmuneToPoisonLog"
+    },
+    "ImmuneToStun": {
+      "StackNames": [
+        "Stun"
+      ],
+      "ActivateEffect": "ShowLog",
+      "ActivateLog": "ImmuneToStunLog"
+    },
+    "ImmuneToSleep": {
+      "StackNames": [
+        "Sleep"
+      ],
+      "ActivateEffect": "ShowLog",
+      "ActivateLog": "ImmuneToSleepLog"
+    },
+    "BossRageTriggerAImmunity": {
+      "StackNames": [
+        "BossRageTriggerA"
+      ]
+    },
+    "BossHoldGroundImmunity": {
+      "StackNames": [
+        "BossHoldGround"
+      ]
+    },
+    "ImmuneToPAtkDown": {
+      "StackNames": [
+        "PAtkDebuff"
+      ]
+    },
+    "ImmuneToMAtkDown": {
+      "StackNames": [
+        "MAtkDebuff"
+      ]
+    },
+    "ImmuneToPDefDown": {
+      "StackNames": [
+        "PDefDebuff"
+      ]
+    },
+    "ImmuneToMDefDown": {
+      "StackNames": [
+        "MDefDebuff"
+      ]
+    },
+    "ImmuneToAtkDown": {
+      "StackNames": [
+        "AtkDebuff"
+      ]
+    },
+    "ImmuneToPoison1Trigger": {
+      "StackNames": [
+        "Poison"
+      ],
+      "ActivateEffect": "ShowLog",
+      "ActivateLog": "ImmuneToPoison1TriggerLog",
+      "TriggersAllowed": 1
+    }
+  },
+  "InstantDeathBuffComponent": {
+    "InstantDeath": {
+      "AllowBlockDeath": false,
+      "AbilityEffect": "Blank"
+    },
+    "SoftInstantDeath": {
+      "AllowBlockDeath": true,
+      "AbilityEffect": "Blank"
+    }
+  },
+  "InstantLastReinforcementDeathBuffComponent": {
+    "InstantDeathReinforcement": {}
+  },
+  "LifeFlipBuffComponent": {
+    "LifeFlip": {
+      "AbilityEffect": "Blank"
+    }
+  },
+  "LoseTurnBuffComponent": {
+    "LoseTurn50TU": {
+      "DelayTime": 50
+    },
+    "LoseTurn100TU": {
+      "DelayTime": 100
+    },
+    "LoseTurn150TU": {
+      "DelayTime": 150
+    },
+    "LoseTurn200TU": {
+      "DelayTime": 200
+    }
+  },
+  "OthersEnterBuffComponent": {
+    "InstaKillSummonedEnemies": {
+      "Buffs": [
+        "InstantDeath"
+      ],
+      "Targeting": "SummonedEnemies",
+      "EntreeIsTarget": true,
+      "KeepTargetingCondition": true,
+      "OnEnemyEnterOnly": true
+    },
+    "EnemiesEnterSlept": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "EntreeIsTarget": true,
+      "OnEnemyEnterOnly": true
+    },
+    "EnemiesEnterStunned50": {
+      "Buffs": [
+        "Stun50"
+      ],
+      "EntreeIsTarget": true,
+      "OnEnemyEnterOnly": true
+    },
+    "EnemiesEnterStunned100": {
+      "Buffs": [
+        "Stun100"
+      ],
+      "EntreeIsTarget": true,
+      "OnEnemyEnterOnly": true
+    },
+    "EnemiesEnterPoisoned": {
+      "Buffs": [
+        "Poison"
+      ],
+      "EntreeIsTarget": true,
+      "OnEnemyEnterOnly": true
+    },
+    "EnemiesEnterPoisoned1Trigger": {
+      "Buffs": [
+        "Poison"
+      ],
+      "EntreeIsTarget": true,
+      "OnEnemyEnterOnly": true,
+      "TriggersAllowed": 1
+    }
+  },
+  "OutgoingCritAdjustBuffComponent": {
+    "DontCritTest": {
+      "ChanceAdjust": 0.00001
+    },
+    "DoHugeCritsTest": {
+      "MultiplierAdjust": 100
+    },
+    "HighChanceToCritTest": {
+      "ChanceAdjust": 20
+    },
+    "NeutralCritsTest": {
+      "MultiplierAdjust": -5
+    }
+  },
+  "PercentAdjustHpBuffComponent": {
+    "50PercentHPDamage": {
+      "Percent": 0.5,
+      "AbilityEffect": "BlankNoReaction",
+      "DamageFlags": [
+        "BuffDamage"
+      ]
+    },
+    "30PercentHPDamage": {
+      "Percent": 0.3,
+      "AbilityEffect": "BlankNoReaction",
+      "DamageFlags": [
+        "BuffDamage"
+      ]
+    },
+    "Heal5Percent": {
+      "Percent": -0.05,
+      "AbilityEffect": "Blank"
+    },
+    "Heal10Percent": {
+      "Percent": -0.1,
+      "AbilityEffect": "Blank"
+    },
+    "Heal20Percent": {
+      "Percent": -0.2,
+      "AbilityEffect": "Blank"
+    },
+    "Heal25Percent": {
+      "Percent": -0.25,
+      "AbilityEffect": "Blank"
+    },
+    "Heal30Percent": {
+      "Percent": -0.3,
+      "AbilityEffect": "Blank"
+    },
+    "Heal40Percent": {
+      "Percent": -0.4,
+      "AbilityEffect": "Blank"
+    },
+    "Heal50Percent": {
+      "Percent": -0.5,
+      "AbilityEffect": "Blank"
+    },
+    "Heal75Percent": {
+      "Percent": -0.75,
+      "AbilityEffect": "Blank"
+    },
+    "Heal100Percent": {
+      "Percent": -1,
+      "AbilityEffect": "Blank"
+    }
+  },
+  "ReduceBuffDurationBuffComponent": {
+    "PoisonResistTest": {
+      "Reduction": 900,
+      "StackNames": [
+        "Poison"
+      ],
+      "ActivateEffect": "ShowLog",
+      "ActivateLog": "PoisonResistLog"
+    }
+  },
+  "ReinforcementMoveBackToFrontBuffComponent": {
+    "MoveReinforcementToFront": {}
+  },
+  "ReinforcementMoveFrontToBackBuffComponent": {
+    "MoveReinforcementToBack": {}
+  },
+  "RemoveAfterTurnsBuffComponent": {
+    "RemoveAfter5Turns": {
+      "Turns": 5
+    },
+    "RemoveAfter4Turns": {
+      "Turns": 4
+    },
+    "RemoveAfter3Turns": {
+      "Turns": 3
+    },
+    "RemoveAfter2Turns": {
+      "Turns": 2
+    },
+    "RemoveAfter1Turn": {
+      "Turns": 1
+    }
+  },
+  "RemoveBuffsBuffComponent": {
+    "RemovePoison": {
+      "StackNames": [
+        "Poison"
+      ],
+      "ActivateEffect": "ShowLog",
+      "ActivateLog": "RemovePoisonLog"
+    },
+    "Purify": {
+      "StackNames": [
+        "Poison",
+        "Sleep"
+      ],
+      "ActivateEffect": "ShowLog",
+      "ActivateLog": "PurifyLog"
+    },
+    "RemoveSleep": {
+      "StackNames": [
+        "Sleep"
+      ],
+      "ActivateEffect": "ShowLog",
+      "ActivateLog": "RemoveSleepLog"
+    },
+    "RemoveOneShotPassive": {
+      "StackNames": [
+        "OneShotPassive"
+      ],
+      "ActivateEffect": "ShowLog",
+      "ActivateLog": "RemoveOneShotPassiveLog"
+    },
+    "RemoveHoldGround": {
+      "StackNames": [
+        "HoldGround"
+      ]
+    },
+    "RemoveBossRageTrigger": {
+      "StackNames": [
+        "BossRageTrigger"
+      ]
+    },
+    "RemoveForceBossAttack": {
+      "StackNames": [
+        "ForceBossAttack"
+      ]
+    },
+    "RemoveForceBossDispel": {
+      "StackNames": [
+        "ForceBossDispel"
+      ]
+    },
+    "RemoveBossRageTriggerA": {
+      "StackNames": [
+        "BossRageTriggerA"
+      ]
+    },
+    "RemoveBossRageTriggerB": {
+      "StackNames": [
+        "BossRageTriggerB"
+      ]
+    },
+    "RemoveBossRageTriggerC": {
+      "StackNames": [
+        "BossRageTriggerC"
+      ]
+    },
+    "RemoveBossRageTriggerD": {
+      "StackNames": [
+        "BossRageTriggerD"
+      ]
+    },
+    "Remove12TurnStack": {
+      "StackNames": [
+        "Get12MoreTurns"
+      ]
+    },
+    "Remove11TurnStack": {
+      "StackNames": [
+        "Get11MoreTurns"
+      ]
+    },
+    "Remove10TurnStack": {
+      "StackNames": [
+        "Get10MoreTurns"
+      ]
+    },
+    "Remove9TurnStack": {
+      "StackNames": [
+        "Get9MoreTurns"
+      ]
+    },
+    "Remove8TurnStack": {
+      "StackNames": [
+        "Get8MoreTurns"
+      ]
+    },
+    "Remove7TurnStack": {
+      "StackNames": [
+        "Get7MoreTurns"
+      ]
+    },
+    "Remove6TurnStack": {
+      "StackNames": [
+        "Get6MoreTurns"
+      ]
+    },
+    "Remove5TurnStack": {
+      "StackNames": [
+        "Get5MoreTurns"
+      ]
+    },
+    "Remove4TurnStack": {
+      "StackNames": [
+        "Get4MoreTurns"
+      ]
+    },
+    "Remove3TurnStack": {
+      "StackNames": [
+        "Get3MoreTurns"
+      ]
+    },
+    "Remove2TurnStack": {
+      "StackNames": [
+        "Get2MoreTurns"
+      ]
+    },
+    "Remove1TurnStack": {
+      "StackNames": [
+        "Get1MoreTurn"
+      ]
+    },
+    "RemoveLastBossTurnStack": {
+      "StackNames": [
+        "LastBossTurn"
+      ]
+    },
+    "RemoveSuperBossRageState": {
+      "StackNames": [
+        "SuperBossRageState"
+      ]
+    },
+    "RemoveProtector": {
+      "StackNames": [
+        "Protector"
+      ],
+      "ActivateEffect": "ShowLog",
+      "ActivateLog": "RemoveProtectorLog"
+    },
+    "RemoveBossBulk": {
+      "StackNames": [
+        "BossBulk"
+      ]
+    },
+    "RemovePoisonSilent": {
+      "StackNames": [
+        "Poison"
+      ]
+    },
+    "RemoveSleepSilent": {
+      "StackNames": [
+        "Sleep"
+      ]
+    },
+    "RemoveAtkBuff": {
+      "StackNames": [
+        "AtkBuff"
+      ]
+    },
+    "RemovePAtkBuff": {
+      "StackNames": [
+        "PAtkBuff"
+      ]
+    },
+    "RemoveMAtkBuff": {
+      "StackNames": [
+        "MAtkBuff"
+      ]
+    },
+    "RemovePDefBuff": {
+      "StackNames": [
+        "PDefBuff"
+      ]
+    },
+    "RemoveMDefBuff": {
+      "StackNames": [
+        "MDefBuff"
+      ]
+    },
+    "RemoveMaxHPBuff": {
+      "StackNames": [
+        "MaxHPBuff"
+      ]
+    },
+    "RemoveAtkDebuff": {
+      "StackNames": [
+        "AtkDebuff"
+      ]
+    },
+    "RemoveMaxHPDebuff": {
+      "StackNames": [
+        "MaxHPDebuff"
+      ]
+    },
+    "RemovePAtkDebuff": {
+      "StackNames": [
+        "PAtkDebuff"
+      ]
+    },
+    "RemovePDefDebuff": {
+      "StackNames": [
+        "PDefDebuff"
+      ]
+    },
+    "RemoveMAtkDebuff": {
+      "StackNames": [
+        "MAtkDebuff"
+      ]
+    },
+    "RemoveMDefDebuff": {
+      "StackNames": [
+        "MDefDebuff"
+      ]
+    }
+  },
+  "RemoveOnHurtBuffComponent": {
+    "RemoveOnHurtNotSelf": {
+      "IgnoreSelfDamage": true
+    },
+    "RemoveOnHurt": {},
+    "RemoveSleepOnHurt": {}
+  },
+  "RemoveOnKillBuffComponent": {
+    "RemoveOnKill": {
+      "RemoveOnSourceKill": false
+    },
+    "RemoveOnSourceKill": {
+      "RemoveOnSourceKill": true
+    }
+  },
+  "RemoveOnSourceDeathBuffComponent": {
+    "RemoveOnSourceDeath": {
+      "ActivateEffect": "ShowLog",
+      "ActivateLog": "SourceDiedLog"
+    }
+  },
+  "RemoveOnSourceLeaveBuffComponent": {
+    "RemoveOnSourceLeave": {
+      "ActivateEffect": "ShowLog",
+      "ActivateLog": "SourceLeftLog"
+    }
+  },
+  "RevengeBuffComponent": {
+    "RevengeKillerPoison": {
+      "Buffs": [
+        "Poison"
+      ],
+      "TargetKiller": true,
+      "ActivateLog": "RevengePoisonLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "RevengePoisonAll": {
+      "Buffs": [
+        "Poison"
+      ],
+      "Targeting": "AllEnemy",
+      "ActivateLog": "RevengePoisonAllLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "RevengeTriggerTest": {
+      "Buffs": [
+        "ShowRevenge"
+      ],
+      "Targeting": "Self",
+      "ActivateLog": "RevengeTriggerTestLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "RevengePoison60Percent": {
+      "Buffs": [
+        "Poison"
+      ],
+      "TargetKiller": true,
+      "ChanceToTrigger": 0.6,
+      "ActivateLog": "RevengePoisonLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "RevengePoison70Percent": {
+      "Buffs": [
+        "Poison"
+      ],
+      "TargetKiller": true,
+      "ChanceToTrigger": 0.7,
+      "ActivateLog": "RevengePoisonLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "RevengePoison80Percent": {
+      "Buffs": [
+        "Poison"
+      ],
+      "TargetKiller": true,
+      "ChanceToTrigger": 0.8,
+      "ActivateLog": "RevengePoisonLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "RevengePoison90Percent": {
+      "Buffs": [
+        "Poison"
+      ],
+      "TargetKiller": true,
+      "ChanceToTrigger": 0.9,
+      "ActivateLog": "RevengePoisonLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "RevengePoison": {
+      "Buffs": [
+        "Poison"
+      ],
+      "TargetKiller": true,
+      "ActivateLog": "RevengePoisonLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "RevengeGiveTurn10Percent": {
+      "Buffs": [
+        "GetTurn"
+      ],
+      "Targeting": "RandomAllyNotMe",
+      "ChanceToTrigger": 0.1,
+      "ActivateLog": "RevengeGiveTurnLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "RevengeGiveTurn20Percent": {
+      "Buffs": [
+        "GetTurn"
+      ],
+      "Targeting": "RandomAllyNotMe",
+      "ChanceToTrigger": 0.2,
+      "ActivateLog": "RevengeGiveTurnLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "RevengeGiveTurn40Percent": {
+      "Buffs": [
+        "GetTurn"
+      ],
+      "Targeting": "RandomAllyNotMe",
+      "ChanceToTrigger": 0.4,
+      "ActivateLog": "RevengeGiveTurnLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "RevengeGiveTurn70Percent": {
+      "Buffs": [
+        "GetTurn"
+      ],
+      "Targeting": "RandomAllyNotMe",
+      "ChanceToTrigger": 0.7,
+      "ActivateLog": "RevengeGiveTurnLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "RevengeGiveTurn": {
+      "Buffs": [
+        "GetTurn"
+      ],
+      "Targeting": "RandomAllyNotMe",
+      "ActivateLog": "RevengeGiveTurnLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "Sleep10PercentRevenge": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "TargetKiller": true,
+      "ChanceToTrigger": 0.1,
+      "ActivateLog": "RevengeSleepLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Sleep20PercentRevenge": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "TargetKiller": true,
+      "ChanceToTrigger": 0.2,
+      "ActivateLog": "RevengeSleepLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Sleep40PercentRevenge": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "TargetKiller": true,
+      "ChanceToTrigger": 0.4,
+      "ActivateLog": "RevengeSleepLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Sleep70PercentRevenge": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "TargetKiller": true,
+      "ChanceToTrigger": 0.7,
+      "ActivateLog": "RevengeSleepLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "SleepRevenge": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "TargetKiller": true,
+      "ActivateLog": "RevengeSleepLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun150_10PercentRevenge": {
+      "Buffs": [
+        "Stun150"
+      ],
+      "TargetKiller": true,
+      "ChanceToTrigger": 0.1,
+      "ActivateLog": "RevengeStunLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun150_20PercentRevenge": {
+      "Buffs": [
+        "Stun150"
+      ],
+      "TargetKiller": true,
+      "ChanceToTrigger": 0.2,
+      "ActivateLog": "RevengeStunLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun150_40PercentRevenge": {
+      "Buffs": [
+        "Stun150"
+      ],
+      "TargetKiller": true,
+      "ChanceToTrigger": 0.4,
+      "ActivateLog": "RevengeStunLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun150_70PercentRevenge": {
+      "Buffs": [
+        "Stun150"
+      ],
+      "TargetKiller": true,
+      "ChanceToTrigger": 0.7,
+      "ActivateLog": "RevengeStunLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "Stun150Revenge": {
+      "Buffs": [
+        "Stun150"
+      ],
+      "TargetKiller": true,
+      "ActivateLog": "RevengeStunLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "PoisonAll5PercentEachRevenge": {
+      "Buffs": [
+        "Poison"
+      ],
+      "Targeting": "AllEnemies5PercentEach",
+      "ActivateLog": "RevengePoisonLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "PoisonAll10PercentEachRevenge": {
+      "Buffs": [
+        "Poison"
+      ],
+      "Targeting": "AllEnemies10PercentEach",
+      "ActivateLog": "RevengePoisonLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "PoisonAll20PercentEachRevenge": {
+      "Buffs": [
+        "Poison"
+      ],
+      "Targeting": "AllEnemies20PercentEach",
+      "ActivateLog": "RevengePoisonLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "PoisonAll35PercentEachRevenge": {
+      "Buffs": [
+        "Poison"
+      ],
+      "Targeting": "AllEnemies35PercentEach",
+      "ActivateLog": "RevengePoisonLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "PoisonAll50PercentEachRevenge": {
+      "Buffs": [
+        "Poison"
+      ],
+      "Targeting": "AllEnemies50PercentEach",
+      "ActivateLog": "RevengePoisonLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "StunRevenge150Double10Percent": {
+      "Buffs": [
+        "Stun150"
+      ],
+      "Targeting": "1RandomEnemy10Percent",
+      "TargetKillerAndTargeting": true,
+      "KeepTargetingChance": true,
+      "ActivateLog": "RevengeStunLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "StunRevenge150Double20Percent": {
+      "Buffs": [
+        "Stun150"
+      ],
+      "Targeting": "1RandomEnemy20Percent",
+      "TargetKillerAndTargeting": true,
+      "KeepTargetingChance": true,
+      "ActivateLog": "RevengeStunLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "StunRevenge150Double40Percent": {
+      "Buffs": [
+        "Stun150"
+      ],
+      "Targeting": "1RandomEnemy40Percent",
+      "TargetKillerAndTargeting": true,
+      "KeepTargetingChance": true,
+      "ActivateLog": "RevengeStunLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "StunRevenge150Double70Percent": {
+      "Buffs": [
+        "Stun150"
+      ],
+      "Targeting": "1RandomEnemy70Percent",
+      "TargetKillerAndTargeting": true,
+      "KeepTargetingChance": true,
+      "ActivateLog": "RevengeStunLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "StunRevenge150Double": {
+      "Buffs": [
+        "Stun150"
+      ],
+      "Targeting": "1RandomEnemy",
+      "TargetKillerAndTargeting": true,
+      "ActivateLog": "RevengeStunLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "SleepRevengeDouble10Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "Targeting": "1RandomEnemy10Percent",
+      "TargetKillerAndTargeting": true,
+      "KeepTargetingChance": true,
+      "ActivateLog": "RevengeSleepLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "SleepRevengeDouble20Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "Targeting": "1RandomEnemy20Percent",
+      "TargetKillerAndTargeting": true,
+      "KeepTargetingChance": true,
+      "ActivateLog": "RevengeSleepLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "SleepRevengeDouble40Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "Targeting": "1RandomEnemy40Percent",
+      "TargetKillerAndTargeting": true,
+      "KeepTargetingChance": true,
+      "ActivateLog": "RevengeSleepLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "SleepRevengeDouble70Percent": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "Targeting": "1RandomEnemy70Percent",
+      "TargetKillerAndTargeting": true,
+      "KeepTargetingChance": true,
+      "ActivateLog": "RevengeSleepLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "SleepRevengeDouble": {
+      "Buffs": [
+        "Sleep"
+      ],
+      "Targeting": "1RandomEnemy",
+      "TargetKillerAndTargeting": true,
+      "ActivateLog": "RevengeSleepLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+        "PoisonDamage"
+      ]
+    },
+    "HealHalfRevengeLowestHPAlly": {
+      "Buffs": [
+        "Heal50"
+      ],
+      "Targeting": "LowestRelativeHPAllyNotMe",
+      "ActivateLog": "RevengeHealLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "PurifyRandomAllyRevenge": {
+      "Buffs": [
+        "PurifyNoLog"
+      ],
+      "DeferTargetingResolve": true,
+      "Targeting": "1RandomSleepingOrPoisonedAllyNotMe",
+      "ActivateLog": "RevengePurifyLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "HealPurify10PercentRevengeLowestHPAlly": {
+      "Buffs": [
+        "Heal10",
+        "PurifyNoLog"
+      ],
+      "Targeting": "LowestRelativeHPAllyNotMe",
+      "ActivateLog": "RevengePurifyHealLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "HealPurify20PercentRevengeLowestHPAlly": {
+      "Buffs": [
+        "Heal20",
+        "PurifyNoLog"
+      ],
+      "Targeting": "LowestRelativeHPAllyNotMe",
+      "ActivateLog": "RevengePurifyHealLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "HealPurify30PercentRevengeLowestHPAlly": {
+      "Buffs": [
+        "Heal30",
+        "PurifyNoLog"
+      ],
+      "Targeting": "LowestRelativeHPAllyNotMe",
+      "ActivateLog": "RevengePurifyHealLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "HealPurify40PercentRevengeLowestHPAlly": {
+      "Buffs": [
+        "Heal40",
+        "PurifyNoLog"
+      ],
+      "Targeting": "LowestRelativeHPAllyNotMe",
+      "ActivateLog": "RevengePurifyHealLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "HealPurify100PercentRevengeLowestHPAlly": {
+      "Buffs": [
+        "HealFull",
+        "PurifyNoLog"
+      ],
+      "Targeting": "LowestRelativeHPAllyNotMe",
+      "ActivateLog": "RevengePurifyHealLog",
+      "ActivateEffect": "ShowTextAndLog"
+    },
+    "AntidoteAllies10PercentEachRevenge": {
+      "Buffs": [
+        "CurePoisonSilent"
+      ],
+      "DeferTargetingResolve": true,
+      "Targeting": "AllPoisonedAllyButMe10PercentEach",
+      "KeepTargetingChance": true,
+      "ActivateLog": "RevengeAntidoteLog",
+      "ActivateEffect": "ShowLog"
+    },
+    "AntidoteAllies20PercentEachRevenge": {
+      "Buffs": [
+        "CurePoisonSilent"
+      ],
+      "DeferTargetingResolve": true,
+      "Targeting": "AllPoisonedAllyButMe20PercentEach",
+      "KeepTargetingChance": true,
+      "ActivateLog": "RevengeAntidoteLog",
+      "ActivateEffect": "ShowLog"
+    },
+    "AntidoteAllies40PercentEachRevenge": {
+      "Buffs": [
+        "CurePoisonSilent"
+      ],
+      "DeferTargetingResolve": true,
+      "Targeting": "AllPoisonedAllyButMe40PercentEach",
+      "KeepTargetingChance": true,
+      "ActivateLog": "RevengeAntidoteLog",
+      "ActivateEffect": "ShowLog"
+    },
+    "AntidoteAllies70PercentEachRevenge": {
+      "Buffs": [
+        "CurePoisonSilent"
+      ],
+      "DeferTargetingResolve": true,
+      "Targeting": "AllPoisonedAllyButMe70PercentEach",
+      "KeepTargetingChance": true,
+      "ActivateLog": "RevengeAntidoteLog",
+      "ActivateEffect": "ShowLog"
+    },
+    "AntidoteAlliesRevenge": {
+      "Buffs": [
+        "CurePoisonSilent"
+      ],
+      "DeferTargetingResolve": true,
+      "Targeting": "AllPoisonedAllyButMe",
+      "ActivateLog": "RevengeAntidoteLog",
+      "ActivateEffect": "ShowLog"
+    }
+  },
+  "SendToReinforcementsBuffComponent": {
+    "SendToBack": {
+      "Position": -1
+    },
+    "SendToFront": {
+      "Position": 1
+    }
+  },
+  "StealthBuffComponent": {
+    "StealthNoLimitTest": {
+      "TriggersAllowed": 0,
+      "ActivateLog": "StealthTriggerLog"
+    },
+    "StealthSomeLimitTest": {
+      "TriggersAllowed": 5,
+      "ActivateLog": "StealthTriggerLog"
+    },
+    "Stealth1TriggerTest": {
+      "TriggersAllowed": 1,
+      "ActivateLog": "StealthTriggerLog"
+    }
+  },
+  "StunAbsorbBuffComponent": {
+    "StunAbsorb": {
+      "ActivateLog": "StunAbsorbLog",
+      "ActivateEffect": "AbsorbFX"
+    },
+    "StunAbsorbOnce": {
+      "TriggersAllowed": 1,
+      "ActivateLog": "StunAbsorbLog",
+      "ActivateEffect": "AbsorbFX"
+    }
+  },
+  "StunBuffComponent": {
+    "Stun5": {
+      "Amount": 5
+    },
+    "Stun10": {
+      "Amount": 10
+    },
+    "Stun15": {
+      "Amount": 15
+    },
+    "Stun20": {
+      "Amount": 20
+    },
+    "Stun25": {
+      "Amount": 25
+    },
+    "Stun30": {
+      "Amount": 30
+    },
+    "Stun35": {
+      "Amount": 35
+    },
+    "Stun40": {
+      "Amount": 40
+    },
+    "Stun45": {
+      "Amount": 45
+    },
+    "Stun50": {
+      "Amount": 50
+    },
+    "Stun70": {
+      "Amount": 70
+    },
+    "Stun100": {
+      "Amount": 100
+    },
+    "Stun150": {
+      "Amount": 150
+    },
+    "Stun200": {
+      "Amount": 200
+    },
+    "Stun250": {
+      "Amount": 250
+    },
+    "Stun300": {
+      "Amount": 300
+    },
+    "Stun350": {
+      "Amount": 350
+    },
+    "Stun400": {
+      "Amount": 400
+    },
+    "Stun450": {
+      "Amount": 450
+    },
+    "Stun500": {
+      "Amount": 500
+    },
+    "Stun550": {
+      "Amount": 550
+    },
+    "Stun600": {
+      "Amount": 600
+    },
+    "Antistun100": {
+      "Amount": -100
+    }
+  },
+  "StunModifyBuffComponent": {
+    "StunResistTest": {
+      "Amount": -20,
+      "ActivateLog": "StunDown20Log",
+      "ActivateEffect": "ShowLog"
+    },
+    "StunAugmentTest": {
+      "Amount": 20,
+      "ActivateLog": "StunUp20Log",
+      "ActivateEffect": "ShowLog"
+    }
+  },
+  "SummonMonsterBuffComponent": {
+    "SummonTest": {
+      "ModelType": "KenshinRegR",
+      "LineupPosition": -1
+    }
+  }
+}

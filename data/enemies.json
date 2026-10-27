@@ -1,0 +1,6279 @@
+{
+ "PuppyA": {
+  "key": "PuppyA",
+  "species": "Puppy",
+  "variant": "A",
+  "name": "원톰",
+  "nameEn": "Polterhowl",
+  "element": "Fire",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackSingleAPhys",
+    "tu": 150,
+    "spirit": -2,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택",
+    "desc": null
+   },
+   {
+    "key": "TimeStrikeBossPhys",
+    "tu": 150,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": "TimeStrike_AI",
+    "aiPriority": 306,
+    "flags": [
+     "Phys",
+     "BossSkill",
+     "TimeStrike"
+    ],
+    "damageType": "Physical",
+    "config": "TimeStrikeSingleBossConfig",
+    "components": [
+     {
+      "key": "TimeStrikeSingleBoss",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 8,
+      "TimeStrikeTargetTu": 400,
+      "TimeStrikeScalar": 22
+     }
+    ],
+    "short": "130TU 이상의 적에 큰 대미지 부여",
+    "shortEn": "Strong damage to 130+TU targets",
+    "name": "타임 스트라이크",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "2xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "2TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 1
+     }
+    ]
+   }
+  ]
+ },
+ "PuppyB": {
+  "key": "PuppyB",
+  "species": "Puppy",
+  "variant": "B",
+  "name": "원톰",
+  "nameEn": "Polterhowl",
+  "element": "Water",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackDoubleAPhys",
+    "tu": 225,
+    "spirit": -3,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack600",
+    "components": [
+     {
+      "key": "Dmg600",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 6
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택(2기)",
+    "desc": null
+   },
+   {
+    "key": "DreamHuntBossPhys",
+    "tu": 150,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": "DreamHunt_AI",
+    "aiPriority": 306,
+    "flags": [
+     "Phys",
+     "BossSkill",
+     "DreamHunt"
+    ],
+    "damageType": "Physical",
+    "config": "DreamHuntSingleBossConfig",
+    "components": [
+     {
+      "key": "3000VsSleeping",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+       29
+      ],
+      "TargetDamageScalarConditions": [
+       "IsSleeping"
+      ]
+     }
+    ],
+    "short": "잠든 적에게 큰 대미지 부여",
+    "shortEn": "Strong damage to sleeping enemies",
+    "name": "드림 헌터",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "2xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "2TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 1
+     }
+    ]
+   }
+  ]
+ },
+ "PuppyC": {
+  "key": "PuppyC",
+  "species": "Puppy",
+  "variant": "C",
+  "name": "원톰",
+  "nameEn": "Polterhowl",
+  "element": "Earth",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackAllAPhys",
+    "tu": 300,
+    "spirit": -4,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack300",
+    "components": [
+     {
+      "key": "Dmg300",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 3
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택(전체)",
+    "desc": null
+   },
+   {
+    "key": "PoisonEatBossPhys",
+    "tu": 150,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": "PoisonEat_AI",
+    "aiPriority": 306,
+    "flags": [
+     "Phys",
+     "BossSkill",
+     "PoisonEat"
+    ],
+    "damageType": "Physical",
+    "config": "PoisonEaterSingleBossConfig",
+    "components": [
+     {
+      "key": "2000VsPoisoned",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+       19
+      ],
+      "TargetDamageScalarConditions": [
+       "IsPoisoned"
+      ]
+     }
+    ],
+    "short": "독 상태의 적에게 큰 대미지 부여",
+    "shortEn": "Strong damage to poisoned enemies",
+    "name": "포이즌 이터",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "2xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "2TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 1
+     }
+    ]
+   }
+  ]
+ },
+ "SpikeRabbitA": {
+  "key": "SpikeRabbitA",
+  "species": "SpikeRabbit",
+  "variant": "A",
+  "name": "달토귀",
+  "nameEn": "Rabbenger",
+  "element": "Water",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackSingleAPhys",
+    "tu": 150,
+    "spirit": -2,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택",
+    "desc": null
+   },
+   {
+    "key": "BigAttackDoubleBossPhys",
+    "tu": 225,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack2000",
+    "components": [
+     {
+      "key": "Dmg2000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 20
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택(2기)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "6xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "6TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 5
+     }
+    ]
+   },
+   {
+    "key": "OnHitPoisonChanceBoss",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": null,
+    "duration": null,
+    "isDebuff": false,
+    "components": [
+     {
+      "key": "PoisonTargetsOnHitChance25",
+      "type": "BuffOnHitBuffComponent",
+      "Buffs": [
+       "Poison"
+      ],
+      "ChanceToTrigger": 0.25,
+      "TargetIsTarget": true,
+      "ActivateLog": "PoisonStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+       "PoisonDamage"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "SpikeRabbitB": {
+  "key": "SpikeRabbitB",
+  "species": "SpikeRabbit",
+  "variant": "B",
+  "name": "달토귀",
+  "nameEn": "Rabbenger",
+  "element": "Earth",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackDoubleAPhys",
+    "tu": 225,
+    "spirit": -3,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack600",
+    "components": [
+     {
+      "key": "Dmg600",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 6
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택(2기)",
+    "desc": null
+   },
+   {
+    "key": "BigAttackDoubleBossPhys",
+    "tu": 225,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack2000",
+    "components": [
+     {
+      "key": "Dmg2000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 20
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택(2기)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "6xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "6TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 5
+     }
+    ]
+   },
+   {
+    "key": "OnHitSleepChanceBoss",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": null,
+    "duration": null,
+    "isDebuff": false,
+    "components": [
+     {
+      "key": "SleepTargetsOnHitChance25",
+      "type": "BuffOnHitBuffComponent",
+      "Buffs": [
+       "Sleep"
+      ],
+      "ChanceToTrigger": 0.25,
+      "TargetIsTarget": true,
+      "ActivateLog": "SleepStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+       "PoisonDamage"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "SpikeRabbitC": {
+  "key": "SpikeRabbitC",
+  "species": "SpikeRabbit",
+  "variant": "C",
+  "name": "달토귀",
+  "nameEn": "Rabbenger",
+  "element": "Fire",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackAllAPhys",
+    "tu": 300,
+    "spirit": -4,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack300",
+    "components": [
+     {
+      "key": "Dmg300",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 3
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택(전체)",
+    "desc": null
+   },
+   {
+    "key": "BigAttackDoubleBossPhys",
+    "tu": 225,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack2000",
+    "components": [
+     {
+      "key": "Dmg2000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 20
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택(2기)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "6xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "6TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 5
+     }
+    ]
+   },
+   {
+    "key": "OnHitStunChanceBoss",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": null,
+    "duration": null,
+    "isDebuff": false,
+    "components": [
+     {
+      "key": "Stun100TargetsOnHitChance25",
+      "type": "BuffOnHitBuffComponent",
+      "Buffs": [
+       "Stun100"
+      ],
+      "ChanceToTrigger": 0.25,
+      "TargetIsTarget": true,
+      "ActivateLog": "StunStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+       "PoisonDamage"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "SpiralCatA": {
+  "key": "SpiralCatA",
+  "species": "SpiralCat",
+  "variant": "A",
+  "name": "브라코로네",
+  "nameEn": "Catnado",
+  "element": "Earth",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackDoubleAPhys",
+    "tu": 225,
+    "spirit": -3,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack600",
+    "components": [
+     {
+      "key": "Dmg600",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 6
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택(2기)",
+    "desc": null
+   },
+   {
+    "key": "PoisonAttackBossPhys",
+    "tu": 150,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": "Poison_AI",
+    "aiPriority": 256,
+    "flags": [
+     "Phys",
+     "BossSkill",
+     "Poison"
+    ],
+    "damageType": "Physical",
+    "config": "Atk2000_Poison_Config",
+    "components": [
+     {
+      "key": "Dmg2000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 20
+     },
+     {
+      "key": "PoisonTarget",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "Poison"
+      ],
+      "NoAbilityEffect": true
+     }
+    ],
+    "short": "대미지를 주고 독 부여",
+    "shortEn": "Damages and poisons",
+    "name": "포이즌 어택",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "4xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "4TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 3
+     }
+    ]
+   },
+   {
+    "key": "PoisonRevenge",
+    "name": "복수 포이즌",
+    "desc": "적의 공격으로 전투 불능이 됐을 때,\n그 적을 100% 확률로 독 상태로 만든다.",
+    "hud": "<sprite name=\"Icon_Poison_40\">복수",
+    "tags": [
+     "Revenge"
+    ],
+    "stack": "PoisonRevenge",
+    "duration": null,
+    "isDebuff": false,
+    "components": [
+     {
+      "key": "RevengeKillerPoison",
+      "type": "RevengeBuffComponent",
+      "Buffs": [
+       "Poison"
+      ],
+      "TargetKiller": true,
+      "ActivateLog": "RevengePoisonLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+       "PoisonDamage"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "SpiralCatB": {
+  "key": "SpiralCatB",
+  "species": "SpiralCat",
+  "variant": "B",
+  "name": "브라코로네",
+  "nameEn": "Catnado",
+  "element": "Fire",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackAllAPhys",
+    "tu": 300,
+    "spirit": -4,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack300",
+    "components": [
+     {
+      "key": "Dmg300",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 3
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택(전체)",
+    "desc": null
+   },
+   {
+    "key": "SleepAttackBossPhys",
+    "tu": 150,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": "Sleep_AI",
+    "aiPriority": 256,
+    "flags": [
+     "Phys",
+     "BossSkill",
+     "Sleep"
+    ],
+    "damageType": "Physical",
+    "config": "Atk2000_Sleep300_Config",
+    "components": [
+     {
+      "key": "Dmg2000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 20
+     },
+     {
+      "key": "SleepTarget",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "Sleep"
+      ],
+      "NoAbilityEffect": true
+     }
+    ],
+    "short": "대미지를 주고 수면 부여",
+    "shortEn": "Damages targets and puts them to sleep",
+    "name": "슬립 어택",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "4xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "4TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 3
+     }
+    ]
+   },
+   {
+    "key": "SleepRevengeBoss",
+    "name": null,
+    "desc": null,
+    "hud": "<sprite name=\"Icon_Sleep_40\">복수",
+    "tags": [
+     "Revenge"
+    ],
+    "stack": null,
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "SleepRevenge",
+      "type": "RevengeBuffComponent",
+      "Buffs": [
+       "Sleep"
+      ],
+      "TargetKiller": true,
+      "ActivateLog": "RevengeSleepLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+       "PoisonDamage"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "SpiralCatC": {
+  "key": "SpiralCatC",
+  "species": "SpiralCat",
+  "variant": "C",
+  "name": "브라코로네",
+  "nameEn": "Catnado",
+  "element": "Water",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackSingleAPhys",
+    "tu": 150,
+    "spirit": -2,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택",
+    "desc": null
+   },
+   {
+    "key": "StunAttackBossPhys",
+    "tu": 150,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 306,
+    "flags": [
+     "Phys",
+     "BossSkill",
+     "Stun"
+    ],
+    "damageType": "Physical",
+    "config": "Atk2000_Stun300_Config",
+    "components": [
+     {
+      "key": "Dmg2000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 20
+     },
+     {
+      "key": "StunTarget300",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "Stun300"
+      ],
+      "NoAbilityEffect": true
+     }
+    ],
+    "short": "대미지를 주고 스턴",
+    "shortEn": "Damages and stuns targets",
+    "name": "스턴 어택",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "4xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "4TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 3
+     }
+    ]
+   },
+   {
+    "key": "StunRevengeBoss",
+    "name": null,
+    "desc": null,
+    "hud": "<sprite name=\"Icon_Stun_40\">복수",
+    "tags": [
+     "Revenge"
+    ],
+    "stack": null,
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "Stun150Revenge",
+      "type": "RevengeBuffComponent",
+      "Buffs": [
+       "Stun150"
+      ],
+      "TargetKiller": true,
+      "ActivateLog": "RevengeStunLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+       "PoisonDamage"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "BearA": {
+  "key": "BearA",
+  "species": "Bear",
+  "variant": "A",
+  "name": "헤비",
+  "nameEn": "Bass",
+  "element": "Fire",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "SlowAttackDoubleBossPhys",
+    "tu": 350,
+    "spirit": -4,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack1000",
+    "components": [
+     {
+      "key": "Dmg1000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 10
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "헤비 어택(2기)",
+    "desc": null
+   },
+   {
+    "key": "SleepRecover200TUBoss",
+    "tu": 250,
+    "spirit": 6,
+    "useLimit": 6,
+    "targeting": "Self",
+    "targetDef": {
+     "Self": true
+    },
+    "condition": "HP50PercentOrLower",
+    "ai": "Heal_AI",
+    "aiPriority": 16,
+    "flags": [
+     "Healer",
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "SleepRecover200TU_Config",
+    "components": [
+     {
+      "key": "HealSelf50",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "Heal50"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+     },
+     {
+      "key": "SleepTarget",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "Sleep"
+      ],
+      "NoAbilityEffect": true
+     }
+    ],
+    "short": "자신에게 수면 부여 후 대상 회복",
+    "shortEn": "Heals targets, the user falls asleep",
+    "name": "동면",
+    "desc": null
+   },
+   {
+    "key": "BigAttackAllBossPhys",
+    "tu": 300,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택(전체)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "12xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "12TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 11
+     }
+    ]
+   }
+  ]
+ },
+ "BearB": {
+  "key": "BearB",
+  "species": "Bear",
+  "variant": "B",
+  "name": "헤비",
+  "nameEn": "Bass",
+  "element": "Water",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "SlowAttackDoubleBossPhys",
+    "tu": 350,
+    "spirit": -4,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack1000",
+    "components": [
+     {
+      "key": "Dmg1000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 10
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "헤비 어택(2기)",
+    "desc": null
+   },
+   {
+    "key": "SleepRecover200TUBoss",
+    "tu": 250,
+    "spirit": 6,
+    "useLimit": 6,
+    "targeting": "Self",
+    "targetDef": {
+     "Self": true
+    },
+    "condition": "HP50PercentOrLower",
+    "ai": "Heal_AI",
+    "aiPriority": 16,
+    "flags": [
+     "Healer",
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "SleepRecover200TU_Config",
+    "components": [
+     {
+      "key": "HealSelf50",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "Heal50"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+     },
+     {
+      "key": "SleepTarget",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "Sleep"
+      ],
+      "NoAbilityEffect": true
+     }
+    ],
+    "short": "자신에게 수면 부여 후 대상 회복",
+    "shortEn": "Heals targets, the user falls asleep",
+    "name": "동면",
+    "desc": null
+   },
+   {
+    "key": "BigAttackAllBossPhys",
+    "tu": 300,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택(전체)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "12xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "12TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 11
+     }
+    ]
+   }
+  ]
+ },
+ "BearC": {
+  "key": "BearC",
+  "species": "Bear",
+  "variant": "C",
+  "name": "헤비",
+  "nameEn": "Bass",
+  "element": "Earth",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "SlowAttackDoubleBossPhys",
+    "tu": 350,
+    "spirit": -4,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack1000",
+    "components": [
+     {
+      "key": "Dmg1000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 10
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "헤비 어택(2기)",
+    "desc": null
+   },
+   {
+    "key": "SleepRecover200TUBoss",
+    "tu": 250,
+    "spirit": 6,
+    "useLimit": 6,
+    "targeting": "Self",
+    "targetDef": {
+     "Self": true
+    },
+    "condition": "HP50PercentOrLower",
+    "ai": "Heal_AI",
+    "aiPriority": 16,
+    "flags": [
+     "Healer",
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "SleepRecover200TU_Config",
+    "components": [
+     {
+      "key": "HealSelf50",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "Heal50"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+     },
+     {
+      "key": "SleepTarget",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "Sleep"
+      ],
+      "NoAbilityEffect": true
+     }
+    ],
+    "short": "자신에게 수면 부여 후 대상 회복",
+    "shortEn": "Heals targets, the user falls asleep",
+    "name": "동면",
+    "desc": null
+   },
+   {
+    "key": "BigAttackAllBossPhys",
+    "tu": 300,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택(전체)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "12xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "12TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 11
+     }
+    ]
+   }
+  ]
+ },
+ "LeopardA": {
+  "key": "LeopardA",
+  "species": "Leopard",
+  "variant": "A",
+  "name": "포테일",
+  "nameEn": "Jaguaro",
+  "element": "Water",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "FastAttackBossPhys",
+    "tu": 100,
+    "spirit": -1,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack800",
+    "components": [
+     {
+      "key": "Dmg800",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 8
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "신속 공격",
+    "desc": null
+   },
+   {
+    "key": "PoisonSiphonBoss",
+    "tu": 100,
+    "spirit": -3,
+    "useLimit": 10,
+    "targeting": "1AllyNotMe",
+    "targetDef": {
+     "FriendlyTargets": 1,
+     "ExcludeSelf": true
+    },
+    "condition": "PoisonedAlly",
+    "ai": "CurePoison_AI",
+    "aiPriority": 26,
+    "flags": [
+     "RemovesPoison",
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "RemovePoisonConfig",
+    "components": [
+     {
+      "key": "RemovePoisonFromTarget",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "CurePoison"
+      ],
+      "NoAbilityEffect": true
+     }
+    ],
+    "short": "해독한다",
+    "shortEn": "Removes Poison from the target",
+    "name": "해독 MP 회복",
+    "desc": null
+   },
+   {
+    "key": "BigAttackAllBossPhys",
+    "tu": 300,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택(전체)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "12xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "12TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 11
+     }
+    ]
+   }
+  ]
+ },
+ "LeopardB": {
+  "key": "LeopardB",
+  "species": "Leopard",
+  "variant": "B",
+  "name": "포테일",
+  "nameEn": "Jaguaro",
+  "element": "Earth",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "FastAttackBossPhys",
+    "tu": 100,
+    "spirit": -1,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack800",
+    "components": [
+     {
+      "key": "Dmg800",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 8
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "신속 공격",
+    "desc": null
+   },
+   {
+    "key": "SleepSiphonBoss",
+    "tu": 100,
+    "spirit": -3,
+    "useLimit": 10,
+    "targeting": "1AllyNotMe",
+    "targetDef": {
+     "FriendlyTargets": 1,
+     "ExcludeSelf": true
+    },
+    "condition": "SleepingAlly",
+    "ai": "CureSleep_AI",
+    "aiPriority": 26,
+    "flags": [
+     "RemovesSleep",
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "RemoveSleepConfig",
+    "components": [
+     {
+      "key": "RemoveSleepFromTarget",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "CureSleep"
+      ],
+      "NoAbilityEffect": true
+     }
+    ],
+    "short": "수면을 해제",
+    "shortEn": "Removes Sleep from the target",
+    "name": "수면 해제 MP 회복",
+    "desc": null
+   },
+   {
+    "key": "BigAttackAllBossPhys",
+    "tu": 300,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택(전체)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "12xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "12TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 11
+     }
+    ]
+   }
+  ]
+ },
+ "LeopardC": {
+  "key": "LeopardC",
+  "species": "Leopard",
+  "variant": "C",
+  "name": "포테일",
+  "nameEn": "Jaguaro",
+  "element": "Fire",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "FastAttackBossPhys",
+    "tu": 100,
+    "spirit": -1,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack800",
+    "components": [
+     {
+      "key": "Dmg800",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 8
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "신속 공격",
+    "desc": null
+   },
+   {
+    "key": "TimeSiphonBoss",
+    "tu": 100,
+    "spirit": -3,
+    "useLimit": 10,
+    "targeting": "1AllyNotMe",
+    "targetDef": {
+     "FriendlyTargets": 1,
+     "ExcludeSelf": true
+    },
+    "condition": "AllyAbove300TU",
+    "ai": "GiveTurnHigh_AI",
+    "aiPriority": 26,
+    "flags": [
+     "GiveTurner",
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "GiveTurnConfig",
+    "components": [
+     {
+      "key": "GiveTurnToTargetFX",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "GetTurnNoFX"
+      ]
+     }
+    ],
+    "short": "TU가 높은 아군에 턴 부여",
+    "shortEn": "Gives the next turn to a high TU teammate",
+    "name": "기브 턴 MP 회복",
+    "desc": null
+   },
+   {
+    "key": "BigAttackAllBossPhys",
+    "tu": 300,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택(전체)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "12xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "12TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 11
+     }
+    ]
+   }
+  ]
+ },
+ "PenguinA": {
+  "key": "PenguinA",
+  "species": "Penguin",
+  "variant": "A",
+  "name": "펭글라스",
+  "nameEn": "Penguini",
+  "element": "Earth",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "CritAttackAllBossMag",
+    "tu": 300,
+    "spirit": -4,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Atk150_HugeCrit_Config",
+    "components": [
+     {
+      "key": "Atk150_HugeCrit",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 1.25,
+      "CritChance": 0.2,
+      "CritMultiplier": 4
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "회심의 일격(전체)",
+    "desc": null
+   },
+   {
+    "key": "BigAttackSingleBossMag",
+    "tu": 150,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack3000",
+    "components": [
+     {
+      "key": "Dmg3000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 30
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "2xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "2TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 1
+     }
+    ]
+   },
+   {
+    "key": "OnHitSleepChanceBoss",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": null,
+    "duration": null,
+    "isDebuff": false,
+    "components": [
+     {
+      "key": "SleepTargetsOnHitChance25",
+      "type": "BuffOnHitBuffComponent",
+      "Buffs": [
+       "Sleep"
+      ],
+      "ChanceToTrigger": 0.25,
+      "TargetIsTarget": true,
+      "ActivateLog": "SleepStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+       "PoisonDamage"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "PenguinB": {
+  "key": "PenguinB",
+  "species": "Penguin",
+  "variant": "B",
+  "name": "펭글라스",
+  "nameEn": "Penguini",
+  "element": "Fire",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "CritAttackAllBossMag",
+    "tu": 300,
+    "spirit": -4,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Atk150_HugeCrit_Config",
+    "components": [
+     {
+      "key": "Atk150_HugeCrit",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 1.25,
+      "CritChance": 0.2,
+      "CritMultiplier": 4
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "회심의 일격(전체)",
+    "desc": null
+   },
+   {
+    "key": "BigAttackSingleBossMag",
+    "tu": 150,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack3000",
+    "components": [
+     {
+      "key": "Dmg3000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 30
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "2xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "2TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 1
+     }
+    ]
+   },
+   {
+    "key": "OnHitStunChanceBoss",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": null,
+    "duration": null,
+    "isDebuff": false,
+    "components": [
+     {
+      "key": "Stun100TargetsOnHitChance25",
+      "type": "BuffOnHitBuffComponent",
+      "Buffs": [
+       "Stun100"
+      ],
+      "ChanceToTrigger": 0.25,
+      "TargetIsTarget": true,
+      "ActivateLog": "StunStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+       "PoisonDamage"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "PenguinC": {
+  "key": "PenguinC",
+  "species": "Penguin",
+  "variant": "C",
+  "name": "펭글라스",
+  "nameEn": "Penguini",
+  "element": "Water",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "CritAttackAllBossMag",
+    "tu": 300,
+    "spirit": -4,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Atk150_HugeCrit_Config",
+    "components": [
+     {
+      "key": "Atk150_HugeCrit",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 1.25,
+      "CritChance": 0.2,
+      "CritMultiplier": 4
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "회심의 일격(전체)",
+    "desc": null
+   },
+   {
+    "key": "BigAttackSingleBossMag",
+    "tu": 150,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack3000",
+    "components": [
+     {
+      "key": "Dmg3000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 30
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "2xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "2TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 1
+     }
+    ]
+   },
+   {
+    "key": "OnHitPoisonChanceBoss",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": null,
+    "duration": null,
+    "isDebuff": false,
+    "components": [
+     {
+      "key": "PoisonTargetsOnHitChance25",
+      "type": "BuffOnHitBuffComponent",
+      "Buffs": [
+       "Poison"
+      ],
+      "ChanceToTrigger": 0.25,
+      "TargetIsTarget": true,
+      "ActivateLog": "PoisonStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+       "PoisonDamage"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "KnifeRabbitA": {
+  "key": "KnifeRabbitA",
+  "species": "KnifeRabbit",
+  "variant": "A",
+  "name": "버니셔",
+  "nameEn": "Bunnisher",
+  "element": "Fire",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "CritAttackSingleBossPhys",
+    "tu": 150,
+    "spirit": -2,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Atk600_HugeCrit_Config",
+    "components": [
+     {
+      "key": "Atk600_HugeCrit",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 1.25,
+      "CritChance": 0.2,
+      "CritMultiplier": 4
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "회심의 일격",
+    "desc": null
+   },
+   {
+    "key": "TUDownStackingBoss",
+    "tu": 70,
+    "spirit": 6,
+    "useLimit": 5,
+    "targeting": "Self",
+    "targetDef": {
+     "Self": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 16,
+    "flags": [
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "TUDownStackingBoss_Config",
+    "components": [
+     {
+      "key": "TUDownStackingTargetFX",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "TUDownStacking"
+      ]
+     }
+    ],
+    "short": "행동 시 TU 소비가 감소한다.",
+    "shortEn": "User's TU costs are reduced, stacks",
+    "name": "가속",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "6xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "6TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 5
+     }
+    ]
+   }
+  ]
+ },
+ "KnifeRabbitB": {
+  "key": "KnifeRabbitB",
+  "species": "KnifeRabbit",
+  "variant": "B",
+  "name": "버니셔",
+  "nameEn": "Bunnisher",
+  "element": "Water",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "CritAttackSingleBossPhys",
+    "tu": 150,
+    "spirit": -2,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Atk600_HugeCrit_Config",
+    "components": [
+     {
+      "key": "Atk600_HugeCrit",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 1.25,
+      "CritChance": 0.2,
+      "CritMultiplier": 4
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "회심의 일격",
+    "desc": null
+   },
+   {
+    "key": "TUDownStackingBoss",
+    "tu": 70,
+    "spirit": 6,
+    "useLimit": 5,
+    "targeting": "Self",
+    "targetDef": {
+     "Self": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 16,
+    "flags": [
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "TUDownStackingBoss_Config",
+    "components": [
+     {
+      "key": "TUDownStackingTargetFX",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "TUDownStacking"
+      ]
+     }
+    ],
+    "short": "행동 시 TU 소비가 감소한다.",
+    "shortEn": "User's TU costs are reduced, stacks",
+    "name": "가속",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "6xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "6TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 5
+     }
+    ]
+   }
+  ]
+ },
+ "KnifeRabbitC": {
+  "key": "KnifeRabbitC",
+  "species": "KnifeRabbit",
+  "variant": "C",
+  "name": "버니셔",
+  "nameEn": "Bunnisher",
+  "element": "Earth",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "CritAttackSingleBossPhys",
+    "tu": 150,
+    "spirit": -2,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Atk600_HugeCrit_Config",
+    "components": [
+     {
+      "key": "Atk600_HugeCrit",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 1.25,
+      "CritChance": 0.2,
+      "CritMultiplier": 4
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "회심의 일격",
+    "desc": null
+   },
+   {
+    "key": "TUDownStackingBoss",
+    "tu": 70,
+    "spirit": 6,
+    "useLimit": 5,
+    "targeting": "Self",
+    "targetDef": {
+     "Self": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 16,
+    "flags": [
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "TUDownStackingBoss_Config",
+    "components": [
+     {
+      "key": "TUDownStackingTargetFX",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "TUDownStacking"
+      ]
+     }
+    ],
+    "short": "행동 시 TU 소비가 감소한다.",
+    "shortEn": "User's TU costs are reduced, stacks",
+    "name": "가속",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "6xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "6TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 5
+     }
+    ]
+   }
+  ]
+ },
+ "RibbonCatA": {
+  "key": "RibbonCatA",
+  "species": "RibbonCat",
+  "variant": "A",
+  "name": "드레샤트",
+  "nameEn": "Doremeow",
+  "element": "Water",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "EvasiveAttackDoubleBossPhys",
+    "tu": 200,
+    "spirit": -2,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack400_AggroDown_Config",
+    "components": [
+     {
+      "key": "Dmg400",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 4
+     },
+     {
+      "key": "LowerUserAggro",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "AggroDownStacking"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+     }
+    ],
+    "short": "대미지를 주고 이목을 피한다",
+    "shortEn": "Damages and evades attention",
+    "name": "교활한 일격(2기)",
+    "desc": null
+   },
+   {
+    "key": "TimeStrikeDoubleBossPhys",
+    "tu": 225,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": "TimeStrike_AI",
+    "aiPriority": 306,
+    "flags": [
+     "Phys",
+     "BossSkill",
+     "TimeStrike"
+    ],
+    "damageType": "Physical",
+    "config": "TimeStrikeDoubleBossConfig",
+    "components": [
+     {
+      "key": "TimeStrikeDoubleBoss",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 4,
+      "TimeStrikeTargetTu": 400,
+      "TimeStrikeScalar": 14
+     }
+    ],
+    "short": "130TU 이상의 적에 큰 대미지 부여",
+    "shortEn": "Strong damage to 130+TU targets",
+    "name": "타임 스트라이크(2기)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "8xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "8TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 7
+     }
+    ]
+   },
+   {
+    "key": "OnHitStunChanceBoss",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": null,
+    "duration": null,
+    "isDebuff": false,
+    "components": [
+     {
+      "key": "Stun100TargetsOnHitChance25",
+      "type": "BuffOnHitBuffComponent",
+      "Buffs": [
+       "Stun100"
+      ],
+      "ChanceToTrigger": 0.25,
+      "TargetIsTarget": true,
+      "ActivateLog": "StunStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+       "PoisonDamage"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "RibbonCatB": {
+  "key": "RibbonCatB",
+  "species": "RibbonCat",
+  "variant": "B",
+  "name": "드레샤트",
+  "nameEn": "Doremeow",
+  "element": "Earth",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "EvasiveAttackDoubleBossPhys",
+    "tu": 200,
+    "spirit": -2,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack400_AggroDown_Config",
+    "components": [
+     {
+      "key": "Dmg400",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 4
+     },
+     {
+      "key": "LowerUserAggro",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "AggroDownStacking"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+     }
+    ],
+    "short": "대미지를 주고 이목을 피한다",
+    "shortEn": "Damages and evades attention",
+    "name": "교활한 일격(2기)",
+    "desc": null
+   },
+   {
+    "key": "DreamHuntDoubleBossPhys",
+    "tu": 225,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": "DreamHunt_AI",
+    "aiPriority": 306,
+    "flags": [
+     "Phys",
+     "BossSkill",
+     "DreamHunt"
+    ],
+    "damageType": "Physical",
+    "config": "DreamHuntDoubleBossConfig",
+    "components": [
+     {
+      "key": "2000VsSleeping",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+       19
+      ],
+      "TargetDamageScalarConditions": [
+       "IsSleeping"
+      ]
+     }
+    ],
+    "short": "잠든 적에게 큰 대미지 부여",
+    "shortEn": "Strong damage to sleeping enemies",
+    "name": "드림 헌터(2기)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "8xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "8TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 7
+     }
+    ]
+   },
+   {
+    "key": "OnHitSleepChanceBoss",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": null,
+    "duration": null,
+    "isDebuff": false,
+    "components": [
+     {
+      "key": "SleepTargetsOnHitChance25",
+      "type": "BuffOnHitBuffComponent",
+      "Buffs": [
+       "Sleep"
+      ],
+      "ChanceToTrigger": 0.25,
+      "TargetIsTarget": true,
+      "ActivateLog": "SleepStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+       "PoisonDamage"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "RibbonCatC": {
+  "key": "RibbonCatC",
+  "species": "RibbonCat",
+  "variant": "C",
+  "name": "드레샤트",
+  "nameEn": "Doremeow",
+  "element": "Fire",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "EvasiveAttackDoubleBossPhys",
+    "tu": 200,
+    "spirit": -2,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack400_AggroDown_Config",
+    "components": [
+     {
+      "key": "Dmg400",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 4
+     },
+     {
+      "key": "LowerUserAggro",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "AggroDownStacking"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+     }
+    ],
+    "short": "대미지를 주고 이목을 피한다",
+    "shortEn": "Damages and evades attention",
+    "name": "교활한 일격(2기)",
+    "desc": null
+   },
+   {
+    "key": "PoisonEatDoubleBossPhys",
+    "tu": 225,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": "PoisonEat_AI",
+    "aiPriority": 306,
+    "flags": [
+     "Phys",
+     "BossSkill",
+     "PoisonEat"
+    ],
+    "damageType": "Physical",
+    "config": "PoisonEaterDoubleBossConfig",
+    "components": [
+     {
+      "key": "1500VsPoisoned",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 1,
+      "TargetDamageScalars": [
+       14
+      ],
+      "TargetDamageScalarConditions": [
+       "IsPoisoned"
+      ]
+     }
+    ],
+    "short": "독 상태의 적에게 큰 대미지 부여",
+    "shortEn": "Strong damage to poisoned enemies",
+    "name": "포이즌 이터(2기)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "8xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "8TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 7
+     }
+    ]
+   },
+   {
+    "key": "OnHitPoisonChanceBoss",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": null,
+    "duration": null,
+    "isDebuff": false,
+    "components": [
+     {
+      "key": "PoisonTargetsOnHitChance25",
+      "type": "BuffOnHitBuffComponent",
+      "Buffs": [
+       "Poison"
+      ],
+      "ChanceToTrigger": 0.25,
+      "TargetIsTarget": true,
+      "ActivateLog": "PoisonStrikeLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+       "PoisonDamage"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "SheepA": {
+  "key": "SheepA",
+  "species": "Sheep",
+  "variant": "A",
+  "name": "라무마",
+  "nameEn": "Cloudmaw",
+  "element": "Earth",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "CritAttackSingleBossPhys",
+    "tu": 150,
+    "spirit": -2,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Atk600_HugeCrit_Config",
+    "components": [
+     {
+      "key": "Atk600_HugeCrit",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 1.25,
+      "CritChance": 0.2,
+      "CritMultiplier": 4
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "회심의 일격",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "2xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "2TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 1
+     }
+    ]
+   },
+   {
+    "key": "SleepEntryBoss",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [
+     "Entry"
+    ],
+    "stack": null,
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "SleepRandomOnEnter",
+      "type": "EnterBattleBuffComponent",
+      "Buffs": [
+       "SleepNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "SleepEntryLog",
+      "ActivateEffect": "SleepFX"
+     }
+    ]
+   }
+  ]
+ },
+ "SheepB": {
+  "key": "SheepB",
+  "species": "Sheep",
+  "variant": "B",
+  "name": "라무마",
+  "nameEn": "Cloudmaw",
+  "element": "Fire",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "CritAttackSingleBossPhys",
+    "tu": 150,
+    "spirit": -2,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Atk600_HugeCrit_Config",
+    "components": [
+     {
+      "key": "Atk600_HugeCrit",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 1.25,
+      "CritChance": 0.2,
+      "CritMultiplier": 4
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "회심의 일격",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "2xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "2TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 1
+     }
+    ]
+   },
+   {
+    "key": "StunEntryBoss",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [
+     "Entry"
+    ],
+    "stack": null,
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "Stun150RandomOnEnter",
+      "type": "EnterBattleBuffComponent",
+      "Buffs": [
+       "Stun150NoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "StunEntryLog",
+      "ActivateEffect": "StunFX"
+     }
+    ]
+   }
+  ]
+ },
+ "SheepC": {
+  "key": "SheepC",
+  "species": "Sheep",
+  "variant": "C",
+  "name": "라무마",
+  "nameEn": "Cloudmaw",
+  "element": "Water",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "CritAttackSingleBossPhys",
+    "tu": 150,
+    "spirit": -2,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Atk600_HugeCrit_Config",
+    "components": [
+     {
+      "key": "Atk600_HugeCrit",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 1.25,
+      "CritChance": 0.2,
+      "CritMultiplier": 4
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "회심의 일격",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "2xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "2TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 1
+     }
+    ]
+   },
+   {
+    "key": "PoisonEntry",
+    "name": " ",
+    "desc": " ",
+    "hud": null,
+    "tags": [
+     "PoisonEntry",
+     "Entry"
+    ],
+    "stack": null,
+    "duration": null,
+    "isDebuff": false,
+    "components": [
+     {
+      "key": "PoisonOnEnter",
+      "type": "EnterBattleBuffComponent",
+      "Buffs": [
+       "PoisonNoFX"
+      ],
+      "Targeting": "1RandomEnemy",
+      "ActivateLog": "PoisonEntryLog",
+      "ActivateEffect": "PoisonFX"
+     }
+    ]
+   }
+  ]
+ },
+ "YinYangA": {
+  "key": "YinYangA",
+  "species": "YinYang",
+  "variant": "A",
+  "name": "음양",
+  "nameEn": "Harmoneyes",
+  "element": "Fire",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "FastAttackDoubleBossPhys",
+    "tu": 150,
+    "spirit": -2,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack400",
+    "components": [
+     {
+      "key": "Dmg400",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 4
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "신속 공격(2기)",
+    "desc": null
+   },
+   {
+    "key": "LifeFlipSelfBoss",
+    "tu": 50,
+    "spirit": 6,
+    "useLimit": 1,
+    "targeting": "Self",
+    "targetDef": {
+     "Self": true
+    },
+    "condition": null,
+    "ai": "LifeFlip_AI",
+    "aiPriority": 16,
+    "flags": [
+     "LifeFlip",
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "LifeFlipConfig",
+    "components": [
+     {
+      "key": "LifeFlipTargetFX",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "LifeFlipNoFX"
+      ]
+     }
+    ],
+    "short": "HP를 반전",
+    "shortEn": "Swaps own HP with lost HP",
+    "name": "HP 반전(자신)",
+    "desc": null
+   },
+   {
+    "key": "BigAttackSingleBossPhys",
+    "tu": 150,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack3000",
+    "components": [
+     {
+      "key": "Dmg3000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 30
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "4xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "4TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 3
+     }
+    ]
+   }
+  ]
+ },
+ "YinYangB": {
+  "key": "YinYangB",
+  "species": "YinYang",
+  "variant": "B",
+  "name": "음양",
+  "nameEn": "Harmoneyes",
+  "element": "Water",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "FastAttackDoubleBossPhys",
+    "tu": 150,
+    "spirit": -2,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack400",
+    "components": [
+     {
+      "key": "Dmg400",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 4
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "신속 공격(2기)",
+    "desc": null
+   },
+   {
+    "key": "LifeFlipAllyBoss",
+    "tu": 50,
+    "spirit": 6,
+    "useLimit": 1,
+    "targeting": "1AllyNotMe",
+    "targetDef": {
+     "FriendlyTargets": 1,
+     "ExcludeSelf": true
+    },
+    "condition": null,
+    "ai": "LifeFlip_AI",
+    "aiPriority": 16,
+    "flags": [
+     "LifeFlip",
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "LifeFlipConfig",
+    "components": [
+     {
+      "key": "LifeFlipTargetFX",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "LifeFlipNoFX"
+      ]
+     }
+    ],
+    "short": "HP를 반전",
+    "shortEn": "Swaps HP with missing HP for targets",
+    "name": "HP 반전(아군)",
+    "desc": null
+   },
+   {
+    "key": "BigAttackSingleBossPhys",
+    "tu": 150,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack3000",
+    "components": [
+     {
+      "key": "Dmg3000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 30
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "4xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "4TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 3
+     }
+    ]
+   }
+  ]
+ },
+ "YinYangC": {
+  "key": "YinYangC",
+  "species": "YinYang",
+  "variant": "C",
+  "name": "음양",
+  "nameEn": "Harmoneyes",
+  "element": "Earth",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "FastAttackDoubleBossPhys",
+    "tu": 150,
+    "spirit": -2,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack400",
+    "components": [
+     {
+      "key": "Dmg400",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 4
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "신속 공격(2기)",
+    "desc": null
+   },
+   {
+    "key": "LifeFlipDoubleBoss",
+    "tu": 50,
+    "spirit": 6,
+    "useLimit": 1,
+    "targeting": "2Ally",
+    "targetDef": {
+     "FriendlyTargets": 2
+    },
+    "condition": null,
+    "ai": "LifeFlip_AI",
+    "aiPriority": 16,
+    "flags": [
+     "LifeFlip",
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "LifeFlipConfig",
+    "components": [
+     {
+      "key": "LifeFlipTargetFX",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "LifeFlipNoFX"
+      ]
+     }
+    ],
+    "short": "HP를 반전",
+    "shortEn": "Swaps HP with missing HP for targets",
+    "name": "HP 반전(2기)",
+    "desc": null
+   },
+   {
+    "key": "BigAttackSingleBossPhys",
+    "tu": 150,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Phys",
+     "BossSkill"
+    ],
+    "damageType": "Physical",
+    "config": "Attack3000",
+    "components": [
+     {
+      "key": "Dmg3000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 30
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "4xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "4TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 3
+     }
+    ]
+   }
+  ]
+ },
+ "BullA": {
+  "key": "BullA",
+  "species": "Bull",
+  "variant": "A",
+  "name": "홀리카우",
+  "nameEn": "Holy Cow",
+  "element": "Water",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackAllAMag",
+    "tu": 300,
+    "spirit": -4,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack300",
+    "components": [
+     {
+      "key": "Dmg300",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 3
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택(전체)",
+    "desc": null
+   },
+   {
+    "key": "SlowHealBoss",
+    "tu": 500,
+    "spirit": 6,
+    "useLimit": 6,
+    "targeting": "2Ally",
+    "targetDef": {
+     "FriendlyTargets": 2
+    },
+    "condition": null,
+    "ai": "Heal_AI",
+    "aiPriority": 16,
+    "flags": [
+     "Healer",
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "BossHealConfig",
+    "components": [
+     {
+      "key": "HealTargetAtk8",
+      "type": "HealAbilityComponent",
+      "StatToUse": "Atk",
+      "HealScalar": 8
+     }
+    ],
+    "short": "HP를 회복",
+    "shortEn": "Heals target(s)",
+    "name": "슬로 힐",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "12xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "12TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 11
+     }
+    ]
+   },
+   {
+    "key": "TurnRevengeBoss",
+    "name": null,
+    "desc": null,
+    "hud": "<sprite name=\"Icon_Turn_40\">유언",
+    "tags": [
+     "Revenge"
+    ],
+    "stack": null,
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "RevengeGiveTurn",
+      "type": "RevengeBuffComponent",
+      "Buffs": [
+       "GetTurn"
+      ],
+      "Targeting": "RandomAllyNotMe",
+      "ActivateLog": "RevengeGiveTurnLog",
+      "ActivateEffect": "ShowTextAndLog"
+     }
+    ]
+   }
+  ]
+ },
+ "BullB": {
+  "key": "BullB",
+  "species": "Bull",
+  "variant": "B",
+  "name": "홀리카우",
+  "nameEn": "Holy Cow",
+  "element": "Earth",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackDoubleAMag",
+    "tu": 225,
+    "spirit": -3,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack600",
+    "components": [
+     {
+      "key": "Dmg600",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 6
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택(2기)",
+    "desc": null
+   },
+   {
+    "key": "PoisonHealBoss",
+    "tu": 100,
+    "spirit": 6,
+    "useLimit": 6,
+    "targeting": "2Ally",
+    "targetDef": {
+     "FriendlyTargets": 2
+    },
+    "condition": null,
+    "ai": "Heal_AI",
+    "aiPriority": 16,
+    "flags": [
+     "Healer",
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "PoisonHealBoss_Config",
+    "components": [
+     {
+      "key": "HealTargetAtk8",
+      "type": "HealAbilityComponent",
+      "StatToUse": "Atk",
+      "HealScalar": 8
+     },
+     {
+      "key": "PoisonUser",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "Poison"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+     }
+    ],
+    "short": "자신에게 독 부여 후 대상 회복",
+    "shortEn": "Heals targets, user becomes poisoned",
+    "name": "포이즌 힐",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "12xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "12TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 11
+     }
+    ]
+   },
+   {
+    "key": "TurnRevengeBoss",
+    "name": null,
+    "desc": null,
+    "hud": "<sprite name=\"Icon_Turn_40\">유언",
+    "tags": [
+     "Revenge"
+    ],
+    "stack": null,
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "RevengeGiveTurn",
+      "type": "RevengeBuffComponent",
+      "Buffs": [
+       "GetTurn"
+      ],
+      "Targeting": "RandomAllyNotMe",
+      "ActivateLog": "RevengeGiveTurnLog",
+      "ActivateEffect": "ShowTextAndLog"
+     }
+    ]
+   }
+  ]
+ },
+ "BullC": {
+  "key": "BullC",
+  "species": "Bull",
+  "variant": "C",
+  "name": "홀리카우",
+  "nameEn": "Holy Cow",
+  "element": "Fire",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackSingleAMag",
+    "tu": 150,
+    "spirit": -2,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택",
+    "desc": null
+   },
+   {
+    "key": "SleepHealBoss",
+    "tu": 100,
+    "spirit": 6,
+    "useLimit": 6,
+    "targeting": "2Ally",
+    "targetDef": {
+     "FriendlyTargets": 2
+    },
+    "condition": null,
+    "ai": "Heal_AI",
+    "aiPriority": 16,
+    "flags": [
+     "Healer",
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "SleepHealBoss_Config",
+    "components": [
+     {
+      "key": "HealTargetAtk8",
+      "type": "HealAbilityComponent",
+      "StatToUse": "Atk",
+      "HealScalar": 8
+     },
+     {
+      "key": "SleepUser",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "Sleep"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+     }
+    ],
+    "short": "자신에게 수면 부여 후 대상 회복",
+    "shortEn": "Heals targets, the user falls asleep",
+    "name": "슬립 힐",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "12xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "12TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 11
+     }
+    ]
+   },
+   {
+    "key": "TurnRevengeBoss",
+    "name": null,
+    "desc": null,
+    "hud": "<sprite name=\"Icon_Turn_40\">유언",
+    "tags": [
+     "Revenge"
+    ],
+    "stack": null,
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "RevengeGiveTurn",
+      "type": "RevengeBuffComponent",
+      "Buffs": [
+       "GetTurn"
+      ],
+      "Targeting": "RandomAllyNotMe",
+      "ActivateLog": "RevengeGiveTurnLog",
+      "ActivateEffect": "ShowTextAndLog"
+     }
+    ]
+   }
+  ]
+ },
+ "CupCatA": {
+  "key": "CupCatA",
+  "species": "CupCat",
+  "variant": "A",
+  "name": "드리플",
+  "nameEn": "Nyatte",
+  "element": "Earth",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackSingleAMag",
+    "tu": 150,
+    "spirit": -2,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택",
+    "desc": null
+   },
+   {
+    "key": "TeamTurnBoss",
+    "tu": 5,
+    "spirit": 6,
+    "useLimit": 5,
+    "targeting": "AllAllyNotMe",
+    "targetDef": {
+     "TargetAllFriendly": true,
+     "ExcludeSelf": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 16,
+    "flags": [
+     "GiveTurner",
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "GiveTurnConfig",
+    "components": [
+     {
+      "key": "GiveTurnToTargetFX",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "GetTurnNoFX"
+      ]
+     }
+    ],
+    "short": "모든 아군에게 턴 부여",
+    "shortEn": "Gives the next turns to teammates",
+    "name": "우리 턴",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "4xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "4TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 3
+     }
+    ]
+   },
+   {
+    "key": "SleepRevengeDoubleBoss",
+    "name": null,
+    "desc": null,
+    "hud": "<sprite name=\"Icon_Sleep_40\">복수",
+    "tags": [
+     "Revenge"
+    ],
+    "stack": null,
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "SleepRevengeDouble",
+      "type": "RevengeBuffComponent",
+      "Buffs": [
+       "Sleep"
+      ],
+      "Targeting": "1RandomEnemy",
+      "TargetKillerAndTargeting": true,
+      "ActivateLog": "RevengeSleepLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+       "PoisonDamage"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "CupCatB": {
+  "key": "CupCatB",
+  "species": "CupCat",
+  "variant": "B",
+  "name": "드리플",
+  "nameEn": "Nyatte",
+  "element": "Fire",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackDoubleAMag",
+    "tu": 225,
+    "spirit": -3,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack600",
+    "components": [
+     {
+      "key": "Dmg600",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 6
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택(2기)",
+    "desc": null
+   },
+   {
+    "key": "TeamTurnBoss",
+    "tu": 5,
+    "spirit": 6,
+    "useLimit": 5,
+    "targeting": "AllAllyNotMe",
+    "targetDef": {
+     "TargetAllFriendly": true,
+     "ExcludeSelf": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 16,
+    "flags": [
+     "GiveTurner",
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "GiveTurnConfig",
+    "components": [
+     {
+      "key": "GiveTurnToTargetFX",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "GetTurnNoFX"
+      ]
+     }
+    ],
+    "short": "모든 아군에게 턴 부여",
+    "shortEn": "Gives the next turns to teammates",
+    "name": "우리 턴",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "4xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "4TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 3
+     }
+    ]
+   },
+   {
+    "key": "StunRevengeBoss",
+    "name": null,
+    "desc": null,
+    "hud": "<sprite name=\"Icon_Stun_40\">복수",
+    "tags": [
+     "Revenge"
+    ],
+    "stack": null,
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "Stun150Revenge",
+      "type": "RevengeBuffComponent",
+      "Buffs": [
+       "Stun150"
+      ],
+      "TargetKiller": true,
+      "ActivateLog": "RevengeStunLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+       "PoisonDamage"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "CupCatC": {
+  "key": "CupCatC",
+  "species": "CupCat",
+  "variant": "C",
+  "name": "드리플",
+  "nameEn": "Nyatte",
+  "element": "Water",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackAllAMag",
+    "tu": 300,
+    "spirit": -4,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack300",
+    "components": [
+     {
+      "key": "Dmg300",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 3
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택(전체)",
+    "desc": null
+   },
+   {
+    "key": "TeamTurnBoss",
+    "tu": 5,
+    "spirit": 6,
+    "useLimit": 5,
+    "targeting": "AllAllyNotMe",
+    "targetDef": {
+     "TargetAllFriendly": true,
+     "ExcludeSelf": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 16,
+    "flags": [
+     "GiveTurner",
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "GiveTurnConfig",
+    "components": [
+     {
+      "key": "GiveTurnToTargetFX",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "GetTurnNoFX"
+      ]
+     }
+    ],
+    "short": "모든 아군에게 턴 부여",
+    "shortEn": "Gives the next turns to teammates",
+    "name": "우리 턴",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "4xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "4TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 3
+     }
+    ]
+   },
+   {
+    "key": "PoisonGasRevengeBoss",
+    "name": null,
+    "desc": null,
+    "hud": "<sprite name=\"Icon_Poison_40\">복수",
+    "tags": [
+     "Revenge"
+    ],
+    "stack": null,
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "PoisonAll50PercentEachRevenge",
+      "type": "RevengeBuffComponent",
+      "Buffs": [
+       "Poison"
+      ],
+      "Targeting": "AllEnemies50PercentEach",
+      "ActivateLog": "RevengePoisonLog",
+      "ActivateEffect": "ShowTextAndLog",
+      "CancelFromDamageFlags": [
+       "PoisonDamage"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "HeartTailA": {
+  "key": "HeartTailA",
+  "species": "HeartTail",
+  "variant": "A",
+  "name": "주템므곤",
+  "nameEn": "Aurora",
+  "element": "Fire",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackAllAMag",
+    "tu": 300,
+    "spirit": -4,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack300",
+    "components": [
+     {
+      "key": "Dmg300",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 3
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택(전체)",
+    "desc": null
+   },
+   {
+    "key": "AttackWaterSingleBossMag",
+    "tu": 150,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": "WaterEat_AI",
+    "aiPriority": 306,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": "광 속성 캐릭터에게 큰 대미지",
+    "shortEn": "Damages Light characters",
+    "name": "라이트 크래셔",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "8xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "8TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 7
+     }
+    ]
+   }
+  ]
+ },
+ "HeartTailB": {
+  "key": "HeartTailB",
+  "species": "HeartTail",
+  "variant": "B",
+  "name": "주템므곤",
+  "nameEn": "Aurora",
+  "element": "Water",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackSingleAMag",
+    "tu": 150,
+    "spirit": -2,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택",
+    "desc": null
+   },
+   {
+    "key": "AttackFireSingleBossMag",
+    "tu": 150,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": "FireEat_AI",
+    "aiPriority": 306,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": "암 속성 캐릭터에게 큰 대미지",
+    "shortEn": "Damages Dark characters",
+    "name": "다크 크래셔",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "8xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "8TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 7
+     }
+    ]
+   }
+  ]
+ },
+ "HeartTailC": {
+  "key": "HeartTailC",
+  "species": "HeartTail",
+  "variant": "C",
+  "name": "주템므곤",
+  "nameEn": "Aurora",
+  "element": "Earth",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackDoubleAMag",
+    "tu": 225,
+    "spirit": -3,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack600",
+    "components": [
+     {
+      "key": "Dmg600",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 6
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택(2기)",
+    "desc": null
+   },
+   {
+    "key": "AttackEarthSingleBossMag",
+    "tu": 150,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": "EarthEat_AI",
+    "aiPriority": 306,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": "지 속성 캐릭터에게 큰 대미지",
+    "shortEn": "Damages Earth characters",
+    "name": "어스 크래셔",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "8xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "8TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 7
+     }
+    ]
+   }
+  ]
+ },
+ "PantherA": {
+  "key": "PantherA",
+  "species": "Panther",
+  "variant": "A",
+  "name": "플라밍고",
+  "nameEn": "Flamingo",
+  "element": "Water",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "EvasiveAttackBossMag",
+    "tu": 125,
+    "spirit": -1,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack800_AggroDown_Config",
+    "components": [
+     {
+      "key": "Dmg800",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 8
+     },
+     {
+      "key": "LowerUserAggro",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "AggroDownStacking"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+     }
+    ],
+    "short": "대미지를 주고 이목을 피한다",
+    "shortEn": "Damages and evades attention",
+    "name": "교활한 일격",
+    "desc": null
+   },
+   {
+    "key": "FinalStandBossMag",
+    "tu": 100,
+    "spirit": -3,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": "IsAlone",
+    "ai": null,
+    "aiPriority": 306,
+    "flags": [
+     "Mag",
+     "BossSkill",
+     "LastStand"
+    ],
+    "damageType": "Magical",
+    "config": "Attack2000",
+    "components": [
+     {
+      "key": "Dmg2000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 20
+     }
+    ],
+    "short": "마지막 1기가 되면 사용 가능",
+    "shortEn": "Powerful attack unlocked once alone",
+    "name": "론리 스트라이크",
+    "desc": null
+   },
+   {
+    "key": "BigAttackAllBossMag",
+    "tu": 300,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택(전체)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "12xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "12TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 11
+     }
+    ]
+   }
+  ]
+ },
+ "PantherB": {
+  "key": "PantherB",
+  "species": "Panther",
+  "variant": "B",
+  "name": "플라밍고",
+  "nameEn": "Flamingo",
+  "element": "Earth",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "EvasiveAttackBossMag",
+    "tu": 125,
+    "spirit": -1,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack800_AggroDown_Config",
+    "components": [
+     {
+      "key": "Dmg800",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 8
+     },
+     {
+      "key": "LowerUserAggro",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "AggroDownStacking"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+     }
+    ],
+    "short": "대미지를 주고 이목을 피한다",
+    "shortEn": "Damages and evades attention",
+    "name": "교활한 일격",
+    "desc": null
+   },
+   {
+    "key": "FinalStandBossMag",
+    "tu": 100,
+    "spirit": -3,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": "IsAlone",
+    "ai": null,
+    "aiPriority": 306,
+    "flags": [
+     "Mag",
+     "BossSkill",
+     "LastStand"
+    ],
+    "damageType": "Magical",
+    "config": "Attack2000",
+    "components": [
+     {
+      "key": "Dmg2000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 20
+     }
+    ],
+    "short": "마지막 1기가 되면 사용 가능",
+    "shortEn": "Powerful attack unlocked once alone",
+    "name": "론리 스트라이크",
+    "desc": null
+   },
+   {
+    "key": "BigAttackAllBossMag",
+    "tu": 300,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택(전체)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "12xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "12TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 11
+     }
+    ]
+   }
+  ]
+ },
+ "PantherC": {
+  "key": "PantherC",
+  "species": "Panther",
+  "variant": "C",
+  "name": "플라밍고",
+  "nameEn": "Flamingo",
+  "element": "Fire",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "EvasiveAttackBossMag",
+    "tu": 125,
+    "spirit": -1,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack800_AggroDown_Config",
+    "components": [
+     {
+      "key": "Dmg800",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 8
+     },
+     {
+      "key": "LowerUserAggro",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "AggroDownStacking"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+     }
+    ],
+    "short": "대미지를 주고 이목을 피한다",
+    "shortEn": "Damages and evades attention",
+    "name": "교활한 일격",
+    "desc": null
+   },
+   {
+    "key": "FinalStandBossMag",
+    "tu": 100,
+    "spirit": -3,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": "IsAlone",
+    "ai": null,
+    "aiPriority": 306,
+    "flags": [
+     "Mag",
+     "BossSkill",
+     "LastStand"
+    ],
+    "damageType": "Magical",
+    "config": "Attack2000",
+    "components": [
+     {
+      "key": "Dmg2000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 20
+     }
+    ],
+    "short": "마지막 1기가 되면 사용 가능",
+    "shortEn": "Powerful attack unlocked once alone",
+    "name": "론리 스트라이크",
+    "desc": null
+   },
+   {
+    "key": "BigAttackAllBossMag",
+    "tu": 300,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택(전체)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "12xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "12TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 11
+     }
+    ]
+   }
+  ]
+ },
+ "LionA": {
+  "key": "LionA",
+  "species": "Lion",
+  "variant": "A",
+  "name": "모플레임",
+  "nameEn": "Fireball",
+  "element": "Earth",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "AggroAttackDoubleBossMag",
+    "tu": 200,
+    "spirit": -4,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack1000_AggroUp_Config",
+    "components": [
+     {
+      "key": "Dmg1000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 10
+     },
+     {
+      "key": "RaiseUserAggro",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "AggroUpStacking"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+     }
+    ],
+    "short": "대미지를 주고 이목을 끈다",
+    "shortEn": "Damages and draws attention",
+    "name": "도발 공격(2명)",
+    "desc": null
+   },
+   {
+    "key": "BigAttackDoubleBossMag",
+    "tu": 225,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack2000",
+    "components": [
+     {
+      "key": "Dmg2000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 20
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택(2명)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "2xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "2TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 1
+     }
+    ]
+   }
+  ]
+ },
+ "LionB": {
+  "key": "LionB",
+  "species": "Lion",
+  "variant": "B",
+  "name": "모플레임",
+  "nameEn": "Fireball",
+  "element": "Fire",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "AggroAttackDoubleBossMag",
+    "tu": 200,
+    "spirit": -4,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack1000_AggroUp_Config",
+    "components": [
+     {
+      "key": "Dmg1000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 10
+     },
+     {
+      "key": "RaiseUserAggro",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "AggroUpStacking"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+     }
+    ],
+    "short": "대미지를 주고 이목을 끈다",
+    "shortEn": "Damages and draws attention",
+    "name": "도발 공격(2명)",
+    "desc": null
+   },
+   {
+    "key": "BigAttackDoubleBossMag",
+    "tu": 225,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack2000",
+    "components": [
+     {
+      "key": "Dmg2000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 20
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택(2명)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "2xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "2TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 1
+     }
+    ]
+   },
+   {
+    "key": "StunSkinBoss",
+    "name": null,
+    "desc": null,
+    "hud": "<sprite name=\"Icon_Stun_40\">스킨",
+    "tags": [
+     "StunSkin"
+    ],
+    "stack": "StunSkin",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "Stun100AttackerWhenHurt",
+      "type": "BuffOnHurtBuffComponent",
+      "Buffs": [
+       "Stun100"
+      ],
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+       "PoisonDamage"
+      ],
+      "ActivateLog": "StunSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+     }
+    ]
+   }
+  ]
+ },
+ "LionC": {
+  "key": "LionC",
+  "species": "Lion",
+  "variant": "C",
+  "name": "모플레임",
+  "nameEn": "Fireball",
+  "element": "Water",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "AggroAttackDoubleBossMag",
+    "tu": 200,
+    "spirit": -4,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack1000_AggroUp_Config",
+    "components": [
+     {
+      "key": "Dmg1000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 10
+     },
+     {
+      "key": "RaiseUserAggro",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "AggroUpStacking"
+      ],
+      "OverrideTargetToSelf": true,
+      "NoAbilityEffect": true
+     }
+    ],
+    "short": "대미지를 주고 이목을 끈다",
+    "shortEn": "Damages and draws attention",
+    "name": "도발 공격(2명)",
+    "desc": null
+   },
+   {
+    "key": "BigAttackDoubleBossMag",
+    "tu": 225,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack2000",
+    "components": [
+     {
+      "key": "Dmg2000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 20
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택(2명)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "2xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "2TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 1
+     }
+    ]
+   },
+   {
+    "key": "PoisonSkinBoss",
+    "name": null,
+    "desc": null,
+    "hud": "<sprite name=\"Icon_Poison_40\">스킨",
+    "tags": [
+     "PoisonSkin"
+    ],
+    "stack": "PoisonSkin",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "PoisonAttackerWhenHurt",
+      "type": "BuffOnHurtBuffComponent",
+      "Buffs": [
+       "Poison"
+      ],
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+       "PoisonDamage"
+      ],
+      "ActivateLog": "PoisonSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+     }
+    ]
+   }
+  ]
+ },
+ "CapybaraA": {
+  "key": "CapybaraA",
+  "species": "Capybara",
+  "variant": "A",
+  "name": "위스퍼러",
+  "nameEn": "Capeybara",
+  "element": "Fire",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackSingleAMag",
+    "tu": 150,
+    "spirit": -2,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택",
+    "desc": null
+   },
+   {
+    "key": "BigAttackSingleBossMag",
+    "tu": 150,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack3000",
+    "components": [
+     {
+      "key": "Dmg3000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 30
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "4xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "4TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 3
+     }
+    ]
+   }
+  ]
+ },
+ "CapybaraB": {
+  "key": "CapybaraB",
+  "species": "Capybara",
+  "variant": "B",
+  "name": "위스퍼러",
+  "nameEn": "Capeybara",
+  "element": "Water",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackDoubleAMag",
+    "tu": 225,
+    "spirit": -3,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack600",
+    "components": [
+     {
+      "key": "Dmg600",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 6
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택(2기)",
+    "desc": null
+   },
+   {
+    "key": "BigAttackSingleBossMag",
+    "tu": 150,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack3000",
+    "components": [
+     {
+      "key": "Dmg3000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 30
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "4xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "4TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 3
+     }
+    ]
+   }
+  ]
+ },
+ "CapybaraC": {
+  "key": "CapybaraC",
+  "species": "Capybara",
+  "variant": "C",
+  "name": "위스퍼러",
+  "nameEn": "Capeybara",
+  "element": "Earth",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "BossAttackAllAMag",
+    "tu": 300,
+    "spirit": -4,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": "BossNotRaging",
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack300",
+    "components": [
+     {
+      "key": "Dmg300",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 3
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "어택(전체)",
+    "desc": null
+   },
+   {
+    "key": "BigAttackSingleBossMag",
+    "tu": 150,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack3000",
+    "components": [
+     {
+      "key": "Dmg3000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 30
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "4xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "4TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 3
+     }
+    ]
+   }
+  ]
+ },
+ "SealA": {
+  "key": "SealA",
+  "species": "Seal",
+  "variant": "A",
+  "name": "네스코랄",
+  "nameEn": "Corale",
+  "element": "Water",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "SlowAttackDoubleBossMag",
+    "tu": 350,
+    "spirit": -4,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack1000",
+    "components": [
+     {
+      "key": "Dmg1000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 10
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "헤비 어택(2명)",
+    "desc": null
+   },
+   {
+    "key": "BigAttackAllBossMag",
+    "tu": 300,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택(전체)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "12xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "12TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 11
+     }
+    ]
+   },
+   {
+    "key": "PoisonSkinBoss",
+    "name": null,
+    "desc": null,
+    "hud": "<sprite name=\"Icon_Poison_40\">스킨",
+    "tags": [
+     "PoisonSkin"
+    ],
+    "stack": "PoisonSkin",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "PoisonAttackerWhenHurt",
+      "type": "BuffOnHurtBuffComponent",
+      "Buffs": [
+       "Poison"
+      ],
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+       "PoisonDamage"
+      ],
+      "ActivateLog": "PoisonSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+     }
+    ]
+   }
+  ]
+ },
+ "SealB": {
+  "key": "SealB",
+  "species": "Seal",
+  "variant": "B",
+  "name": "네스코랄",
+  "nameEn": "Corale",
+  "element": "Earth",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "SlowAttackDoubleBossMag",
+    "tu": 350,
+    "spirit": -4,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack1000",
+    "components": [
+     {
+      "key": "Dmg1000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 10
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "헤비 어택(2명)",
+    "desc": null
+   },
+   {
+    "key": "BigAttackAllBossMag",
+    "tu": 300,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택(전체)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "12xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "12TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 11
+     }
+    ]
+   },
+   {
+    "key": "StunSkinBoss",
+    "name": null,
+    "desc": null,
+    "hud": "<sprite name=\"Icon_Stun_40\">스킨",
+    "tags": [
+     "StunSkin"
+    ],
+    "stack": "StunSkin",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "Stun100AttackerWhenHurt",
+      "type": "BuffOnHurtBuffComponent",
+      "Buffs": [
+       "Stun100"
+      ],
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+       "PoisonDamage"
+      ],
+      "ActivateLog": "StunSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+     }
+    ]
+   }
+  ]
+ },
+ "SealC": {
+  "key": "SealC",
+  "species": "Seal",
+  "variant": "C",
+  "name": "네스코랄",
+  "nameEn": "Corale",
+  "element": "Fire",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "SlowAttackDoubleBossMag",
+    "tu": 350,
+    "spirit": -4,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack1000",
+    "components": [
+     {
+      "key": "Dmg1000",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 10
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "헤비 어택(2명)",
+    "desc": null
+   },
+   {
+    "key": "BigAttackAllBossMag",
+    "tu": 300,
+    "spirit": 6,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 256,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack1200",
+    "components": [
+     {
+      "key": "Dmg1200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 12
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "강화 어택(전체)",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "12xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "12TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 11
+     }
+    ]
+   },
+   {
+    "key": "SleepSkinBoss",
+    "name": null,
+    "desc": null,
+    "hud": "<sprite name=\"Icon_Sleep_40\">스킨",
+    "tags": [
+     "SleepSkin"
+    ],
+    "stack": "SleepSkin",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "Sleep100AttackerWhenHurt",
+      "type": "BuffOnHurtBuffComponent",
+      "Buffs": [
+       "Sleep"
+      ],
+      "Targeting": "1RandomEnemy",
+      "SourceIsTarget": true,
+      "CancelFromDamageFlags": [
+       "PoisonDamage"
+      ],
+      "ActivateLog": "SleepSkinLog",
+      "ActivateEffect": "ShowTextAndLog"
+     }
+    ]
+   }
+  ]
+ },
+ "OctopusA": {
+  "key": "OctopusA",
+  "species": "Octopus",
+  "variant": "A",
+  "name": "독토퍼스",
+  "nameEn": "Rocktopus",
+  "element": "Earth",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "FastAttackBossMag",
+    "tu": 100,
+    "spirit": -1,
+    "useLimit": 0,
+    "targeting": "1Enemy",
+    "targetDef": {
+     "EnemyTargets": 1
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack800",
+    "components": [
+     {
+      "key": "Dmg800",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 8
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "신속 공격",
+    "desc": null
+   },
+   {
+    "key": "TUDownStackingBoss",
+    "tu": 70,
+    "spirit": 6,
+    "useLimit": 5,
+    "targeting": "Self",
+    "targetDef": {
+     "Self": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 16,
+    "flags": [
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "TUDownStackingBoss_Config",
+    "components": [
+     {
+      "key": "TUDownStackingTargetFX",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "TUDownStacking"
+      ]
+     }
+    ],
+    "short": "행동 시 TU 소비가 감소한다.",
+    "shortEn": "User's TU costs are reduced, stacks",
+    "name": "가속",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "8xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "8TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 7
+     }
+    ]
+   }
+  ]
+ },
+ "OctopusB": {
+  "key": "OctopusB",
+  "species": "Octopus",
+  "variant": "B",
+  "name": "독토퍼스",
+  "nameEn": "Rocktopus",
+  "element": "Fire",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "FastAttackDoubleBossMag",
+    "tu": 150,
+    "spirit": -2,
+    "useLimit": 0,
+    "targeting": "2Enemy",
+    "targetDef": {
+     "EnemyTargets": 2
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack400",
+    "components": [
+     {
+      "key": "Dmg400",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 4
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "신속 공격(2명)",
+    "desc": null
+   },
+   {
+    "key": "TUDownStackingBoss",
+    "tu": 70,
+    "spirit": 6,
+    "useLimit": 5,
+    "targeting": "Self",
+    "targetDef": {
+     "Self": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 16,
+    "flags": [
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "TUDownStackingBoss_Config",
+    "components": [
+     {
+      "key": "TUDownStackingTargetFX",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "TUDownStacking"
+      ]
+     }
+    ],
+    "short": "행동 시 TU 소비가 감소한다.",
+    "shortEn": "User's TU costs are reduced, stacks",
+    "name": "가속",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "8xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "8TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 7
+     }
+    ]
+   }
+  ]
+ },
+ "OctopusC": {
+  "key": "OctopusC",
+  "species": "Octopus",
+  "variant": "C",
+  "name": "독토퍼스",
+  "nameEn": "Rocktopus",
+  "element": "Water",
+  "str": 333,
+  "vit": 333,
+  "wil": 333,
+  "int": 333,
+  "actives": [
+   {
+    "key": "FastAttackAllBossMag",
+    "tu": 200,
+    "spirit": -3,
+    "useLimit": 0,
+    "targeting": "AllEnemy",
+    "targetDef": {
+     "TargetAllEnemy": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 506,
+    "flags": [
+     "Mag",
+     "BossSkill"
+    ],
+    "damageType": "Magical",
+    "config": "Attack200",
+    "components": [
+     {
+      "key": "Dmg200",
+      "type": "DamageAbilityComponent",
+      "BaseDamageScalar": 2
+     }
+    ],
+    "short": null,
+    "shortEn": null,
+    "name": "신속 공격(전체)",
+    "desc": null
+   },
+   {
+    "key": "TUDownStackingBoss",
+    "tu": 70,
+    "spirit": 6,
+    "useLimit": 5,
+    "targeting": "Self",
+    "targetDef": {
+     "Self": true
+    },
+    "condition": null,
+    "ai": null,
+    "aiPriority": 16,
+    "flags": [
+     "BossSkill"
+    ],
+    "damageType": "NoDamage",
+    "config": "TUDownStackingBoss_Config",
+    "components": [
+     {
+      "key": "TUDownStackingTargetFX",
+      "type": "ApplyBuffAbilityComponent",
+      "Buffs": [
+       "TUDownStacking"
+      ]
+     }
+    ],
+    "short": "행동 시 TU 소비가 감소한다.",
+    "shortEn": "User's TU costs are reduced, stacks",
+    "name": "가속",
+    "desc": null
+   }
+  ],
+  "passives": [
+   {
+    "key": "8xBossBulk",
+    "name": null,
+    "desc": null,
+    "hud": null,
+    "tags": [],
+    "stack": "BossBulk",
+    "duration": null,
+    "isDebuff": null,
+    "components": [
+     {
+      "key": "8TimesScalarForBossHP",
+      "type": "BattleStatScalarBuffComponent",
+      "Stat": "HP",
+      "Scalar": 7
+     }
+    ]
+   }
+  ]
+ }
+}

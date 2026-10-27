@@ -1,0 +1,2180 @@
+{
+  "AggroAttackDoubleBossMag": {
+    "TUCost": 200,
+    "SpiritCost": -4,
+    "Config": "Attack1000_AggroUp_Config",
+    "SelectedKey": "AggroUpAtkShort",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AIPriority": 506,
+    "Flags": [
+      "Mag",
+      "BossSkill"
+    ],
+    "DamageType": "Magical",
+    "HideMPUsage": true
+  },
+  "AttackEarthSingleBossMag": {
+    "TUCost": 150,
+    "SpiritCost": 6,
+    "Config": "Attack1200",
+    "SelectedKey": "EarthEatShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AbilityAI": "EarthEat_AI",
+    "AIPriority": 306,
+    "Flags": [
+      "Mag",
+      "BossSkill"
+    ],
+    "DamageType": "Magical",
+    "HideMPUsage": true
+  },
+  "AttackFireSingleBossMag": {
+    "TUCost": 150,
+    "SpiritCost": 6,
+    "Config": "Attack1200",
+    "SelectedKey": "FireEatShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AbilityAI": "FireEat_AI",
+    "AIPriority": 306,
+    "Flags": [
+      "Mag",
+      "BossSkill"
+    ],
+    "DamageType": "Magical",
+    "HideMPUsage": true
+  },
+  "AttackWaterSingleBossMag": {
+    "TUCost": 150,
+    "SpiritCost": 6,
+    "Config": "Attack1200",
+    "SelectedKey": "WaterEatShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AbilityAI": "WaterEat_AI",
+    "AIPriority": 306,
+    "Flags": [
+      "Mag",
+      "BossSkill"
+    ],
+    "DamageType": "Magical",
+    "HideMPUsage": true
+  },
+  "BasicAttackAllMag": {
+    "TUCost": 250,
+    "Config": "Attack50",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "AllEnemy",
+    "AIPriority": 1000,
+    "Flags": [
+      "Mag"
+    ],
+    "DamageType": "Magical"
+  },
+  "BasicAttackAllPhys": {
+    "TUCost": 250,
+    "Config": "Attack50",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "AllEnemy",
+    "AIPriority": 1000,
+    "Flags": [
+      "Phys"
+    ],
+    "DamageType": "Physical"
+  },
+  "BasicAttackDoubleMag": {
+    "TUCost": 160,
+    "Config": "Attack75",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AIPriority": 1000,
+    "Flags": [
+      "Mag"
+    ],
+    "DamageType": "Magical"
+  },
+  "BasicAttackDoublePhys": {
+    "TUCost": 160,
+    "Config": "Attack75",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AIPriority": 1000,
+    "Flags": [
+      "Phys"
+    ],
+    "DamageType": "Physical"
+  },
+  "BasicAttackSingleMag": {
+    "TUCost": 130,
+    "Config": "Attack",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AIPriority": 1000,
+    "Flags": [
+      "Mag"
+    ],
+    "DamageType": "Magical"
+  },
+  "BasicAttackSinglePhys": {
+    "TUCost": 130,
+    "Config": "Attack",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AIPriority": 1000,
+    "Flags": [
+      "Phys"
+    ],
+    "DamageType": "Physical"
+  },
+  "BigAttackAllBossMag": {
+    "TUCost": 300,
+    "SpiritCost": 6,
+    "Config": "Attack1200",
+    "UseLimit": 0,
+    "Targeting": "AllEnemy",
+    "AIPriority": 256,
+    "Flags": [
+      "Mag",
+      "BossSkill"
+    ],
+    "DamageType": "Magical",
+    "HideMPUsage": true
+  },
+  "BigAttackAllBossPhys": {
+    "TUCost": 300,
+    "SpiritCost": 6,
+    "Config": "Attack1200",
+    "UseLimit": 0,
+    "Targeting": "AllEnemy",
+    "AIPriority": 256,
+    "Flags": [
+      "Phys",
+      "BossSkill"
+    ],
+    "DamageType": "Physical",
+    "HideMPUsage": true
+  },
+  "BigAttackDoubleBossMag": {
+    "TUCost": 225,
+    "SpiritCost": 6,
+    "Config": "Attack2000",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AIPriority": 256,
+    "Flags": [
+      "Mag",
+      "BossSkill"
+    ],
+    "DamageType": "Magical",
+    "HideMPUsage": true
+  },
+  "BigAttackDoubleBossPhys": {
+    "TUCost": 225,
+    "SpiritCost": 6,
+    "Config": "Attack2000",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AIPriority": 256,
+    "Flags": [
+      "Phys",
+      "BossSkill"
+    ],
+    "DamageType": "Physical",
+    "HideMPUsage": true
+  },
+  "BigAttackSingleBossMag": {
+    "TUCost": 150,
+    "SpiritCost": 6,
+    "Config": "Attack3000",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AIPriority": 256,
+    "Flags": [
+      "Mag",
+      "BossSkill"
+    ],
+    "DamageType": "Magical",
+    "HideMPUsage": true
+  },
+  "BigAttackSingleBossPhys": {
+    "TUCost": 150,
+    "SpiritCost": 6,
+    "Config": "Attack3000",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AIPriority": 256,
+    "Flags": [
+      "Phys",
+      "BossSkill"
+    ],
+    "DamageType": "Physical",
+    "HideMPUsage": true
+  },
+  "BigSurvivorSingleMag": {
+    "TUCost": 200,
+    "Config": "Attack600",
+    "SelectedKey": "SurvivorShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "UseCondition": "TimeInCombat300",
+    "AIPriority": 500,
+    "Flags": [
+      "Mag",
+      "Survivor"
+    ],
+    "DamageType": "Magical"
+  },
+  "BloodfuryDoubleMag": {
+    "TUCost": 160,
+    "Config": "Attack400",
+    "SelectedKey": "BloodfuryShort",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "UseCondition": "Has2Kills",
+    "AIPriority": 495,
+    "Flags": [
+      "Mag",
+      "Bloodfury"
+    ],
+    "DamageType": "Magical"
+  },
+  "BloodfuryDoublePhys": {
+    "TUCost": 160,
+    "Config": "Attack400",
+    "SelectedKey": "BloodfuryShort",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "UseCondition": "Has2Kills",
+    "AIPriority": 495,
+    "Flags": [
+      "Phys",
+      "Bloodfury"
+    ],
+    "DamageType": "Physical"
+  },
+  "BloodfurySingleMag": {
+    "TUCost": 130,
+    "Config": "Attack500",
+    "SelectedKey": "BloodfuryShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "UseCondition": "Has2Kills",
+    "AIPriority": 500,
+    "Flags": [
+      "Mag",
+      "Bloodfury"
+    ],
+    "DamageType": "Magical"
+  },
+  "BloodfurySinglePhys": {
+    "TUCost": 130,
+    "Config": "Attack500",
+    "SelectedKey": "BloodfuryShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "UseCondition": "Has2Kills",
+    "AIPriority": 500,
+    "Flags": [
+      "Phys",
+      "Bloodfury"
+    ],
+    "DamageType": "Physical"
+  },
+  "BossAttackAllAMag": {
+    "TUCost": 300,
+    "SpiritCost": -4,
+    "Config": "Attack300",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "AllEnemy",
+    "UseCondition": "BossNotRaging",
+    "AIPriority": 506,
+    "Flags": [
+      "Mag",
+      "BossSkill"
+    ],
+    "DamageType": "Magical",
+    "HideMPUsage": true
+  },
+  "BossAttackAllAPhys": {
+    "TUCost": 300,
+    "SpiritCost": -4,
+    "Config": "Attack300",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "AllEnemy",
+    "UseCondition": "BossNotRaging",
+    "AIPriority": 506,
+    "Flags": [
+      "Phys",
+      "BossSkill"
+    ],
+    "DamageType": "Physical",
+    "HideMPUsage": true
+  },
+  "BossAttackDoubleAMag": {
+    "TUCost": 225,
+    "SpiritCost": -3,
+    "Config": "Attack600",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "UseCondition": "BossNotRaging",
+    "AIPriority": 506,
+    "Flags": [
+      "Mag",
+      "BossSkill"
+    ],
+    "DamageType": "Magical",
+    "HideMPUsage": true
+  },
+  "BossAttackDoubleAPhys": {
+    "TUCost": 225,
+    "SpiritCost": -3,
+    "Config": "Attack600",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "UseCondition": "BossNotRaging",
+    "AIPriority": 506,
+    "Flags": [
+      "Phys",
+      "BossSkill"
+    ],
+    "DamageType": "Physical",
+    "HideMPUsage": true
+  },
+  "BossAttackSingleAMag": {
+    "TUCost": 150,
+    "SpiritCost": -2,
+    "Config": "Attack1200",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "UseCondition": "BossNotRaging",
+    "AIPriority": 506,
+    "Flags": [
+      "Mag",
+      "BossSkill"
+    ],
+    "DamageType": "Magical",
+    "HideMPUsage": true
+  },
+  "BossAttackSingleAPhys": {
+    "TUCost": 150,
+    "SpiritCost": -2,
+    "Config": "Attack1200",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "UseCondition": "BossNotRaging",
+    "AIPriority": 506,
+    "Flags": [
+      "Phys",
+      "BossSkill"
+    ],
+    "DamageType": "Physical",
+    "HideMPUsage": true
+  },
+  "CostAttackAllMag": {
+    "TUCost": 250,
+    "SpiritCost": 3,
+    "Config": "Attack150",
+    "SelectedKey": "CostAttackShort",
+    "UseLimit": 0,
+    "Targeting": "AllEnemy",
+    "AIPriority": 800,
+    "Flags": [
+      "Mag"
+    ],
+    "DamageType": "Magical"
+  },
+  "CostAttackAllPhys": {
+    "TUCost": 250,
+    "SpiritCost": 3,
+    "Config": "Attack150",
+    "SelectedKey": "CostAttackShort",
+    "UseLimit": 0,
+    "Targeting": "AllEnemy",
+    "AIPriority": 800,
+    "Flags": [
+      "Phys"
+    ],
+    "DamageType": "Physical"
+  },
+  "CostAttackDoubleMag": {
+    "TUCost": 160,
+    "SpiritCost": 2,
+    "Config": "Attack200",
+    "SelectedKey": "CostAttackShort",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AIPriority": 800,
+    "Flags": [
+      "Mag"
+    ],
+    "DamageType": "Magical"
+  },
+  "CostAttackDoublePhys": {
+    "TUCost": 160,
+    "SpiritCost": 2,
+    "Config": "Attack200",
+    "SelectedKey": "CostAttackShort",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AIPriority": 800,
+    "Flags": [
+      "Phys"
+    ],
+    "DamageType": "Physical"
+  },
+  "CostAttackSingleMag": {
+    "TUCost": 130,
+    "SpiritCost": 1,
+    "Config": "Attack250",
+    "SelectedKey": "CostAttackShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AIPriority": 800,
+    "Flags": [
+      "Mag"
+    ],
+    "DamageType": "Magical"
+  },
+  "CostAttackSinglePhys": {
+    "TUCost": 130,
+    "SpiritCost": 1,
+    "Config": "Attack250",
+    "SelectedKey": "CostAttackShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AIPriority": 800,
+    "Flags": [
+      "Phys"
+    ],
+    "DamageType": "Physical"
+  },
+  "CritAttackAllBossMag": {
+    "TUCost": 300,
+    "SpiritCost": -4,
+    "Config": "Atk150_HugeCrit_Config",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "AllEnemy",
+    "AIPriority": 506,
+    "Flags": [
+      "Mag",
+      "BossSkill"
+    ],
+    "DamageType": "Magical",
+    "HideMPUsage": true
+  },
+  "CritAttackSingleBossPhys": {
+    "TUCost": 150,
+    "SpiritCost": -2,
+    "Config": "Atk600_HugeCrit_Config",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AIPriority": 506,
+    "Flags": [
+      "Phys",
+      "BossSkill"
+    ],
+    "DamageType": "Physical",
+    "HideMPUsage": true
+  },
+  "DamageBombAllPhys": {
+    "TUCost": 0,
+    "Config": "Bomb1000",
+    "SelectedKey": "DamageBombShort",
+    "UseLimit": 0,
+    "Targeting": "AllEnemy",
+    "AIPriority": 1,
+    "Flags": [
+      "Phys",
+      "Bomb"
+    ],
+    "DamageType": "Physical"
+  },
+  "DesperateBiteAMag": {
+    "TUCost": 160,
+    "SpiritCost": 3,
+    "Config": "Attack500_50PercentHeal",
+    "SelectedKey": "DesperateBiteShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "UseCondition": "HpLessThan30Percent",
+    "AIPriority": 100,
+    "Flags": [
+      "Mag",
+      "Desperate"
+    ],
+    "DamageType": "Magical"
+  },
+  "DesperateBiteAPhys": {
+    "TUCost": 160,
+    "SpiritCost": 3,
+    "Config": "Attack500_50PercentHeal",
+    "SelectedKey": "DesperateBiteShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "UseCondition": "HpLessThan30Percent",
+    "AIPriority": 100,
+    "Flags": [
+      "Phys",
+      "Desperate"
+    ],
+    "DamageType": "Physical"
+  },
+  "DesperateBiteDoubleAMag": {
+    "TUCost": 200,
+    "SpiritCost": 3,
+    "Config": "Attack500_50PercentHeal",
+    "SelectedKey": "DesperateBiteShort",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "UseCondition": "HpLessThan30Percent",
+    "AIPriority": 100,
+    "Flags": [
+      "Mag",
+      "Desperate"
+    ],
+    "DamageType": "Magical"
+  },
+  "DesperateBiteDoubleAPhys": {
+    "TUCost": 200,
+    "SpiritCost": 3,
+    "Config": "Attack500_50PercentHeal",
+    "SelectedKey": "DesperateBiteShort",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "UseCondition": "HpLessThan30Percent",
+    "AIPriority": 100,
+    "Flags": [
+      "Phys",
+      "Desperate"
+    ],
+    "DamageType": "Physical"
+  },
+  "DesperateBiteOnceAMag": {
+    "TUCost": 100,
+    "Config": "Attack500_75PercentHeal",
+    "SelectedKey": "DesperateBiteShort",
+    "UseLimit": 1,
+    "Targeting": "1Enemy",
+    "UseCondition": "HpLessThan30Percent",
+    "AIPriority": 100,
+    "Flags": [
+      "Mag",
+      "Desperate"
+    ],
+    "DamageType": "Magical"
+  },
+  "DesperateBiteOnceAPhys": {
+    "TUCost": 100,
+    "Config": "Attack500_75PercentHeal",
+    "SelectedKey": "DesperateBiteShort",
+    "UseLimit": 1,
+    "Targeting": "1Enemy",
+    "UseCondition": "HpLessThan30Percent",
+    "AIPriority": 100,
+    "Flags": [
+      "Phys",
+      "Desperate"
+    ],
+    "DamageType": "Physical"
+  },
+  "DesperateStrikeDoubleOnceMag": {
+    "TUCost": 100,
+    "Config": "Attack500",
+    "SelectedKey": "DesperateStrikeShort",
+    "UseLimit": 1,
+    "Targeting": "2Enemy",
+    "UseCondition": "HpLessThan30Percent",
+    "AIPriority": 100,
+    "Flags": [
+      "Mag",
+      "Desperate"
+    ],
+    "DamageType": "Magical"
+  },
+  "DoubleHPOnce": {
+    "TUCost": 50,
+    "Config": "DoubleHPConfig",
+    "SelectedKey": "DoubleHPOnceShort",
+    "UseLimit": 1,
+    "Targeting": "Self",
+    "AIPriority": 10,
+    "Flags": [
+      "Healer"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "DreamDrainSinglePhys": {
+    "TUCost": 130,
+    "SpiritCost": 2,
+    "Config": "DreamDrainSingleConfig",
+    "SelectedKey": "DreamDrainShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "UseCondition": "HP75PercentOrLower",
+    "AbilityAI": "DreamHunt_AI",
+    "AIPriority": 400,
+    "Flags": [
+      "Phys",
+      "DreamHunt"
+    ],
+    "DamageType": "Physical"
+  },
+  "DreamHuntBossPhys": {
+    "TUCost": 150,
+    "SpiritCost": 6,
+    "Config": "DreamHuntSingleBossConfig",
+    "SelectedKey": "DreamHuntShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AbilityAI": "DreamHunt_AI",
+    "AIPriority": 306,
+    "Flags": [
+      "Phys",
+      "BossSkill",
+      "DreamHunt"
+    ],
+    "DamageType": "Physical",
+    "HideMPUsage": true
+  },
+  "DreamHuntDoubleBossPhys": {
+    "TUCost": 225,
+    "SpiritCost": 6,
+    "Config": "DreamHuntDoubleBossConfig",
+    "SelectedKey": "DreamHuntShort",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AbilityAI": "DreamHunt_AI",
+    "AIPriority": 306,
+    "Flags": [
+      "Phys",
+      "BossSkill",
+      "DreamHunt"
+    ],
+    "DamageType": "Physical",
+    "HideMPUsage": true
+  },
+  "DreamHuntDoubleMag": {
+    "TUCost": 160,
+    "SpiritCost": 3,
+    "Config": "DreamHunt500",
+    "SelectedKey": "DreamHuntShort",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AbilityAI": "DreamHunt_AI",
+    "AIPriority": 450,
+    "Flags": [
+      "Mag",
+      "DreamHunt"
+    ],
+    "DamageType": "Magical"
+  },
+  "DreamHuntDoublePhys": {
+    "TUCost": 160,
+    "SpiritCost": 3,
+    "Config": "DreamHunt500",
+    "SelectedKey": "DreamHuntShort",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AbilityAI": "DreamHunt_AI",
+    "AIPriority": 450,
+    "Flags": [
+      "Phys",
+      "DreamHunt"
+    ],
+    "DamageType": "Physical"
+  },
+  "DreamHuntSingleAMag": {
+    "TUCost": 130,
+    "Config": "DreamHunt600",
+    "SelectedKey": "DreamHuntShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AbilityAI": "DreamHunt_AI",
+    "AIPriority": 550,
+    "Flags": [
+      "Mag",
+      "DreamHunt"
+    ],
+    "DamageType": "Magical"
+  },
+  "DreamHuntSingleAPhys": {
+    "TUCost": 130,
+    "Config": "DreamHunt600",
+    "SelectedKey": "DreamHuntShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AbilityAI": "DreamHunt_AI",
+    "AIPriority": 550,
+    "Flags": [
+      "Phys",
+      "DreamHunt"
+    ],
+    "DamageType": "Physical"
+  },
+  "EvasiveAttackBossMag": {
+    "TUCost": 125,
+    "SpiritCost": -1,
+    "Config": "Attack800_AggroDown_Config",
+    "SelectedKey": "AggroDownAtkShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AIPriority": 506,
+    "Flags": [
+      "Mag",
+      "BossSkill"
+    ],
+    "DamageType": "Magical",
+    "HideMPUsage": true
+  },
+  "EvasiveAttackDoubleBossPhys": {
+    "TUCost": 200,
+    "SpiritCost": -2,
+    "Config": "Attack400_AggroDown_Config",
+    "SelectedKey": "AggroDownAtkShort",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AIPriority": 506,
+    "Flags": [
+      "Phys",
+      "BossSkill"
+    ],
+    "DamageType": "Physical",
+    "HideMPUsage": true
+  },
+  "FastAttackAllBossMag": {
+    "TUCost": 200,
+    "SpiritCost": -3,
+    "Config": "Attack200",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "AllEnemy",
+    "AIPriority": 506,
+    "Flags": [
+      "Mag",
+      "BossSkill"
+    ],
+    "DamageType": "Magical",
+    "HideMPUsage": true
+  },
+  "FastAttackAllPhys": {
+    "TUCost": 160,
+    "Config": "Attack25",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "AllEnemy",
+    "AIPriority": 1000,
+    "Flags": [
+      "Phys"
+    ],
+    "DamageType": "Physical"
+  },
+  "FastAttackBossMag": {
+    "TUCost": 100,
+    "SpiritCost": -1,
+    "Config": "Attack800",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AIPriority": 506,
+    "Flags": [
+      "Mag",
+      "BossSkill"
+    ],
+    "DamageType": "Magical",
+    "HideMPUsage": true
+  },
+  "FastAttackBossPhys": {
+    "TUCost": 100,
+    "SpiritCost": -1,
+    "Config": "Attack800",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AIPriority": 506,
+    "Flags": [
+      "Phys",
+      "BossSkill"
+    ],
+    "DamageType": "Physical",
+    "HideMPUsage": true
+  },
+  "FastAttackDoubleBossMag": {
+    "TUCost": 150,
+    "SpiritCost": -2,
+    "Config": "Attack400",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AIPriority": 506,
+    "Flags": [
+      "Mag",
+      "BossSkill"
+    ],
+    "DamageType": "Magical",
+    "HideMPUsage": true
+  },
+  "FastAttackDoubleBossPhys": {
+    "TUCost": 150,
+    "SpiritCost": -2,
+    "Config": "Attack400",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AIPriority": 506,
+    "Flags": [
+      "Phys",
+      "BossSkill"
+    ],
+    "DamageType": "Physical",
+    "HideMPUsage": true
+  },
+  "FastAttackDoubleMag": {
+    "TUCost": 100,
+    "Config": "Attack50",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AIPriority": 1000,
+    "Flags": [
+      "Mag"
+    ],
+    "DamageType": "Magical"
+  },
+  "FastAttackDoublePhys": {
+    "TUCost": 100,
+    "Config": "Attack50",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AIPriority": 1000,
+    "Flags": [
+      "Phys"
+    ],
+    "DamageType": "Physical"
+  },
+  "FastAttackSingleMag": {
+    "TUCost": 70,
+    "Config": "Attack75",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AIPriority": 1000,
+    "Flags": [
+      "Mag"
+    ],
+    "DamageType": "Magical"
+  },
+  "FastAttackSinglePhys": {
+    "TUCost": 70,
+    "Config": "Attack75",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AIPriority": 1000,
+    "Flags": [
+      "Phys"
+    ],
+    "DamageType": "Physical"
+  },
+  "FastBloodfuryDoublePhys": {
+    "TUCost": 130,
+    "Config": "Attack300",
+    "SelectedKey": "BloodfuryShort",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "UseCondition": "Has2Kills",
+    "AIPriority": 650,
+    "Flags": [
+      "Phys",
+      "Bloodfury"
+    ],
+    "DamageType": "Physical"
+  },
+  "FastCostAttackAllMag": {
+    "TUCost": 160,
+    "SpiritCost": 3,
+    "Config": "Attack",
+    "SelectedKey": "CostAttackShort",
+    "UseLimit": 0,
+    "Targeting": "AllEnemy",
+    "AIPriority": 800,
+    "Flags": [
+      "Mag"
+    ],
+    "DamageType": "Magical"
+  },
+  "FastCostAttackSingleMag": {
+    "TUCost": 70,
+    "SpiritCost": 1,
+    "Config": "Attack200",
+    "SelectedKey": "CostAttackShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AIPriority": 800,
+    "Flags": [
+      "Mag"
+    ],
+    "DamageType": "Magical"
+  },
+  "FastDesperateBiteAllAMag": {
+    "TUCost": 200,
+    "SpiritCost": 3,
+    "Config": "Attack250_50PercentHeal",
+    "SelectedKey": "DesperateBiteShort",
+    "UseLimit": 0,
+    "Targeting": "AllEnemy",
+    "UseCondition": "HpLessThan30Percent",
+    "AIPriority": 100,
+    "Flags": [
+      "Mag",
+      "Desperate"
+    ],
+    "DamageType": "Magical"
+  },
+  "FinalStandBossMag": {
+    "TUCost": 100,
+    "SpiritCost": -3,
+    "Config": "Attack2000",
+    "SelectedKey": "LastStandShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "UseCondition": "IsAlone",
+    "AIPriority": 306,
+    "Flags": [
+      "Mag",
+      "BossSkill",
+      "LastStand"
+    ],
+    "DamageType": "Magical",
+    "HideMPUsage": true
+  },
+  "GiveTurnBomb": {
+    "TUCost": 0,
+    "Config": "GiveTurnBombConfig",
+    "SelectedKey": "GiveTurnBombShort",
+    "UseLimit": 1,
+    "Targeting": "RandomAllyNotMe",
+    "UseCondition": "AllyTeamSize2",
+    "BuffDescriptions": [
+      "GetTurn"
+    ],
+    "AIPriority": 1,
+    "AutoExpand": false,
+    "Flags": [
+      "GiveTurn"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "GiveTurnHighOnce": {
+    "TUCost": 250,
+    "Config": "GiveTurnConfig",
+    "SelectedKey": "GiveTurnHighOnceShort",
+    "UseLimit": 1,
+    "Targeting": "HighestTUAllyNotMe",
+    "UseCondition": "AllyTeamSize2",
+    "BuffDescriptions": [
+      "GetTurn"
+    ],
+    "AIPriority": 5,
+    "AutoExpand": false,
+    "Flags": [
+      "GiveTurn"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "GiveTurnHighOnceSSR": {
+    "TUCost": 130,
+    "Config": "GiveTurnConfig",
+    "SelectedKey": "GiveTurnHighOnceShort",
+    "UseLimit": 1,
+    "Targeting": "HighestTUAllyNotMe",
+    "UseCondition": "AllyTeamSize2",
+    "BuffDescriptions": [
+      "GetTurn"
+    ],
+    "AIPriority": 5,
+    "AutoExpand": false,
+    "Flags": [
+      "GiveTurn"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "GiveTurnRandomOnce": {
+    "TUCost": 250,
+    "Config": "GiveTurnConfig",
+    "SelectedKey": "GiveTurnRandomOnceShort",
+    "UseLimit": 1,
+    "Targeting": "RandomAllyNotMe",
+    "UseCondition": "AllyTeamSize2",
+    "BuffDescriptions": [
+      "GetTurn"
+    ],
+    "AIPriority": 5,
+    "AutoExpand": false,
+    "Flags": [
+      "GiveTurn"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "HealAlly50Percent": {
+    "TUCost": 70,
+    "SpiritCost": 2,
+    "Config": "Heal50PercentConfig",
+    "SelectedKey": "HealShort",
+    "Targeting": "1Ally",
+    "AbilityAI": "Heal_AI",
+    "AIPriority": 25,
+    "Flags": [
+      "Healer"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "HealBombSingle": {
+    "TUCost": 0,
+    "Config": "HealBomb_Config",
+    "SelectedKey": "HealBombShort",
+    "Targeting": "1AllyNotMe",
+    "UseCondition": "AllyTeamSize2",
+    "AbilityAI": "Heal_AI",
+    "AIPriority": 1,
+    "Flags": [
+      "Bomb",
+      "Healer"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "LastStandSingleMag": {
+    "TUCost": 70,
+    "SpiritCost": 2,
+    "Config": "Attack500",
+    "SelectedKey": "LastStandShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "UseCondition": "IsAlone",
+    "AIPriority": 500,
+    "Flags": [
+      "Mag",
+      "LastStand"
+    ],
+    "DamageType": "Magical"
+  },
+  "LastStandSinglePhys": {
+    "TUCost": 70,
+    "SpiritCost": 2,
+    "Config": "Attack500",
+    "SelectedKey": "LastStandShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "UseCondition": "IsAlone",
+    "AIPriority": 500,
+    "Flags": [
+      "Phys",
+      "LastStand"
+    ],
+    "DamageType": "Physical"
+  },
+  "LifeFlipAllyBoss": {
+    "TUCost": 50,
+    "SpiritCost": 6,
+    "Config": "LifeFlipConfig",
+    "SelectedKey": "LifeFlipAllyShort",
+    "UseLimit": 1,
+    "Targeting": "1AllyNotMe",
+    "AbilityAI": "LifeFlip_AI",
+    "AIPriority": 16,
+    "Flags": [
+      "LifeFlip",
+      "BossSkill"
+    ],
+    "DamageType": "NoDamage",
+    "HideMPUsage": true
+  },
+  "LifeFlipDoubleBoss": {
+    "TUCost": 50,
+    "SpiritCost": 6,
+    "Config": "LifeFlipConfig",
+    "SelectedKey": "LifeFlipAllyShort",
+    "UseLimit": 1,
+    "Targeting": "2Ally",
+    "AbilityAI": "LifeFlip_AI",
+    "AIPriority": 16,
+    "Flags": [
+      "LifeFlip",
+      "BossSkill"
+    ],
+    "DamageType": "NoDamage",
+    "HideMPUsage": true
+  },
+  "LifeFlipOtherAlly": {
+    "TUCost": 100,
+    "SpiritCost": 3,
+    "Config": "LifeFlipConfig",
+    "SelectedKey": "LifeFlipOtherAllyShort",
+    "Targeting": "1AllyNotMe",
+    "AbilityAI": "LifeFlip_AI",
+    "AIPriority": 0,
+    "Flags": [
+      "LifeFlip",
+      "Healer"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "LifeFlipSelf": {
+    "TUCost": 100,
+    "SpiritCost": 3,
+    "Config": "LifeFlipConfig",
+    "SelectedKey": "LifeFlipSelfShort",
+    "Targeting": "Self",
+    "UseCondition": "HpLessThan30Percent",
+    "AIPriority": 1,
+    "Flags": [
+      "LifeFlip",
+      "Healer"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "LifeFlipSelfBoss": {
+    "TUCost": 50,
+    "SpiritCost": 6,
+    "Config": "LifeFlipConfig",
+    "SelectedKey": "LifeFlipSelfShort",
+    "UseLimit": 1,
+    "Targeting": "Self",
+    "AbilityAI": "LifeFlip_AI",
+    "AIPriority": 16,
+    "Flags": [
+      "LifeFlip",
+      "BossSkill"
+    ],
+    "DamageType": "NoDamage",
+    "HideMPUsage": true
+  },
+  "LifeFlipSelfOnce": {
+    "TUCost": 70,
+    "Config": "LifeFlipConfig",
+    "SelectedKey": "LifeFlipSelfShort",
+    "UseLimit": 1,
+    "Targeting": "Self",
+    "UseCondition": "HpLessThan30Percent",
+    "AIPriority": 1,
+    "Flags": [
+      "LifeFlip",
+      "Healer"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "PoisonAttackAllOncePhys": {
+    "TUCost": 130,
+    "Config": "Atk125_Poison_Config",
+    "SelectedKey": "PoisonAttackShort",
+    "UseLimit": 1,
+    "Targeting": "AllEnemy",
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "AIPriority": 700,
+    "AutoExpand": true,
+    "Flags": [
+      "Phys",
+      "Poison"
+    ],
+    "DamageType": "Physical"
+  },
+  "PoisonAttackBossPhys": {
+    "TUCost": 150,
+    "SpiritCost": 6,
+    "Config": "Atk2000_Poison_Config",
+    "SelectedKey": "PoisonAttackShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AbilityAI": "Poison_AI",
+    "AIPriority": 256,
+    "Flags": [
+      "Phys",
+      "BossSkill",
+      "Poison"
+    ],
+    "DamageType": "Physical",
+    "HideMPUsage": true
+  },
+  "PoisonAttackDoublePhys": {
+    "TUCost": 160,
+    "Config": "Atk50_Poison_Config",
+    "SelectedKey": "PoisonAttackShort",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "AbilityAI": "Poison_AI",
+    "AIPriority": 1000,
+    "Flags": [
+      "Phys",
+      "Poison"
+    ],
+    "DamageType": "Physical"
+  },
+  "PoisonAttackSingleMag": {
+    "TUCost": 130,
+    "Config": "Attack75_PoisonConfig",
+    "SelectedKey": "PoisonAttackShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "AbilityAI": "Poison_AI",
+    "AIPriority": 1000,
+    "AutoExpand": true,
+    "Flags": [
+      "Mag",
+      "Poison"
+    ],
+    "DamageType": "Magical"
+  },
+  "PoisonAttackSinglePhys": {
+    "TUCost": 130,
+    "Config": "Attack75_PoisonConfig",
+    "SelectedKey": "PoisonAttackShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "AbilityAI": "Poison_AI",
+    "AIPriority": 1000,
+    "AutoExpand": true,
+    "Flags": [
+      "Phys",
+      "Poison"
+    ],
+    "DamageType": "Physical"
+  },
+  "PoisonBombDouble": {
+    "TUCost": 0,
+    "Config": "PoisonBomb_Config",
+    "SelectedKey": "PoisonBombDoubleShort",
+    "Targeting": "2Enemy",
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "AbilityAI": "PoisonOnly_AI",
+    "AIPriority": 1,
+    "AutoExpand": true,
+    "Flags": [
+      "Bomb",
+      "Poison"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "PoisonCostAttackSingleMag": {
+    "TUCost": 130,
+    "SpiritCost": 3,
+    "Config": "Attack200_PoisonConfig",
+    "SelectedKey": "PoisonAttackShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "AbilityAI": "Poison_AI",
+    "AIPriority": 800,
+    "AutoExpand": true,
+    "Flags": [
+      "Mag",
+      "Poison"
+    ],
+    "DamageType": "Magical"
+  },
+  "PoisonEatBossPhys": {
+    "TUCost": 150,
+    "SpiritCost": 6,
+    "Config": "PoisonEaterSingleBossConfig",
+    "SelectedKey": "PoisonEaterShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AbilityAI": "PoisonEat_AI",
+    "AIPriority": 306,
+    "Flags": [
+      "Phys",
+      "BossSkill",
+      "PoisonEat"
+    ],
+    "DamageType": "Physical",
+    "HideMPUsage": true
+  },
+  "PoisonEatDoubleBossPhys": {
+    "TUCost": 225,
+    "SpiritCost": 6,
+    "Config": "PoisonEaterDoubleBossConfig",
+    "SelectedKey": "PoisonEaterShort",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AbilityAI": "PoisonEat_AI",
+    "AIPriority": 306,
+    "Flags": [
+      "Phys",
+      "BossSkill",
+      "PoisonEat"
+    ],
+    "DamageType": "Physical",
+    "HideMPUsage": true
+  },
+  "PoisonEaterDoublePhys": {
+    "TUCost": 160,
+    "SpiritCost": 2,
+    "Config": "PoisonEat350",
+    "SelectedKey": "PoisonEaterShort",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AbilityAI": "PoisonEat_AI",
+    "AIPriority": 450,
+    "Flags": [
+      "Phys",
+      "PoisonEat"
+    ],
+    "DamageType": "Physical"
+  },
+  "PoisonEaterSingleAMag": {
+    "TUCost": 130,
+    "Config": "PoisonEat400",
+    "SelectedKey": "PoisonEaterShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AbilityAI": "PoisonEat_AI",
+    "AIPriority": 550,
+    "Flags": [
+      "Mag",
+      "PoisonEat"
+    ],
+    "DamageType": "Magical"
+  },
+  "PoisonEaterSingleAPhys": {
+    "TUCost": 130,
+    "Config": "PoisonEat400",
+    "SelectedKey": "PoisonEaterShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AbilityAI": "PoisonEat_AI",
+    "AIPriority": 550,
+    "Flags": [
+      "Phys",
+      "PoisonEat"
+    ],
+    "DamageType": "Physical"
+  },
+  "PoisonHealBoss": {
+    "TUCost": 100,
+    "SpiritCost": 6,
+    "Config": "PoisonHealBoss_Config",
+    "SelectedKey": "PoisonHealBossShort",
+    "UseLimit": 6,
+    "Targeting": "2Ally",
+    "AbilityAI": "Heal_AI",
+    "AIPriority": 16,
+    "Flags": [
+      "Healer",
+      "BossSkill"
+    ],
+    "DamageType": "NoDamage",
+    "HideMPUsage": true
+  },
+  "PoisonPokeSinglePhys": {
+    "TUCost": 50,
+    "SpiritCost": 3,
+    "Config": "Attack25_PoisonConfig",
+    "SelectedKey": "PoisonAttackShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "BuffDescriptions": [
+      "Poison"
+    ],
+    "AbilityAI": "Poison_AI",
+    "AIPriority": 750,
+    "AutoExpand": true,
+    "Flags": [
+      "Phys",
+      "Poison"
+    ],
+    "DamageType": "Physical"
+  },
+  "PoisonSiphonBoss": {
+    "TUCost": 100,
+    "SpiritCost": -3,
+    "Config": "RemovePoisonConfig",
+    "SelectedKey": "RemovePoisonShort",
+    "UseLimit": 10,
+    "Targeting": "1AllyNotMe",
+    "UseCondition": "PoisonedAlly",
+    "AbilityAI": "CurePoison_AI",
+    "AIPriority": 26,
+    "Flags": [
+      "RemovesPoison",
+      "BossSkill"
+    ],
+    "DamageType": "NoDamage",
+    "HideMPUsage": true
+  },
+  "PurifyAlly": {
+    "TUCost": 70,
+    "SpiritCost": 2,
+    "Config": "PurifyConfig",
+    "SelectedKey": "PurifyShort",
+    "Targeting": "1AllyNotMe",
+    "BuffDescriptions": [
+      "Purify"
+    ],
+    "AbilityAI": "Purify_AI",
+    "AIPriority": 125,
+    "AutoExpand": true,
+    "Flags": [
+      "Purify"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "PurifyHealAllyAndSelf": {
+    "TUCost": 70,
+    "SpiritCost": 2,
+    "Config": "PurifyHealConfig",
+    "SelectedKey": "PurifyHealAllyAndSelfShort",
+    "Targeting": "1Ally",
+    "BuffDescriptions": [
+      "Purify"
+    ],
+    "AbilityAI": "HealPurify_AI",
+    "AIPriority": 125,
+    "AutoExpand": true,
+    "Flags": [
+      "Purify",
+      "Healer"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "SecondWind": {
+    "TUCost": 70,
+    "SpiritCost": -3,
+    "Config": "Heal50PercentConfig",
+    "SelectedKey": "SecondWindShort",
+    "UseLimit": 1,
+    "Targeting": "Self",
+    "UseCondition": "HpLessThan30Percent",
+    "AIPriority": 1,
+    "Flags": [
+      "Healer"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "SendBackToNextOnce": {
+    "TUCost": 100,
+    "Config": "PushBackConfig",
+    "SelectedKey": "SendBackToNextOnceShort",
+    "UseLimit": 1,
+    "Targeting": "1AllyNotMe",
+    "UseCondition": "AllyReinforcements1OrGreater",
+    "BuffDescriptions": [
+      "ToReinforcements"
+    ],
+    "AbilityAI": "PullBackEntry_AI",
+    "AIPriority": 1,
+    "Flags": [
+      "PullBackEntry"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "SleepAllChanceOnce": {
+    "TUCost": 100,
+    "Config": "SleepConfig",
+    "SelectedKey": "SleepChanceShort",
+    "UseLimit": 1,
+    "Targeting": "AllEnemies50PercentEach",
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "AIPriority": 600,
+    "AutoExpand": true,
+    "Flags": [
+      "Sleep"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "SleepAttackBossPhys": {
+    "TUCost": 150,
+    "SpiritCost": 6,
+    "Config": "Atk2000_Sleep300_Config",
+    "SelectedKey": "SleepAttackShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AbilityAI": "Sleep_AI",
+    "AIPriority": 256,
+    "Flags": [
+      "Phys",
+      "BossSkill",
+      "Sleep"
+    ],
+    "DamageType": "Physical",
+    "HideMPUsage": true
+  },
+  "SleepBombSingle": {
+    "TUCost": 0,
+    "Config": "SleepBomb_Config",
+    "SelectedKey": "SleepBombShort",
+    "Targeting": "1Enemy",
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "AbilityAI": "SleepOnly_AI",
+    "AIPriority": 1,
+    "AutoExpand": true,
+    "Flags": [
+      "Bomb",
+      "Sleep"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "SleepDoubleOnce": {
+    "TUCost": 160,
+    "Config": "SleepConfig",
+    "SelectedKey": "SleepDoubleShort",
+    "UseLimit": 1,
+    "Targeting": "2Enemy",
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "AbilityAI": "SleepOnly_AI",
+    "AIPriority": 50,
+    "AutoExpand": true,
+    "Flags": [
+      "Sleep"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "SleepHealBoss": {
+    "TUCost": 100,
+    "SpiritCost": 6,
+    "Config": "SleepHealBoss_Config",
+    "SelectedKey": "SleepHealBossShort",
+    "UseLimit": 6,
+    "Targeting": "2Ally",
+    "AbilityAI": "Heal_AI",
+    "AIPriority": 16,
+    "Flags": [
+      "Healer",
+      "BossSkill"
+    ],
+    "DamageType": "NoDamage",
+    "HideMPUsage": true
+  },
+  "SleepPokeSingleMag": {
+    "TUCost": 50,
+    "SpiritCost": 3,
+    "Config": "Attack25_SleepConfig",
+    "SelectedKey": "SleepAttackShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "BuffDescriptions": [
+      "Sleep"
+    ],
+    "AbilityAI": "Sleep_AI",
+    "AIPriority": 750,
+    "AutoExpand": true,
+    "Flags": [
+      "Mag",
+      "Sleep"
+    ],
+    "DamageType": "Magical"
+  },
+  "SleepRecover200TUBoss": {
+    "TUCost": 250,
+    "SpiritCost": 6,
+    "Config": "SleepRecover200TU_Config",
+    "SelectedKey": "SleepHealBossShort",
+    "UseLimit": 6,
+    "Targeting": "Self",
+    "UseCondition": "HP50PercentOrLower",
+    "AbilityAI": "Heal_AI",
+    "AIPriority": 16,
+    "Flags": [
+      "Healer",
+      "BossSkill"
+    ],
+    "DamageType": "NoDamage",
+    "HideMPUsage": true
+  },
+  "SleepSiphonBoss": {
+    "TUCost": 100,
+    "SpiritCost": -3,
+    "Config": "RemoveSleepConfig",
+    "SelectedKey": "RemoveSleepShort",
+    "UseLimit": 10,
+    "Targeting": "1AllyNotMe",
+    "UseCondition": "SleepingAlly",
+    "AbilityAI": "CureSleep_AI",
+    "AIPriority": 26,
+    "Flags": [
+      "RemovesSleep",
+      "BossSkill"
+    ],
+    "DamageType": "NoDamage",
+    "HideMPUsage": true
+  },
+  "SlowAttackDoubleBossMag": {
+    "TUCost": 350,
+    "SpiritCost": -4,
+    "Config": "Attack1000",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AIPriority": 506,
+    "Flags": [
+      "Mag",
+      "BossSkill"
+    ],
+    "DamageType": "Magical",
+    "HideMPUsage": true
+  },
+  "SlowAttackDoubleBossPhys": {
+    "TUCost": 350,
+    "SpiritCost": -4,
+    "Config": "Attack1000",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AIPriority": 506,
+    "Flags": [
+      "Phys",
+      "BossSkill"
+    ],
+    "DamageType": "Physical",
+    "HideMPUsage": true
+  },
+  "SlowAttackDoubleMag": {
+    "TUCost": 250,
+    "Config": "Attack150",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AIPriority": 1000,
+    "Flags": [
+      "Mag"
+    ],
+    "DamageType": "Magical"
+  },
+  "SlowAttackDoublePhys": {
+    "TUCost": 250,
+    "Config": "Attack150",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AIPriority": 1000,
+    "Flags": [
+      "Phys"
+    ],
+    "DamageType": "Physical"
+  },
+  "SlowAttackSingleMag": {
+    "TUCost": 200,
+    "Config": "Attack200",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AIPriority": 1000,
+    "Flags": [
+      "Mag"
+    ],
+    "DamageType": "Magical"
+  },
+  "SlowAttackSinglePhys": {
+    "TUCost": 200,
+    "Config": "Attack200",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AIPriority": 1000,
+    "Flags": [
+      "Phys"
+    ],
+    "DamageType": "Physical"
+  },
+  "SlowHealBoss": {
+    "TUCost": 500,
+    "SpiritCost": 6,
+    "Config": "BossHealConfig",
+    "SelectedKey": "HealShort",
+    "UseLimit": 6,
+    "Targeting": "2Ally",
+    "AbilityAI": "Heal_AI",
+    "AIPriority": 16,
+    "Flags": [
+      "Healer",
+      "BossSkill"
+    ],
+    "DamageType": "NoDamage",
+    "HideMPUsage": true
+  },
+  "SmallSurvivorSingleMag": {
+    "TUCost": 100,
+    "Config": "Attack400",
+    "SelectedKey": "SurvivorShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "UseCondition": "TimeInCombat300",
+    "AIPriority": 600,
+    "Flags": [
+      "Mag",
+      "Survivor"
+    ],
+    "DamageType": "Magical"
+  },
+  "SmallSurvivorSinglePhys": {
+    "TUCost": 100,
+    "Config": "Attack400",
+    "SelectedKey": "SurvivorShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "UseCondition": "TimeInCombat300",
+    "AIPriority": 600,
+    "Flags": [
+      "Phys",
+      "Survivor"
+    ],
+    "DamageType": "Physical"
+  },
+  "StepBackToNextOnce": {
+    "TUCost": 0,
+    "Config": "PushBackConfig",
+    "SelectedKey": "SendBackToNextOnceShort",
+    "UseLimit": 1,
+    "Targeting": "Self",
+    "UseCondition": "AllyReinforcements1OrGreater",
+    "BuffDescriptions": [
+      "ToReinforcements"
+    ],
+    "AIPriority": 999,
+    "Flags": [
+      "PullBackEntry"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "StepToBackOnce": {
+    "TUCost": 0,
+    "Config": "BanishToBackConfig",
+    "SelectedKey": "StepToBackOnceShort",
+    "UseLimit": 1,
+    "Targeting": "Self",
+    "UseCondition": "AllyReinforcements1OrGreater",
+    "BuffDescriptions": [
+      "ToReinforcements"
+    ],
+    "AbilityAI": "PullBackEntry_AI",
+    "AIPriority": 999,
+    "Flags": [
+      "StepToBack"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "StunAttackBossPhys": {
+    "TUCost": 150,
+    "SpiritCost": 6,
+    "Config": "Atk2000_Stun300_Config",
+    "SelectedKey": "StunAttackShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AIPriority": 306,
+    "Flags": [
+      "Phys",
+      "BossSkill",
+      "Stun"
+    ],
+    "DamageType": "Physical",
+    "HideMPUsage": true
+  },
+  "StunAttackDoubleOncePhys": {
+    "TUCost": 160,
+    "Config": "Attack200_Stun150Config",
+    "SelectedKey": "StunAttackShort",
+    "UseLimit": 1,
+    "Targeting": "2Enemy",
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "AIPriority": 800,
+    "AutoExpand": false,
+    "Flags": [
+      "Phys",
+      "Stun"
+    ],
+    "DamageType": "Physical"
+  },
+  "StunAttackOncePhys": {
+    "TUCost": 130,
+    "Config": "Attack400_Stun150Config",
+    "SelectedKey": "StunAttackShort",
+    "UseLimit": 1,
+    "Targeting": "1Enemy",
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "AIPriority": 800,
+    "Flags": [
+      "Phys",
+      "Stun"
+    ],
+    "DamageType": "Physical"
+  },
+  "StunAttackPhys": {
+    "TUCost": 130,
+    "Config": "Attack50_Stun50Config",
+    "SelectedKey": "StunAttackShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "AIPriority": 1000,
+    "Flags": [
+      "Phys",
+      "Stun"
+    ],
+    "DamageType": "Physical"
+  },
+  "StunBombSingle": {
+    "TUCost": 0,
+    "Config": "Stun200Bomb_Config",
+    "SelectedKey": "StunBombShort",
+    "Targeting": "1Enemy",
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "AIPriority": 1,
+    "AutoExpand": false,
+    "Flags": [
+      "Bomb",
+      "Stun"
+    ],
+    "DamageType": "NoDamage"
+  },
+  "StunCostAttackDaichiSRPhys": {
+    "TUCost": 160,
+    "SpiritCost": 3,
+    "Config": "Attack300_Stun25Config",
+    "SelectedKey": "StunAttackShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "AIPriority": 800,
+    "AutoExpand": false,
+    "Flags": [
+      "Phys",
+      "Stun"
+    ],
+    "DamageType": "Physical"
+  },
+  "StunCostAttackSinglePhys": {
+    "TUCost": 130,
+    "SpiritCost": 2,
+    "Config": "Attack250_Stun100Config",
+    "SelectedKey": "StunAttackShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "AIPriority": 800,
+    "AutoExpand": false,
+    "Flags": [
+      "Phys",
+      "Stun"
+    ],
+    "DamageType": "Physical"
+  },
+  "StunCostAttackSinglePriorityMag": {
+    "TUCost": 130,
+    "SpiritCost": 3,
+    "Config": "Attack300_Stun100Config",
+    "SelectedKey": "StunAttackShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "AIPriority": 250,
+    "Flags": [
+      "Mag",
+      "Stun"
+    ],
+    "DamageType": "Magical"
+  },
+  "StunSurvivorAllOncePhys": {
+    "TUCost": 200,
+    "Config": "Attack300Stun150Config",
+    "SelectedKey": "StunAttackShort",
+    "UseLimit": 1,
+    "Targeting": "AllEnemy",
+    "UseCondition": "TimeInCombat300",
+    "BuffDescriptions": [
+      "Stun"
+    ],
+    "AIPriority": 300,
+    "Flags": [
+      "Phys",
+      "Survivor",
+      "Stun"
+    ],
+    "DamageType": "Physical"
+  },
+  "SurvivorDoubleMag": {
+    "TUCost": 160,
+    "Config": "Attack400",
+    "SelectedKey": "SurvivorShort",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "UseCondition": "TimeInCombat300",
+    "AIPriority": 495,
+    "Flags": [
+      "Mag",
+      "Survivor"
+    ],
+    "DamageType": "Magical"
+  },
+  "SurvivorDoublePhys": {
+    "TUCost": 160,
+    "Config": "Attack400",
+    "SelectedKey": "SurvivorShort",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "UseCondition": "TimeInCombat300",
+    "AIPriority": 495,
+    "Flags": [
+      "Phys",
+      "Survivor"
+    ],
+    "DamageType": "Physical"
+  },
+  "SurvivorSingleMag": {
+    "TUCost": 130,
+    "Config": "Attack500",
+    "SelectedKey": "SurvivorShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "UseCondition": "TimeInCombat300",
+    "AIPriority": 500,
+    "Flags": [
+      "Mag",
+      "Survivor"
+    ],
+    "DamageType": "Magical"
+  },
+  "SurvivorSinglePhys": {
+    "TUCost": 130,
+    "Config": "Attack500",
+    "SelectedKey": "SurvivorShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "UseCondition": "TimeInCombat300",
+    "AIPriority": 500,
+    "Flags": [
+      "Phys",
+      "Survivor"
+    ],
+    "DamageType": "Physical"
+  },
+  "TankAttackSinglePhys": {
+    "TUCost": 250,
+    "Config": "Attack250",
+    "HideBattleDescription": true,
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AIPriority": 1000,
+    "Flags": [
+      "Phys"
+    ],
+    "DamageType": "Physical"
+  },
+  "TankSurvivorSinglePhys": {
+    "TUCost": 300,
+    "Config": "Attack600",
+    "SelectedKey": "SurvivorShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "UseCondition": "TimeInCombat300",
+    "AIPriority": 510,
+    "Flags": [
+      "Phys",
+      "Survivor"
+    ],
+    "DamageType": "Physical"
+  },
+  "TeamTurnBoss": {
+    "TUCost": 5,
+    "SpiritCost": 6,
+    "Config": "GiveTurnConfig",
+    "SelectedKey": "GiveTurnAllShort",
+    "UseLimit": 5,
+    "Targeting": "AllAllyNotMe",
+    "AIPriority": 16,
+    "Flags": [
+      "GiveTurner",
+      "BossSkill"
+    ],
+    "DamageType": "NoDamage",
+    "HideMPUsage": true
+  },
+  "TimeDrainSingleMag": {
+    "TUCost": 100,
+    "SpiritCost": 2,
+    "Config": "TimeDrainSingleConfig",
+    "SelectedKey": "TimeDrainShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "UseCondition": "HP75PercentOrLower",
+    "AbilityAI": "TimeStrike_AI",
+    "AIPriority": 400,
+    "Flags": [
+      "Mag",
+      "TimeStrike"
+    ],
+    "DamageType": "Magical"
+  },
+  "TimeDrainSinglePhys": {
+    "TUCost": 100,
+    "SpiritCost": 2,
+    "Config": "TimeDrainSingleConfig",
+    "SelectedKey": "TimeDrainShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "UseCondition": "HP75PercentOrLower",
+    "AbilityAI": "TimeStrike_AI",
+    "AIPriority": 400,
+    "Flags": [
+      "Phys",
+      "TimeStrike"
+    ],
+    "DamageType": "Physical"
+  },
+  "TimeSiphonBoss": {
+    "TUCost": 100,
+    "SpiritCost": -3,
+    "Config": "GiveTurnConfig",
+    "SelectedKey": "GiveTurnHighShort",
+    "UseLimit": 10,
+    "Targeting": "1AllyNotMe",
+    "UseCondition": "AllyAbove300TU",
+    "AbilityAI": "GiveTurnHigh_AI",
+    "AIPriority": 26,
+    "Flags": [
+      "GiveTurner",
+      "BossSkill"
+    ],
+    "DamageType": "NoDamage",
+    "HideMPUsage": true
+  },
+  "TimeStrikeBossPhys": {
+    "TUCost": 150,
+    "SpiritCost": 6,
+    "Config": "TimeStrikeSingleBossConfig",
+    "SelectedKey": "TimeStrikeShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AbilityAI": "TimeStrike_AI",
+    "AIPriority": 306,
+    "Flags": [
+      "Phys",
+      "BossSkill",
+      "TimeStrike"
+    ],
+    "DamageType": "Physical",
+    "HideMPUsage": true
+  },
+  "TimeStrikeDoubleAMag": {
+    "TUCost": 160,
+    "SpiritCost": 3,
+    "Config": "TimeStrikeDoubleConfig",
+    "SelectedKey": "TimeStrikeShort",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AbilityAI": "TimeStrike_AI",
+    "AIPriority": 450,
+    "Flags": [
+      "Mag",
+      "TimeStrike"
+    ],
+    "DamageType": "Magical"
+  },
+  "TimeStrikeDoubleBossPhys": {
+    "TUCost": 225,
+    "SpiritCost": 6,
+    "Config": "TimeStrikeDoubleBossConfig",
+    "SelectedKey": "TimeStrikeShort",
+    "UseLimit": 0,
+    "Targeting": "2Enemy",
+    "AbilityAI": "TimeStrike_AI",
+    "AIPriority": 306,
+    "Flags": [
+      "Phys",
+      "BossSkill",
+      "TimeStrike"
+    ],
+    "DamageType": "Physical",
+    "HideMPUsage": true
+  },
+  "TimeStrikeSingleAMag": {
+    "TUCost": 100,
+    "Config": "TimeStrikeConfig",
+    "SelectedKey": "TimeStrikeShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AbilityAI": "TimeStrike_AI",
+    "AIPriority": 550,
+    "Flags": [
+      "Mag",
+      "TimeStrike"
+    ],
+    "DamageType": "Magical"
+  },
+  "TimeStrikeSingleAPhys": {
+    "TUCost": 100,
+    "Config": "TimeStrikeConfig",
+    "SelectedKey": "TimeStrikeShort",
+    "UseLimit": 0,
+    "Targeting": "1Enemy",
+    "AbilityAI": "TimeStrike_AI",
+    "AIPriority": 550,
+    "Flags": [
+      "Phys",
+      "TimeStrike"
+    ],
+    "DamageType": "Physical"
+  },
+  "TUDownStackingBoss": {
+    "TUCost": 70,
+    "SpiritCost": 6,
+    "Config": "TUDownStackingBoss_Config",
+    "SelectedKey": "TUDownStackingBossShort",
+    "UseLimit": 5,
+    "Targeting": "Self",
+    "AIPriority": 16,
+    "Flags": [
+      "BossSkill"
+    ],
+    "DamageType": "NoDamage",
+    "HideMPUsage": true
+  }
+}

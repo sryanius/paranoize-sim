@@ -1,0 +1,3350 @@
+{
+  "EquipablePresets": {
+    "A-ACC3": [
+      {
+        "Level": 10,
+        "Evolution": 0,
+        "Set": "Common",
+        "Untracked": "1",
+        "BaseStat": 16,
+        "LinkBaseStat": 0,
+        "StatOne": 145,
+        "StatTwo": 45,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "SellArcaneLight": 150,
+        "SellGold": 150000
+      }
+    ],
+    "A-ACC5": [
+      {
+        "Level": 20,
+        "Evolution": 0,
+        "Set": "Common",
+        "Untracked": "1",
+        "BaseStat": 34,
+        "LinkBaseStat": 0,
+        "StatOne": 224,
+        "StatTwo": 70,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "SellArcaneLight": 150,
+        "SellGold": 150000
+      }
+    ],
+    "A-ACC7": [
+      {
+        "Level": 30,
+        "Evolution": 0,
+        "Set": "Common",
+        "Untracked": "1",
+        "BaseStat": 68,
+        "LinkBaseStat": 0,
+        "StatOne": 331,
+        "StatTwo": 103,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "SellArcaneLight": 150,
+        "SellGold": 150000
+      }
+    ],
+    "A-ACC9": [
+      {
+        "Level": 40,
+        "Evolution": 0,
+        "Set": "Common",
+        "Untracked": "1",
+        "BaseStat": 129,
+        "LinkBaseStat": 0,
+        "StatOne": 473,
+        "StatTwo": 147,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "SellArcaneLight": 150,
+        "SellGold": 150000
+      }
+    ],
+    "A-ACC12": [
+      {
+        "Level": 55,
+        "Evolution": 0,
+        "Set": "Common",
+        "Untracked": "1",
+        "BaseStat": 280,
+        "LinkBaseStat": 0,
+        "StatOne": 798,
+        "StatTwo": 249,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "SellArcaneLight": 150,
+        "SellGold": 150000
+      }
+    ],
+    "A-ACC15": [
+      {
+        "Level": 70,
+        "Evolution": 0,
+        "Set": "Common",
+        "Untracked": "1",
+        "BaseStat": 453,
+        "LinkBaseStat": 0,
+        "StatOne": 1362,
+        "StatTwo": 425,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "SellArcaneLight": 150,
+        "SellGold": 150000
+      }
+    ],
+    "A-ACC18": [
+      {
+        "Level": 85,
+        "Evolution": 0,
+        "Set": "Common",
+        "Untracked": "1",
+        "BaseStat": 605,
+        "LinkBaseStat": 0,
+        "StatOne": 2323,
+        "StatTwo": 725,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "SellArcaneLight": 150,
+        "SellGold": 150000
+      }
+    ],
+    "A-ACC21": [
+      {
+        "Level": 100,
+        "Evolution": 0,
+        "Set": "Common",
+        "Untracked": "1",
+        "BaseStat": 800,
+        "LinkBaseStat": 0,
+        "StatOne": 4140,
+        "StatTwo": 1293,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "SellArcaneLight": 150,
+        "SellGold": 150000
+      }
+    ],
+    "R-ACC1": [
+      {
+        "Level": 55,
+        "Evolution": 0,
+        "Set": "Steel",
+        "UpgradeTicket": "HammerR",
+        "BaseStat": 374,
+        "LinkBaseStat": 0,
+        "StatOne": 1111,
+        "StatTwo": 347,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 5,
+        "Gold": 0,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 2750
+      }
+    ],
+    "R-ACC2": [
+      {
+        "Level": 70,
+        "Evolution": 0,
+        "Set": "Silver",
+        "UpgradeTicket": "HammerR",
+        "BaseStat": 605.52,
+        "LinkBaseStat": 0,
+        "StatOne": 1897.18,
+        "StatTwo": 592.76,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 10,
+        "Gold": 0,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 5500
+      }
+    ],
+    "R-ACC3": [
+      {
+        "Level": 85,
+        "Evolution": 0,
+        "Set": "Gold",
+        "UpgradeTicket": "HammerR",
+        "BaseStat": 807.94,
+        "LinkBaseStat": 0,
+        "StatOne": 3235.82,
+        "StatTwo": 1010.94,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 15,
+        "Gold": 0,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 8250
+      }
+    ],
+    "R-ACC4": [
+      {
+        "Level": 100,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "UpgradeTicket": "HammerR",
+        "BaseStat": 1067.78,
+        "LinkBaseStat": 0,
+        "StatOne": 5765.2,
+        "StatTwo": 1801.48,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 15,
+        "Gold": 0,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 8250
+      },
+      {
+        "Level": 105,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "UpgradeTicket": "HammerR",
+        "BaseStat": 1153.62,
+        "LinkBaseStat": 0,
+        "StatOne": 6136.98,
+        "StatTwo": 1917.48,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 2,
+        "Gold": 500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 9350
+      },
+      {
+        "Level": 110,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "UpgradeTicket": "HammerR",
+        "BaseStat": 1240.04,
+        "LinkBaseStat": 0,
+        "StatOne": 6508.76,
+        "StatTwo": 2033.48,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 2,
+        "Gold": 1000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 10450
+      },
+      {
+        "Level": 115,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "UpgradeTicket": "HammerR",
+        "BaseStat": 1325.88,
+        "LinkBaseStat": 0,
+        "StatOne": 6880.54,
+        "StatTwo": 2150.06,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 2,
+        "Gold": 1500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 11550
+      },
+      {
+        "Level": 120,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "UpgradeTicket": "HammerR",
+        "BaseStat": 1412.3,
+        "LinkBaseStat": 0,
+        "StatOne": 7252.32,
+        "StatTwo": 2266.06,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 2,
+        "Gold": 2000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 12650
+      },
+      {
+        "Level": 125,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "UpgradeTicket": "HammerR",
+        "BaseStat": 1498.14,
+        "LinkBaseStat": 0,
+        "StatOne": 7624.1,
+        "StatTwo": 2382.06,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 2,
+        "Gold": 2500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 13750
+      },
+      {
+        "Level": 130,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "UpgradeTicket": "HammerR",
+        "BaseStat": 1584.56,
+        "LinkBaseStat": 0,
+        "StatOne": 7995.88,
+        "StatTwo": 2498.64,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 3,
+        "Gold": 3000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 15400
+      },
+      {
+        "Level": 135,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "UpgradeTicket": "HammerR",
+        "BaseStat": 1670.4,
+        "LinkBaseStat": 0,
+        "StatOne": 8367.66,
+        "StatTwo": 2614.64,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 3,
+        "Gold": 3500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 17050
+      },
+      {
+        "Level": 140,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "UpgradeTicket": "HammerR",
+        "BaseStat": 1756.82,
+        "LinkBaseStat": 0,
+        "StatOne": 8739.44,
+        "StatTwo": 2730.64,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 3,
+        "Gold": 4000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 18700
+      },
+      {
+        "Level": 145,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "UpgradeTicket": "HammerR",
+        "BaseStat": 1842.66,
+        "LinkBaseStat": 0,
+        "StatOne": 9111.22,
+        "StatTwo": 2847.22,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 3,
+        "Gold": 4500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 20350
+      },
+      {
+        "Level": 150,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "UpgradeTicket": "HammerR",
+        "BaseStat": 1929.08,
+        "LinkBaseStat": 0,
+        "StatOne": 9483,
+        "StatTwo": 2963.22,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 3,
+        "Gold": 5000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 22000
+      }
+    ],
+    "SR-ACC1": [
+      {
+        "Level": 55,
+        "Evolution": 0,
+        "Set": "Crystal",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 484,
+        "LinkBaseStat": 0,
+        "StatOne": 1437,
+        "StatTwo": 449,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 10,
+        "Gold": 0,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 7000
+      }
+    ],
+    "SR-ACC2": [
+      {
+        "Level": 70,
+        "Evolution": 0,
+        "Set": "Mithril",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 783,
+        "LinkBaseStat": 0,
+        "StatOne": 2453.25,
+        "StatTwo": 766.5,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 15,
+        "Gold": 0,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 10500
+      }
+    ],
+    "SR-ACC3": [
+      {
+        "Level": 85,
+        "Evolution": 0,
+        "Set": "Adamantite",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 1044.75,
+        "LinkBaseStat": 0,
+        "StatOne": 4184.25,
+        "StatTwo": 1307.25,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 25,
+        "Gold": 0,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 17500
+      }
+    ],
+    "SR-ACC4": [
+      {
+        "Level": 100,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 1380.75,
+        "LinkBaseStat": 0,
+        "StatOne": 7455,
+        "StatTwo": 2329.5,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 50,
+        "Gold": 0,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 35000
+      },
+      {
+        "Level": 105,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 1491.75,
+        "LinkBaseStat": 0,
+        "StatOne": 7935.75,
+        "StatTwo": 2479.5,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 5,
+        "Gold": 1200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 38500
+      },
+      {
+        "Level": 110,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 1603.5,
+        "LinkBaseStat": 0,
+        "StatOne": 8416.5,
+        "StatTwo": 2629.5,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 5,
+        "Gold": 1700000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 42000
+      },
+      {
+        "Level": 115,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 1714.5,
+        "LinkBaseStat": 0,
+        "StatOne": 8897.25,
+        "StatTwo": 2780.25,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 5,
+        "Gold": 2200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 45500
+      },
+      {
+        "Level": 120,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 1826.25,
+        "LinkBaseStat": 0,
+        "StatOne": 9378,
+        "StatTwo": 2930.25,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 10,
+        "Gold": 2700000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 52500
+      },
+      {
+        "Level": 125,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 1937.25,
+        "LinkBaseStat": 0,
+        "StatOne": 9858.75,
+        "StatTwo": 3080.25,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 10,
+        "Gold": 3200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 59500
+      },
+      {
+        "Level": 130,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 2049,
+        "LinkBaseStat": 0,
+        "StatOne": 10339.5,
+        "StatTwo": 3231,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 10,
+        "Gold": 3700000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 66500
+      },
+      {
+        "Level": 135,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 2160,
+        "LinkBaseStat": 0,
+        "StatOne": 10820.25,
+        "StatTwo": 3381,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 10,
+        "Gold": 4200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 73500
+      },
+      {
+        "Level": 140,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 2271.75,
+        "LinkBaseStat": 0,
+        "StatOne": 11301,
+        "StatTwo": 3531,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 15,
+        "Gold": 4700000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 84000
+      },
+      {
+        "Level": 145,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 2382.75,
+        "LinkBaseStat": 0,
+        "StatOne": 11781.75,
+        "StatTwo": 3681.75,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 15,
+        "Gold": 5200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 94500
+      },
+      {
+        "Level": 150,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 2494.5,
+        "LinkBaseStat": 0,
+        "StatOne": 12262.5,
+        "StatTwo": 3831.75,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 15,
+        "Gold": 5700000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 105000
+      },
+      {
+        "Level": 155,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 2605.5,
+        "LinkBaseStat": 0,
+        "StatOne": 12743.25,
+        "StatTwo": 3981.75,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 15,
+        "Gold": 6200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 115500
+      },
+      {
+        "Level": 160,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 2717.25,
+        "LinkBaseStat": 0,
+        "StatOne": 13224,
+        "StatTwo": 4132.5,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 15,
+        "Gold": 6700000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 126000
+      },
+      {
+        "Level": 165,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 2828.25,
+        "LinkBaseStat": 0,
+        "StatOne": 13704.75,
+        "StatTwo": 4282.5,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 15,
+        "Gold": 7200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 136500
+      },
+      {
+        "Level": 170,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 2940,
+        "LinkBaseStat": 0,
+        "StatOne": 14185.5,
+        "StatTwo": 4432.5,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 20,
+        "Gold": 7700000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 150500
+      },
+      {
+        "Level": 175,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 3051,
+        "LinkBaseStat": 0,
+        "StatOne": 14666.25,
+        "StatTwo": 4582.5,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 20,
+        "Gold": 8200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 164500
+      },
+      {
+        "Level": 180,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 3162.75,
+        "LinkBaseStat": 0,
+        "StatOne": 15147,
+        "StatTwo": 4733.25,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 20,
+        "Gold": 8700000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 178500
+      },
+      {
+        "Level": 185,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 3273.75,
+        "LinkBaseStat": 0,
+        "StatOne": 15627.75,
+        "StatTwo": 4883.25,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 20,
+        "Gold": 9200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 192500
+      },
+      {
+        "Level": 190,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 3385.5,
+        "LinkBaseStat": 0,
+        "StatOne": 16108.5,
+        "StatTwo": 5033.25,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 20,
+        "Gold": 9700000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 206500
+      },
+      {
+        "Level": 195,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 3496.5,
+        "LinkBaseStat": 0,
+        "StatOne": 16589.25,
+        "StatTwo": 5184,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 20,
+        "Gold": 10200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 220500
+      },
+      {
+        "Level": 200,
+        "Evolution": 0,
+        "Set": "Rune",
+        "UpgradeTicket": "HammerSR",
+        "BaseStat": 3608.25,
+        "LinkBaseStat": 0,
+        "StatOne": 17070,
+        "StatTwo": 5334,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 25,
+        "Gold": 10700000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellArcaneLight": 238000
+      }
+    ],
+    "SSR-ACC": [
+      {
+        "Level": 100,
+        "Evolution": 0,
+        "Set": "Dragon",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 2761,
+        "LinkBaseStat": 0,
+        "StatOne": 14911,
+        "StatTwo": 4659,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 140,
+        "Gold": 0,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 140
+      },
+      {
+        "Level": 105,
+        "Evolution": 0,
+        "Set": "Dragon",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 2985,
+        "LinkBaseStat": 0,
+        "StatOne": 15872,
+        "StatTwo": 4960,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 10,
+        "Gold": 1200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 150
+      },
+      {
+        "Level": 110,
+        "Evolution": 0,
+        "Set": "Dragon",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 3208,
+        "LinkBaseStat": 0,
+        "StatOne": 16833,
+        "StatTwo": 5260,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 10,
+        "Gold": 1700000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 160
+      },
+      {
+        "Level": 115,
+        "Evolution": 0,
+        "Set": "Dragon",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 3431,
+        "LinkBaseStat": 0,
+        "StatOne": 17794,
+        "StatTwo": 5560,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 10,
+        "Gold": 2200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 170
+      },
+      {
+        "Level": 120,
+        "Evolution": 0,
+        "Set": "Dragon",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 3655,
+        "LinkBaseStat": 0,
+        "StatOne": 18755,
+        "StatTwo": 5860,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 20,
+        "Gold": 2700000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 190
+      },
+      {
+        "Level": 125,
+        "Evolution": 0,
+        "Set": "Dragon",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 3878,
+        "LinkBaseStat": 0,
+        "StatOne": 19716,
+        "StatTwo": 6161,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 20,
+        "Gold": 3200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 210
+      },
+      {
+        "Level": 130,
+        "Evolution": 0,
+        "Set": "Dragon",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 4102,
+        "LinkBaseStat": 0,
+        "StatOne": 20677,
+        "StatTwo": 6461,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 20,
+        "Gold": 3700000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 230
+      },
+      {
+        "Level": 135,
+        "Evolution": 0,
+        "Set": "Dragon",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 4325,
+        "LinkBaseStat": 0,
+        "StatOne": 21638,
+        "StatTwo": 6761,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 20,
+        "Gold": 4200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 250
+      },
+      {
+        "Level": 140,
+        "Evolution": 0,
+        "Set": "Dragon",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 4549,
+        "LinkBaseStat": 0,
+        "StatOne": 22599,
+        "StatTwo": 7062,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 30,
+        "Gold": 4700000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 280
+      },
+      {
+        "Level": 145,
+        "Evolution": 0,
+        "Set": "Dragon",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 4772,
+        "LinkBaseStat": 0,
+        "StatOne": 23560,
+        "StatTwo": 7362,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 30,
+        "Gold": 5200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 310
+      },
+      {
+        "Level": 150,
+        "Evolution": 0,
+        "Set": "Dragon",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 4996,
+        "LinkBaseStat": 0,
+        "StatOne": 24521,
+        "StatTwo": 7662,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 30,
+        "Gold": 5700000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 340
+      },
+      {
+        "Level": 150,
+        "Evolution": 1,
+        "Set": "Divine",
+        "BaseStat": 6000,
+        "LinkBaseStat": 0,
+        "StatOne": 29425,
+        "StatTwo": 9195,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 0,
+        "Gold": 0,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 10,
+        "SellVariable": 340,
+        "SellDivineEvoOrb": 10
+      },
+      {
+        "Level": 155,
+        "Evolution": 1,
+        "Set": "Divine",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 6486,
+        "LinkBaseStat": 0,
+        "StatOne": 31322,
+        "StatTwo": 9788,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 30,
+        "Gold": 6200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 370,
+        "SellDivineEvoOrb": 10
+      },
+      {
+        "Level": 160,
+        "Evolution": 1,
+        "Set": "Divine",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 6972,
+        "LinkBaseStat": 0,
+        "StatOne": 33219,
+        "StatTwo": 10380,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 30,
+        "Gold": 6700000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 400,
+        "SellDivineEvoOrb": 10
+      },
+      {
+        "Level": 165,
+        "Evolution": 1,
+        "Set": "Divine",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 7458,
+        "LinkBaseStat": 0,
+        "StatOne": 35116,
+        "StatTwo": 10973,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 30,
+        "Gold": 7200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 430,
+        "SellDivineEvoOrb": 10
+      },
+      {
+        "Level": 170,
+        "Evolution": 1,
+        "Set": "Divine",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 7943,
+        "LinkBaseStat": 0,
+        "StatOne": 37013,
+        "StatTwo": 11566,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 40,
+        "Gold": 7700000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 470,
+        "SellDivineEvoOrb": 10
+      },
+      {
+        "Level": 175,
+        "Evolution": 1,
+        "Set": "Divine",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 8429,
+        "LinkBaseStat": 0,
+        "StatOne": 38910,
+        "StatTwo": 12159,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 40,
+        "Gold": 8200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 510,
+        "SellDivineEvoOrb": 10
+      },
+      {
+        "Level": 180,
+        "Evolution": 1,
+        "Set": "Divine",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 8915,
+        "LinkBaseStat": 0,
+        "StatOne": 40807,
+        "StatTwo": 12752,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 40,
+        "Gold": 8700000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 550,
+        "SellDivineEvoOrb": 10
+      },
+      {
+        "Level": 185,
+        "Evolution": 1,
+        "Set": "Divine",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 9400,
+        "LinkBaseStat": 0,
+        "StatOne": 42704,
+        "StatTwo": 13345,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 40,
+        "Gold": 9200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 590,
+        "SellDivineEvoOrb": 10
+      },
+      {
+        "Level": 190,
+        "Evolution": 1,
+        "Set": "Divine",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 9886,
+        "LinkBaseStat": 0,
+        "StatOne": 44601,
+        "StatTwo": 13937,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 40,
+        "Gold": 9700000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 630,
+        "SellDivineEvoOrb": 10
+      },
+      {
+        "Level": 195,
+        "Evolution": 1,
+        "Set": "Divine",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 10372,
+        "LinkBaseStat": 0,
+        "StatOne": 46498,
+        "StatTwo": 14530,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 40,
+        "Gold": 10200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 670,
+        "SellDivineEvoOrb": 10
+      },
+      {
+        "Level": 200,
+        "Evolution": 1,
+        "Set": "Divine",
+        "UpgradeTicket": "HammerSSR",
+        "BaseStat": 10857,
+        "LinkBaseStat": 0,
+        "StatOne": 48395,
+        "StatTwo": 15123,
+        "LinkBoost": 0,
+        "ExtraBoost": 0,
+        "UpgradeTicketCount": 50,
+        "Gold": 10700000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0,
+        "SellVariable": 720,
+        "SellDivineEvoOrb": 10
+      }
+    ],
+    "R-PC": [
+      {
+        "Level": 10,
+        "Evolution": 0,
+        "Set": "Steel",
+        "BaseStat": 13.92,
+        "LinkBaseStat": 2.32,
+        "StatOne": 84.1,
+        "StatTwo": 0,
+        "LinkBoost": 0.0087,
+        "ExtraBoost": 0,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 25,
+        "Evolution": 0,
+        "Set": "Steel",
+        "BaseStat": 41.18,
+        "LinkBaseStat": 2.9,
+        "StatOne": 158.34,
+        "StatTwo": 0,
+        "LinkBoost": 0.0087,
+        "ExtraBoost": 0,
+        "MaestroBrush": 0,
+        "Gold": 50000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 40,
+        "Evolution": 0,
+        "Set": "Steel",
+        "BaseStat": 111.94,
+        "LinkBaseStat": 4.64,
+        "StatOne": 274.34,
+        "StatTwo": 0,
+        "LinkBoost": 0.0087,
+        "ExtraBoost": 0,
+        "MaestroBrush": 0,
+        "Gold": 100000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 55,
+        "Evolution": 0,
+        "Set": "Steel",
+        "BaseStat": 560.86,
+        "LinkBaseStat": 16.82,
+        "StatOne": 1111.86,
+        "StatTwo": 0,
+        "LinkBoost": 0.0087,
+        "ExtraBoost": 0,
+        "MaestroBrush": 20,
+        "Gold": 200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 70,
+        "Evolution": 0,
+        "Set": "Silver",
+        "BaseStat": 905.96,
+        "LinkBaseStat": 26.68,
+        "StatOne": 1897.18,
+        "StatTwo": 0,
+        "LinkBoost": 0.0116,
+        "ExtraBoost": 0,
+        "MaestroBrush": 12,
+        "Gold": 500000,
+        "RarePeculiarDust": 20,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 85,
+        "Evolution": 0,
+        "Set": "Gold",
+        "BaseStat": 1208.14,
+        "LinkBaseStat": 43.5,
+        "StatOne": 3235.82,
+        "StatTwo": 0,
+        "LinkBoost": 0.0116,
+        "ExtraBoost": 0,
+        "MaestroBrush": 16,
+        "Gold": 1000000,
+        "RarePeculiarDust": 50,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 100,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "BaseStat": 1596.16,
+        "LinkBaseStat": 75.4,
+        "StatOne": 5765.2,
+        "StatTwo": 0,
+        "LinkBoost": 0.0174,
+        "ExtraBoost": 0,
+        "MaestroBrush": 20,
+        "Gold": 2000000,
+        "RarePeculiarDust": 100,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 105,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "BaseStat": 1724.92,
+        "LinkBaseStat": 75.4,
+        "StatOne": 6136.98,
+        "StatTwo": 0,
+        "LinkBoost": 0.0174,
+        "ExtraBoost": 0,
+        "MaestroBrush": 4,
+        "Gold": 500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 110,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "BaseStat": 1853.68,
+        "LinkBaseStat": 75.4,
+        "StatOne": 6508.76,
+        "StatTwo": 0,
+        "LinkBoost": 0.0174,
+        "ExtraBoost": 0,
+        "MaestroBrush": 4,
+        "Gold": 1000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 115,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "BaseStat": 1982.44,
+        "LinkBaseStat": 75.4,
+        "StatOne": 6880.54,
+        "StatTwo": 0,
+        "LinkBoost": 0.0174,
+        "ExtraBoost": 0,
+        "MaestroBrush": 4,
+        "Gold": 1500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 120,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "BaseStat": 2111.2,
+        "LinkBaseStat": 75.4,
+        "StatOne": 7252.32,
+        "StatTwo": 0,
+        "LinkBoost": 0.0174,
+        "ExtraBoost": 0,
+        "MaestroBrush": 4,
+        "Gold": 2000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 125,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "BaseStat": 2239.96,
+        "LinkBaseStat": 75.4,
+        "StatOne": 7624.1,
+        "StatTwo": 0,
+        "LinkBoost": 0.0174,
+        "ExtraBoost": 0,
+        "MaestroBrush": 6,
+        "Gold": 2500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 130,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "BaseStat": 2368.72,
+        "LinkBaseStat": 75.4,
+        "StatOne": 7995.88,
+        "StatTwo": 0,
+        "LinkBoost": 0.0174,
+        "ExtraBoost": 0,
+        "MaestroBrush": 6,
+        "Gold": 3000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 135,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "BaseStat": 2497.48,
+        "LinkBaseStat": 75.4,
+        "StatOne": 8367.66,
+        "StatTwo": 0,
+        "LinkBoost": 0.0174,
+        "ExtraBoost": 0,
+        "MaestroBrush": 6,
+        "Gold": 3500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 140,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "BaseStat": 2626.24,
+        "LinkBaseStat": 75.4,
+        "StatOne": 8739.44,
+        "StatTwo": 0,
+        "LinkBoost": 0.0174,
+        "ExtraBoost": 0,
+        "MaestroBrush": 6,
+        "Gold": 4000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 145,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "BaseStat": 2755,
+        "LinkBaseStat": 75.4,
+        "StatOne": 9111.22,
+        "StatTwo": 0,
+        "LinkBoost": 0.0174,
+        "ExtraBoost": 0,
+        "MaestroBrush": 8,
+        "Gold": 4500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 150,
+        "Evolution": 0,
+        "Set": "Platinum",
+        "BaseStat": 2883.76,
+        "LinkBaseStat": 75.4,
+        "StatOne": 9483,
+        "StatTwo": 0,
+        "LinkBoost": 0.0174,
+        "ExtraBoost": 0,
+        "MaestroBrush": 8,
+        "Gold": 5000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      }
+    ],
+    "SR-PC": [
+      {
+        "Level": 10,
+        "Evolution": 0,
+        "Set": "Crystal",
+        "BaseStat": 18,
+        "LinkBaseStat": 3,
+        "StatOne": 108.75,
+        "StatTwo": 0,
+        "LinkBoost": 0.01125,
+        "ExtraBoost": 0,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 25,
+        "Evolution": 0,
+        "Set": "Crystal",
+        "BaseStat": 53.25,
+        "LinkBaseStat": 3.75,
+        "StatOne": 204.75,
+        "StatTwo": 0,
+        "LinkBoost": 0.01125,
+        "ExtraBoost": 0,
+        "MaestroBrush": 0,
+        "Gold": 50000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 40,
+        "Evolution": 0,
+        "Set": "Crystal",
+        "BaseStat": 144.75,
+        "LinkBaseStat": 6,
+        "StatOne": 354.75,
+        "StatTwo": 0,
+        "LinkBoost": 0.01125,
+        "ExtraBoost": 0,
+        "MaestroBrush": 0,
+        "Gold": 100000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 55,
+        "Evolution": 0,
+        "Set": "Crystal",
+        "BaseStat": 725.25,
+        "LinkBaseStat": 21.75,
+        "StatOne": 1437.75,
+        "StatTwo": 0,
+        "LinkBoost": 0.01125,
+        "ExtraBoost": 0,
+        "MaestroBrush": 20,
+        "Gold": 200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 70,
+        "Evolution": 0,
+        "Set": "Mithril",
+        "BaseStat": 1171.5,
+        "LinkBaseStat": 34.5,
+        "StatOne": 2453.25,
+        "StatTwo": 0,
+        "LinkBoost": 0.015,
+        "ExtraBoost": 0,
+        "MaestroBrush": 12,
+        "Gold": 500000,
+        "RarePeculiarDust": 20,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 85,
+        "Evolution": 0,
+        "Set": "Adamantite",
+        "BaseStat": 1562.25,
+        "LinkBaseStat": 56.25,
+        "StatOne": 4184.25,
+        "StatTwo": 0,
+        "LinkBoost": 0.015,
+        "ExtraBoost": 0,
+        "MaestroBrush": 16,
+        "Gold": 1000000,
+        "RarePeculiarDust": 50,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 100,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 2064,
+        "LinkBaseStat": 97.5,
+        "StatOne": 7455,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 20,
+        "Gold": 2000000,
+        "RarePeculiarDust": 100,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 105,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 2230.5,
+        "LinkBaseStat": 97.5,
+        "StatOne": 7935.75,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 4,
+        "Gold": 500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 110,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 2397,
+        "LinkBaseStat": 97.5,
+        "StatOne": 8416.5,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 4,
+        "Gold": 1000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 115,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 2563.5,
+        "LinkBaseStat": 97.5,
+        "StatOne": 8897.25,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 4,
+        "Gold": 1500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 120,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 2730,
+        "LinkBaseStat": 97.5,
+        "StatOne": 9378,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 4,
+        "Gold": 2000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 125,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 2896.5,
+        "LinkBaseStat": 97.5,
+        "StatOne": 9858.75,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 6,
+        "Gold": 2500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 130,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 3063,
+        "LinkBaseStat": 97.5,
+        "StatOne": 10339.5,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 6,
+        "Gold": 3000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 135,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 3229.5,
+        "LinkBaseStat": 97.5,
+        "StatOne": 10820.25,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 6,
+        "Gold": 3500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 140,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 3396,
+        "LinkBaseStat": 97.5,
+        "StatOne": 11301,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 6,
+        "Gold": 4000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 145,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 3562.5,
+        "LinkBaseStat": 97.5,
+        "StatOne": 11781.75,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 8,
+        "Gold": 4500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 150,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 3729,
+        "LinkBaseStat": 97.5,
+        "StatOne": 12262.5,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 8,
+        "Gold": 5000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 155,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 3895.5,
+        "LinkBaseStat": 97.5,
+        "StatOne": 12743.25,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 8,
+        "Gold": 5500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 160,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 4062,
+        "LinkBaseStat": 97.5,
+        "StatOne": 13224,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 8,
+        "Gold": 6000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 165,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 4228.5,
+        "LinkBaseStat": 97.5,
+        "StatOne": 13704.75,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 10,
+        "Gold": 6500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 170,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 4395,
+        "LinkBaseStat": 97.5,
+        "StatOne": 14185.5,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 10,
+        "Gold": 7000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 175,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 4561.5,
+        "LinkBaseStat": 97.5,
+        "StatOne": 14666.25,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 10,
+        "Gold": 7500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 180,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 4728,
+        "LinkBaseStat": 97.5,
+        "StatOne": 15147,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 10,
+        "Gold": 8000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 185,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 4894.5,
+        "LinkBaseStat": 97.5,
+        "StatOne": 15627.75,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 12,
+        "Gold": 8500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 190,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 5061,
+        "LinkBaseStat": 97.5,
+        "StatOne": 16108.5,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 12,
+        "Gold": 9000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 195,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 5227.5,
+        "LinkBaseStat": 97.5,
+        "StatOne": 16589.25,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 12,
+        "Gold": 9500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 200,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 5394,
+        "LinkBaseStat": 97.5,
+        "StatOne": 17070,
+        "StatTwo": 0,
+        "LinkBoost": 0.0225,
+        "ExtraBoost": 0,
+        "MaestroBrush": 12,
+        "Gold": 10000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      }
+    ],
+    "SSR-PC": [
+      {
+        "Level": 10,
+        "Evolution": 0,
+        "Set": "Crystal",
+        "BaseStat": 24,
+        "LinkBaseStat": 4,
+        "StatOne": 145,
+        "StatTwo": 0,
+        "LinkBoost": 0.015,
+        "ExtraBoost": 0,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 25,
+        "Evolution": 0,
+        "Set": "Crystal",
+        "BaseStat": 71,
+        "LinkBaseStat": 5,
+        "StatOne": 273,
+        "StatTwo": 0,
+        "LinkBoost": 0.015,
+        "ExtraBoost": 0,
+        "MaestroBrush": 0,
+        "Gold": 50000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 40,
+        "Evolution": 0,
+        "Set": "Crystal",
+        "BaseStat": 193,
+        "LinkBaseStat": 8,
+        "StatOne": 473,
+        "StatTwo": 0,
+        "LinkBoost": 0.015,
+        "ExtraBoost": 0,
+        "MaestroBrush": 0,
+        "Gold": 100000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 55,
+        "Evolution": 0,
+        "Set": "Crystal",
+        "BaseStat": 967,
+        "LinkBaseStat": 29,
+        "StatOne": 1917,
+        "StatTwo": 0,
+        "LinkBoost": 0.015,
+        "ExtraBoost": 0,
+        "MaestroBrush": 20,
+        "Gold": 200000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 70,
+        "Evolution": 0,
+        "Set": "Mithril",
+        "BaseStat": 1562,
+        "LinkBaseStat": 46,
+        "StatOne": 3271,
+        "StatTwo": 0,
+        "LinkBoost": 0.02,
+        "ExtraBoost": 0,
+        "MaestroBrush": 12,
+        "Gold": 500000,
+        "RarePeculiarDust": 20,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 85,
+        "Evolution": 0,
+        "Set": "Adamantite",
+        "BaseStat": 2083,
+        "LinkBaseStat": 75,
+        "StatOne": 5579,
+        "StatTwo": 0,
+        "LinkBoost": 0.02,
+        "ExtraBoost": 0,
+        "MaestroBrush": 16,
+        "Gold": 1000000,
+        "RarePeculiarDust": 50,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 100,
+        "Evolution": 0,
+        "Set": "Rune",
+        "BaseStat": 2752,
+        "LinkBaseStat": 130,
+        "StatOne": 9940,
+        "StatTwo": 0,
+        "LinkBoost": 0.03,
+        "ExtraBoost": 0,
+        "MaestroBrush": 20,
+        "Gold": 2000000,
+        "RarePeculiarDust": 100,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 100,
+        "Evolution": 1,
+        "Set": "Dragon",
+        "BaseStat": 4128,
+        "LinkBaseStat": 200,
+        "StatOne": 14911,
+        "StatTwo": 0,
+        "LinkBoost": 0.045,
+        "ExtraBoost": 0,
+        "MaestroBrush": 0,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 10,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 105,
+        "Evolution": 1,
+        "Set": "Dragon",
+        "BaseStat": 4462,
+        "LinkBaseStat": 200,
+        "StatOne": 15872,
+        "StatTwo": 0,
+        "LinkBoost": 0.045,
+        "ExtraBoost": 0,
+        "MaestroBrush": 4,
+        "Gold": 500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 110,
+        "Evolution": 1,
+        "Set": "Dragon",
+        "BaseStat": 4796,
+        "LinkBaseStat": 200,
+        "StatOne": 16833,
+        "StatTwo": 0,
+        "LinkBoost": 0.045,
+        "ExtraBoost": 0,
+        "MaestroBrush": 4,
+        "Gold": 1000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 115,
+        "Evolution": 1,
+        "Set": "Dragon",
+        "BaseStat": 5130,
+        "LinkBaseStat": 200,
+        "StatOne": 17794,
+        "StatTwo": 0,
+        "LinkBoost": 0.045,
+        "ExtraBoost": 0,
+        "MaestroBrush": 4,
+        "Gold": 1500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 120,
+        "Evolution": 1,
+        "Set": "Dragon",
+        "BaseStat": 5464,
+        "LinkBaseStat": 200,
+        "StatOne": 18755,
+        "StatTwo": 0,
+        "LinkBoost": 0.045,
+        "ExtraBoost": 0,
+        "MaestroBrush": 4,
+        "Gold": 2000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 125,
+        "Evolution": 1,
+        "Set": "Dragon",
+        "BaseStat": 5798,
+        "LinkBaseStat": 200,
+        "StatOne": 19716,
+        "StatTwo": 0,
+        "LinkBoost": 0.045,
+        "ExtraBoost": 0,
+        "MaestroBrush": 6,
+        "Gold": 2500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 130,
+        "Evolution": 1,
+        "Set": "Dragon",
+        "BaseStat": 6132,
+        "LinkBaseStat": 200,
+        "StatOne": 20677,
+        "StatTwo": 0,
+        "LinkBoost": 0.045,
+        "ExtraBoost": 0,
+        "MaestroBrush": 6,
+        "Gold": 3000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 135,
+        "Evolution": 1,
+        "Set": "Dragon",
+        "BaseStat": 6466,
+        "LinkBaseStat": 200,
+        "StatOne": 21638,
+        "StatTwo": 0,
+        "LinkBoost": 0.045,
+        "ExtraBoost": 0,
+        "MaestroBrush": 6,
+        "Gold": 3500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 140,
+        "Evolution": 1,
+        "Set": "Dragon",
+        "BaseStat": 6800,
+        "LinkBaseStat": 200,
+        "StatOne": 22599,
+        "StatTwo": 0,
+        "LinkBoost": 0.045,
+        "ExtraBoost": 0,
+        "MaestroBrush": 6,
+        "Gold": 4000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 145,
+        "Evolution": 1,
+        "Set": "Dragon",
+        "BaseStat": 7134,
+        "LinkBaseStat": 200,
+        "StatOne": 23560,
+        "StatTwo": 0,
+        "LinkBoost": 0.045,
+        "ExtraBoost": 0,
+        "MaestroBrush": 8,
+        "Gold": 4500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 150,
+        "Evolution": 1,
+        "Set": "Dragon",
+        "BaseStat": 7468,
+        "LinkBaseStat": 200,
+        "StatOne": 24521,
+        "StatTwo": 0,
+        "LinkBoost": 0.045,
+        "ExtraBoost": 0,
+        "MaestroBrush": 8,
+        "Gold": 5000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 150,
+        "Evolution": 2,
+        "Set": "Divine",
+        "BaseStat": 8970,
+        "LinkBaseStat": 240,
+        "StatOne": 29425,
+        "StatTwo": 0,
+        "LinkBoost": 0.054,
+        "ExtraBoost": 0.02,
+        "MaestroBrush": 0,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 20
+      },
+      {
+        "Level": 155,
+        "Evolution": 2,
+        "Set": "Divine",
+        "BaseStat": 9696,
+        "LinkBaseStat": 240,
+        "StatOne": 31322,
+        "StatTwo": 0,
+        "LinkBoost": 0.054,
+        "ExtraBoost": 0.03,
+        "MaestroBrush": 8,
+        "Gold": 5500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 160,
+        "Evolution": 2,
+        "Set": "Divine",
+        "BaseStat": 10422,
+        "LinkBaseStat": 240,
+        "StatOne": 33219,
+        "StatTwo": 0,
+        "LinkBoost": 0.054,
+        "ExtraBoost": 0.04,
+        "MaestroBrush": 8,
+        "Gold": 6000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 165,
+        "Evolution": 2,
+        "Set": "Divine",
+        "BaseStat": 11148,
+        "LinkBaseStat": 240,
+        "StatOne": 35116,
+        "StatTwo": 0,
+        "LinkBoost": 0.054,
+        "ExtraBoost": 0.05,
+        "MaestroBrush": 10,
+        "Gold": 6500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 170,
+        "Evolution": 2,
+        "Set": "Divine",
+        "BaseStat": 11874,
+        "LinkBaseStat": 240,
+        "StatOne": 37013,
+        "StatTwo": 0,
+        "LinkBoost": 0.054,
+        "ExtraBoost": 0.06,
+        "MaestroBrush": 10,
+        "Gold": 7000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 175,
+        "Evolution": 2,
+        "Set": "Divine",
+        "BaseStat": 12600,
+        "LinkBaseStat": 240,
+        "StatOne": 38910,
+        "StatTwo": 0,
+        "LinkBoost": 0.054,
+        "ExtraBoost": 0.07,
+        "MaestroBrush": 10,
+        "Gold": 7500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 180,
+        "Evolution": 2,
+        "Set": "Divine",
+        "BaseStat": 13326,
+        "LinkBaseStat": 240,
+        "StatOne": 40807,
+        "StatTwo": 0,
+        "LinkBoost": 0.054,
+        "ExtraBoost": 0.08,
+        "MaestroBrush": 10,
+        "Gold": 8000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 185,
+        "Evolution": 2,
+        "Set": "Divine",
+        "BaseStat": 14052,
+        "LinkBaseStat": 240,
+        "StatOne": 42704,
+        "StatTwo": 0,
+        "LinkBoost": 0.054,
+        "ExtraBoost": 0.09,
+        "MaestroBrush": 12,
+        "Gold": 8500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 190,
+        "Evolution": 2,
+        "Set": "Divine",
+        "BaseStat": 14778,
+        "LinkBaseStat": 240,
+        "StatOne": 44601,
+        "StatTwo": 0,
+        "LinkBoost": 0.054,
+        "ExtraBoost": 0.1,
+        "MaestroBrush": 12,
+        "Gold": 9000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 195,
+        "Evolution": 2,
+        "Set": "Divine",
+        "BaseStat": 15504,
+        "LinkBaseStat": 240,
+        "StatOne": 46498,
+        "StatTwo": 0,
+        "LinkBoost": 0.054,
+        "ExtraBoost": 0.11,
+        "MaestroBrush": 12,
+        "Gold": 9500000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      },
+      {
+        "Level": 200,
+        "Evolution": 2,
+        "Set": "Divine",
+        "BaseStat": 16230,
+        "LinkBaseStat": 240,
+        "StatOne": 48395,
+        "StatTwo": 0,
+        "LinkBoost": 0.054,
+        "ExtraBoost": 0.12,
+        "MaestroBrush": 12,
+        "Gold": 10000000,
+        "RarePeculiarDust": 0,
+        "DragonEvoOrb": 0,
+        "DivineEvoOrb": 0
+      }
+    ]
+  },
+  "EquipableSetScalars": {
+    "Divine": {
+      "1": {
+        "Stat": "Atk",
+        "Scalar": 0.08
+      },
+      "2": {
+        "Stat": "HP",
+        "Scalar": 0.2
+      },
+      "3": {
+        "Stat": "Atk",
+        "Scalar": 0.13
+      },
+      "4": {
+        "Stat": "Atk",
+        "Scalar": 0.13
+      }
+    },
+    "Dragon": {
+      "2": {
+        "Stat": "Atk",
+        "Scalar": 0.07
+      },
+      "3": {
+        "Stat": "HP",
+        "Scalar": 0.17
+      },
+      "4": {
+        "Stat": "Atk",
+        "Scalar": 0.11
+      }
+    },
+    "Rune": {
+      "2": {
+        "Stat": "Atk",
+        "Scalar": 0.06
+      },
+      "3": {
+        "Stat": "HP",
+        "Scalar": 0.14
+      },
+      "4": {
+        "Stat": "Atk",
+        "Scalar": 0.09
+      }
+    },
+    "Adamantite": {
+      "2": {
+        "Stat": "Atk",
+        "Scalar": 0.05
+      },
+      "3": {
+        "Stat": "HP",
+        "Scalar": 0.12
+      },
+      "4": {
+        "Stat": "Atk",
+        "Scalar": 0.08
+      }
+    },
+    "Mithril": {
+      "2": {
+        "Stat": "Atk",
+        "Scalar": 0.04
+      },
+      "3": {
+        "Stat": "HP",
+        "Scalar": 0.1
+      },
+      "4": {
+        "Stat": "Atk",
+        "Scalar": 0.06
+      }
+    },
+    "Crystal": {
+      "2": {
+        "Stat": "Atk",
+        "Scalar": 0.03
+      },
+      "3": {
+        "Stat": "HP",
+        "Scalar": 0.08
+      },
+      "4": {
+        "Stat": "Atk",
+        "Scalar": 0.05
+      }
+    },
+    "Platinum": {
+      "2": {
+        "Stat": "Atk",
+        "Scalar": 0.05
+      },
+      "3": {
+        "Stat": "HP",
+        "Scalar": 0.12
+      },
+      "4": {
+        "Stat": "Atk",
+        "Scalar": 0.07
+      }
+    },
+    "Gold": {
+      "2": {
+        "Stat": "Atk",
+        "Scalar": 0.04
+      },
+      "3": {
+        "Stat": "HP",
+        "Scalar": 0.1
+      },
+      "4": {
+        "Stat": "Atk",
+        "Scalar": 0.06
+      }
+    },
+    "Silver": {
+      "2": {
+        "Stat": "Atk",
+        "Scalar": 0.03
+      },
+      "3": {
+        "Stat": "HP",
+        "Scalar": 0.08
+      },
+      "4": {
+        "Stat": "Atk",
+        "Scalar": 0.05
+      }
+    },
+    "Steel": {
+      "2": {
+        "Stat": "Atk",
+        "Scalar": 0.02
+      },
+      "3": {
+        "Stat": "HP",
+        "Scalar": 0.07
+      },
+      "4": {
+        "Stat": "Atk",
+        "Scalar": 0.04
+      }
+    }
+  },
+  "GemPresets": {
+    "AtkGem1": {
+      "Stat": "Atk",
+      "Amount": 140
+    },
+    "AtkGem2": {
+      "Stat": "Atk",
+      "Amount": 270
+    },
+    "AtkGem3": {
+      "Stat": "Atk",
+      "Amount": 420
+    },
+    "AtkGem4": {
+      "Stat": "Atk",
+      "Amount": 640
+    },
+    "AtkGem5": {
+      "Stat": "Atk",
+      "Amount": 980
+    },
+    "AtkGem6": {
+      "Stat": "Atk",
+      "Amount": 1480
+    },
+    "AtkGem7": {
+      "Stat": "Atk",
+      "Amount": 2250
+    },
+    "AtkGem8": {
+      "Stat": "Atk",
+      "Amount": 3490
+    },
+    "AtkGem9": {
+      "Stat": "Atk",
+      "Amount": 5360
+    },
+    "AtkGem10": {
+      "Stat": "Atk",
+      "Amount": 8280
+    },
+    "AtkGem11": {
+      "Stat": "Atk",
+      "Amount": 12740
+    },
+    "AtkGem12": {
+      "Stat": "Atk",
+      "Amount": 19240
+    },
+    "AtkGem13": {
+      "Stat": "Atk",
+      "Amount": 29230
+    },
+    "AtkGem14": {
+      "Stat": "Atk",
+      "Amount": 44030
+    },
+    "AtkGem15": {
+      "Stat": "Atk",
+      "Amount": 66870
+    },
+    "PAtkGem1": {
+      "Stat": "PAtk",
+      "Amount": 140
+    },
+    "PAtkGem2": {
+      "Stat": "PAtk",
+      "Amount": 270
+    },
+    "PAtkGem3": {
+      "Stat": "PAtk",
+      "Amount": 420
+    },
+    "PAtkGem4": {
+      "Stat": "PAtk",
+      "Amount": 640
+    },
+    "PAtkGem5": {
+      "Stat": "PAtk",
+      "Amount": 980
+    },
+    "PAtkGem6": {
+      "Stat": "PAtk",
+      "Amount": 1480
+    },
+    "PAtkGem7": {
+      "Stat": "PAtk",
+      "Amount": 2250
+    },
+    "PAtkGem8": {
+      "Stat": "PAtk",
+      "Amount": 3490
+    },
+    "PAtkGem9": {
+      "Stat": "PAtk",
+      "Amount": 5360
+    },
+    "PAtkGem10": {
+      "Stat": "PAtk",
+      "Amount": 8280
+    },
+    "PAtkGem11": {
+      "Stat": "PAtk",
+      "Amount": 12740
+    },
+    "PAtkGem12": {
+      "Stat": "PAtk",
+      "Amount": 19240
+    },
+    "PAtkGem13": {
+      "Stat": "PAtk",
+      "Amount": 29230
+    },
+    "PAtkGem14": {
+      "Stat": "PAtk",
+      "Amount": 44030
+    },
+    "PAtkGem15": {
+      "Stat": "PAtk",
+      "Amount": 66870
+    },
+    "MAtkGem1": {
+      "Stat": "MAtk",
+      "Amount": 140
+    },
+    "MAtkGem2": {
+      "Stat": "MAtk",
+      "Amount": 270
+    },
+    "MAtkGem3": {
+      "Stat": "MAtk",
+      "Amount": 420
+    },
+    "MAtkGem4": {
+      "Stat": "MAtk",
+      "Amount": 640
+    },
+    "MAtkGem5": {
+      "Stat": "MAtk",
+      "Amount": 980
+    },
+    "MAtkGem6": {
+      "Stat": "MAtk",
+      "Amount": 1480
+    },
+    "MAtkGem7": {
+      "Stat": "MAtk",
+      "Amount": 2250
+    },
+    "MAtkGem8": {
+      "Stat": "MAtk",
+      "Amount": 3490
+    },
+    "MAtkGem9": {
+      "Stat": "MAtk",
+      "Amount": 5360
+    },
+    "MAtkGem10": {
+      "Stat": "MAtk",
+      "Amount": 8280
+    },
+    "MAtkGem11": {
+      "Stat": "MAtk",
+      "Amount": 12740
+    },
+    "MAtkGem12": {
+      "Stat": "MAtk",
+      "Amount": 19240
+    },
+    "MAtkGem13": {
+      "Stat": "MAtk",
+      "Amount": 29230
+    },
+    "MAtkGem14": {
+      "Stat": "MAtk",
+      "Amount": 44030
+    },
+    "MAtkGem15": {
+      "Stat": "MAtk",
+      "Amount": 66870
+    },
+    "StrGem1": {
+      "Stat": "Strength",
+      "Amount": 80
+    },
+    "StrGem2": {
+      "Stat": "Strength",
+      "Amount": 150
+    },
+    "StrGem3": {
+      "Stat": "Strength",
+      "Amount": 230
+    },
+    "StrGem4": {
+      "Stat": "Strength",
+      "Amount": 350
+    },
+    "StrGem5": {
+      "Stat": "Strength",
+      "Amount": 530
+    },
+    "StrGem6": {
+      "Stat": "Strength",
+      "Amount": 800
+    },
+    "StrGem7": {
+      "Stat": "Strength",
+      "Amount": 1220
+    },
+    "StrGem8": {
+      "Stat": "Strength",
+      "Amount": 1890
+    },
+    "StrGem9": {
+      "Stat": "Strength",
+      "Amount": 2900
+    },
+    "StrGem10": {
+      "Stat": "Strength",
+      "Amount": 4480
+    },
+    "StrGem11": {
+      "Stat": "Strength",
+      "Amount": 6890
+    },
+    "StrGem12": {
+      "Stat": "Strength",
+      "Amount": 10400
+    },
+    "StrGem13": {
+      "Stat": "Strength",
+      "Amount": 15800
+    },
+    "StrGem14": {
+      "Stat": "Strength",
+      "Amount": 23800
+    },
+    "StrGem15": {
+      "Stat": "Strength",
+      "Amount": 36200
+    },
+    "IntGem1": {
+      "Stat": "Intelligence",
+      "Amount": 80
+    },
+    "IntGem2": {
+      "Stat": "Intelligence",
+      "Amount": 150
+    },
+    "IntGem3": {
+      "Stat": "Intelligence",
+      "Amount": 230
+    },
+    "IntGem4": {
+      "Stat": "Intelligence",
+      "Amount": 350
+    },
+    "IntGem5": {
+      "Stat": "Intelligence",
+      "Amount": 530
+    },
+    "IntGem6": {
+      "Stat": "Intelligence",
+      "Amount": 800
+    },
+    "IntGem7": {
+      "Stat": "Intelligence",
+      "Amount": 1220
+    },
+    "IntGem8": {
+      "Stat": "Intelligence",
+      "Amount": 1890
+    },
+    "IntGem9": {
+      "Stat": "Intelligence",
+      "Amount": 2900
+    },
+    "IntGem10": {
+      "Stat": "Intelligence",
+      "Amount": 4480
+    },
+    "IntGem11": {
+      "Stat": "Intelligence",
+      "Amount": 6890
+    },
+    "IntGem12": {
+      "Stat": "Intelligence",
+      "Amount": 10400
+    },
+    "IntGem13": {
+      "Stat": "Intelligence",
+      "Amount": 15800
+    },
+    "IntGem14": {
+      "Stat": "Intelligence",
+      "Amount": 23800
+    },
+    "IntGem15": {
+      "Stat": "Intelligence",
+      "Amount": 36200
+    },
+    "HPGem1": {
+      "Stat": "HP",
+      "Amount": 140
+    },
+    "HPGem2": {
+      "Stat": "HP",
+      "Amount": 270
+    },
+    "HPGem3": {
+      "Stat": "HP",
+      "Amount": 420
+    },
+    "HPGem4": {
+      "Stat": "HP",
+      "Amount": 640
+    },
+    "HPGem5": {
+      "Stat": "HP",
+      "Amount": 980
+    },
+    "HPGem6": {
+      "Stat": "HP",
+      "Amount": 1480
+    },
+    "HPGem7": {
+      "Stat": "HP",
+      "Amount": 2250
+    },
+    "HPGem8": {
+      "Stat": "HP",
+      "Amount": 3490
+    },
+    "HPGem9": {
+      "Stat": "HP",
+      "Amount": 5360
+    },
+    "HPGem10": {
+      "Stat": "HP",
+      "Amount": 8280
+    },
+    "HPGem11": {
+      "Stat": "HP",
+      "Amount": 12740
+    },
+    "HPGem12": {
+      "Stat": "HP",
+      "Amount": 19240
+    },
+    "HPGem13": {
+      "Stat": "HP",
+      "Amount": 29230
+    },
+    "HPGem14": {
+      "Stat": "HP",
+      "Amount": 44030
+    },
+    "HPGem15": {
+      "Stat": "HP",
+      "Amount": 66870
+    },
+    "PDefGem1": {
+      "Stat": "PDef",
+      "Amount": 140
+    },
+    "PDefGem2": {
+      "Stat": "PDef",
+      "Amount": 270
+    },
+    "PDefGem3": {
+      "Stat": "PDef",
+      "Amount": 420
+    },
+    "PDefGem4": {
+      "Stat": "PDef",
+      "Amount": 640
+    },
+    "PDefGem5": {
+      "Stat": "PDef",
+      "Amount": 980
+    },
+    "PDefGem6": {
+      "Stat": "PDef",
+      "Amount": 1480
+    },
+    "PDefGem7": {
+      "Stat": "PDef",
+      "Amount": 2250
+    },
+    "PDefGem8": {
+      "Stat": "PDef",
+      "Amount": 3490
+    },
+    "PDefGem9": {
+      "Stat": "PDef",
+      "Amount": 5360
+    },
+    "PDefGem10": {
+      "Stat": "PDef",
+      "Amount": 8280
+    },
+    "PDefGem11": {
+      "Stat": "PDef",
+      "Amount": 12740
+    },
+    "PDefGem12": {
+      "Stat": "PDef",
+      "Amount": 19240
+    },
+    "PDefGem13": {
+      "Stat": "PDef",
+      "Amount": 29230
+    },
+    "PDefGem14": {
+      "Stat": "PDef",
+      "Amount": 44030
+    },
+    "PDefGem15": {
+      "Stat": "PDef",
+      "Amount": 66870
+    },
+    "MDefGem1": {
+      "Stat": "MDef",
+      "Amount": 140
+    },
+    "MDefGem2": {
+      "Stat": "MDef",
+      "Amount": 270
+    },
+    "MDefGem3": {
+      "Stat": "MDef",
+      "Amount": 420
+    },
+    "MDefGem4": {
+      "Stat": "MDef",
+      "Amount": 640
+    },
+    "MDefGem5": {
+      "Stat": "MDef",
+      "Amount": 980
+    },
+    "MDefGem6": {
+      "Stat": "MDef",
+      "Amount": 1480
+    },
+    "MDefGem7": {
+      "Stat": "MDef",
+      "Amount": 2250
+    },
+    "MDefGem8": {
+      "Stat": "MDef",
+      "Amount": 3490
+    },
+    "MDefGem9": {
+      "Stat": "MDef",
+      "Amount": 5360
+    },
+    "MDefGem10": {
+      "Stat": "MDef",
+      "Amount": 8280
+    },
+    "MDefGem11": {
+      "Stat": "MDef",
+      "Amount": 12740
+    },
+    "MDefGem12": {
+      "Stat": "MDef",
+      "Amount": 19240
+    },
+    "MDefGem13": {
+      "Stat": "MDef",
+      "Amount": 29230
+    },
+    "MDefGem14": {
+      "Stat": "MDef",
+      "Amount": 44030
+    },
+    "MDefGem15": {
+      "Stat": "MDef",
+      "Amount": 66870
+    },
+    "VitGem1": {
+      "Stat": "Vitality",
+      "Amount": 80
+    },
+    "VitGem2": {
+      "Stat": "Vitality",
+      "Amount": 150
+    },
+    "VitGem3": {
+      "Stat": "Vitality",
+      "Amount": 230
+    },
+    "VitGem4": {
+      "Stat": "Vitality",
+      "Amount": 350
+    },
+    "VitGem5": {
+      "Stat": "Vitality",
+      "Amount": 530
+    },
+    "VitGem6": {
+      "Stat": "Vitality",
+      "Amount": 800
+    },
+    "VitGem7": {
+      "Stat": "Vitality",
+      "Amount": 1220
+    },
+    "VitGem8": {
+      "Stat": "Vitality",
+      "Amount": 1890
+    },
+    "VitGem9": {
+      "Stat": "Vitality",
+      "Amount": 2900
+    },
+    "VitGem10": {
+      "Stat": "Vitality",
+      "Amount": 4480
+    },
+    "VitGem11": {
+      "Stat": "Vitality",
+      "Amount": 6890
+    },
+    "VitGem12": {
+      "Stat": "Vitality",
+      "Amount": 10400
+    },
+    "VitGem13": {
+      "Stat": "Vitality",
+      "Amount": 15800
+    },
+    "VitGem14": {
+      "Stat": "Vitality",
+      "Amount": 23800
+    },
+    "VitGem15": {
+      "Stat": "Vitality",
+      "Amount": 36200
+    },
+    "WillGem1": {
+      "Stat": "WillPower",
+      "Amount": 80
+    },
+    "WillGem2": {
+      "Stat": "WillPower",
+      "Amount": 150
+    },
+    "WillGem3": {
+      "Stat": "WillPower",
+      "Amount": 230
+    },
+    "WillGem4": {
+      "Stat": "WillPower",
+      "Amount": 350
+    },
+    "WillGem5": {
+      "Stat": "WillPower",
+      "Amount": 530
+    },
+    "WillGem6": {
+      "Stat": "WillPower",
+      "Amount": 800
+    },
+    "WillGem7": {
+      "Stat": "WillPower",
+      "Amount": 1220
+    },
+    "WillGem8": {
+      "Stat": "WillPower",
+      "Amount": 1890
+    },
+    "WillGem9": {
+      "Stat": "WillPower",
+      "Amount": 2900
+    },
+    "WillGem10": {
+      "Stat": "WillPower",
+      "Amount": 4480
+    },
+    "WillGem11": {
+      "Stat": "WillPower",
+      "Amount": 6890
+    },
+    "WillGem12": {
+      "Stat": "WillPower",
+      "Amount": 10400
+    },
+    "WillGem13": {
+      "Stat": "WillPower",
+      "Amount": 15800
+    },
+    "WillGem14": {
+      "Stat": "WillPower",
+      "Amount": 23800
+    },
+    "WillGem15": {
+      "Stat": "WillPower",
+      "Amount": 36200
+    }
+  },
+  "SpiritItemPresets": {
+    "R1": {
+      "BaseStatAmount": 180,
+      "PercentStatAmount": 0.01,
+      "LevelTrack": 1
+    },
+    "R2": {
+      "BaseStatAmount": 288,
+      "PercentStatAmount": 0.01,
+      "LevelTrack": 2
+    },
+    "R3": {
+      "BaseStatAmount": 522,
+      "PercentStatAmount": 0.01,
+      "LevelTrack": 3
+    },
+    "R4": {
+      "BaseStatAmount": 522,
+      "PercentStatAmount": 0.02,
+      "LevelTrack": 3
+    },
+    "R5": {
+      "BaseStatAmount": 810,
+      "PercentStatAmount": 0.02,
+      "LevelTrack": 4
+    },
+    "R6": {
+      "BaseStatAmount": 810,
+      "PercentStatAmount": 0.03,
+      "LevelTrack": 4
+    },
+    "R7": {
+      "BaseStatAmount": 810,
+      "PercentStatAmount": 0.04,
+      "LevelTrack": 4
+    },
+    "R8": {
+      "BaseStatAmount": 1440,
+      "PercentStatAmount": 0.04,
+      "LevelTrack": 5
+    },
+    "R9": {
+      "BaseStatAmount": 1440,
+      "PercentStatAmount": 0.05,
+      "LevelTrack": 5
+    },
+    "R10": {
+      "BaseStatAmount": 1440,
+      "PercentStatAmount": 0.06,
+      "LevelTrack": 5
+    },
+    "R11": {
+      "BaseStatAmount": 1440,
+      "PercentStatAmount": 0.07,
+      "LevelTrack": 5
+    },
+    "R12": {
+      "BaseStatAmount": 1900,
+      "PercentStatAmount": 0.1,
+      "LevelTrack": 6
+    }
+  },
+  "SpiritItemScalars": {
+    "1": {
+      "1": 1,
+      "2": 1.04,
+      "3": 1.09,
+      "4": 1.14,
+      "5": 1.21,
+      "6": 1.29,
+      "7": 1.37,
+      "8": 1.45,
+      "9": 1.54,
+      "10": 1.64,
+      "11": 1.74,
+      "12": 1.84,
+      "13": 1.95,
+      "14": 2.07,
+      "15": 2.18,
+      "16": 2.31,
+      "17": 2.44,
+      "18": 2.57,
+      "19": 2.71,
+      "20": 2.85
+    },
+    "2": {
+      "1": 1,
+      "2": 1.07,
+      "3": 1.13,
+      "4": 1.22,
+      "5": 1.34,
+      "6": 1.46,
+      "7": 1.59,
+      "8": 1.72,
+      "9": 1.87,
+      "10": 2.02,
+      "11": 2.18,
+      "12": 2.35,
+      "13": 2.52,
+      "14": 2.7,
+      "15": 2.89,
+      "16": 3.09,
+      "17": 3.29,
+      "18": 3.51,
+      "19": 3.73,
+      "20": 3.95
+    },
+    "3": {
+      "1": 1,
+      "2": 1.11,
+      "3": 1.24,
+      "4": 1.4,
+      "5": 1.61,
+      "6": 1.83,
+      "7": 2.06,
+      "8": 2.31,
+      "9": 2.57,
+      "10": 2.85,
+      "11": 3.13,
+      "12": 3.44,
+      "13": 3.75,
+      "14": 4.08,
+      "15": 4.42,
+      "16": 4.78,
+      "17": 5.15,
+      "18": 5.54,
+      "19": 5.94,
+      "20": 6.35
+    },
+    "4": {
+      "1": 1,
+      "2": 1.18,
+      "3": 1.37,
+      "4": 1.62,
+      "5": 1.94,
+      "6": 2.28,
+      "7": 2.65,
+      "8": 3.03,
+      "9": 3.43,
+      "10": 3.86,
+      "11": 4.31,
+      "12": 4.78,
+      "13": 5.27,
+      "14": 5.78,
+      "15": 6.31,
+      "16": 6.87,
+      "17": 7.44,
+      "18": 8.04,
+      "19": 8.66,
+      "20": 9.3
+    },
+    "5": {
+      "1": 1,
+      "2": 1.31,
+      "3": 1.65,
+      "4": 2.1,
+      "5": 2.67,
+      "6": 3.28,
+      "7": 3.92,
+      "8": 4.6,
+      "9": 5.32,
+      "10": 6.08,
+      "11": 6.88,
+      "12": 7.71,
+      "13": 8.58,
+      "14": 9.49,
+      "15": 10.44,
+      "16": 11.43,
+      "17": 12.45,
+      "18": 13.51,
+      "19": 14.61,
+      "20": 15.75
+    },
+    "6": {
+      "1": 1,
+      "2": 1.37,
+      "3": 1.85,
+      "4": 2.37,
+      "5": 2.95,
+      "6": 3.58,
+      "7": 4.27,
+      "8": 5,
+      "9": 5.79,
+      "10": 6.64,
+      "11": 7.56,
+      "12": 8.56,
+      "13": 9.64,
+      "14": 10.79,
+      "15": 12.03,
+      "16": 13.35,
+      "17": 14.77,
+      "18": 16.29,
+      "19": 17.93,
+      "20": 19.66
+    }
+  }
+}

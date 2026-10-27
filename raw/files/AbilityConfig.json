@@ -1,0 +1,419 @@
+{
+  "Attack25": {
+    "Components": [
+      "Dmg25"
+    ]
+  },
+  "Attack50": {
+    "Components": [
+      "Dmg50"
+    ]
+  },
+  "Attack75": {
+    "Components": [
+      "Dmg75"
+    ]
+  },
+  "Attack": {
+    "Components": [
+      "Dmg"
+    ]
+  },
+  "Attack150": {
+    "Components": [
+      "Dmg150"
+    ]
+  },
+  "Attack200": {
+    "Components": [
+      "Dmg200"
+    ]
+  },
+  "Attack250": {
+    "Components": [
+      "Dmg250"
+    ]
+  },
+  "Attack300": {
+    "Components": [
+      "Dmg300"
+    ]
+  },
+  "Attack400": {
+    "Components": [
+      "Dmg400"
+    ]
+  },
+  "Attack500": {
+    "Components": [
+      "Dmg500"
+    ]
+  },
+  "Attack600": {
+    "Components": [
+      "Dmg600"
+    ]
+  },
+  "Attack800": {
+    "Components": [
+      "Dmg800"
+    ]
+  },
+  "Attack1000": {
+    "Components": [
+      "Dmg1000"
+    ]
+  },
+  "Attack1200": {
+    "Components": [
+      "Dmg1200"
+    ]
+  },
+  "Attack2000": {
+    "Components": [
+      "Dmg2000"
+    ]
+  },
+  "Attack3000": {
+    "Components": [
+      "Dmg3000"
+    ]
+  },
+  "Attack75_PoisonConfig": {
+    "Components": [
+      "Dmg75",
+      "PoisonTarget"
+    ]
+  },
+  "Attack25_PoisonConfig": {
+    "Components": [
+      "Dmg25",
+      "PoisonTarget"
+    ]
+  },
+  "Attack25_SleepConfig": {
+    "Components": [
+      "Dmg25",
+      "SleepTarget"
+    ]
+  },
+  "Attack200_PoisonConfig": {
+    "Components": [
+      "Dmg200",
+      "PoisonTarget"
+    ]
+  },
+  "Attack50_Stun50Config": {
+    "Components": [
+      "Dmg50",
+      "StunTarget50"
+    ]
+  },
+  "Attack200_Stun150Config": {
+    "Components": [
+      "Dmg200",
+      "StunTarget150"
+    ]
+  },
+  "Attack250_Stun100Config": {
+    "Components": [
+      "Dmg250",
+      "StunTarget100"
+    ]
+  },
+  "Attack300_Stun25Config": {
+    "Components": [
+      "Dmg300",
+      "StunTarget25"
+    ]
+  },
+  "Attack300_Stun100Config": {
+    "Components": [
+      "Dmg300",
+      "StunTarget100"
+    ]
+  },
+  "Attack400_Stun150Config": {
+    "Components": [
+      "Dmg400",
+      "StunTarget150"
+    ]
+  },
+  "BossHealConfig": {
+    "Components": [
+      "HealTargetAtk8"
+    ]
+  },
+  "PoisonEat350": {
+    "Components": [
+      "350VsPoisoned"
+    ]
+  },
+  "PoisonEat400": {
+    "Components": [
+      "400VsPoisoned"
+    ]
+  },
+  "SleepConfig": {
+    "Components": [
+      "SleepTargetFX"
+    ]
+  },
+  "PurifyConfig": {
+    "Components": [
+      "PurifyTargetFX"
+    ]
+  },
+  "GiveTurnConfig": {
+    "Components": [
+      "GiveTurnToTargetFX"
+    ]
+  },
+  "LifeFlipConfig": {
+    "Components": [
+      "LifeFlipTargetFX"
+    ]
+  },
+  "DreamHunt500": {
+    "Components": [
+      "500VsSleeping"
+    ]
+  },
+  "RemovePoisonConfig": {
+    "Components": [
+      "RemovePoisonFromTarget"
+    ]
+  },
+  "RemoveSleepConfig": {
+    "Components": [
+      "RemoveSleepFromTarget"
+    ]
+  },
+  "DreamHunt600": {
+    "Components": [
+      "600VsSleeping"
+    ]
+  },
+  "PoisonEaterSingleBossConfig": {
+    "Components": [
+      "2000VsPoisoned"
+    ]
+  },
+  "DreamHuntSingleBossConfig": {
+    "Components": [
+      "3000VsSleeping"
+    ]
+  },
+  "TimeStrikeSingleBossConfig": {
+    "Components": [
+      "TimeStrikeSingleBoss"
+    ]
+  },
+  "PoisonEaterDoubleBossConfig": {
+    "Components": [
+      "1500VsPoisoned"
+    ]
+  },
+  "DreamHuntDoubleBossConfig": {
+    "Components": [
+      "2000VsSleeping"
+    ]
+  },
+  "TimeStrikeDoubleBossConfig": {
+    "Components": [
+      "TimeStrikeDoubleBoss"
+    ]
+  },
+  "TimeStrikeConfig": {
+    "Components": [
+      "TimeStrikeSingle"
+    ]
+  },
+  "Attack300Stun150Config": {
+    "Components": [
+      "Dmg300",
+      "StunTarget150"
+    ]
+  },
+  "Heal50PercentConfig": {
+    "Components": [
+      "HealTarget50FX"
+    ]
+  },
+  "Atk50_Poison_Config": {
+    "Components": [
+      "Atk50",
+      "PoisonTarget"
+    ]
+  },
+  "Atk125_Poison_Config": {
+    "Components": [
+      "Atk125",
+      "PoisonTarget"
+    ]
+  },
+  "PoisonBomb_Config": {
+    "Components": [
+      "PoisonTargetFX",
+      "UserDies"
+    ]
+  },
+  "Stun200Bomb_Config": {
+    "Components": [
+      "StunTarget200FX",
+      "UserDies"
+    ]
+  },
+  "Attack250_50PercentHeal": {
+    "Components": [
+      "Dmg250",
+      "HealSelf50"
+    ]
+  },
+  "Attack500_50PercentHeal": {
+    "Components": [
+      "Dmg500",
+      "HealSelf50"
+    ]
+  },
+  "Attack500_75PercentHeal": {
+    "Components": [
+      "Dmg500",
+      "HealSelf75"
+    ]
+  },
+  "Atk600_HugeCrit_Config": {
+    "Components": [
+      "Atk600_HugeCrit"
+    ]
+  },
+  "Atk150_HugeCrit_Config": {
+    "Components": [
+      "Atk150_HugeCrit"
+    ]
+  },
+  "Attack1000_AggroUp_Config": {
+    "Components": [
+      "Dmg1000",
+      "RaiseUserAggro"
+    ]
+  },
+  "Attack800_AggroDown_Config": {
+    "Components": [
+      "Dmg800",
+      "LowerUserAggro"
+    ]
+  },
+  "Attack400_AggroDown_Config": {
+    "Components": [
+      "Dmg400",
+      "LowerUserAggro"
+    ]
+  },
+  "Atk2000_Poison_Config": {
+    "Components": [
+      "Dmg2000",
+      "PoisonTarget"
+    ]
+  },
+  "Atk2000_Sleep300_Config": {
+    "Components": [
+      "Dmg2000",
+      "SleepTarget"
+    ]
+  },
+  "Atk2000_Stun300_Config": {
+    "Components": [
+      "Dmg2000",
+      "StunTarget300"
+    ]
+  },
+  "SleepRecover200TU_Config": {
+    "Components": [
+      "HealSelf50",
+      "SleepTarget"
+    ]
+  },
+  "PoisonHealBoss_Config": {
+    "Components": [
+      "HealTargetAtk8",
+      "PoisonUser"
+    ]
+  },
+  "SleepHealBoss_Config": {
+    "Components": [
+      "HealTargetAtk8",
+      "SleepUser"
+    ]
+  },
+  "TUDownStackingBoss_Config": {
+    "Components": [
+      "TUDownStackingTargetFX"
+    ]
+  },
+  "SleepBomb_Config": {
+    "Components": [
+      "SleepTargetFX",
+      "UserDies"
+    ]
+  },
+  "HealBomb_Config": {
+    "Components": [
+      "HealTarget50FX",
+      "UserDies"
+    ]
+  },
+  "PurifyHealConfig": {
+    "Components": [
+      "PurifyTargetFX",
+      "PurifySelfNotAloneFX",
+      "HealTarget25FX",
+      "HealSelf25NotAloneFX"
+    ]
+  },
+  "PushBackConfig": {
+    "Components": [
+      "PushTargetFX"
+    ]
+  },
+  "BanishToBackConfig": {
+    "Components": [
+      "BanishTargetFX"
+    ]
+  },
+  "Bomb1000": {
+    "Components": [
+      "Dmg1000",
+      "UserDies"
+    ]
+  },
+  "GiveTurnBombConfig": {
+    "Components": [
+      "GiveTurnToTargetFX",
+      "UserDies"
+    ]
+  },
+  "TimeDrainSingleConfig": {
+    "Components": [
+      "TimeStrikeSingle",
+      "HealSelf50"
+    ]
+  },
+  "DreamDrainSingleConfig": {
+    "Components": [
+      "600VsSleeping",
+      "HealSelf50"
+    ]
+  },
+  "TimeStrikeDoubleConfig": {
+    "Components": [
+      "TimeStrikeDouble"
+    ]
+  },
+  "DoubleHPConfig": {
+    "Components": [
+      "TargetDoublesHP",
+      "HealTargetFullFX"
+    ]
+  }
+}

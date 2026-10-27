@@ -1,0 +1,240 @@
+{
+  "SACCSSRARMR1": {
+    "Rarity": 11,
+    "Type": "Armr",
+    "PresetTrack": "SSR-ACC",
+    "Image": "SSRArmr1",
+    "Visible": true
+  },
+  "SACCSRARMR4": {
+    "Rarity": 10,
+    "Type": "Armr",
+    "PresetTrack": "SR-ACC4",
+    "Image": "SRArmr4",
+    "Visible": true
+  },
+  "SACCSRARMR3": {
+    "Rarity": 10,
+    "Type": "Armr",
+    "PresetTrack": "SR-ACC3",
+    "Image": "SRArmr3",
+    "Visible": true
+  },
+  "SACCSRARMR2": {
+    "Rarity": 10,
+    "Type": "Armr",
+    "PresetTrack": "SR-ACC2",
+    "Image": "SRArmr2",
+    "Visible": true
+  },
+  "SACCSRARMR1": {
+    "Rarity": 10,
+    "Type": "Armr",
+    "PresetTrack": "SR-ACC1",
+    "Image": "SRArmr1",
+    "Visible": true
+  },
+  "SACCRARMR4": {
+    "Rarity": 9,
+    "Type": "Armr",
+    "PresetTrack": "R-ACC4",
+    "Image": "RArmr4",
+    "Visible": true
+  },
+  "SACCRARMR3": {
+    "Rarity": 9,
+    "Type": "Armr",
+    "PresetTrack": "R-ACC3",
+    "Image": "RArmr3",
+    "Visible": true
+  },
+  "SACCRARMR2": {
+    "Rarity": 9,
+    "Type": "Armr",
+    "PresetTrack": "R-ACC2",
+    "Image": "RArmr2",
+    "Visible": true
+  },
+  "SACCRARMR1": {
+    "Rarity": 9,
+    "Type": "Armr",
+    "PresetTrack": "R-ACC1",
+    "Image": "RArmr1",
+    "Visible": true
+  },
+  "SACCSSRSHLD1": {
+    "Rarity": 11,
+    "Type": "Shld",
+    "PresetTrack": "SSR-ACC",
+    "Image": "SSRShld1",
+    "Visible": true
+  },
+  "SACCSRSHLD4": {
+    "Rarity": 10,
+    "Type": "Shld",
+    "PresetTrack": "SR-ACC4",
+    "Image": "SRShld4",
+    "Visible": true
+  },
+  "SACCSRSHLD3": {
+    "Rarity": 10,
+    "Type": "Shld",
+    "PresetTrack": "SR-ACC3",
+    "Image": "SRShld3",
+    "Visible": true
+  },
+  "SACCSRSHLD2": {
+    "Rarity": 10,
+    "Type": "Shld",
+    "PresetTrack": "SR-ACC2",
+    "Image": "SRShld2",
+    "Visible": true
+  },
+  "SACCSRSHLD1": {
+    "Rarity": 10,
+    "Type": "Shld",
+    "PresetTrack": "SR-ACC1",
+    "Image": "SRShld1",
+    "Visible": true
+  },
+  "SACCRSHLD4": {
+    "Rarity": 9,
+    "Type": "Shld",
+    "PresetTrack": "R-ACC4",
+    "Image": "RShld4",
+    "Visible": true
+  },
+  "SACCRSHLD3": {
+    "Rarity": 9,
+    "Type": "Shld",
+    "PresetTrack": "R-ACC3",
+    "Image": "RShld3",
+    "Visible": true
+  },
+  "SACCRSHLD2": {
+    "Rarity": 9,
+    "Type": "Shld",
+    "PresetTrack": "R-ACC2",
+    "Image": "RShld2",
+    "Visible": true
+  },
+  "SACCRSHLD1": {
+    "Rarity": 9,
+    "Type": "Shld",
+    "PresetTrack": "R-ACC1",
+    "Image": "RShld1",
+    "Visible": true
+  },
+  "SACCNARMR10": {
+    "Rarity": 1,
+    "Type": "Armr",
+    "PresetTrack": "A-ACC3",
+    "Image": "NArmrG",
+    "Visible": true
+  },
+  "SACCNARMR20": {
+    "Rarity": 2,
+    "Type": "Armr",
+    "PresetTrack": "A-ACC5",
+    "Image": "NArmrF",
+    "Visible": true
+  },
+  "SACCNARMR30": {
+    "Rarity": 3,
+    "Type": "Armr",
+    "PresetTrack": "A-ACC7",
+    "Image": "NArmrE",
+    "Visible": true
+  },
+  "SACCNARMR40": {
+    "Rarity": 4,
+    "Type": "Armr",
+    "PresetTrack": "A-ACC9",
+    "Image": "NArmrD",
+    "Visible": true
+  },
+  "SACCNARMR55": {
+    "Rarity": 5,
+    "Type": "Armr",
+    "PresetTrack": "A-ACC12",
+    "Image": "NArmrC",
+    "Visible": true
+  },
+  "SACCNARMR70": {
+    "Rarity": 6,
+    "Type": "Armr",
+    "PresetTrack": "A-ACC15",
+    "Image": "NArmrB",
+    "Visible": true
+  },
+  "SACCNARMR85": {
+    "Rarity": 7,
+    "Type": "Armr",
+    "PresetTrack": "A-ACC18",
+    "Image": "NArmrA",
+    "Visible": true
+  },
+  "SACCNARMR100": {
+    "Rarity": 8,
+    "Type": "Armr",
+    "PresetTrack": "A-ACC21",
+    "Image": "NArmrS",
+    "Visible": true
+  },
+  "SACCNSHLD10": {
+    "Rarity": 1,
+    "Type": "Shld",
+    "PresetTrack": "A-ACC3",
+    "Image": "NShldG",
+    "Visible": true
+  },
+  "SACCNSHLD20": {
+    "Rarity": 2,
+    "Type": "Shld",
+    "PresetTrack": "A-ACC5",
+    "Image": "NShldF",
+    "Visible": true
+  },
+  "SACCNSHLD30": {
+    "Rarity": 3,
+    "Type": "Shld",
+    "PresetTrack": "A-ACC7",
+    "Image": "NShldE",
+    "Visible": true
+  },
+  "SACCNSHLD40": {
+    "Rarity": 4,
+    "Type": "Shld",
+    "PresetTrack": "A-ACC9",
+    "Image": "NShldD",
+    "Visible": true
+  },
+  "SACCNSHLD55": {
+    "Rarity": 5,
+    "Type": "Shld",
+    "PresetTrack": "A-ACC12",
+    "Image": "NShldC",
+    "Visible": true
+  },
+  "SACCNSHLD70": {
+    "Rarity": 6,
+    "Type": "Shld",
+    "PresetTrack": "A-ACC15",
+    "Image": "NShldB",
+    "Visible": true
+  },
+  "SACCNSHLD85": {
+    "Rarity": 7,
+    "Type": "Shld",
+    "PresetTrack": "A-ACC18",
+    "Image": "NShldA",
+    "Visible": true
+  },
+  "SACCNSHLD100": {
+    "Rarity": 8,
+    "Type": "Shld",
+    "PresetTrack": "A-ACC21",
+    "Image": "NShldS",
+    "Visible": true
+  }
+}

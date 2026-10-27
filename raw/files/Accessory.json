@@ -1,0 +1,359 @@
+{
+  "MACCSSRGUN1": {
+    "Rarity": 11,
+    "Type": "Gun",
+    "PresetTrack": "SSR-ACC",
+    "Image": "SSRGun1",
+    "Visible": true
+  },
+  "MACCSRGUN4": {
+    "Rarity": 10,
+    "Type": "Gun",
+    "PresetTrack": "SR-ACC4",
+    "Image": "SRGun4",
+    "Visible": true
+  },
+  "MACCSRGUN3": {
+    "Rarity": 10,
+    "Type": "Gun",
+    "PresetTrack": "SR-ACC3",
+    "Image": "SRGun3",
+    "Visible": true
+  },
+  "MACCSRGUN2": {
+    "Rarity": 10,
+    "Type": "Gun",
+    "PresetTrack": "SR-ACC2",
+    "Image": "SRGun2",
+    "Visible": true
+  },
+  "MACCSRGUN1": {
+    "Rarity": 10,
+    "Type": "Gun",
+    "PresetTrack": "SR-ACC1",
+    "Image": "SRGun1",
+    "Visible": true
+  },
+  "MACCRGUN4": {
+    "Rarity": 9,
+    "Type": "Gun",
+    "PresetTrack": "R-ACC4",
+    "Image": "RGun4",
+    "Visible": true
+  },
+  "MACCRGUN3": {
+    "Rarity": 9,
+    "Type": "Gun",
+    "PresetTrack": "R-ACC3",
+    "Image": "RGun3",
+    "Visible": true
+  },
+  "MACCRGUN2": {
+    "Rarity": 9,
+    "Type": "Gun",
+    "PresetTrack": "R-ACC2",
+    "Image": "RGun2",
+    "Visible": true
+  },
+  "MACCRGUN1": {
+    "Rarity": 9,
+    "Type": "Gun",
+    "PresetTrack": "R-ACC1",
+    "Image": "RGun1",
+    "Visible": true
+  },
+  "MACCSSRDAGR1": {
+    "Rarity": 11,
+    "Type": "Dagr",
+    "PresetTrack": "SSR-ACC",
+    "Image": "SSRDagr1",
+    "Visible": true
+  },
+  "MACCSRDAGR4": {
+    "Rarity": 10,
+    "Type": "Dagr",
+    "PresetTrack": "SR-ACC4",
+    "Image": "SRDagr4",
+    "Visible": true
+  },
+  "MACCSRDAGR3": {
+    "Rarity": 10,
+    "Type": "Dagr",
+    "PresetTrack": "SR-ACC3",
+    "Image": "SRDagr3",
+    "Visible": true
+  },
+  "MACCSRDAGR2": {
+    "Rarity": 10,
+    "Type": "Dagr",
+    "PresetTrack": "SR-ACC2",
+    "Image": "SRDagr2",
+    "Visible": true
+  },
+  "MACCSRDAGR1": {
+    "Rarity": 10,
+    "Type": "Dagr",
+    "PresetTrack": "SR-ACC1",
+    "Image": "SRDagr1",
+    "Visible": true
+  },
+  "MACCRDAGR4": {
+    "Rarity": 9,
+    "Type": "Dagr",
+    "PresetTrack": "R-ACC4",
+    "Image": "RDagr4",
+    "Visible": true
+  },
+  "MACCRDAGR3": {
+    "Rarity": 9,
+    "Type": "Dagr",
+    "PresetTrack": "R-ACC3",
+    "Image": "RDagr3",
+    "Visible": true
+  },
+  "MACCRDAGR2": {
+    "Rarity": 9,
+    "Type": "Dagr",
+    "PresetTrack": "R-ACC2",
+    "Image": "RDagr2",
+    "Visible": true
+  },
+  "MACCRDAGR1": {
+    "Rarity": 9,
+    "Type": "Dagr",
+    "PresetTrack": "R-ACC1",
+    "Image": "RDagr1",
+    "Visible": true
+  },
+  "MACCSSRFIST1": {
+    "Rarity": 11,
+    "Type": "Fist",
+    "PresetTrack": "SSR-ACC",
+    "Image": "SSRFist1",
+    "Visible": true
+  },
+  "MACCSRFIST4": {
+    "Rarity": 10,
+    "Type": "Fist",
+    "PresetTrack": "SR-ACC4",
+    "Image": "SRFist4",
+    "Visible": true
+  },
+  "MACCSRFIST3": {
+    "Rarity": 10,
+    "Type": "Fist",
+    "PresetTrack": "SR-ACC3",
+    "Image": "SRFist3",
+    "Visible": true
+  },
+  "MACCSRFIST2": {
+    "Rarity": 10,
+    "Type": "Fist",
+    "PresetTrack": "SR-ACC2",
+    "Image": "SRFist2",
+    "Visible": true
+  },
+  "MACCSRFIST1": {
+    "Rarity": 10,
+    "Type": "Fist",
+    "PresetTrack": "SR-ACC1",
+    "Image": "SRFist1",
+    "Visible": true
+  },
+  "MACCRFIST4": {
+    "Rarity": 9,
+    "Type": "Fist",
+    "PresetTrack": "R-ACC4",
+    "Image": "RFist4",
+    "Visible": true
+  },
+  "MACCRFIST3": {
+    "Rarity": 9,
+    "Type": "Fist",
+    "PresetTrack": "R-ACC3",
+    "Image": "RFist3",
+    "Visible": true
+  },
+  "MACCRFIST2": {
+    "Rarity": 9,
+    "Type": "Fist",
+    "PresetTrack": "R-ACC2",
+    "Image": "RFist2",
+    "Visible": true
+  },
+  "MACCRFIST1": {
+    "Rarity": 9,
+    "Type": "Fist",
+    "PresetTrack": "R-ACC1",
+    "Image": "RFist1",
+    "Visible": true
+  },
+  "MACCNGUN10": {
+    "Rarity": 1,
+    "Type": "Gun",
+    "PresetTrack": "A-ACC3",
+    "Image": "NGunG",
+    "Visible": true
+  },
+  "MACCNGUN20": {
+    "Rarity": 2,
+    "Type": "Gun",
+    "PresetTrack": "A-ACC5",
+    "Image": "NGunF",
+    "Visible": true
+  },
+  "MACCNGUN30": {
+    "Rarity": 3,
+    "Type": "Gun",
+    "PresetTrack": "A-ACC7",
+    "Image": "NGunE",
+    "Visible": true
+  },
+  "MACCNGUN40": {
+    "Rarity": 4,
+    "Type": "Gun",
+    "PresetTrack": "A-ACC9",
+    "Image": "NGunD",
+    "Visible": true
+  },
+  "MACCNGUN55": {
+    "Rarity": 5,
+    "Type": "Gun",
+    "PresetTrack": "A-ACC12",
+    "Image": "NGunC",
+    "Visible": true
+  },
+  "MACCNGUN70": {
+    "Rarity": 6,
+    "Type": "Gun",
+    "PresetTrack": "A-ACC15",
+    "Image": "NGunB",
+    "Visible": true
+  },
+  "MACCNGUN85": {
+    "Rarity": 7,
+    "Type": "Gun",
+    "PresetTrack": "A-ACC18",
+    "Image": "NGunA",
+    "Visible": true
+  },
+  "MACCNGUN100": {
+    "Rarity": 8,
+    "Type": "Gun",
+    "PresetTrack": "A-ACC21",
+    "Image": "NGunS",
+    "Visible": true
+  },
+  "MACCNDAGR10": {
+    "Rarity": 1,
+    "Type": "Dagr",
+    "PresetTrack": "A-ACC3",
+    "Image": "NDagrG",
+    "Visible": true
+  },
+  "MACCNDAGR20": {
+    "Rarity": 2,
+    "Type": "Dagr",
+    "PresetTrack": "A-ACC5",
+    "Image": "NDagrF",
+    "Visible": true
+  },
+  "MACCNDAGR30": {
+    "Rarity": 3,
+    "Type": "Dagr",
+    "PresetTrack": "A-ACC7",
+    "Image": "NDagrE",
+    "Visible": true
+  },
+  "MACCNDAGR40": {
+    "Rarity": 4,
+    "Type": "Dagr",
+    "PresetTrack": "A-ACC9",
+    "Image": "NDagrD",
+    "Visible": true
+  },
+  "MACCNDAGR55": {
+    "Rarity": 5,
+    "Type": "Dagr",
+    "PresetTrack": "A-ACC12",
+    "Image": "NDagrC",
+    "Visible": true
+  },
+  "MACCNDAGR70": {
+    "Rarity": 6,
+    "Type": "Dagr",
+    "PresetTrack": "A-ACC15",
+    "Image": "NDagrB",
+    "Visible": true
+  },
+  "MACCNDAGR85": {
+    "Rarity": 7,
+    "Type": "Dagr",
+    "PresetTrack": "A-ACC18",
+    "Image": "NDagrA",
+    "Visible": true
+  },
+  "MACCNDAGR100": {
+    "Rarity": 8,
+    "Type": "Dagr",
+    "PresetTrack": "A-ACC21",
+    "Image": "NDagrS",
+    "Visible": true
+  },
+  "MACCNFIST10": {
+    "Rarity": 1,
+    "Type": "Fist",
+    "PresetTrack": "A-ACC3",
+    "Image": "NFistG",
+    "Visible": true
+  },
+  "MACCNFIST20": {
+    "Rarity": 2,
+    "Type": "Fist",
+    "PresetTrack": "A-ACC5",
+    "Image": "NFistF",
+    "Visible": true
+  },
+  "MACCNFIST30": {
+    "Rarity": 3,
+    "Type": "Fist",
+    "PresetTrack": "A-ACC7",
+    "Image": "NFistE",
+    "Visible": true
+  },
+  "MACCNFIST40": {
+    "Rarity": 4,
+    "Type": "Fist",
+    "PresetTrack": "A-ACC9",
+    "Image": "NFistD",
+    "Visible": true
+  },
+  "MACCNFIST55": {
+    "Rarity": 5,
+    "Type": "Fist",
+    "PresetTrack": "A-ACC12",
+    "Image": "NFistC",
+    "Visible": true
+  },
+  "MACCNFIST70": {
+    "Rarity": 6,
+    "Type": "Fist",
+    "PresetTrack": "A-ACC15",
+    "Image": "NFistB",
+    "Visible": true
+  },
+  "MACCNFIST85": {
+    "Rarity": 7,
+    "Type": "Fist",
+    "PresetTrack": "A-ACC18",
+    "Image": "NFistA",
+    "Visible": true
+  },
+  "MACCNFIST100": {
+    "Rarity": 8,
+    "Type": "Fist",
+    "PresetTrack": "A-ACC21",
+    "Image": "NFistS",
+    "Visible": true
+  }
+}

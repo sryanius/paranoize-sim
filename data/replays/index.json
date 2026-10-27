@@ -1,0 +1,170 @@
+[
+ {
+  "file": "floor200_main_lose4",
+  "label": "200층 · 본계정 · 통솔 144 · 권장 140 (10-27)",
+  "account": "main",
+  "floor": 200,
+  "rank": 144,
+  "recRank": 140
+ },
+ {
+  "file": "floor200_main_lose3",
+  "label": "200층 · 본계정 · 통솔 144 · 권장 140 (10-23)",
+  "account": "main",
+  "floor": 200,
+  "rank": 144,
+  "recRank": 140
+ },
+ {
+  "file": "floor200_main_lose2",
+  "label": "200층 · 본계정 · 통솔 144 · 권장 140 (10-22)",
+  "account": "main",
+  "floor": 200,
+  "rank": 144,
+  "recRank": 140
+ },
+ {
+  "file": "floor200_main_lose",
+  "label": "200층 · 본계정 · 통솔 144 · 권장 140 (10-20)",
+  "account": "main",
+  "floor": 200,
+  "rank": 144,
+  "recRank": 140
+ },
+ {
+  "file": "floor199_main_lose",
+  "label": "199층 · 본계정 · 통솔 144 · 권장 139",
+  "account": "main",
+  "floor": 199,
+  "rank": 144,
+  "recRank": 139
+ },
+ {
+  "file": "floor197_main_lose",
+  "label": "197층 · 본계정 · 통솔 144 · 권장 139",
+  "account": "main",
+  "floor": 197,
+  "rank": 144,
+  "recRank": 139
+ },
+ {
+  "file": "floor196_main_lose",
+  "label": "196층 · 본계정 · 통솔 144 · 권장 138",
+  "account": "main",
+  "floor": 196,
+  "rank": 144,
+  "recRank": 138
+ },
+ {
+  "file": "floor195_main_lose",
+  "label": "195층 · 본계정 · 통솔 144 · 권장 138",
+  "account": "main",
+  "floor": 195,
+  "rank": 144,
+  "recRank": 138
+ },
+ {
+  "file": "floor193_main_lose",
+  "label": "193층 · 본계정 · 통솔 144 · 권장 138",
+  "account": "main",
+  "floor": 193,
+  "rank": 144,
+  "recRank": 138
+ },
+ {
+  "file": "floor191_main_lose",
+  "label": "191층 · 본계정 · 통솔 143 · 권장 137",
+  "account": "main",
+  "floor": 191,
+  "rank": 143,
+  "recRank": 137
+ },
+ {
+  "file": "floor147_sub_lose3",
+  "label": "147층 · 부계정 · 통솔 126 · 권장 119 (10-26)",
+  "account": "sub",
+  "floor": 147,
+  "rank": 126,
+  "recRank": 119
+ },
+ {
+  "file": "floor147_sub_lose2",
+  "label": "147층 · 부계정 · 통솔 125 · 권장 119 (10-24)",
+  "account": "sub",
+  "floor": 147,
+  "rank": 125,
+  "recRank": 119
+ },
+ {
+  "file": "floor147_sub_lose",
+  "label": "147층 · 부계정 · 통솔 124 · 권장 119 (10-20)",
+  "account": "sub",
+  "floor": 147,
+  "rank": 124,
+  "recRank": 119
+ },
+ {
+  "file": "floor146_sub_lose",
+  "label": "146층 · 부계정 · 통솔 124 · 권장 119",
+  "account": "sub",
+  "floor": 146,
+  "rank": 124,
+  "recRank": 119
+ },
+ {
+  "file": "floor145_sub_lose2",
+  "label": "145층 · 부계정 · 통솔 124 · 권장 118 (10-20)",
+  "account": "sub",
+  "floor": 145,
+  "rank": 124,
+  "recRank": 118
+ },
+ {
+  "file": "floor145_sub_lose",
+  "label": "145층 · 부계정 · 통솔 123 · 권장 118 (10-20)",
+  "account": "sub",
+  "floor": 145,
+  "rank": 123,
+  "recRank": 118
+ },
+ {
+  "file": "floor144_sub_lose",
+  "label": "144층 · 부계정 · 통솔 123 · 권장 118",
+  "account": "sub",
+  "floor": 144,
+  "rank": 123,
+  "recRank": 118
+ },
+ {
+  "file": "floor143_sub_lose2",
+  "label": "143층 · 부계정 · 통솔 123 · 권장 117 (10-20)",
+  "account": "sub",
+  "floor": 143,
+  "rank": 123,
+  "recRank": 117
+ },
+ {
+  "file": "floor143_sub_lose",
+  "label": "143층 · 부계정 · 통솔 122 · 권장 117 (10-16)",
+  "account": "sub",
+  "floor": 143,
+  "rank": 122,
+  "recRank": 117
+ },
+ {
+  "file": "floor137_sub_lose",
+  "label": "137층 · 부계정 · 통솔 122 · 권장 114",
+  "account": "sub",
+  "floor": 137,
+  "rank": 122,
+  "recRank": 114
+ },
+ {
+  "file": "floor136_sub_lose",
+  "label": "136층 · 부계정 · 통솔 122 · 권장 114",
+  "account": "sub",
+  "floor": 136,
+  "rank": 122,
+  "recRank": 114
+ }
+]
