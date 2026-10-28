@@ -4,11 +4,13 @@
 //   --fix=N: N반 6명을 멤버·순서 그대로 고정(야망은 반 단위로 싸우고 반 안 순서가 승패를 크게 바꾼다 — 2026-10-20 war_duel).
 //   --fixset=N: N반 6명(멤버)은 그 반에 묶되 반 안 순서는 바꿔 본다(반 안끼리 · 반 밖끼리만 맞바꿈).
 //   --start=<JSON>: 그 파일의 proposed 순서에서 탐색을 시작(«current» 는 여전히 지금 부대 순서) · --out=<data 안 파일 이름>.
+//   --opp=raw/api/<시각>_GetPlatoonsRequest.json: 랭킹에서 읽은 그 사람의 지금 덱(python tools/api.py deck <Uid>)으로 «그 사람이 공격해 옴 · 내가 공격» 두 대전만 본다.
+//     투귀공명·캠퍼스는 랭킹에 없어서 그 사람이 나온 가장 최근 투기장 기록 값을 쓴다(추정) · 내 팀 값 = 내가 나온 가장 최근 기록 · --opprank=N 으로 그 사람 통솔(랭킹 경험치 → heroXp)을 덮는다.
 //   탐색은 고정 반 밖 자리끼리 맞바꾸기. 결과는 data/arena_formation_main.json(투기장 덱 페이지가 읽는다).
 // 상대 목록(MATCH)은 기록이 늘면 손으로 고친다. w = 점수 무게, n = 탐색 판 수 배율(검증은 모두 같은 판 수).
 import { Worker } from 'node:worker_threads';
 import { availableParallelism } from 'node:os';
-import { writeFileSync } from 'node:fs';
+import { writeFileSync, readdirSync } from 'node:fs';
 import { J, myUid } from './lib/paradata.mjs';
 import { seedsFor } from '../site/engine/ruins.js';
 
@@ -16,7 +18,7 @@ const ME = myUid();
 const arg = (k, d) => { const a = process.argv.find((x) => x.startsWith(`--${k}=`)); return a ? a.slice(k.length + 3) : d; };
 const deckFile = arg('deck'); if (!deckFile) { console.error('--deck=<GetPlatoons 응답> 이 필요하다'); process.exit(1); }
 const FIX = +arg('fix', 0); const FIXSET = +arg('fixset', 0); const N = +arg('n', 1000); const NV = +arg('nv', 4000);
-const OUT = arg('out', 'arena_formation_main.json'); const START = arg('start', null);
+const OUT = arg('out', 'arena_formation_main.json'); const START = arg('start', null); const OPP = arg('opp', null); const OPPRANK = arg('opprank', null);
 const pr = J(deckFile).res; const mine = pr.Incidentals.Mobs[ME];
 const pl = pr.PlatoonPages['0'].Platoons; const cur0 = Object.keys(pl).sort((a, b) => a - b).slice(0, 4).flatMap((i) => pl[i].Mobs.filter(Boolean));
 for (const t of cur0) mine[t] = { ...mine[t], ModelType: t };
@@ -29,7 +31,7 @@ const synth = { Seed: 1, P1: ME, P2: d24.P1, P1Name: myAtk.P1Name, P2Name: d24.P
 put(synth, 1, T(myAtk, 1)); put(synth, 2, T(d24, 1));
 writeFileSync(new URL('../data/arena_synth_main_vs_dough.json', import.meta.url), JSON.stringify({ note: '합성 설정 — 내가 더그를 공격하는 기록이 없어 arena_main_29(내 팀 값)와 arena_main_24(더그 덱·팀 값)로 만든 것. 더그 방어 덱 = 공격 덱 가정.', Replay: { Config: synth } }, null, 1));
 
-const MATCH = [
+let MATCH = [
   { key: '더그가 공격해 옴', file: 'arena_main_24', w: 1, n: 1 },
   { key: '내가 더그 공격(가정)', path: 'arena_synth_main_vs_dough.json', w: 1, n: 1 },
   { key: '리세가 공격해 옴', file: 'arena_main_20', w: 0.3, n: 0.15 },
@@ -38,6 +40,25 @@ const MATCH = [
   { key: '짜냥해야가 공격해 옴', file: 'arena_main_25', w: 0.1, n: 0.15 },
   { key: '마리 공격', file: 'arena_main_28', w: 0, n: 0.15 },
 ];
+if (OPP) {
+  const op = J(OPP).res; const ou = Object.keys(op.Incidentals.Mobs)[0]; const opl = Object.values(op.PlatoonPages)[0].Platoons; // 남의 덱은 그 사람이 쓰는 페이지 하나만 온다(번호는 사람마다)
+  const omobs = [0, 1, 2, 3].flatMap((i) => (opl[i]?.Mobs || []).filter(Boolean)).map((t) => ({ ...op.Incidentals.Mobs[ou][t], ModelType: t }));
+  const nn = (f) => +f.match(/\d+/)[0];
+  const recs = readdirSync(new URL('../data/replays/', import.meta.url)).filter((f) => /^arena_main_\d+\.json$/.test(f)).sort((a, b) => nn(b) - nn(a)).map((f) => J('data/replays/' + f).Replay.Config);
+  const oc = recs.find((c) => c.P1 === ou || c.P2 === ou); if (!oc) { console.error(`${ou} 가 나온 투기장 기록이 없다 — 투귀공명·캠퍼스 값을 모른다`); process.exit(1); }
+  const mc = recs.find((c) => c.P1 === ME || c.P2 === ME); if (!mc) { console.error('내가 나온 투기장 기록이 없다 — 내 투귀공명·캠퍼스 값을 모른다'); process.exit(1); }
+  const os = oc.P1 === ou ? 1 : 2, ms = mc.P1 === ME ? 1 : 2;
+  const oT = T(oc, os); if (OPPRANK) oT.Rank = +OPPRANK;
+  const name = oc[`P${os}Name`], mm = cur0.map((t) => mine[t]);
+  MATCH = [];
+  for (const [atk, tag, key] of [[false, 'def', `${name} 공격해 옴(지금 덱)`], [true, 'atk', `${name} 공격(지금 덱)`]]) {
+    const c = { Seed: 1, P1: atk ? ME : ou, P2: atk ? ou : ME, P1Name: atk ? mc[`P${ms}Name`] : name, P2Name: atk ? name : mc[`P${ms}Name`], P1Mobs: atk ? mm : omobs, P2Mobs: atk ? omobs : mm };
+    put(c, atk ? 1 : 2, T(mc, ms)); put(c, atk ? 2 : 1, oT);
+    const path = `arena_now_${ou}_${tag}.json`;
+    writeFileSync(new URL('../data/' + path, import.meta.url), JSON.stringify({ note: `합성 설정 — ${name} 의 지금 덱(${OPP} · 랭킹에서 읽음) · ${name} 팀 값은 기록(통솔 ${oT.Rank}${OPPRANK ? ' · 랭킹 경험치로 덮음' : ''}) · 내 팀 값은 가장 최근 내 기록. ${atk ? '내가 공격' : name + ' 공격'}.`, Replay: { Config: c } }, null, 1));
+    MATCH.push({ key, path, w: 1, n: 1 });
+  }
+}
 for (const m of MATCH) { m.cfg = J(m.path ? 'data/' + m.path : `data/replays/${m.file}.json`).Replay.Config; m.side = m.cfg.P1 === ME ? 1 : 2; }
 
 const threads = Math.max(1, availableParallelism() - 1); const workers = [];

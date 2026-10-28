@@ -58,6 +58,18 @@ python tools/serve.py     # → http://localhost:6102/site/ruins.html (유적 �
   `data/replays/arena_*.json` 으로 옮기는 도구는 아직 없습니다 — Claude 에게 부탁하세요.
 - `tools/arena_opt.mjs` 의 상대 목록(MATCH)은 만든 사람의 상대들입니다. 내 기록으로 바꿔 써야 합니다.
 
+### 랭킹에서 남의 덱 읽기
+
+```bash
+python tools/api.py ranking 2        # 전투력 랭킹 50명(Uid · 이름 · 점수)
+python tools/api.py ranking 4        # 통솔 랭킹 — 점수는 누적 경험치(레벨은 data/tables.json 의 heroXp 로 바꾼다)
+python tools/api.py deck <Uid>       # 그 사람의 지금 덱(랭킹에서 이름을 누르면 보이는 것) → raw/api/…_GetPlatoonsRequest.json
+node tools/arena_opt.mjs --deck=<내 GetPlatoons 파일> --opp=<그 사람 GetPlatoons 파일> --opprank=<그 사람 통솔>
+```
+
+- `--opp` 는 그 사람의 지금 덱으로 «그 사람이 공격해 옴 · 내가 공격» 두 대전만 놓고 내 순서를 찾습니다.
+- 투귀공명·캠퍼스 보너스는 랭킹에 없어서 **투기장 기록**에서 가져옵니다 — 그 사람이 나온 기록과 내가 나온 기록이 `data/replays/arena_*.json` 에 있어야 합니다(없으면 멈춥니다).
+
 ## 들어 있는 기록
 
 `data/replays` 의 «본계정·부계정» 기록은 **만든 사람의 것**입니다 — 엔진 검증용 정답지로 넣어 두었습니다.

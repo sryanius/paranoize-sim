@@ -55,6 +55,15 @@ if __name__ == '__main__':
     elif cmd == 'platoons':    # 내 부대·보유 캐릭터(서버가 보는 덱) — 읽기만
         st, res = call('GetPlatoonsRequest', {**auth(c)})
         print(st, str(masked(res))[:1500])
+    elif cmd == 'ranking':     # 랭킹 목록(랭킹 화면과 같은 읽기 요청) — 종류 2 전투력(기본) · 4 통솔(Score = 누적 경험치 → tables.heroXp 로 레벨) · 다른 번호(0 이벤트 1 부대 3 투기장 5 캐릭터 6 클러스터)는 안 써 봄
+        st, res = call('LeaderboardRequest', {**auth(c), 'UserLeaderboard': int(sys.argv[2]) if len(sys.argv) > 2 else 2})
+        rows = res.get('UserRows') or [] if isinstance(res, dict) else []
+        print(st, f'{len(rows)}명' if rows else str(masked(res))[:300])
+        for i, r in enumerate(rows): print(i + 1, r.get('Uid'), r.get('UserName'), r.get('Score'))
+    elif cmd == 'deck':        # 남의 부대(랭킹에서 이름을 누르면 보이는 덱) — GetPlatoonsRequest 의 Uid 가 «볼 사람». 1~4반 인스턴스(전투 기록과 같은 형식)
+        st, res = call('GetPlatoonsRequest', {**auth(c), 'Uid': sys.argv[2]})
+        pl = next(iter((res.get('PlatoonPages') or {}).values()), {}).get('Platoons') or {} if isinstance(res, dict) else {}  # 서버는 그 사람이 쓰는 페이지 하나만 준다(0 이 아닐 수 있다)
+        print(st, ' / '.join(' '.join(pl[k]['Mobs']) for k in ('0', '1', '2', '3') if k in pl) or str(masked(res))[:300])
     elif cmd == 'collection':  # 보유 캐릭터·장비 전체(캐릭터 목록 화면과 같은 읽기 요청)
         st, res = call('CollectionItemsRequest', {**auth(c), 'FetchAllOwn': True})
         print(st, str(masked(res))[:600])

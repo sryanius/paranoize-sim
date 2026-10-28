@@ -12,7 +12,7 @@
 
 - 요청은 하나씩, 간격 4~8초(api.py 가 지킨다). 병렬·반복 호출 스크립트를 만들지 않는다.
 - **`challenge`(유적 도전)는 사람이 그때 «도전해» 라고 할 때만** 한 번 보낸다. 자동 반복·밤새 돌리기·조건 맞으면 알아서 도전하기는 만들지 않는다(계정 제재 위험).
-- 재화를 쓰거나 무언가를 바꾸는 요청은 보내지 않는다: 교환 상점의 `Trade` · 경매(`ImprovingEggRequest`) · 구매·강화 등. 읽기 요청(`events`·`platoons`·`collection`·`arena_replays` 등)만 자유롭게.
+- 재화를 쓰거나 무언가를 바꾸는 요청은 보내지 않는다: 교환 상점의 `Trade` · 경매(`ImprovingEggRequest`) · 구매·강화 등. 읽기 요청(`events`·`platoons`·`collection`·`arena_replays`·`ranking`·`deck` 등)만 자유롭게.
 - `restore` 하면 폰의 게임이 로그아웃된다 — 사람에게 알리고 한다.
 - 세션이 끊기면(SessionInvalid) `login` 을 다시, 그래도 안 되면 `restore` 를 다시.
 
