@@ -45,7 +45,7 @@ if __name__ == '__main__':
         sys.exit()
     if cmd == 'login':
         st, res = call('LoginRequest', {'Clid': c['Clid'], 'Uid': c['Uid'], 'Adid': '', 'Lang': 'ko',
-                                        'Bundle': 'com.zigzagame.paranoize', 'Version': '1.2.0'})
+                                        'Bundle': 'com.zigzagame.paranoize', 'Version': '1.3.0'})  # 버전은 폰에 깔린 앱과 맞춘다(2026-10-29 1.3.0 · 빌드 425)
         print(st, str(masked(res))[:600])
         if isinstance(res, dict) and res.get('Session'):
             c['Session'] = res['Session']; json.dump(c, open(CREDS, 'w')); print('세션 저장')
