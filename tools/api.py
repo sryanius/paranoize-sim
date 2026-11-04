@@ -1,14 +1,18 @@
 # 패러노이즈 API 최소 클라이언트 — 요청 간격 4~8초, 순차. 화면에 찍는 응답에서는 세션·Clid·연동 코드를 가린다(파일 raw/api/ 에는 그대로).
 import gzip, json, sys, os, random, time, urllib.request, urllib.error
 BASE = 'https://game.prd.paranoize.com/'
-CREDS = 'raw/api_creds.json'; OUT = 'raw/api'
+CREDS = os.environ.get('PARA_CREDS', 'raw/api_creds.json'); OUT = 'raw/api'  # PARA_CREDS 로 다른 자격 파일(예: 본계정 raw/api_creds_main.json)을 쓴다
 _id = [0]; _last = [0.0]
 os.makedirs(OUT, exist_ok=True)
 
+LAST = f'{OUT}/.last'  # 마지막 요청 시각 — 명령을 따로 띄워도 간격을 지키게 파일에 둔다(2026-10-29 연달아 띄운 deck 둘이 같은 초에 나가 응답 파일이 덮였다)
 def call(path, body):
+    try: _last[0] = max(_last[0], float(open(LAST).read()))
+    except Exception: pass
     wait = 4 + random.uniform(0, 4) - (time.time() - _last[0])
     if wait > 0: time.sleep(wait)
     _last[0] = time.time(); _id[0] += 1
+    open(LAST, 'w').write(str(_last[0]))
     body = dict(body); body.setdefault('Id', _id[0])
     data = gzip.compress(json.dumps(body).encode('utf-8'))
     h = {'Content-Type': 'application/octet-stream', 'Accept-Encoding': 'gzip',
@@ -45,7 +49,7 @@ if __name__ == '__main__':
         sys.exit()
     if cmd == 'login':
         st, res = call('LoginRequest', {'Clid': c['Clid'], 'Uid': c['Uid'], 'Adid': '', 'Lang': 'ko',
-                                        'Bundle': 'com.zigzagame.paranoize', 'Version': '1.3.0'})  # 버전은 폰에 깔린 앱과 맞춘다(2026-10-29 1.3.0 · 빌드 425)
+                                        'Bundle': 'com.zigzagame.paranoize', 'Version': '1.3.1'})  # 버전은 폰에 깔린 앱과 맞춘다(2026-11-02 1.3.1 · 빌드 426)
         print(st, str(masked(res))[:600])
         if isinstance(res, dict) and res.get('Session'):
             c['Session'] = res['Session']; json.dump(c, open(CREDS, 'w')); print('세션 저장')
@@ -64,6 +68,11 @@ if __name__ == '__main__':
         st, res = call('GetPlatoonsRequest', {**auth(c), 'Uid': sys.argv[2]})
         pl = next(iter((res.get('PlatoonPages') or {}).values()), {}).get('Platoons') or {} if isinstance(res, dict) else {}  # 서버는 그 사람이 쓰는 페이지 하나만 준다(0 이 아닐 수 있다)
         print(st, ' / '.join(' '.join(pl[k]['Mobs']) for k in ('0', '1', '2', '3') if k in pl) or str(masked(res))[:300])
+    elif cmd == 'userdata':    # 남의 프로필(랭킹에서 이름을 누른 화면과 같은 읽기 요청) — 총 전력·캐릭터별 전력·소지 캐릭터 카드 수. Uid 여럿 가능
+        st, res = call('UserDataRequest', {**auth(c), 'IDs': sys.argv[2:], 'IncludeTotalPowers': True, 'IncludeMobPowers': True, 'IncludeOwnedCharactersCount': True})
+        if isinstance(res, dict) and res.get('TotalPowers') is not None:
+            for u in sys.argv[2:]: print(st, u, '총 전력', (res.get('TotalPowers') or {}).get(u), '· 캐릭터', len((res.get('MobPowers') or {}).get(u) or {}), '· 카드', (res.get('OwnedCharactersCount') or {}).get(u))
+        else: print(st, str(masked(res))[:300])
     elif cmd == 'collection':  # 보유 캐릭터·장비 전체(캐릭터 목록 화면과 같은 읽기 요청)
         st, res = call('CollectionItemsRequest', {**auth(c), 'FetchAllOwn': True})
         print(st, str(masked(res))[:600])

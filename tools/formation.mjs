@@ -5,6 +5,8 @@
 //   승률이 0.5% 아래면 1000판에 승리가 5번도 안 돼 운을 쫓을 수 있다 → 검증에서 지금 순서보다 낫지 않으면 «지금 순서 유지»(winWorse).
 //   한 번도 못 이기면 승리로는 비교가 안 되니 처치(진척) 기준으로 찾고 결과에 «참고용»(objective: progress)을 남긴다.
 // 기본은 코어 수−1 개 일꾼으로 시드를 나눠 굴린다(tools/lib/simpool.mjs — 결과는 한 코어와 같다). --threads=1 이면 한 코어.
+// --top=K: 탐색 점수 상위 K 개 순서(지금 순서 빼고)를 검증 시드로 각각 재서 검증 승률이 가장 높은 것을 제안으로(2026-11-04 제작자:
+//   «추천 덱 구할 때는 500판씩 · 상위 3개 덱 2천 판으로 검증» → `formation.mjs <이름> 500 2000 --top=3`). 시드 수를 적으면 그대로 쓴다.
 // 순서 = 증원 순서(1반 6명 → 2반 → …). 바꾸는 것은 출동 24명의 순서뿐(보유 전체는 아직 자료 없음).
 import { makeEngine } from '../site/engine/battle.js';
 import { simulate, seedsFor } from '../site/engine/ruins.js';
@@ -31,13 +33,19 @@ if (!WIN && !FORCE_PROGRESS) {
   if (probe.wins >= 3) {
     WIN = true;
     N = +pos[0] || 1000;
-    NV = Math.max(+pos[1] || 0, 3000);
+    NV = +pos[1] || 3000;
     console.log(`자동: 지금 순서 2000판 중 ${probe.wins}승 → 승률 기준 · 후보당 ${N}판 · 검증 ${NV}판${probe.winRate < 0.005 ? ' (승률 0.5% 미만 — 검증에서 지금보다 낫지 않으면 지금 순서 유지)' : ''}`);
   } else console.log(`자동: 지금 순서 2000판 중 ${probe.wins}승 — 승리로는 비교가 안 돼 처치 기준으로 찾는다(참고용)`);
 }
 if (process.argv.includes('--plan')) { if (pool) await pool.close(); process.exit(0); }
 seeds = seedsFor(N, 777); vseeds = seedsFor(NV, 4242);
 let cur = base.map((_, i) => i); let curR = await evalOrder(cur); let curS = score(curR);
+const TOPK = +(process.argv.find((a) => a.startsWith('--top=')) || '--top=1').slice(6);
+const top = []; // 탐색 중 점수 상위 TOPK 개(지금 순서 빼고 · 같은 순서는 한 번)
+const keep = (ord, r, s) => {
+  const k = ord.join(','); if (TOPK < 2 || ord.every((x, i) => x === i) || top.some((t) => t.k === k)) return;
+  top.push({ k, ord, r, s }); top.sort((a, b) => b.s - a.s); top.length = Math.min(top.length, TOPK);
+};
 if (pool) console.log(`일꾼 ${pool.threads}개`);
 console.log(`현재 순서: 진척 ${curR.meanProg.toFixed(3)} · 처치 ${curR.meanKills.toFixed(2)} · 승률 ${(100 * curR.winRate).toFixed(1)}%`);
 const t0 = Date.now();
@@ -47,19 +55,30 @@ for (let sweep = 0; sweep < 4; sweep++) {
   for (let i = 0; i < cur.length; i++) for (let j = 0; j < Math.min(cur.length, 12); j++) {
     if (i === j) continue;
     const ord = cur.slice(); const [x] = ord.splice(i, 1); ord.splice(j, 0, x);
-    const r = await evalOrder(ord); const s = score(r);
+    const r = await evalOrder(ord); const s = score(r); keep(ord, r, s);
     if (s > curS + 1e-9) { cur = ord; curR = r; curS = s; improved = true; }
   }
   console.log(`  ${sweep + 1}회차: 진척 ${curR.meanProg.toFixed(3)} · 처치 ${curR.meanKills.toFixed(2)} · 승률 ${(100 * curR.winRate).toFixed(1)}% (${((Date.now() - t0) / 1000).toFixed(0)}s)`);
   if (!improved) break;
 }
 // 과적합 확인: 다른 시드 묶음으로 현재 vs 제안
-const v0 = await evalOrder(base.map((_, i) => i), vseeds), v1 = await evalOrder(cur, vseeds);
-if (pool) await pool.close();
+const v0 = await evalOrder(base.map((_, i) => i), vseeds); let v1 = await evalOrder(cur, vseeds);
 const nm = (i) => base[i].ModelType;
+const cands = [];
+if (TOPK >= 2) {
+  if (!top.some((t) => t.k === cur.join(','))) top.unshift({ k: cur.join(','), ord: cur, r: curR, s: curS });
+  for (const [i, t] of top.slice(0, TOPK).entries()) {
+    const v = t.k === cur.join(',') ? v1 : await evalOrder(t.ord, vseeds);
+    cands.push({ order: t.ord.map(nm), search: { win: t.r.winRate, prog: t.r.meanProg }, verify: { win: v.winRate, prog: v.meanProg, kills: v.meanKills, hist: v.hist }, v, ord: t.ord });
+    console.log(`  후보 ${i + 1}: 탐색 승률 ${(100 * t.r.winRate).toFixed(2)}% → 검증 ${(100 * v.winRate).toFixed(2)}% · 처치 ${v.meanKills.toFixed(2)}`);
+  }
+  const best = cands.reduce((a, b) => (score(b.v) > score(a.v) ? b : a));
+  cur = best.ord; v1 = best.v;
+}
+if (pool) await pool.close();
 console.log(`검증(시드 ${NV}개, 탐색에 안 쓴 묶음): 현재 진척 ${v0.meanProg.toFixed(3)} 처치 ${v0.meanKills.toFixed(2)} 승률 ${(100 * v0.winRate).toFixed(2)}% → 제안 진척 ${v1.meanProg.toFixed(3)} 처치 ${v1.meanKills.toFixed(2)} 승률 ${(100 * v1.winRate).toFixed(2)}%`);
 console.log('현재:', base.map((m) => m.ModelType).join(' '));
 console.log('제안:', cur.map(nm).join(' '));
 if (v1.winRate <= v0.winRate && WIN) console.log(`★ 승률 기준으로도 지금 순서보다 낫지 않다(${(100 * v1.winRate).toFixed(2)}% ≤ ${(100 * v0.winRate).toFixed(2)}%) — 지금 순서 유지.`);
 else if (v1.winRate < v0.winRate) console.log(`★ 제안 순서의 승률이 지금 순서보다 낮다(${(100 * v1.winRate).toFixed(2)}% < ${(100 * v0.winRate).toFixed(2)}%) — 깰 때까지 반복할 거면 지금 순서가 낫다. --win 으로 다시 찾아 볼 것.`);
-writeFileSync(new URL('../data/formation_' + name + '.json', import.meta.url), JSON.stringify({ name, objective: WIN ? 'win' : 'progress', winWorse: WIN ? v1.winRate <= v0.winRate : v1.winRate < v0.winRate, current: base.map((m) => m.ModelType), proposed: cur.map(nm), search: { seeds: N, prog: curR.meanProg }, verify: { seeds: NV, current: { prog: v0.meanProg, kills: v0.meanKills, win: v0.winRate, hist: v0.hist }, proposed: { prog: v1.meanProg, kills: v1.meanKills, win: v1.winRate, hist: v1.hist } } }, null, 1));
+writeFileSync(new URL('../data/formation_' + name + '.json', import.meta.url), JSON.stringify({ name, objective: WIN ? 'win' : 'progress', winWorse: WIN ? v1.winRate <= v0.winRate : v1.winRate < v0.winRate, current: base.map((m) => m.ModelType), proposed: cur.map(nm), search: { seeds: N, prog: curR.meanProg }, ...(cands.length ? { candidates: cands.map(({ v, ord, ...c }) => c) } : {}), verify: { seeds: NV, current: { prog: v0.meanProg, kills: v0.meanKills, win: v0.winRate, hist: v0.hist }, proposed: { prog: v1.meanProg, kills: v1.meanKills, win: v1.winRate, hist: v1.hist } } }, null, 1));

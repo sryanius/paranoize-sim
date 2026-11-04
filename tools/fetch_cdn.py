@@ -1,7 +1,7 @@
 # CDN(content.prd.paranoize.com/Prd8) 에서 설정 JSON 을 전부 받는다 — 폰 없이 갱신 가능. raw/cdn/ 에 저장하고 폰 사본과 다른 파일을 알려 준다.
 import json, os, sys, io, urllib.request, hashlib
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-BASE = 'https://content.prd.paranoize.com/Prd8/'
+BASE = 'https://content.prd.paranoize.com/Prd9/'  # 1.3.x(1.2.x 는 Prd8 — 거기 자료는 10-15 에 멈춤)
 out = 'raw/cdn'; os.makedirs(out, exist_ok=True)
 def get(name):
     with urllib.request.urlopen(BASE + name, timeout=60) as r: return r.read()

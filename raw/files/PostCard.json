@@ -646,5 +646,21 @@
     "PresetTrack": "SSR-PC",
     "Visible": false,
     "YOffset": 0
+  },
+  "PCJackReg": {
+    "Rarity": "SSR",
+    "LinkTarget": "JackReg",
+    "Element": "Earth",
+    "PresetTrack": "SSR-PC",
+    "Visible": false,
+    "YOffset": 0
+  },
+  "PCReikaMorning": {
+    "Rarity": "SSR",
+    "LinkTarget": "ReikaMorning",
+    "Element": "Water",
+    "PresetTrack": "SSR-PC",
+    "Visible": false,
+    "YOffset": 0
   }
 }

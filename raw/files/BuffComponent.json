@@ -2307,7 +2307,7 @@
       "ActivateLog": "StunEntryLog",
       "ActivateEffect": "StunFX"
     },
-    "AntidoeAll10PercentEachOnEnter": {
+    "AntidoteAll10PercentEachOnEnter": {
       "Buffs": [
         "CurePoisonSilent"
       ],
@@ -2315,7 +2315,7 @@
       "ActivateLog": "AntidoteEntryLog",
       "ActivateEffect": "Purify"
     },
-    "AntidoeAll20PercentEachOnEnter": {
+    "AntidoteAll20PercentEachOnEnter": {
       "Buffs": [
         "CurePoisonSilent"
       ],
@@ -2323,7 +2323,7 @@
       "ActivateLog": "AntidoteEntryLog",
       "ActivateEffect": "Purify"
     },
-    "AntidoeAll40PercentEachOnEnter": {
+    "AntidoteAll40PercentEachOnEnter": {
       "Buffs": [
         "CurePoisonSilent"
       ],
@@ -2331,7 +2331,7 @@
       "ActivateLog": "AntidoteEntryLog",
       "ActivateEffect": "Purify"
     },
-    "AntidoeAll70PercentEachOnEnter": {
+    "AntidoteAll70PercentEachOnEnter": {
       "Buffs": [
         "CurePoisonSilent"
       ],
@@ -2339,7 +2339,7 @@
       "ActivateLog": "AntidoteEntryLog",
       "ActivateEffect": "Purify"
     },
-    "AntidoeAll100PercentEachOnEnter": {
+    "AntidoteAll100PercentEachOnEnter": {
       "Buffs": [
         "CurePoisonSilent"
       ],

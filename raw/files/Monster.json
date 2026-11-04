@@ -5168,7 +5168,7 @@
     "WillPower": 700,
     "Intelligence": 700,
     "Element": "Fire",
-    "Visible": false,
+    "Visible": true,
     "TextColor": "#FFE98B",
     "ShadowColor": "#1C0019",
     "EntryParticle": "BattleSpawnFX",
@@ -5178,5 +5178,84 @@
     "CardXOffset": 0,
     "CardYOffset": 0
   },
-  "": {}
+  "JackReg": {
+    "CharacterName": "Jack",
+    "UniqueSkillKey": "JackRegUniqueSkill",
+    "ActiveSkills": [
+      "BasicAttackAllPhys",
+      "LastStandAllPhys",
+      "DesperateBiteOnceAPhys",
+      "DreamHuntSingleAPhys"
+    ],
+    "ActiveSkillLevels": {
+      "DesperateBiteOnceAPhys": 76,
+      "DreamHuntSingleAPhys": 101
+    },
+    "UniqueSkills": [
+      "SleepStrikeLv1",
+      "SleepStrikeLv2",
+      "SleepStrikeLv3",
+      "SleepStrikeLv4",
+      "SleepStrikeLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 700,
+    "Vitality": 700,
+    "WillPower": 700,
+    "Intelligence": 700,
+    "Element": "Earth",
+    "Visible": true,
+    "TextColor": "#7DFFB6",
+    "ShadowColor": "#0D0031",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  },
+  "ReikaMorning": {
+    "CharacterName": "Reik",
+    "UniqueSkillKey": "ReikaMorningUniqueSkill",
+    "ActiveSkills": [
+      "FastAttackSinglePhys",
+      "TimeStrikeSingleAPhys",
+      "LifeFlipAllAlliesOnce"
+    ],
+    "ActiveSkillLevels": {
+      "LifeFlipAllAlliesOnce": 101
+    },
+    "ActiveSkillAnimations": {
+      "LifeFlipAllAlliesOnce": "ReikHealAbility"
+    },
+    "AbilityEffects": {
+      "LifeFlipAllAlliesOnce": "ReikHealAbility"
+    },
+    "PassiveSkills": [
+      "HoldGround"
+    ],
+    "PassiveSkillLevels": {
+      "HoldGround": 76
+    },
+    "UniqueSkills": [
+      "AntidoteAllEntryLv1",
+      "AntidoteAllEntryLv2",
+      "AntidoteAllEntryLv3",
+      "AntidoteAllEntryLv4",
+      "AntidoteAllEntryLv5"
+    ],
+    "Rarity": "SSR",
+    "Strength": 600,
+    "Vitality": 800,
+    "WillPower": 800,
+    "Intelligence": 600,
+    "Element": "Water",
+    "Visible": false,
+    "TextColor": "#E8004E",
+    "ShadowColor": "#FFFFB3",
+    "EntryParticle": "BattleSpawnFX",
+    "DeathParticle": "DissolveDeathFX",
+    "HasVideo": true,
+    "CardXOffset": 0,
+    "CardYOffset": 0
+  }
 }

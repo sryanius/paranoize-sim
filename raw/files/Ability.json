@@ -1059,6 +1059,21 @@
     ],
     "DamageType": "NoDamage"
   },
+  "LastStandAllPhys": {
+    "TUCost": 200,
+    "SpiritCost": 3,
+    "Config": "Attack400",
+    "SelectedKey": "LastStandAllShort",
+    "UseLimit": 0,
+    "Targeting": "AllEnemy",
+    "UseCondition": "IsAlone",
+    "AIPriority": 75,
+    "Flags": [
+      "Phys",
+      "LastStand"
+    ],
+    "DamageType": "Physical"
+  },
   "LastStandSingleMag": {
     "TUCost": 70,
     "SpiritCost": 2,
@@ -1088,6 +1103,24 @@
       "LastStand"
     ],
     "DamageType": "Physical"
+  },
+  "LifeFlipAllAlliesOnce": {
+    "TUCost": 130,
+    "Config": "LifeFlipConfig",
+    "SelectedKey": "LifeFlipAllAlliesOnceShort",
+    "UseLimit": 1,
+    "Targeting": "AllAllyWithHpLessThan30Percent",
+    "UseCondition": "1AllyHpLessThan30Percent",
+    "BuffDescriptions": [
+      "LifeFlip"
+    ],
+    "AIPriority": 0,
+    "AutoExpand": true,
+    "Flags": [
+      "LifeFlip",
+      "Healer"
+    ],
+    "DamageType": "NoDamage"
   },
   "LifeFlipAllyBoss": {
     "TUCost": 50,

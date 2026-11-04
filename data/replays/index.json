@@ -1,5 +1,21 @@
 [
  {
+  "file": "floor200_main_lose6",
+  "label": "200층 · 본계정 · 통솔 145 · 권장 140 (11-04)",
+  "account": "main",
+  "floor": 200,
+  "rank": 145,
+  "recRank": 140
+ },
+ {
+  "file": "floor200_main_lose5",
+  "label": "200층 · 본계정 · 통솔 145 · 권장 140 (10-30)",
+  "account": "main",
+  "floor": 200,
+  "rank": 145,
+  "recRank": 140
+ },
+ {
   "file": "floor200_main_lose4",
   "label": "200층 · 본계정 · 통솔 144 · 권장 140 (10-27)",
   "account": "main",
@@ -78,6 +94,30 @@
   "floor": 191,
   "rank": 143,
   "recRank": 137
+ },
+ {
+  "file": "floor151_sub_lose",
+  "label": "151층 · 부계정 · 통솔 128 · 권장 121",
+  "account": "sub",
+  "floor": 151,
+  "rank": 128,
+  "recRank": 121
+ },
+ {
+  "file": "floor147_sub_lose5",
+  "label": "147층 · 부계정 · 통솔 128 · 권장 119 (11-04)",
+  "account": "sub",
+  "floor": 147,
+  "rank": 128,
+  "recRank": 119
+ },
+ {
+  "file": "floor147_sub_lose4",
+  "label": "147층 · 부계정 · 통솔 126 · 권장 119 (10-28)",
+  "account": "sub",
+  "floor": 147,
+  "rank": 126,
+  "recRank": 119
  },
  {
   "file": "floor147_sub_lose3",

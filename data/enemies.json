@@ -1529,7 +1529,7 @@
     ],
     "short": "해독한다",
     "shortEn": "Removes Poison from the target",
-    "name": "해독 MP 회복",
+    "name": "해독제",
     "desc": null
    },
    {
@@ -1657,7 +1657,7 @@
     ],
     "short": "수면을 해제",
     "shortEn": "Removes Sleep from the target",
-    "name": "수면 해제 MP 회복",
+    "name": "기상",
     "desc": null
    },
    {
@@ -1784,7 +1784,7 @@
     ],
     "short": "TU가 높은 아군에 턴 부여",
     "shortEn": "Gives the next turn to a high TU teammate",
-    "name": "기브 턴 MP 회복",
+    "name": "기브 턴",
     "desc": null
    },
    {
@@ -4657,8 +4657,8 @@
       "BaseDamageScalar": 20
      }
     ],
-    "short": "마지막 1기가 되면 사용 가능",
-    "shortEn": "Powerful attack unlocked once alone",
+    "short": "마지막 1명이 되면 사용 가능",
+    "shortEn": "Unlocked once alone",
     "name": "론리 스트라이크",
     "desc": null
    },
@@ -4791,8 +4791,8 @@
       "BaseDamageScalar": 20
      }
     ],
-    "short": "마지막 1기가 되면 사용 가능",
-    "shortEn": "Powerful attack unlocked once alone",
+    "short": "마지막 1명이 되면 사용 가능",
+    "shortEn": "Unlocked once alone",
     "name": "론리 스트라이크",
     "desc": null
    },
@@ -4925,8 +4925,8 @@
       "BaseDamageScalar": 20
      }
     ],
-    "short": "마지막 1기가 되면 사용 가능",
-    "shortEn": "Powerful attack unlocked once alone",
+    "short": "마지막 1명이 되면 사용 가능",
+    "shortEn": "Unlocked once alone",
     "name": "론리 스트라이크",
     "desc": null
    },

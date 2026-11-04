@@ -813,5 +813,11 @@
       "Tu": 1
     }
   },
+  "1AllyHpLessThan30Percent": {
+    "TeamMonsterBattleCondition": {
+      "Condition": "HpLessThan30Percent",
+      "MatchesNeeded": 1
+    }
+  },
   "": {}
 }

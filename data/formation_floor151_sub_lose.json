@@ -1,0 +1,252 @@
+{
+ "name": "floor151_sub_lose",
+ "objective": "win",
+ "winWorse": true,
+ "current": [
+  "LionR",
+  "RosaReg",
+  "MokumaruReg",
+  "TomoyaUniSR",
+  "MeisaShip",
+  "PuppyR",
+  "ShokoReg",
+  "RyuKendo",
+  "SakiRegR",
+  "TomoyaUni",
+  "SheepR",
+  "AnnaRegSR",
+  "BearAltSR",
+  "ReikaRegSR",
+  "NayuSwim",
+  "YuiUniSR",
+  "MinamiRegSR",
+  "AnnaReg",
+  "AyaRegR",
+  "NayuRegSR",
+  "PenguinR",
+  "ShokoRegSR",
+  "GenRegR",
+  "CupCatR"
+ ],
+ "proposed": [
+  "RosaReg",
+  "MokumaruReg",
+  "SakiRegR",
+  "MeisaShip",
+  "LionR",
+  "PuppyR",
+  "TomoyaUniSR",
+  "ReikaRegSR",
+  "ShokoReg",
+  "RyuKendo",
+  "TomoyaUni",
+  "SheepR",
+  "AnnaRegSR",
+  "BearAltSR",
+  "NayuSwim",
+  "YuiUniSR",
+  "MinamiRegSR",
+  "AnnaReg",
+  "AyaRegR",
+  "NayuRegSR",
+  "PenguinR",
+  "ShokoRegSR",
+  "GenRegR",
+  "CupCatR"
+ ],
+ "search": {
+  "seeds": 500,
+  "prog": 3.1135984136085177
+ },
+ "candidates": [
+  {
+   "order": [
+    "RosaReg",
+    "MokumaruReg",
+    "SakiRegR",
+    "MeisaShip",
+    "LionR",
+    "PuppyR",
+    "TomoyaUniSR",
+    "ReikaRegSR",
+    "RyuKendo",
+    "ShokoReg",
+    "TomoyaUni",
+    "SheepR",
+    "AnnaRegSR",
+    "BearAltSR",
+    "NayuSwim",
+    "YuiUniSR",
+    "MinamiRegSR",
+    "AnnaReg",
+    "AyaRegR",
+    "NayuRegSR",
+    "PenguinR",
+    "ShokoRegSR",
+    "GenRegR",
+    "CupCatR"
+   ],
+   "search": {
+    "win": 0.026,
+    "prog": 3.1135984136085177
+   },
+   "verify": {
+    "win": 0.007,
+    "prog": 2.9920556443745623,
+    "kills": 2.03,
+    "hist": {
+     "0": 560,
+     "1": 350,
+     "2": 474,
+     "3": 243,
+     "4": 151,
+     "5": 80,
+     "6": 57,
+     "7": 36,
+     "8": 20,
+     "9": 15,
+     "10": 14
+    }
+   }
+  },
+  {
+   "order": [
+    "RosaReg",
+    "MokumaruReg",
+    "SakiRegR",
+    "MeisaShip",
+    "LionR",
+    "TomoyaUniSR",
+    "ReikaRegSR",
+    "PuppyR",
+    "RyuKendo",
+    "ShokoReg",
+    "TomoyaUni",
+    "SheepR",
+    "AnnaRegSR",
+    "BearAltSR",
+    "NayuSwim",
+    "YuiUniSR",
+    "MinamiRegSR",
+    "AnnaReg",
+    "AyaRegR",
+    "NayuRegSR",
+    "PenguinR",
+    "ShokoRegSR",
+    "GenRegR",
+    "CupCatR"
+   ],
+   "search": {
+    "win": 0.024,
+    "prog": 3.200042305499079
+   },
+   "verify": {
+    "win": 0.007,
+    "prog": 2.8910642967528006,
+    "kills": 1.9215,
+    "hist": {
+     "0": 539,
+     "1": 377,
+     "2": 521,
+     "3": 237,
+     "4": 139,
+     "5": 81,
+     "6": 53,
+     "7": 23,
+     "8": 11,
+     "9": 5,
+     "10": 14
+    }
+   }
+  },
+  {
+   "order": [
+    "RosaReg",
+    "MokumaruReg",
+    "SakiRegR",
+    "MeisaShip",
+    "LionR",
+    "PuppyR",
+    "TomoyaUniSR",
+    "ReikaRegSR",
+    "ShokoReg",
+    "RyuKendo",
+    "TomoyaUni",
+    "SheepR",
+    "AnnaRegSR",
+    "BearAltSR",
+    "NayuSwim",
+    "YuiUniSR",
+    "MinamiRegSR",
+    "AnnaReg",
+    "AyaRegR",
+    "NayuRegSR",
+    "PenguinR",
+    "ShokoRegSR",
+    "GenRegR",
+    "CupCatR"
+   ],
+   "search": {
+    "win": 0.024,
+    "prog": 3.1433836671325515
+   },
+   "verify": {
+    "win": 0.0085,
+    "prog": 2.978648622509062,
+    "kills": 2.0065,
+    "hist": {
+     "0": 557,
+     "1": 355,
+     "2": 476,
+     "3": 255,
+     "4": 144,
+     "5": 83,
+     "6": 54,
+     "7": 29,
+     "8": 17,
+     "9": 13,
+     "10": 17
+    }
+   }
+  }
+ ],
+ "verify": {
+  "seeds": 2000,
+  "current": {
+   "prog": 2.7998503809641617,
+   "kills": 1.8435,
+   "win": 0.0085,
+   "hist": {
+    "0": 616,
+    "1": 389,
+    "2": 472,
+    "3": 223,
+    "4": 111,
+    "5": 56,
+    "6": 61,
+    "7": 26,
+    "8": 18,
+    "9": 11,
+    "10": 17
+   }
+  },
+  "proposed": {
+   "prog": 2.978648622509062,
+   "kills": 2.0065,
+   "win": 0.0085,
+   "hist": {
+    "0": 557,
+    "1": 355,
+    "2": 476,
+    "3": 255,
+    "4": 144,
+    "5": 83,
+    "6": 54,
+    "7": 29,
+    "8": 17,
+    "9": 13,
+    "10": 17
+   }
+  }
+ }
+}

@@ -65,6 +65,7 @@
     "ApplyEffect": "Heal",
     "ApplyText": "LifeFlipApplied",
     "Duration": 0,
+    "BuffIcon": "Icon_Heal",
     "IsDebuff": false
   },
   "LifeFlipNoFX": {
@@ -1167,6 +1168,12 @@
   "CureSleep": {
     "Components": [
       "RemoveSleep"
+    ],
+    "Duration": 0
+  },
+  "CurePoisonSilent": {
+    "Components": [
+      "RemovePoisonSilent"
     ],
     "Duration": 0
   },
@@ -2614,5 +2621,50 @@
       "Purify"
     ],
     "HUDText": "HealPurifyRevengeHUD"
+  },
+  "AntidoteAllEntryLv1": {
+    "Components": [
+      "AntidoteAll10PercentEachOnEnter"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "HUDPercent": 0.1
+  },
+  "AntidoteAllEntryLv2": {
+    "Components": [
+      "AntidoteAll20PercentEachOnEnter"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "HUDPercent": 0.2
+  },
+  "AntidoteAllEntryLv3": {
+    "Components": [
+      "AntidoteAll40PercentEachOnEnter"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "HUDPercent": 0.4
+  },
+  "AntidoteAllEntryLv4": {
+    "Components": [
+      "AntidoteAll70PercentEachOnEnter"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "HUDPercent": 0.7
+  },
+  "AntidoteAllEntryLv5": {
+    "Components": [
+      "AntidoteAll100PercentEachOnEnter"
+    ],
+    "Tags": [
+      "Entry"
+    ],
+    "HUDPercent": 1
   }
 }

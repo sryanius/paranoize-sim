@@ -18,8 +18,9 @@
 
 ## 계산
 
-- 도전 뒤 순서: `python tools/save_conquest.py latest` → `node tools/vcheck.mjs`(전부 ✓ 인지) → `node tools/formation.mjs <이름>` / `node tools/compare_orders.mjs <이름>`.
-- 편성의 목표는 **승률**이다(처치 수가 아니다). 후보당 1000판 정도면 충분하다 — 그 이상은 시간만 든다.
+- 도전 뒤 순서: `python tools/save_conquest.py latest` → `node tools/vcheck.mjs`(전부 ✓ 인지) → `node tools/formation.mjs <이름> 500 2000 --top=3` / `node tools/compare_orders.mjs <이름>`.
+- 편성의 목표는 **승률**이다(처치 수가 아니다). 후보당 500판으로 찾고 상위 3개를 2000판으로 검증한다(`--top=3`) — 그 이상은 시간만 든다. 보고는 검증 숫자로 한다(탐색 숫자는 과적합으로 몇 %p 높다).
+- 승률이 1% 안팎이면 500판에 승리가 대여섯 번뿐이라 탐색이 운을 쫓는다 — 검증에서 지금 순서와 오차 안이면 «지금 순서 유지» 로 말한다.
 - 승률이 0% 대면 «처치 기준 제안» 은 참고용이다. 그 순서가 실제 승률을 깎을 수 있으니 같은 시드로 지금 순서와 비교해서 보여 준다.
 - 유적·투기장·야망은 **같은 부대 순서**(부대 페이지 0)를 쓴다 — 활동마다 순서를 바꿔 끼우라고 알려 준다.
 - 추론을 사실처럼 말하지 않는다. 확인한 것과 추정을 나눠 적는다(`docs/NOTES.md` 처럼).
