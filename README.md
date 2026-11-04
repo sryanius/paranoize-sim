@@ -67,6 +67,7 @@ node tools/arena_opt.mjs --deck=<내 GetPlatoons 파일> --opp=<그 사람 GetPl
 ```
 
 - `--opp` 는 그 사람의 지금 덱으로 «그 사람이 공격해 옴 · 내가 공격» 두 대전만 놓고 내 순서를 찾습니다.
+- `deck` 이 500 으로 실패하면 그 사람 덱에 아직 «숨김» 표시인 신규 캐릭터가 있는 것입니다(서버 쪽 문제라 요청을 고쳐서는 못 풉니다). 그 사람과 싸운 투기장 기록의 덱을 쓰거나 숨김이 풀릴 때까지 기다리세요(`docs/NOTES.md`).
 - 투귀공명·캠퍼스 보너스는 랭킹에 없어서 **투기장 기록**에서 가져옵니다 — 그 사람이 나온 기록과 내가 나온 기록이 `data/replays/arena_*.json` 에 있어야 합니다(없으면 멈춥니다).
 
 ## 들어 있는 기록
@@ -76,7 +77,7 @@ node tools/arena_opt.mjs --deck=<내 GetPlatoons 파일> --opp=<그 사람 GetPl
 
 ## 게임 자료 갱신
 
-게임이 업데이트되면 `python tools/fetch_cdn.py` 가 공개 CDN 에서 설정 파일을 `raw/cdn/` 에 받고, 지금 것과 다른 파일을 알려 줍니다.
+게임이 업데이트되거나 신규 캐릭터가 나오면 `python tools/fetch_cdn.py` 를 돌리세요. 공개 CDN 의 가장 새 경로에서 설정 파일을 `raw/cdn/` 에 받고, 엔진이 읽는 표(`raw/files/`)가 다르면 새것으로 바꿉니다(바뀌기 전 것은 `raw/files_before/<날짜>/`). 그다음 `node tools/vcheck.mjs` 가 전부 ✓ 인지 보세요. 신규 캐릭터가 든 덱에서 «몬스터 없음 …» 오류가 나면 이 표가 예전 것이라는 뜻입니다. 받기만 하려면 `--no-apply`.
 엔진이 읽는 14개(`raw/files/`)를 그걸로 바꾼 뒤 `node tools/vcheck.mjs` 로 확인하세요.
 
 자세한 게임 규칙(배율 공식·레벨 상한 등)은 `docs/NOTES.md`.

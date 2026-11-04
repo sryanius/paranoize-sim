@@ -68,6 +68,9 @@ if __name__ == '__main__':
         st, res = call('GetPlatoonsRequest', {**auth(c), 'Uid': sys.argv[2]})
         pl = next(iter((res.get('PlatoonPages') or {}).values()), {}).get('Platoons') or {} if isinstance(res, dict) else {}  # 서버는 그 사람이 쓰는 페이지 하나만 준다(0 이 아닐 수 있다)
         print(st, ' / '.join(' '.join(pl[k]['Mobs']) for k in ('0', '1', '2', '3') if k in pl) or str(masked(res))[:300])
+        # 2026-11-04 측정(랭킹 11명): 덱에 자료상 «숨김»(Monster.json Visible=false)인 신규 캐릭터가 있으면 서버가 500 — 그 캐릭터를 갖고만 있으면 200.
+        # 잭도 처음 1주일쯤 그랬다(길드원) → 숨김이 풀리면 읽힌다(추정). 서버 쪽 문제라 요청을 고쳐서는 못 푼다.
+        if st == 500: print('  ↳ 덱에 아직 «숨김» 표시인 신규 캐릭터(예: 레이카 룸메이트의 온기)가 있으면 서버가 덱을 못 내준다. 그 사람과 싸운 투기장 기록(arena_replays)의 덱을 쓰거나 숨김이 풀릴 때까지 기다릴 것.')
     elif cmd == 'userdata':    # 남의 프로필(랭킹에서 이름을 누른 화면과 같은 읽기 요청) — 총 전력·캐릭터별 전력·소지 캐릭터 카드 수. Uid 여럿 가능
         st, res = call('UserDataRequest', {**auth(c), 'IDs': sys.argv[2:], 'IncludeTotalPowers': True, 'IncludeMobPowers': True, 'IncludeOwnedCharactersCount': True})
         if isinstance(res, dict) and res.get('TotalPowers') is not None:
